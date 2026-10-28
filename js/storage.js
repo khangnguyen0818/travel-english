@@ -2,7 +2,7 @@
 const Store = (() => {
   const KEY = 'traveltalk-v1';
   const defaults = () => ({
-    settings: { accent: 'en-US', rate: 0.9, theme: 'auto', size: 'normal', goal: 20, showVi: true, voiceUS: '', voiceUK: '' },
+    settings: { accent: 'en-US', rate: 0.9, theme: 'auto', size: 'normal', goal: 20, showVi: true, showGrammar: true, voiceUS: '', voiceUK: '' },
     savedLines: {},   // id -> {en, vi, ipa, ref}
     savedWords: {},   // vocabId -> true
     scores: {},       // text -> [điểm gần nhất...]

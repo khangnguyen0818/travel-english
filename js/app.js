@@ -227,6 +227,7 @@ function practicePanel(container, item) {
     <div class="word-big" style="font-size:1.45rem">${esc(item.en)}</div>
     ${item.ipa ? `<div class="ipa">${esc(item.ipa)}</div>` : ''}
     ${item.vi ? `<p class="muted">${esc(item.vi)}</p>` : ''}
+    ${s.showGrammar !== false && /\s/.test(item.en.trim()) ? Grammar.html(item.en) : ''}
     <div class="row" style="margin:10px 0">
       <button class="btn secondary" data-say="${esc(item.en)}">🔊 Nghe mẫu</button>
       <button class="btn secondary" data-say="${esc(item.en)}" data-rate="0.6">🐢 Chậm</button>
@@ -297,7 +298,8 @@ function analysisHTML(l) {
   if (a.phrases && a.phrases.length) {
     h += '<h4>🔗 Cụm từ cố định</h4><ul>' + a.phrases.map(p => `<li><b>${esc(p.phrase)}</b> – ${esc(p.vi)}</li>`).join('') + '</ul>';
   }
-  if (a.grammar) {
+  // Khi dòng ngữ pháp đã hiện ngay dưới câu thì không lặp lại trong bảng phân tích
+  if (a.grammar && Store.state.settings.showGrammar === false) {
     const g = a.grammar;
     h += `<h4>🧩 Ngữ pháp</h4><p><span class="formula">${esc(g.pattern)}</span></p><p>${esc(g.explainVi)}</p>`;
     if (g.examples) h += '<ul>' + g.examples.map(e => `<li>${esc(e)} ${say(e)}</li>`).join('') + '</ul>';
@@ -457,6 +459,7 @@ async function situationView(topicId, sitId) {
   Store.save();
   const speakers = [...new Set(sit.dialogue.map(l => l.speaker))];
   const showVi = Store.state.settings.showVi;
+  const showGram = Store.state.settings.showGrammar !== false;
 
   view.innerHTML = `
     <div class="cover">${imgBox(sit.imageQuery || sit.title, t.icon, { src: sit.image, by: sit.imageCredit, credit: true })}
@@ -474,6 +477,7 @@ async function situationView(topicId, sitId) {
         <div class="en">${esc(l.en)}</div>
         <div class="ipa">${esc(l.ipa)}</div>
         <div class="vi ${showVi ? '' : 'hide'}" ${showVi ? '' : 'title="Bấm để xem nghĩa"'}>${esc(l.vi)}</div>
+        ${showGram ? Grammar.html(l.en, l.analysis && l.analysis.grammar) : ''}
         <div class="acts">
           <button data-act="play" aria-label="Phát âm">🔊</button>
           <button data-act="slow" aria-label="Phát âm chậm">🐢</button>
@@ -886,7 +890,8 @@ async function wordDetail(id) {
     <p class="ipa">🇬🇧 ${esc(v.ipaUK || v.ipaUS)} <button class="chip" data-say="${esc(v.word)}" data-lang="en-GB">🔊 Anh</button></p>
     <p style="font-size:1.15rem"><b>${esc(v.vi)}</b></p>
     ${v.example ? `<div class="card"><p>${esc(v.example)} <button class="chip" data-say="${esc(v.example)}">🔊</button></p><p class="muted">${esc(v.exampleVi || '')}</p></div>` : ''}
-    <div class="row"><button class="btn" id="wPr">🎙️ Luyện phát âm</button>
+    ${Grammar.wordUsage(v)}
+    <div class="row" style="margin-top:12px"><button class="btn" id="wPr">🎙️ Luyện phát âm</button>
       <button class="btn secondary" id="wSave">${saved ? '⭐ Đã lưu' : '☆ Lưu từ'}</button></div>
     <div class="pp" style="margin-top:12px"></div></div>`);
   Speech.speak(v.word);
@@ -929,6 +934,7 @@ async function flashView() {
         <div id="back" hidden>
           <p class="ipa">${esc(v.ipaUS)}</p><p style="font-size:1.2rem"><b>${esc(v.vi)}</b></p>
           ${v.example ? `<p>${esc(v.example)} <button class="chip" data-say="${esc(v.example)}">🔊</button></p><p class="muted small">${esc(v.exampleVi || '')}</p>` : ''}
+          <div style="text-align:left">${Grammar.wordUsage(v)}</div>
         </div></div></div>
       <button class="btn block" id="flip" style="margin-top:12px">🔄 Lật thẻ — bạn có nhớ nghĩa không?</button>
       <div class="rate" id="rate" hidden>
@@ -1033,6 +1039,7 @@ async function notesView() {
   const words = vocab.filter(v => st.savedWords[v.id]);
   view.innerHTML = `<h2>💬 Câu đã lưu (${lines.length})</h2>
     ${lines.length ? lines.map(([id, l]) => `<div class="line" data-id="${esc(id)}"><div class="en">${esc(l.en)}</div><div class="ipa">${esc(l.ipa || '')}</div><div class="vi">${esc(l.vi)}</div>
+      ${st.settings.showGrammar !== false ? Grammar.html(l.en) : ''}
       <div class="acts"><button data-say="${esc(l.en)}">🔊</button><button data-practice="${esc(l.en)}" data-ipa="${esc(l.ipa || '')}" data-vi="${esc(l.vi)}">🎙️</button>
       <a class="btn ghost" style="min-height:42px;padding:6px 12px" href="${esc(l.ref)}">Mở bài</a><button data-del="${esc(id)}">🗑️</button></div></div>`).join('')
       : '<div class="empty">Bấm ⭐ ở câu hội thoại để lưu.</div>'}
@@ -1051,6 +1058,7 @@ async function survivalView() {
   view.innerHTML = `<p class="muted">Bấm 📢 để hiện câu thật to cho người bản xứ đọc, hoặc 🔊 để điện thoại đọc giúp bạn.</p>
     ${cats.map(c => `<h2>${esc(c)}</h2>` + items.filter(x => x.cat === c).map(x => `
       <div class="line"><div class="en">${esc(x.en)}</div><div class="ipa">${esc(x.ipa)}</div><div class="vi">${esc(x.vi)}</div>
+      ${Store.state.settings.showGrammar !== false ? Grammar.html(x.en) : ''}
       <div class="acts"><button data-say="${esc(x.en)}">🔊</button><button data-say="${esc(x.en)}" data-rate="0.6">🐢</button>
       <button data-practice="${esc(x.en)}" data-ipa="${esc(x.ipa)}" data-vi="${esc(x.vi)}">🎙️</button>
       <button data-show="${esc(x.en)}" data-vi="${esc(x.vi)}">📢 Cho người khác xem</button></div></div>`).join('')).join('')}`;
@@ -1076,6 +1084,7 @@ async function meView() {
       <div class="set-row"><span>Giọng đọc Anh</span><select id="vUK"></select></div>
       <div class="set-row"><span>Tốc độ đọc</span>${seg('rate', [['0.7', 'Chậm'], ['0.9', 'Vừa'], ['1', 'Chuẩn']])}</div>
       <div class="set-row"><span>Hiện nghĩa tiếng Việt</span>${seg('showVi', [['true', 'Hiện'], ['false', 'Ẩn (bấm để xem)']])}</div>
+      <div class="set-row"><span>Phân tích ngữ pháp dưới mỗi câu</span>${seg('showGrammar', [['true', 'Hiện'], ['false', 'Ẩn']])}</div>
       <div class="set-row"><span>Mục tiêu mỗi ngày</span>${seg('goal', [['10', '10'], ['20', '20'], ['40', '40']])}</div>
       <div class="set-row"><span>Giao diện</span>${seg('theme', [['auto', 'Tự động'], ['light', 'Sáng'], ['dark', 'Tối']])}</div>
       <div class="set-row"><span>Cỡ chữ</span>${seg('size', [['normal', 'Vừa'], ['large', 'Lớn']])}</div>
@@ -1107,7 +1116,7 @@ async function meView() {
 
   $$('[data-set]', view).forEach(b => b.onclick = () => {
     const k = b.dataset.set, v = b.dataset.v;
-    s[k] = k === 'rate' ? parseFloat(v) : k === 'goal' ? parseInt(v, 10) : k === 'showVi' ? v === 'true' : v;
+    s[k] = k === 'rate' ? parseFloat(v) : k === 'goal' ? parseInt(v, 10) : (k === 'showVi' || k === 'showGrammar') ? v === 'true' : v;
     Store.save(); applyTheme(); meView();
   });
   $('#testVoice').onclick = () => Speech.speak('Hello! Could I have a window seat, please?');

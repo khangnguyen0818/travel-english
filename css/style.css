@@ -164,6 +164,16 @@ textarea { min-height: 180px; resize: vertical; }
 .analysis { margin-top: 12px; padding-top: 12px; border-top: 1px dashed var(--line); font-size: .95rem; }
 .analysis h4 { margin: 10px 0 4px; font-size: .9rem; color: var(--brand); }
 .analysis ul { margin: 4px 0; padding-left: 18px; }
+/* Dòng phân tích ngữ pháp dưới mỗi câu */
+.gram { margin-top: 10px; padding: 10px 12px; background: var(--bg); border-radius: 12px; border: 1px solid var(--line); font-size: .88rem; line-height: 1.45; }
+.gram .g-head { font-weight: 700; color: var(--brand); margin-bottom: 6px; font-size: .85rem; }
+.gram .g-item { padding: 5px 0; border-top: 1px dashed var(--line); }
+.gram .g-head + .g-item { border-top: 0; }
+.gram .g-tag { font-weight: 700; }
+.gram code { display: inline-block; background: var(--brand-soft); color: var(--brand); border-radius: 6px; padding: 0 6px; font-family: inherit; font-weight: 600; font-size: .85rem; }
+.gram .g-why { color: var(--muted); margin-top: 2px; }
+.gram .g-focus { background: var(--warn-soft); margin: 0 -6px; padding: 6px; border-radius: 8px; border-top: 0; }
+.gram .g-sent { margin-top: 8px; font-style: italic; color: var(--text); font-size: .84rem; }
 .formula { display: inline-block; background: var(--brand-soft); color: var(--brand); border-radius: 8px; padding: 2px 8px; font-weight: 600; }
 .wrong { color: var(--bad); text-decoration: line-through; }
 .right { color: var(--ok); font-weight: 600; }

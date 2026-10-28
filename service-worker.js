@@ -1,6 +1,6 @@
 // Service worker: lưu giao diện & bài học để dùng offline.
 // Khi sửa code hoặc thêm bài, hãy tăng số VERSION để điện thoại tải bản mới.
-const VERSION = 'traveltalk-v6';
+const VERSION = 'traveltalk-v7';
 const IMG_CACHE = 'traveltalk-images';
 const CORE = [
   './',
@@ -10,6 +10,7 @@ const CORE = [
   'js/storage.js',
   'js/srs.js',
   'js/speech.js',
+  'js/grammar.js',
   'js/app.js',
   'data/topics.json',
   'data/vocab.json',
