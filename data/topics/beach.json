@@ -1,0 +1,104 @@
+{
+  "topicId": "beach",
+  "title": "Beach, Spa & Outdoors",
+  "titleVi": "Biển, spa & ngoài trời",
+  "icon": "🏖️",
+  "descriptionVi": "Thuê ghế dù ở biển, đặt lịch massage/spa, tham gia tour lặn biển và leo núi.",
+  "situations": [
+    {
+      "id": "beach-rent-01",
+      "level": "A2",
+      "title": "Renting sunbeds at the beach",
+      "titleVi": "Thuê ghế nằm ở bãi biển",
+      "contextVi": "Bạn và vợ đến bãi biển ở Phuket. Bạn muốn thuê hai ghế nằm và một cái dù, hỏi chỗ bơi an toàn.",
+      "imageQuery": "beach sunbeds umbrellas",
+      "dialogue": [
+        { "speaker": "Tourist", "en": "Hi. How much is it to rent two sunbeds and an umbrella?", "ipa": "/haɪ | haʊ mʌtʃ ɪz ɪt tə rent tuː ˈsʌnbedz ənd ən ʌmˈbrelə/", "vi": "Chào anh. Thuê hai ghế nằm và một cái dù giá bao nhiêu?",
+          "analysis": { "vocab": [{ "word": "sunbed", "ipa": "/ˈsʌnbed/", "pos": "noun", "vi": "ghế nằm tắm nắng", "example": "All the sunbeds are taken." }, { "word": "rent", "ipa": "/rent/", "pos": "verb", "vi": "thuê", "example": "Can we rent a bike?" }], "grammar": { "pattern": "How much is it to + V?", "explainVi": "Hỏi giá của một dịch vụ.", "examples": ["How much is it to park here?", "How much is it to get in?"] } } },
+        { "speaker": "Beach staff", "en": "It's 200 baht for the whole day. You can stay until 6 p.m.", "ipa": "/ɪts tuː ˈhʌndrəd bɑːt fɔːr ðə hoʊl deɪ | juː kən steɪ ənˈtɪl sɪks piː em/", "vi": "200 baht cả ngày. Anh chị có thể ở đến 6 giờ chiều." },
+        { "speaker": "Tourist", "en": "Great. Is it safe to swim here? The waves look quite big.", "ipa": "/ɡreɪt | ɪz ɪt seɪf tə swɪm hɪr | ðə weɪvz lʊk kwaɪt bɪɡ/", "vi": "Tuyệt. Bơi ở đây có an toàn không? Sóng trông khá lớn.",
+          "analysis": { "vocab": [{ "word": "wave", "ipa": "/weɪv/", "pos": "noun", "vi": "sóng", "example": "The waves are too big today." }], "grammar": { "pattern": "Is it safe to + V?", "explainVi": "Hỏi việc gì có an toàn không.", "examples": ["Is it safe to drink the tap water?", "Is it safe to walk at night?"] } } },
+        { "speaker": "Beach staff", "en": "Only swim between the red and yellow flags. When you see a red flag, don't go in the water.", "ipa": "/ˈoʊnli swɪm bɪˈtwiːn ðə red ənd ˈjeloʊ flæɡz | wen juː siː ə red flæɡ | doʊnt ɡoʊ ɪn ðə ˈwɔːtər/", "vi": "Chỉ bơi giữa hai lá cờ đỏ và vàng. Khi thấy cờ đỏ, đừng xuống nước.",
+          "analysis": { "vocab": [{ "word": "flag", "ipa": "/flæɡ/", "pos": "noun", "vi": "lá cờ", "example": "The red flag means danger." }], "culture": "Ở nhiều bãi biển (Úc, Thái), bơi giữa hai cờ đỏ-vàng là khu có cứu hộ giám sát. Cờ đỏ = cấm bơi. Coi chừng dòng chảy xa bờ (rip current)." } },
+        { "speaker": "Tourist", "en": "Thanks for the tip. Can we leave our bags here while we swim?", "ipa": "/θæŋks fɔːr ðə tɪp | kæn wiː liːv ˈaʊər bæɡz hɪr waɪl wiː swɪm/", "vi": "Cảm ơn đã nhắc. Chúng tôi để túi ở đây trong lúc bơi được không?",
+          "analysis": { "vocab": [{ "word": "tip", "ipa": "/tɪp/", "pos": "noun", "vi": "lời khuyên mẹo (ngoài nghĩa tiền boa)", "example": "Thanks for the tip!" }] } },
+        { "speaker": "Beach staff", "en": "I'll keep an eye on them, but don't leave any valuables. Phones and wallets are best kept in the hotel safe.", "ipa": "/aɪl kiːp ən aɪ ɑːn ðəm | bət doʊnt liːv ˈeni ˈvæljuəbəlz | foʊnz ənd ˈwɑːlɪts ɑːr best kept ɪn ðə hoʊˈtel seɪf/", "vi": "Tôi sẽ để mắt trông chừng, nhưng đừng để đồ có giá trị. Điện thoại và ví tốt nhất nên để trong két khách sạn.",
+          "analysis": { "vocab": [{ "word": "valuables", "ipa": "/ˈvæljuəbəlz/", "pos": "noun", "vi": "đồ có giá trị", "example": "Keep your valuables safe." }], "phrases": [{ "phrase": "keep an eye on", "vi": "để mắt, trông chừng" }] } }
+      ],
+      "keyPhrases": ["How much is it to rent two sunbeds?", "Is it safe to swim here?", "What does the red flag mean?", "Can we leave our bags here?", "Keep an eye on…"]
+    },
+    {
+      "id": "beach-spa-01",
+      "level": "B1",
+      "title": "Booking a massage",
+      "titleVi": "Đặt lịch massage",
+      "contextVi": "Bạn đặt lịch massage cho hai mẹ con tại spa khách sạn. Mẹ bạn bị đau lưng và không thích ấn mạnh.",
+      "imageQuery": "spa massage room",
+      "dialogue": [
+        { "speaker": "Guest", "en": "Hello. I'd like to book two massages for this afternoon, for me and my mother.", "ipa": "/heˈloʊ | aɪd laɪk tə bʊk tuː məˈsɑːʒɪz fɔːr ðɪs ˌæftərˈnuːn | fɔːr miː ənd maɪ ˈmʌðər/", "vi": "Xin chào. Tôi muốn đặt hai suất massage chiều nay, cho tôi và mẹ tôi.",
+          "analysis": { "vocab": [{ "word": "massage", "ipa": "/məˈsɑːʒ/", "pos": "noun", "vi": "mát-xa", "example": "A one-hour massage, please." }] } },
+        { "speaker": "Receptionist", "en": "Certainly. We have Thai massage, oil massage and foot massage. Which would you prefer?", "ipa": "/ˈsɜːrtənli | wiː hæv taɪ məˈsɑːʒ | ɔɪl məˈsɑːʒ ənd fʊt məˈsɑːʒ | wɪtʃ wʊd juː prɪˈfɜːr/", "vi": "Vâng. Chúng tôi có massage Thái, massage dầu và massage chân. Chị thích loại nào?",
+          "analysis": { "vocab": [{ "word": "prefer", "ipa": "/prɪˈfɜːr/", "pos": "verb", "vi": "thích hơn", "example": "I prefer tea to coffee." }] } },
+        { "speaker": "Guest", "en": "An oil massage for both of us, please. My mother has back pain, so she'd like light pressure.", "ipa": "/ən ɔɪl məˈsɑːʒ fɔːr boʊθ əv ʌs pliːz | maɪ ˈmʌðər hæz bæk peɪn | soʊ ʃiːd laɪk laɪt ˈpreʃər/", "vi": "Massage dầu cho cả hai. Mẹ tôi bị đau lưng, nên bà muốn ấn nhẹ thôi.",
+          "analysis": { "vocab": [{ "word": "pressure", "ipa": "/ˈpreʃər/", "pos": "noun", "vi": "lực ấn", "example": "Is the pressure OK?" }, { "word": "back pain", "ipa": "/bæk peɪn/", "pos": "noun", "vi": "đau lưng", "example": "I have back pain." }], "phrases": [{ "phrase": "light / medium / strong pressure", "vi": "ấn nhẹ / vừa / mạnh" }] } },
+        { "speaker": "Receptionist", "en": "No problem. We have two free slots at 3 p.m. Sixty or ninety minutes?", "ipa": "/noʊ ˈprɑːbləm | wiː hæv tuː friː slɑːts æt θriː piː em | ˈsɪksti ɔːr ˈnaɪnti ˈmɪnɪts/", "vi": "Không vấn đề. Lúc 3 giờ chiều còn hai suất trống. 60 hay 90 phút ạ?",
+          "analysis": { "vocab": [{ "word": "slot", "ipa": "/slɑːt/", "pos": "noun", "vi": "suất, khung giờ trống", "example": "Is there a free slot tomorrow?" }] } },
+        { "speaker": "Guest", "en": "Sixty minutes, please. Can we be in the same room?", "ipa": "/ˈsɪksti ˈmɪnɪts pliːz | kæn wiː biː ɪn ðə seɪm ruːm/", "vi": "60 phút. Hai mẹ con có thể ở cùng một phòng không?",
+          "analysis": { "phrases": [{ "phrase": "couple's room", "vi": "phòng đôi (cho hai người cùng làm)" }] } },
+        { "speaker": "Receptionist", "en": "Yes, we have a twin room. If the pressure is too strong, just say “softer, please”.", "ipa": "/jes | wiː hæv ə twɪn ruːm | ɪf ðə ˈpreʃər ɪz tuː strɔːŋ | dʒʌst seɪ ˈsɔːftər pliːz/", "vi": "Được, chúng tôi có phòng đôi. Nếu ấn mạnh quá, cứ nói “softer, please” (nhẹ hơn ạ).",
+          "analysis": { "phrases": [{ "phrase": "Softer, please. / Harder, please.", "vi": "Nhẹ hơn ạ / Mạnh hơn ạ" }], "culture": "Đừng ngại nói khi thấy đau – nhân viên spa luôn muốn khách thoải mái." } }
+      ],
+      "keyPhrases": ["I'd like to book a massage.", "She has back pain.", "Light pressure, please.", "Can we be in the same room?", "Softer, please."]
+    },
+    {
+      "id": "beach-snorkel-01",
+      "level": "B1",
+      "title": "Joining a snorkelling tour",
+      "titleVi": "Tham gia tour lặn ngắm san hô",
+      "contextVi": "Bạn đăng ký tour lặn ống thở ra đảo. Bạn bơi không giỏi nên hỏi kỹ về an toàn.",
+      "imageQuery": "snorkeling tour boat tropical",
+      "dialogue": [
+        { "speaker": "Tourist", "en": "Hi. I'd like to join the snorkelling trip tomorrow, but I'm not a strong swimmer.", "ipa": "/haɪ | aɪd laɪk tə dʒɔɪn ðə ˈsnɔːrkəlɪŋ trɪp təˈmɑːroʊ | bət aɪm nɑːt ə strɔːŋ ˈswɪmər/", "vi": "Chào bạn. Tôi muốn tham gia chuyến lặn ống thở ngày mai, nhưng tôi bơi không giỏi.",
+          "analysis": { "vocab": [{ "word": "snorkelling", "ipa": "/ˈsnɔːrkəlɪŋ/", "pos": "noun", "vi": "lặn bằng ống thở", "example": "Let's go snorkelling!" }], "phrases": [{ "phrase": "a strong / weak swimmer", "vi": "người bơi giỏi / kém" }] } },
+        { "speaker": "Guide", "en": "Don't worry. Everyone gets a life jacket, and a guide stays in the water with the group.", "ipa": "/doʊnt ˈwɜːri | ˈevriwʌn ɡets ə laɪf ˈdʒækɪt | ənd ə ɡaɪd steɪz ɪn ðə ˈwɔːtər wɪð ðə ɡruːp/", "vi": "Đừng lo. Mọi người đều được phát áo phao, và có hướng dẫn viên ở dưới nước cùng nhóm.",
+          "analysis": { "vocab": [{ "word": "life jacket", "ipa": "/laɪf ˈdʒækɪt/", "pos": "noun", "vi": "áo phao", "example": "Please wear a life jacket." }] } },
+        { "speaker": "Tourist", "en": "That's good to know. What's included in the price?", "ipa": "/ðæts ɡʊd tə noʊ | wɑːts ɪnˈkluːdɪd ɪn ðə praɪs/", "vi": "Biết vậy thì yên tâm. Giá đã bao gồm những gì?",
+          "analysis": { "phrases": [{ "phrase": "That's good to know.", "vi": "Biết vậy thì tốt / yên tâm." }] } },
+        { "speaker": "Guide", "en": "Hotel pick-up, the boat, masks and fins, lunch on the island and drinking water.", "ipa": "/hoʊˈtel ˈpɪkʌp | ðə boʊt | mæsks ənd fɪnz | lʌntʃ ɑːn ði ˈaɪlənd ənd ˈdrɪŋkɪŋ ˈwɔːtər/", "vi": "Đón ở khách sạn, thuyền, kính lặn và chân vịt, bữa trưa trên đảo và nước uống.",
+          "analysis": { "vocab": [{ "word": "mask", "ipa": "/mæsk/", "pos": "noun", "vi": "kính lặn; mặt nạ", "example": "Does the mask fit?" }, { "word": "fins", "ipa": "/fɪnz/", "pos": "noun", "vi": "chân vịt (bơi lặn)", "example": "Put on your fins." }, { "word": "island", "ipa": "/ˈaɪlənd/", "pos": "noun", "vi": "hòn đảo", "example": "We visited three islands." }], "pronunciation": "“island” /ˈaɪlənd/ – chữ s câm." } },
+        { "speaker": "Tourist", "en": "I sometimes get seasick. Is the boat ride long?", "ipa": "/aɪ ˈsʌmtaɪmz ɡet ˈsiːsɪk | ɪz ðə boʊt raɪd lɔːŋ/", "vi": "Tôi đôi khi bị say sóng. Đi thuyền có lâu không?",
+          "analysis": { "vocab": [{ "word": "seasick", "ipa": "/ˈsiːsɪk/", "pos": "adjective", "vi": "say sóng", "example": "Do you get seasick?" }] } },
+        { "speaker": "Guide", "en": "About 40 minutes. Take a seasickness tablet an hour before, and sit at the back of the boat.", "ipa": "/əˈbaʊt ˈfɔːrti ˈmɪnɪts | teɪk ə ˈsiːsɪknəs ˈtæblət ən ˈaʊər bɪˈfɔːr | ənd sɪt æt ðə bæk əv ðə boʊt/", "vi": "Khoảng 40 phút. Uống thuốc chống say sóng trước một tiếng, và ngồi ở phía sau thuyền.",
+          "analysis": { "phrases": [{ "phrase": "an hour before", "vi": "trước đó một tiếng" }] } }
+      ],
+      "keyPhrases": ["I'm not a strong swimmer.", "Is a life jacket included?", "What's included in the price?", "I get seasick.", "How long is the boat ride?"]
+    }
+  ],
+  "reading": [
+    {
+      "title": "Beach safety sign",
+      "titleVi": "Biển báo an toàn bãi biển",
+      "introVi": "Biển báo ở lối xuống bãi biển.",
+      "text": "BEACH SAFETY\n\nLifeguards on duty: 8 a.m. – 6 p.m.\nGREEN FLAG: Calm water. Safe to swim.\nYELLOW FLAG: Medium hazard. Swim with care.\nRED FLAG: High hazard. NO SWIMMING.\nPURPLE FLAG: Dangerous marine life (jellyfish).\n\nIf you are caught in a rip current, don't panic. Swim parallel to the shore, then back to the beach. Raise your arm to call for help.\n\nNo glass bottles. Please take your rubbish with you.",
+      "glossary": { "on duty": "đang trực", "calm": "êm, lặng", "hazard": "mối nguy hiểm", "with care": "cẩn thận", "marine life": "sinh vật biển", "jellyfish": "sứa", "rip current": "dòng chảy xa bờ", "panic": "hoảng loạn", "parallel to the shore": "song song với bờ" },
+      "questions": [
+        { "q": "You see a purple flag. What does it mean?", "options": ["Safe to swim", "There are jellyfish", "The lifeguards have gone home"], "answer": 1, "explainVi": "PURPLE FLAG: dangerous marine life (jellyfish)." },
+        { "q": "A rip current pulls you out to sea. What should you do?", "options": ["Swim straight back to the beach", "Swim parallel to the shore", "Stop swimming"], "answer": 1, "explainVi": "Bơi song song với bờ để thoát dòng chảy, rồi mới bơi vào." },
+        { "q": "Can you swim at 7 p.m. with a lifeguard watching?", "options": ["Yes", "No – lifeguards finish at 6 p.m."], "answer": 1, "explainVi": "Cứu hộ trực 8 a.m. – 6 p.m." }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "title": "Spa booking message",
+      "titleVi": "Nhắn tin đặt lịch spa",
+      "taskVi": "Nhắn tin WhatsApp cho spa để đặt 2 suất massage chân 60 phút lúc 5 giờ chiều thứ Bảy, tên Hương, phòng 305; hỏi giá và có cần trả trước không.",
+      "info": ["2 foot massages, 60 minutes", "Saturday, 5 p.m.", "Tên: Huong, room 305", "Hỏi: price, pay in advance?"],
+      "starters": ["Hello,", "I'd like to book", "for Saturday at", "My name is", "and I'm staying in room", "How much is it?", "Do I need to pay in advance?", "Thank you!"],
+      "sample": "Hello, I'd like to book two 60-minute foot massages for Saturday at 5 p.m. My name is Huong, and I'm staying in room 305. How much is it? Do I need to pay in advance? Thank you!",
+      "minWords": 30,
+      "mustInclude": [{ "regex": "foot massage", "labelVi": "Có loại dịch vụ" }, { "regex": "saturday", "labelVi": "Có ngày" }, { "regex": "305", "labelVi": "Có số phòng" }, { "regex": "in advance", "labelVi": "Có hỏi trả trước" }],
+      "checklist": ["Nêu rõ dịch vụ, số lượng, thời lượng", "Ngày giờ cụ thể", "Thông tin cá nhân (tên, phòng)", "Câu hỏi kết thúc bằng dấu ?"]
+    }
+  ]
+}

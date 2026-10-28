@@ -1,0 +1,107 @@
+{
+  "topicId": "photos",
+  "title": "Taking Photos",
+  "titleVi": "Chụp ảnh & nhờ giúp đỡ",
+  "icon": "📸",
+  "descriptionVi": "Nhờ người lạ chụp ảnh, hỏi được phép chụp không, và giúp người khác chụp.",
+  "situations": [
+    {
+      "id": "photos-ask-01",
+      "level": "A2",
+      "title": "Asking someone to take a photo",
+      "titleVi": "Nhờ người khác chụp ảnh",
+      "contextVi": "Bạn và gia đình đứng trước tháp Eiffel. Bạn nhờ một du khách chụp giúp ảnh cả nhà.",
+      "imageQuery": "tourists photo Eiffel Tower",
+      "dialogue": [
+        { "speaker": "Traveler", "en": "Excuse me, could you take a photo of us, please?", "ipa": "/ɪkˈskjuːz miː | kʊd juː teɪk ə ˈfoʊtoʊ əv ʌs pliːz/", "vi": "Xin lỗi, bạn chụp giúp chúng tôi một tấm ảnh được không?",
+          "variants": { "polite": "Sorry to bother you – would you mind taking a picture of us?" },
+          "analysis": { "phrases": [{ "phrase": "take a photo of someone", "vi": "chụp ảnh cho ai" }], "grammar": { "pattern": "Would you mind + V-ing?", "explainVi": "Cách nhờ rất lịch sự. Trả lời đồng ý: “Not at all” hoặc “Of course not” (nghĩa là không phiền).", "examples": ["Would you mind closing the window?", "Would you mind waiting a moment?"] } } },
+        { "speaker": "Tourist", "en": "Sure! Just press this button?", "ipa": "/ʃʊr | dʒʌst pres ðɪs ˈbʌtən/", "vi": "Được chứ! Chỉ cần bấm nút này à?" },
+        { "speaker": "Traveler", "en": "Yes, the big white one. Could you get the whole tower in the picture?", "ipa": "/jes | ðə bɪɡ waɪt wʌn | kʊd juː ɡet ðə hoʊl ˈtaʊər ɪn ðə ˈpɪktʃər/", "vi": "Vâng, nút tròn trắng to ấy. Bạn lấy được cả tòa tháp vào ảnh không?",
+          "analysis": { "vocab": [{ "word": "whole", "ipa": "/hoʊl/", "pos": "adjective", "vi": "toàn bộ", "example": "the whole family" }], "phrases": [{ "phrase": "get … in the picture", "vi": "lấy … vào khung hình" }] } },
+        { "speaker": "Tourist", "en": "OK, move a little to the left… Perfect. Say cheese!", "ipa": "/ˌoʊˈkeɪ | muːv ə ˈlɪtəl tə ðə left | ˈpɜːrfɪkt | seɪ tʃiːz/", "vi": "Được, dịch sang trái một chút… Hoàn hảo. Cười nào!",
+          "analysis": { "phrases": [{ "phrase": "Say cheese!", "vi": "Cười lên nào! (khi chụp ảnh)" }, { "phrase": "move a little to the left", "vi": "dịch sang trái một chút" }] } },
+        { "speaker": "Traveler", "en": "Thank you! Could you take one more, a vertical one?", "ipa": "/θæŋk juː | kʊd juː teɪk wʌn mɔːr | ə ˈvɜːrtɪkəl wʌn/", "vi": "Cảm ơn! Bạn chụp thêm một tấm dọc nữa được không?",
+          "analysis": { "vocab": [{ "word": "vertical / horizontal", "ipa": "/ˈvɜːrtɪkəl/ /ˌhɔːrəˈzɑːntəl/", "pos": "adjective", "vi": "dọc / ngang", "example": "Take a horizontal photo." }] } },
+        { "speaker": "Tourist", "en": "No problem. There you go. Would you mind taking one of us too?", "ipa": "/noʊ ˈprɑːbləm | ðer juː ɡoʊ | wʊd juː maɪnd ˈteɪkɪŋ wʌn əv ʌs tuː/", "vi": "Không vấn đề gì. Xong rồi. Bạn chụp giúp chúng tôi một tấm được không?",
+          "analysis": { "culture": "Chụp giúp lại cho người vừa giúp mình là phép lịch sự tự nhiên." } },
+        { "speaker": "Traveler", "en": "Of course not! Give me your phone.", "ipa": "/əv kɔːrs nɑːt | ɡɪv miː jɔːr foʊn/", "vi": "Không phiền gì đâu! Đưa điện thoại cho tôi.",
+          "analysis": { "commonMistake": { "wrong": "Would you mind…? – Yes! (khi muốn đồng ý)", "right": "Would you mind…? – Of course not / Not at all." } } }
+      ],
+      "keyPhrases": ["Could you take a photo of us?", "Just press this button.", "Can you get the tower in?", "One more, please.", "Would you like me to take one of you?"]
+    },
+    {
+      "id": "photos-permission-01",
+      "level": "B1",
+      "title": "Is photography allowed?",
+      "titleVi": "Có được chụp ảnh không?",
+      "contextVi": "Ở một ngôi đền tại Bali, bạn muốn chụp ảnh bên trong và chụp một người phụ nữ mặc trang phục truyền thống.",
+      "imageQuery": "Bali temple ceremony",
+      "dialogue": [
+        { "speaker": "Traveler", "en": "Excuse me, am I allowed to take photos inside the temple?", "ipa": "/ɪkˈskjuːz miː | æm aɪ əˈlaʊd tə teɪk ˈfoʊtoʊz ɪnˈsaɪd ðə ˈtempəl/", "vi": "Xin lỗi, tôi có được phép chụp ảnh bên trong đền không?",
+          "analysis": { "grammar": { "pattern": "Am I allowed to + V?", "explainVi": "Hỏi quy định có cho phép không.", "examples": ["Are we allowed to swim here?", "Is smoking allowed?"] } } },
+        { "speaker": "Guard", "en": "Outside is fine, but no photos in the inner area, please. It's a sacred place.", "ipa": "/ˌaʊtˈsaɪd ɪz faɪn | bət noʊ ˈfoʊtoʊz ɪn ði ˈɪnər ˈeriə pliːz | ɪts ə ˈseɪkrɪd pleɪs/", "vi": "Bên ngoài thì được, nhưng khu bên trong không chụp ảnh. Đó là nơi linh thiêng.",
+          "analysis": { "vocab": [{ "word": "sacred", "ipa": "/ˈseɪkrɪd/", "pos": "adjective", "vi": "linh thiêng", "example": "This mountain is sacred." }] } },
+        { "speaker": "Traveler", "en": "I understand. Do I need to wear a sarong?", "ipa": "/aɪ ˌʌndərˈstænd | duː aɪ niːd tə wer ə səˈrɑːŋ/", "vi": "Tôi hiểu. Tôi có cần quấn xà rông không?",
+          "analysis": { "culture": "Đền chùa ở Bali, Thái Lan… yêu cầu che vai và đầu gối. Thường có cho mượn khăn/xà rông ở cổng." } },
+        { "speaker": "Guard", "en": "Yes, you can borrow one here for free. Please cover your shoulders too.", "ipa": "/jes | juː kən ˈbɑːroʊ wʌn hɪr fɔːr friː | pliːz ˈkʌvər jɔːr ˈʃoʊldərz tuː/", "vi": "Có, bạn có thể mượn ở đây miễn phí. Vui lòng che cả vai nữa.",
+          "analysis": { "vocab": [{ "word": "borrow", "ipa": "/ˈbɑːroʊ/", "pos": "verb", "vi": "mượn", "example": "Can I borrow your pen?" }, { "word": "shoulder", "ipa": "/ˈʃoʊldər/", "pos": "noun", "vi": "vai", "example": "Cover your shoulders." }], "commonMistake": { "wrong": "Can you borrow me a sarong?", "right": "Can I borrow a sarong? / Can you lend me a sarong?" } } },
+        { "speaker": "Traveler", "en": "Excuse me, your dress is beautiful. Do you mind if I take a photo of you?", "ipa": "/ɪkˈskjuːz miː | jɔːr dres ɪz ˈbjuːtɪfəl | duː juː maɪnd ɪf aɪ teɪk ə ˈfoʊtoʊ əv juː/", "vi": "Xin lỗi, trang phục của chị đẹp quá. Chị có phiền nếu tôi chụp một tấm ảnh không?",
+          "analysis": { "grammar": { "pattern": "Do you mind if I + V?", "explainVi": "Xin phép làm gì một cách lịch sự.", "examples": ["Do you mind if I sit here?", "Do you mind if I open the window?"] }, "culture": "Luôn hỏi trước khi chụp ảnh người lạ, đặc biệt là trẻ em và người lớn tuổi." } },
+        { "speaker": "Local", "en": "Not at all. Thank you!", "ipa": "/nɑːt æt ɔːl | θæŋk juː/", "vi": "Không phiền gì. Cảm ơn bạn!",
+          "analysis": { "phrases": [{ "phrase": "Not at all.", "vi": "Không có gì / Không phiền gì (đồng ý)" }] } }
+      ],
+      "keyPhrases": ["Am I allowed to take photos here?", "Is flash allowed?", "Do I need to cover my shoulders?", "Can I borrow a sarong?", "Do you mind if I take a photo of you?"]
+    },
+    {
+      "id": "photos-camera-problem-01",
+      "level": "B1",
+      "title": "Buying a memory card",
+      "titleVi": "Mua thẻ nhớ máy ảnh",
+      "contextVi": "Máy ảnh của bạn báo hết bộ nhớ. Bạn vào cửa hàng điện tử ở Tokyo để mua thẻ nhớ và hỏi sạc pin.",
+      "imageQuery": "camera shop memory cards",
+      "dialogue": [
+        { "speaker": "Customer", "en": "Hi. My camera says the memory card is full. Do you sell SD cards?", "ipa": "/haɪ | maɪ ˈkæmərə sez ðə ˈmeməri kɑːrd ɪz fʊl | duː juː sel ˌes ˈdiː kɑːrdz/", "vi": "Chào bạn. Máy ảnh của tôi báo thẻ nhớ đầy. Ở đây có bán thẻ SD không?",
+          "analysis": { "vocab": [{ "word": "memory card", "ipa": "/ˈmeməri kɑːrd/", "pos": "noun", "vi": "thẻ nhớ", "example": "My memory card is full." }] } },
+        { "speaker": "Staff", "en": "Yes. We have 64 and 128 gigabytes. What camera do you have?", "ipa": "/jes | wiː hæv ˈsɪksti fɔːr ənd wʌn ˈhʌndrəd ənd ˈtwenti eɪt ˈɡɪɡəbaɪts | wɑːt ˈkæmərə duː juː hæv/", "vi": "Có. Chúng tôi có loại 64 và 128 GB. Máy ảnh của bạn là loại gì?" },
+        { "speaker": "Customer", "en": "It's a Canon. I also forgot my charger at the hotel in Osaka. Do you have a compatible one?", "ipa": "/ɪts ə ˈkænən | aɪ ˈɔːlsoʊ fərˈɡɑːt maɪ ˈtʃɑːrdʒər æt ðə hoʊˈtel ɪn oʊˈsɑːkə | duː juː hæv ə kəmˈpætəbəl wʌn/", "vi": "Máy Canon. Tôi còn để quên sạc ở khách sạn tại Osaka. Có loại sạc tương thích không?",
+          "analysis": { "vocab": [{ "word": "compatible", "ipa": "/kəmˈpætəbəl/", "pos": "adjective", "vi": "tương thích", "example": "Is this charger compatible with my phone?" }], "commonMistake": { "wrong": "I forgot my charger in the hotel. (vẫn hiểu được)", "right": "I left my charger at the hotel. (tự nhiên hơn khi nói để quên ở đâu)" } } },
+        { "speaker": "Staff", "en": "Let me see your battery… Yes, this charger fits. It's 3,200 yen, and the 128 GB card is 4,500.", "ipa": "/let miː siː jɔːr ˈbætəri | jes | ðɪs ˈtʃɑːrdʒər fɪts | ɪts θriː ˈθaʊzənd tuː ˈhʌndrəd jen | ənd ðə wʌn ˈhʌndrəd ənd ˈtwenti eɪt ˌdʒiː ˈbiː kɑːrd ɪz fɔːr ˈθaʊzənd faɪv ˈhʌndrəd/", "vi": "Cho tôi xem pin… Vâng, sạc này vừa. Giá 3.200 yên, còn thẻ 128 GB là 4.500.",
+          "analysis": { "vocab": [{ "word": "fit", "ipa": "/fɪt/", "pos": "verb", "vi": "vừa, khớp", "example": "Does this plug fit?" }] } },
+        { "speaker": "Customer", "en": "I'll take both. Can I get them tax-free? Here's my passport.", "ipa": "/aɪl teɪk boʊθ | kæn aɪ ɡet ðəm ˌtæks ˈfriː | hɪrz maɪ ˈpæspɔːrt/", "vi": "Tôi lấy cả hai. Tôi mua miễn thuế được không? Đây là hộ chiếu của tôi.",
+          "analysis": { "culture": "Ở Nhật, du khách mua từ 5.000 yên trở lên (cùng cửa hàng, cùng ngày) có thể được miễn thuế tiêu dùng ngay tại quầy, cần xuất trình hộ chiếu." } },
+        { "speaker": "Staff", "en": "Yes, the total is over 5,000 yen, so it's tax-free. Please don't open the bag until you leave Japan.", "ipa": "/jes | ðə ˈtoʊtəl ɪz ˈoʊvər faɪv ˈθaʊzənd jen | soʊ ɪts ˌtæks ˈfriː | pliːz doʊnt ˈoʊpən ðə bæɡ ənˈtɪl juː liːv dʒəˈpæn/", "vi": "Được, tổng trên 5.000 yên nên được miễn thuế. Vui lòng không mở túi cho đến khi rời Nhật.",
+          "analysis": { "grammar": { "pattern": "don't + V + until + S + V", "explainVi": "Đừng làm gì cho đến khi…", "examples": ["Don't pay until you see the room.", "Don't leave until I call you."] } } }
+      ],
+      "keyPhrases": ["My memory card is full.", "Do you sell SD cards?", "I left my charger at the hotel.", "Is it compatible?", "Can I get it tax-free?"]
+    }
+  ],
+  "reading": [
+    {
+      "title": "Signs about photography",
+      "titleVi": "Biển báo về chụp ảnh",
+      "introVi": "Bạn thấy các biển báo này ở những nơi khác nhau.",
+      "text": "SIGN A (museum): Photography permitted. No flash, no tripods, no selfie sticks.\n\nSIGN B (temple): Please respect this holy place. No photos beyond this point. Remove hats and shoes.\n\nSIGN C (market): Please ask before photographing our staff and products.\n\nSIGN D (airport): Drones are strictly prohibited within 5 km of the airport.",
+      "glossary": { "permitted": "được phép", "tripods": "chân máy ảnh", "selfie sticks": "gậy tự sướng", "respect": "tôn trọng", "holy": "linh thiêng", "beyond this point": "từ chỗ này trở vào", "photographing": "chụp ảnh", "drones": "flycam", "strictly prohibited": "nghiêm cấm" },
+      "questions": [
+        { "q": "At the museum, can you use a selfie stick?", "options": ["Yes", "No"], "answer": 1, "explainVi": "Sign A: no selfie sticks." },
+        { "q": "At the temple, what must you do?", "options": ["Use flash", "Take off your hat and shoes", "Buy a ticket"], "answer": 1, "explainVi": "Sign B: Remove hats and shoes." },
+        { "q": "You want to photograph a seller at the market. What should you do?", "options": ["Ask first", "Take it quickly", "Pay 5 dollars"], "answer": 0, "explainVi": "Sign C: Please ask before photographing our staff." }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "title": "Photo caption for social media",
+      "titleVi": "Viết chú thích ảnh đăng mạng xã hội",
+      "taskVi": "Viết chú thích tiếng Anh (30–50 từ) cho bức ảnh gia đình bạn trước tháp Eiffel: ngày đầu ở Paris, thời tiết, cảm xúc, cảm ơn người lạ đã chụp giúp.",
+      "info": ["Ngày đầu tiên ở Paris", "Trời nắng đẹp nhưng gió lạnh", "Cảm xúc: giấc mơ thành hiện thực", "Một du khách Úc chụp giúp"],
+      "starters": ["Day 1 in Paris!", "The weather was", "It's a dream come true", "for my parents", "Big thanks to", "who took this photo for us", "#Paris"],
+      "sample": "Day 1 in Paris! 🇫🇷 The weather was sunny but very windy. Seeing the Eiffel Tower with my parents is a dream come true. Big thanks to the kind Australian couple who took this photo for us! #Paris #FamilyTrip",
+      "minWords": 30,
+      "letter": false,
+      "mustInclude": [{ "regex": "Paris|Eiffel", "labelVi": "Có địa điểm" }, { "regex": "weather|sunny|windy|cold|rain", "labelVi": "Có nói về thời tiết" }, { "regex": "thank", "labelVi": "Có lời cảm ơn" }],
+      "checklist": ["Câu mở đầu ngắn, hấp dẫn", "Miêu tả cảm xúc", "Có cụm “dream come true” hoặc tương tự", "Thêm hashtag"]
+    }
+  ]
+}

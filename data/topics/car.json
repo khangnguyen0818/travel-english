@@ -1,0 +1,107 @@
+{
+  "topicId": "car",
+  "title": "Renting a Car",
+  "titleVi": "Thuê xe & Lái xe",
+  "icon": "🚗",
+  "descriptionVi": "Thuê xe ô tô, đổ xăng, đỗ xe và xử lý khi xe hỏng giữa đường.",
+  "situations": [
+    {
+      "id": "car-rental-01",
+      "level": "B1",
+      "title": "Picking up a rental car",
+      "titleVi": "Nhận xe thuê",
+      "contextVi": "Bạn đến quầy thuê xe ở sân bay Auckland (New Zealand) để nhận chiếc xe đã đặt online trong 5 ngày.",
+      "imageQuery": "car rental desk airport",
+      "dialogue": [
+        { "speaker": "Customer", "en": "Hi. I have a reservation for a compact car for five days. The name is Do.", "ipa": "/haɪ | aɪ hæv ə ˌrezərˈveɪʃən fɔːr ə ˈkɑːmpækt kɑːr fɔːr faɪv deɪz | ðə neɪm ɪz doʊ/", "vi": "Chào bạn. Tôi có đặt một chiếc xe cỡ nhỏ trong năm ngày. Tên là Đỗ.",
+          "analysis": { "vocab": [{ "word": "compact car", "ipa": "/ˈkɑːmpækt kɑːr/", "pos": "noun", "vi": "xe ô tô cỡ nhỏ", "example": "A compact car is easy to park." }] } },
+        { "speaker": "Agent", "en": "Welcome. Could I see your driving licence, an International Driving Permit and a credit card?", "ipa": "/ˈwelkəm | kʊd aɪ siː jɔːr ˈdraɪvɪŋ ˈlaɪsəns | ən ˌɪntərˈnæʃənəl ˈdraɪvɪŋ ˈpɜːrmɪt ənd ə ˈkredɪt kɑːrd/", "vi": "Chào mừng. Cho tôi xem bằng lái, giấy phép lái xe quốc tế và thẻ tín dụng.",
+          "analysis": { "vocab": [{ "word": "driving licence", "ipa": "/ˈdraɪvɪŋ ˈlaɪsəns/", "pos": "noun", "vi": "bằng lái xe (Mỹ: driver's license)", "example": "Don't forget your driving licence." }, { "word": "International Driving Permit (IDP)", "ipa": "/ˌɪntərˈnæʃənəl ˈdraɪvɪŋ ˈpɜːrmɪt/", "pos": "noun", "vi": "giấy phép lái xe quốc tế", "example": "You need an IDP in Japan." }], "culture": "Nhiều nước yêu cầu cả bằng lái Việt Nam và bằng lái quốc tế (IDP). Kiểm tra trước khi đi." } },
+        { "speaker": "Agent", "en": "Would you like full insurance? It covers any damage with no excess.", "ipa": "/wʊd juː laɪk fʊl ɪnˈʃʊrəns | ɪt ˈkʌvərz ˈeni ˈdæmɪdʒ wɪð noʊ ˈekses/", "vi": "Bạn có muốn mua bảo hiểm toàn phần không? Bảo hiểm chi trả mọi hư hỏng mà bạn không phải đồng chi trả.",
+          "analysis": { "vocab": [{ "word": "excess", "ipa": "/ˈekses/", "pos": "noun", "vi": "khoản tự chịu (khi có hư hỏng; Mỹ: deductible)", "example": "The excess is 2,000 dollars." }], "culture": "Không mua bảo hiểm toàn phần thì khi xe trầy xước, bạn có thể phải trả hàng nghìn đô." } },
+        { "speaker": "Customer", "en": "Yes, please. Also, is it a manual or an automatic? I can only drive an automatic.", "ipa": "/jes pliːz | ˈɔːlsoʊ | ɪz ɪt ə ˈmænjuəl ɔːr ən ˌɔːtəˈmætɪk | aɪ kən ˈoʊnli draɪv ən ˌɔːtəˈmætɪk/", "vi": "Có. Ngoài ra, xe số sàn hay số tự động? Tôi chỉ lái được xe số tự động.",
+          "analysis": { "vocab": [{ "word": "manual / automatic", "ipa": "/ˈmænjuəl/ /ˌɔːtəˈmætɪk/", "pos": "noun", "vi": "xe số sàn / số tự động", "example": "Most cars in the US are automatic." }] } },
+        { "speaker": "Agent", "en": "It's an automatic. Remember, in New Zealand we drive on the left.", "ipa": "/ɪts ən ˌɔːtəˈmætɪk | rɪˈmembər | ɪn nuː ˈziːlənd wiː draɪv ɑːn ðə left/", "vi": "Xe số tự động. Lưu ý, ở New Zealand xe chạy bên trái.",
+          "analysis": { "culture": "Anh, Úc, New Zealand, Nhật, Thái Lan, Singapore chạy xe bên TRÁI – vô lăng bên phải. Hãy cẩn thận khi rẽ và ở vòng xuyến." } },
+        { "speaker": "Customer", "en": "Thanks for the reminder. Should I return it with a full tank?", "ipa": "/θæŋks fɔːr ðə rɪˈmaɪndər | ʃʊd aɪ rɪˈtɜːrn ɪt wɪð ə fʊl tæŋk/", "vi": "Cảm ơn đã nhắc. Tôi có phải trả xe với bình xăng đầy không?",
+          "analysis": { "vocab": [{ "word": "full tank", "ipa": "/fʊl tæŋk/", "pos": "noun", "vi": "bình xăng đầy", "example": "Please return it with a full tank." }, { "word": "reminder", "ipa": "/rɪˈmaɪndər/", "pos": "noun", "vi": "lời nhắc", "example": "Thanks for the reminder." }] } },
+        { "speaker": "Agent", "en": "Yes, full to full. Before you leave, please check the car and take photos of any scratches.", "ipa": "/jes fʊl tə fʊl | bɪˈfɔːr juː liːv | pliːz tʃek ðə kɑːr ənd teɪk ˈfoʊtoʊz əv ˈeni ˈskrætʃɪz/", "vi": "Có, nhận đầy trả đầy. Trước khi đi, vui lòng kiểm tra xe và chụp ảnh các vết trầy xước.",
+          "analysis": { "vocab": [{ "word": "scratch", "ipa": "/skrætʃ/", "pos": "noun", "vi": "vết trầy xước", "example": "There's a scratch on the door." }], "culture": "Quay video xung quanh xe trước khi nhận để tránh bị tính phí hư hỏng không phải do mình." } }
+      ],
+      "keyPhrases": ["I have a reservation for a car.", "Is it manual or automatic?", "I'd like full insurance.", "Should I return it with a full tank?", "There's a scratch here."]
+    },
+    {
+      "id": "car-petrol-parking-01",
+      "level": "A2",
+      "title": "At the petrol station and parking",
+      "titleVi": "Ở trạm xăng và chỗ đỗ xe",
+      "contextVi": "Bạn dừng ở trạm xăng, không biết đổ loại xăng nào và cách trả tiền. Sau đó bạn hỏi chỗ đỗ xe gần trung tâm.",
+      "imageQuery": "petrol station pump",
+      "dialogue": [
+        { "speaker": "Driver", "en": "Excuse me, which fuel does this car take – petrol or diesel?", "ipa": "/ɪkˈskjuːz miː | wɪtʃ ˈfjuːəl dʌz ðɪs kɑːr teɪk | ˈpetrəl ɔːr ˈdiːzəl/", "vi": "Xin lỗi, xe này đổ loại nhiên liệu nào – xăng hay dầu diesel?",
+          "analysis": { "vocab": [{ "word": "petrol", "ipa": "/ˈpetrəl/", "pos": "noun", "vi": "xăng (Mỹ: gas)", "example": "We need some petrol." }, { "word": "diesel", "ipa": "/ˈdiːzəl/", "pos": "noun", "vi": "dầu diesel", "example": "This van takes diesel." }], "culture": "Đổ nhầm nhiên liệu rất tốn kém. Thường có ghi chú ở nắp bình xăng." } },
+        { "speaker": "Attendant", "en": "It says “Unleaded 91” inside the fuel cap. Use the green pump.", "ipa": "/ɪt sez ʌnˈledɪd ˈnaɪnti wʌn ɪnˈsaɪd ðə ˈfjuːəl kæp | juːz ðə ɡriːn pʌmp/", "vi": "Bên trong nắp bình xăng ghi “Unleaded 91”. Dùng vòi bơm màu xanh lá.",
+          "analysis": { "vocab": [{ "word": "unleaded", "ipa": "/ʌnˈledɪd/", "pos": "adjective", "vi": "(xăng) không chì", "example": "Unleaded petrol, please." }, { "word": "pump", "ipa": "/pʌmp/", "pos": "noun", "vi": "trụ bơm xăng", "example": "Which pump number?" }] } },
+        { "speaker": "Driver", "en": "Do I pay here at the pump or inside?", "ipa": "/duː aɪ peɪ hɪr æt ðə pʌmp ɔːr ɪnˈsaɪd/", "vi": "Tôi trả tiền ở trụ bơm hay vào trong?",
+          "analysis": { "culture": "Nhiều trạm xăng nước ngoài là tự phục vụ: bạn tự đổ rồi vào quầy báo số trụ bơm để trả tiền." } },
+        { "speaker": "Attendant", "en": "Fill up first, then pay inside. Just tell them your pump number.", "ipa": "/fɪl ʌp fɜːrst | ðen peɪ ɪnˈsaɪd | dʒʌst tel ðəm jɔːr pʌmp ˈnʌmbər/", "vi": "Đổ đầy trước, rồi vào trong trả tiền. Chỉ cần báo số trụ bơm.",
+          "analysis": { "vocab": [{ "word": "fill up", "ipa": "/fɪl ʌp/", "pos": "phrasal verb", "vi": "đổ đầy", "example": "Fill it up, please." }] } },
+        { "speaker": "Driver", "en": "Thanks. One more thing – is there a car park near the city centre?", "ipa": "/θæŋks | wʌn mɔːr θɪŋ | ɪz ðer ə kɑːr pɑːrk nɪr ðə ˈsɪti ˈsentər/", "vi": "Cảm ơn. Còn một chuyện – gần trung tâm có bãi đỗ xe không?",
+          "analysis": { "vocab": [{ "word": "car park", "ipa": "/kɑːr pɑːrk/", "pos": "noun", "vi": "bãi đỗ xe (Mỹ: parking lot)", "example": "The car park is full." }] } },
+        { "speaker": "Attendant", "en": "There's a multi-storey car park on Queen Street. Street parking is cheaper but limited to two hours.", "ipa": "/ðerz ə ˌmʌlti ˈstɔːri kɑːr pɑːrk ɑːn kwiːn striːt | striːt ˈpɑːrkɪŋ ɪz ˈtʃiːpər bət ˈlɪmɪtɪd tə tuː ˈaʊərz/", "vi": "Có bãi đỗ xe nhiều tầng trên phố Queen. Đỗ xe bên đường rẻ hơn nhưng chỉ được hai tiếng.",
+          "analysis": { "vocab": [{ "word": "multi-storey", "ipa": "/ˌmʌlti ˈstɔːri/", "pos": "adjective", "vi": "nhiều tầng", "example": "a multi-storey car park" }, { "word": "limited", "ipa": "/ˈlɪmɪtɪd/", "pos": "adjective", "vi": "bị giới hạn", "example": "Space is limited." }] } }
+      ],
+      "keyPhrases": ["Which fuel does it take?", "Fill it up, please.", "Do I pay here or inside?", "Is there a car park near here?", "How long can I park here?"]
+    },
+    {
+      "id": "car-breakdown-01",
+      "level": "B1",
+      "title": "The car broke down",
+      "titleVi": "Xe hỏng giữa đường",
+      "contextVi": "Đang lái trên đường cao tốc thì xe báo đèn đỏ và chết máy. Bạn gọi số hỗ trợ cứu hộ của công ty cho thuê xe.",
+      "imageQuery": "car broken down roadside",
+      "dialogue": [
+        { "speaker": "Driver", "en": "Hello, I rented a car from you, and it's broken down on the motorway.", "ipa": "/heˈloʊ | aɪ ˈrentɪd ə kɑːr frʌm juː | ənd ɪts ˈbroʊkən daʊn ɑːn ðə ˈmoʊtərweɪ/", "vi": "Xin chào, tôi thuê xe của công ty các bạn, và xe bị hỏng trên đường cao tốc.",
+          "analysis": { "vocab": [{ "word": "break down", "ipa": "/breɪk daʊn/", "pos": "phrasal verb", "vi": "(xe) chết máy, hỏng", "example": "Our bus broke down." }, { "word": "motorway", "ipa": "/ˈmoʊtərweɪ/", "pos": "noun", "vi": "đường cao tốc (Mỹ: highway/freeway)", "example": "Don't stop on the motorway." }] } },
+        { "speaker": "Assistance", "en": "Are you and your passengers safe? Please stand behind the barrier, away from the traffic.", "ipa": "/ɑːr juː ənd jɔːr ˈpæsɪndʒərz seɪf | pliːz stænd bɪˈhaɪnd ðə ˈbæriər | əˈweɪ frʌm ðə ˈtræfɪk/", "vi": "Anh và hành khách có an toàn không? Vui lòng đứng sau rào chắn, tránh xa dòng xe.",
+          "analysis": { "vocab": [{ "word": "barrier", "ipa": "/ˈbæriər/", "pos": "noun", "vi": "rào chắn", "example": "Wait behind the barrier." }], "culture": "Bật đèn khẩn cấp (hazard lights), mặc áo phản quang nếu có, đặt tam giác cảnh báo phía sau xe." } },
+        { "speaker": "Driver", "en": "Yes, we're safe. A red warning light came on, and then the engine stopped.", "ipa": "/jes wɪr seɪf | ə red ˈwɔːrnɪŋ laɪt keɪm ɑːn | ənd ðen ði ˈendʒɪn stɑːpt/", "vi": "Có, chúng tôi an toàn. Một đèn cảnh báo đỏ bật sáng, rồi động cơ tắt.",
+          "analysis": { "vocab": [{ "word": "warning light", "ipa": "/ˈwɔːrnɪŋ laɪt/", "pos": "noun", "vi": "đèn cảnh báo", "example": "A warning light is on." }, { "word": "engine", "ipa": "/ˈendʒɪn/", "pos": "noun", "vi": "động cơ", "example": "The engine won't start." }], "phrases": [{ "phrase": "come on", "vi": "(đèn) bật sáng" }] } },
+        { "speaker": "Assistance", "en": "Can you tell me your location? There should be a number on the blue marker posts.", "ipa": "/kæn juː tel miː jɔːr loʊˈkeɪʃən | ðer ʃʊd biː ə ˈnʌmbər ɑːn ðə bluː ˈmɑːrkər poʊsts/", "vi": "Anh cho tôi biết vị trí được không? Trên các cột mốc màu xanh sẽ có một con số.",
+          "analysis": { "vocab": [{ "word": "location", "ipa": "/loʊˈkeɪʃən/", "pos": "noun", "vi": "vị trí", "example": "Share your location with me." }], "culture": "Nếu không biết vị trí, gửi định vị Google Maps hoặc đọc số cột mốc/biển báo gần nhất." } },
+        { "speaker": "Driver", "en": "We're on State Highway 1, heading north, near marker 245. I can also send you my location.", "ipa": "/wɪr ɑːn steɪt ˈhaɪweɪ wʌn | ˈhedɪŋ nɔːrθ | nɪr ˈmɑːrkər tuː ˈfɔːrti faɪv | aɪ kən ˈɔːlsoʊ send juː maɪ loʊˈkeɪʃən/", "vi": "Chúng tôi đang trên Quốc lộ 1, hướng bắc, gần cột mốc 245. Tôi cũng có thể gửi định vị cho bạn.",
+          "analysis": { "phrases": [{ "phrase": "heading north", "vi": "đang đi về hướng bắc" }] } },
+        { "speaker": "Assistance", "en": "Thank you. A tow truck will be there in about 45 minutes, and we'll arrange a replacement car.", "ipa": "/θæŋk juː | ə toʊ trʌk wɪl biː ðer ɪn əˈbaʊt ˈfɔːrti faɪv ˈmɪnɪts | ənd wiːl əˈreɪndʒ ə rɪˈpleɪsmənt kɑːr/", "vi": "Cảm ơn. Xe cứu hộ sẽ đến trong khoảng 45 phút, và chúng tôi sẽ sắp xếp xe thay thế.",
+          "analysis": { "vocab": [{ "word": "tow truck", "ipa": "/toʊ trʌk/", "pos": "noun", "vi": "xe kéo, xe cứu hộ", "example": "We need a tow truck." }, { "word": "replacement", "ipa": "/rɪˈpleɪsmənt/", "pos": "noun", "vi": "sự thay thế", "example": "a replacement phone" }] } }
+      ],
+      "keyPhrases": ["The car has broken down.", "A warning light came on.", "The engine won't start.", "We're near marker…", "I can send you my location."]
+    }
+  ],
+  "reading": [
+    {
+      "title": "Road signs and rules",
+      "titleVi": "Biển báo và luật giao thông",
+      "introVi": "Tờ hướng dẫn kèm theo xe thuê.",
+      "text": "DRIVING IN NEW ZEALAND - KEY RULES\n\n• Keep LEFT. Always.\n• Speed limits: 50 km/h in towns, 100 km/h on open roads (unless signs show otherwise).\n• GIVE WAY sign: slow down and let other traffic go first.\n• Roundabouts: give way to vehicles coming from your RIGHT.\n• Seat belts are required for all passengers.\n• Using a phone while driving is illegal (fine: 150 NZD).\n• Drink-driving limit for drivers over 20: 0.05% blood alcohol.\n• Many roads are narrow and winding – allow extra time.",
+      "glossary": { "speed limits": "giới hạn tốc độ", "open roads": "đường ngoài khu dân cư", "unless": "trừ khi", "give way": "nhường đường", "roundabouts": "vòng xuyến", "vehicles": "xe cộ", "required": "bắt buộc", "illegal": "phạm pháp", "winding": "quanh co" },
+      "questions": [
+        { "q": "What is the speed limit in a town (with no other sign)?", "options": ["50 km/h", "80 km/h", "100 km/h"], "answer": 0, "explainVi": "“50 km/h in towns”." },
+        { "q": "At a roundabout, who goes first?", "options": ["You", "Vehicles coming from your right", "Vehicles coming from your left"], "answer": 1, "explainVi": "“give way to vehicles coming from your RIGHT”." },
+        { "q": "What happens if you use your phone while driving?", "options": ["Nothing", "You may get a 150 NZD fine"], "answer": 1, "explainVi": "“illegal (fine: 150 NZD)”." }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "title": "Email to the rental company",
+      "titleVi": "Email cho công ty cho thuê xe",
+      "taskVi": "Bạn đặt xe (mã RC-30419) nhận lúc 10 giờ sáng 5/3, nhưng chuyến bay của bạn bị hoãn và đến lúc 11 giờ đêm. Viết email báo nhận xe trễ, hỏi quầy có mở cửa muộn không và xin thêm ghế trẻ em cho bé 4 tuổi.",
+      "info": ["Mã đặt xe: RC-30419", "Dự kiến nhận: 10 a.m., 5 March", "Đến thực tế: khoảng 11 p.m. (chuyến bay hoãn)", "Xin thêm: child seat cho bé 4 tuổi"],
+      "starters": ["Dear Sir or Madam,", "I have a car booking", "Unfortunately, my flight has been delayed", "I will arrive at around", "Will your desk be open", "If not, how can I collect", "I would also like to add", "Thank you in advance."],
+      "sample": "Dear Sir or Madam,\n\nI have a car booking with you (reference RC-30419) for 10 a.m. on 5 March. Unfortunately, my flight has been delayed, and I will arrive at around 11 p.m.\n\nWill your desk at the airport be open at that time? If not, how can I collect the car? I would also like to add a child seat for my four-year-old son.\n\nThank you in advance.\n\nKind regards,\nDo Van Long",
+      "minWords": 55,
+      "mustInclude": [{ "regex": "RC-30419", "labelVi": "Có mã đặt xe" }, { "regex": "delayed", "labelVi": "Có nói chuyến bay bị hoãn" }, { "regex": "11 p\\.?m|11pm|11 o'clock", "labelVi": "Có giờ đến dự kiến" }, { "regex": "child seat|car seat", "labelVi": "Có xin ghế trẻ em" }],
+      "checklist": ["Nêu mã đặt xe và thời gian ban đầu", "Giải thích lý do đến trễ", "Hỏi phương án nhận xe", "Thêm yêu cầu ghế trẻ em"]
+    }
+  ]
+}

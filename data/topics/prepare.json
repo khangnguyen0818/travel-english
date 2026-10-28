@@ -1,0 +1,108 @@
+{
+  "topicId": "prepare",
+  "title": "Trip Preparation",
+  "titleVi": "Chuẩn bị chuyến đi",
+  "icon": "🧳",
+  "descriptionVi": "Phỏng vấn xin visa, đặt vé qua điện thoại, mua bảo hiểm du lịch và đổi lịch bay.",
+  "situations": [
+    {
+      "id": "prepare-visa-01",
+      "level": "B1",
+      "title": "A visa interview",
+      "titleVi": "Phỏng vấn xin visa",
+      "contextVi": "Bạn phỏng vấn xin visa du lịch Mỹ tại Lãnh sự quán. Viên chức hỏi về chuyến đi, công việc và tài chính.",
+      "imageQuery": "visa application interview",
+      "dialogue": [
+        { "speaker": "Officer", "en": "Good morning. Why do you want to visit the United States?", "ipa": "/ɡʊd ˈmɔːrnɪŋ | waɪ duː juː wɑːnt tə ˈvɪzɪt ðə juˌnaɪtɪd steɪts/", "vi": "Chào buổi sáng. Tại sao anh muốn đến Mỹ?",
+          "analysis": { "culture": "Trả lời ngắn gọn, thật thà, tự tin. Không học thuộc lòng một đoạn dài." } },
+        { "speaker": "Applicant", "en": "I'm going on a two-week holiday with my wife. We want to see New York and visit our daughter in Boston.", "ipa": "/aɪm ˈɡoʊɪŋ ɑːn ə tuː wiːk ˈhɑːlədeɪ wɪð maɪ waɪf | wiː wɑːnt tə siː nuː jɔːrk ənd ˈvɪzɪt ˈaʊər ˈdɔːtər ɪn ˈbɔːstən/", "vi": "Tôi đi du lịch hai tuần cùng vợ. Chúng tôi muốn tham quan New York và thăm con gái ở Boston.",
+          "analysis": { "vocab": [{ "word": "applicant", "ipa": "/ˈæplɪkənt/", "pos": "noun", "vi": "người nộp đơn", "example": "All applicants must bring a photo." }], "grammar": { "pattern": "a + số-week/day + N", "explainVi": "a two-week holiday (kỳ nghỉ hai tuần) – danh từ đơn vị số ít, có gạch nối.", "examples": ["a three-day trip", "a ten-hour flight"] } } },
+        { "speaker": "Officer", "en": "What does your daughter do there?", "ipa": "/wɑːt dʌz jɔːr ˈdɔːtər duː ðer/", "vi": "Con gái anh làm gì ở đó?" },
+        { "speaker": "Applicant", "en": "She's a master's student at Boston University. She'll graduate next year and come back to Vietnam.", "ipa": "/ʃiːz ə ˈmæstərz ˈstuːdənt æt ˈbɔːstən ˌjuːnɪˈvɜːrsəti | ʃiːl ˈɡrædʒueɪt nekst jɪr ənd kʌm bæk tə ˌvjetˈnɑːm/", "vi": "Cháu là học viên thạc sĩ ở Đại học Boston. Năm sau cháu tốt nghiệp và về Việt Nam.",
+          "analysis": { "vocab": [{ "word": "graduate", "ipa": "/ˈɡrædʒueɪt/", "pos": "verb", "vi": "tốt nghiệp", "example": "He graduated in 2020." }], "phrases": [{ "phrase": "master's student", "vi": "học viên cao học" }] } },
+        { "speaker": "Officer", "en": "Who is paying for your trip, and what do you do in Vietnam?", "ipa": "/huː ɪz ˈpeɪɪŋ fɔːr jɔːr trɪp | ənd wɑːt duː juː duː ɪn ˌvjetˈnɑːm/", "vi": "Ai chi trả chuyến đi, và anh làm gì ở Việt Nam?" },
+        { "speaker": "Applicant", "en": "We're paying ourselves. I own a small furniture business, and my wife is a pharmacist. Here are our bank statements.", "ipa": "/wɪr ˈpeɪɪŋ ˌaʊərˈselvz | aɪ oʊn ə smɔːl ˈfɜːrnɪtʃər ˈbɪznəs | ənd maɪ waɪf ɪz ə ˈfɑːrməsɪst | hɪr ɑːr ˈaʊər bæŋk ˈsteɪtmənts/", "vi": "Chúng tôi tự chi trả. Tôi có một cơ sở kinh doanh đồ gỗ nhỏ, vợ tôi là dược sĩ. Đây là sao kê ngân hàng của chúng tôi.",
+          "analysis": { "vocab": [{ "word": "bank statement", "ipa": "/bæŋk ˈsteɪtmənt/", "pos": "noun", "vi": "sao kê ngân hàng", "example": "Bring your bank statements for 6 months." }, { "word": "furniture", "ipa": "/ˈfɜːrnɪtʃər/", "pos": "noun", "vi": "đồ nội thất", "example": "furniture shop" }], "culture": "Viên chức muốn biết bạn có ràng buộc ở Việt Nam (công việc, nhà cửa, gia đình) để chắc chắn bạn sẽ quay về." } },
+        { "speaker": "Officer", "en": "Thank you. Your visa is approved. You'll receive your passport by post in about a week.", "ipa": "/θæŋk juː | jɔːr ˈviːzə ɪz əˈpruːvd | juːl rɪˈsiːv jɔːr ˈpæspɔːrt baɪ poʊst ɪn əˈbaʊt ə wiːk/", "vi": "Cảm ơn. Visa của anh đã được chấp thuận. Anh sẽ nhận hộ chiếu qua bưu điện trong khoảng một tuần.",
+          "analysis": { "vocab": [{ "word": "approved", "ipa": "/əˈpruːvd/", "pos": "adjective", "vi": "được chấp thuận", "example": "My application was approved." }] } }
+      ],
+      "keyPhrases": ["I'm going on a two-week holiday.", "We want to visit our daughter.", "We're paying ourselves.", "I own a small business.", "Here are my bank statements."]
+    },
+    {
+      "id": "prepare-insurance-01",
+      "level": "B1",
+      "title": "Buying travel insurance",
+      "titleVi": "Mua bảo hiểm du lịch",
+      "contextVi": "Bạn gọi điện cho công ty bảo hiểm để hỏi gói bảo hiểm cho chuyến đi châu Âu 10 ngày của hai vợ chồng (65 và 62 tuổi).",
+      "imageQuery": "travel insurance documents",
+      "dialogue": [
+        { "speaker": "Customer", "en": "Hi. I'd like some information about travel insurance for a 10-day trip to Europe.", "ipa": "/haɪ | aɪd laɪk sʌm ˌɪnfərˈmeɪʃən əˈbaʊt ˈtrævəl ɪnˈʃʊrəns fɔːr ə ten deɪ trɪp tə ˈjʊrəp/", "vi": "Chào bạn. Tôi muốn tìm hiểu về bảo hiểm du lịch cho chuyến đi châu Âu 10 ngày.",
+          "analysis": { "vocab": [{ "word": "information", "ipa": "/ˌɪnfərˈmeɪʃən/", "pos": "noun (không đếm được)", "vi": "thông tin", "example": "Can I have some information?" }], "commonMistake": { "wrong": "some informations", "right": "some information" } } },
+        { "speaker": "Agent", "en": "Of course. How many people are travelling, and how old are they?", "ipa": "/əv kɔːrs | haʊ ˈmeni ˈpiːpəl ɑːr ˈtrævəlɪŋ | ənd haʊ oʊld ɑːr ðeɪ/", "vi": "Dĩ nhiên. Có bao nhiêu người đi, và bao nhiêu tuổi ạ?" },
+        { "speaker": "Customer", "en": "Two – my husband is 65 and I'm 62. He has diabetes. Is that covered?", "ipa": "/tuː | maɪ ˈhʌzbənd ɪz ˈsɪksti faɪv ənd aɪm ˈsɪksti tuː | hiː hæz ˌdaɪəˈbiːtiːz | ɪz ðæt ˈkʌvərd/", "vi": "Hai người – chồng tôi 65 tuổi, tôi 62. Ông ấy bị tiểu đường. Bệnh đó có được bảo hiểm không?",
+          "analysis": { "vocab": [{ "word": "covered", "ipa": "/ˈkʌvərd/", "pos": "adjective", "vi": "được bảo hiểm chi trả", "example": "Is dental treatment covered?" }, { "word": "diabetes", "ipa": "/ˌdaɪəˈbiːtiːz/", "pos": "noun", "vi": "bệnh tiểu đường", "example": "She has type 2 diabetes." }], "culture": "Phải khai báo bệnh nền (pre-existing conditions) khi mua bảo hiểm, nếu không có thể bị từ chối chi trả." } },
+        { "speaker": "Agent", "en": "Pre-existing conditions can be covered if you declare them. There's an extra charge of about 15 dollars.", "ipa": "/priː ɪɡˈzɪstɪŋ kənˈdɪʃənz kən biː ˈkʌvərd ɪf juː dɪˈkler ðəm | ðerz ən ˈekstrə tʃɑːrdʒ əv əˈbaʊt ˌfɪfˈtiːn ˈdɑːlərz/", "vi": "Bệnh có sẵn có thể được bảo hiểm nếu anh chị khai báo. Phí thêm khoảng 15 đô.",
+          "analysis": { "vocab": [{ "word": "pre-existing condition", "ipa": "/priː ɪɡˈzɪstɪŋ kənˈdɪʃən/", "pos": "noun", "vi": "bệnh có sẵn (bệnh nền)", "example": "Do you have any pre-existing conditions?" }] } },
+        { "speaker": "Customer", "en": "That's fine. What else does the policy cover? For example, cancelled flights or lost luggage?", "ipa": "/ðæts faɪn | wɑːt els dʌz ðə ˈpɑːləsi ˈkʌvər | fɔːr ɪɡˈzæmpəl | ˈkænsəld flaɪts ɔːr lɔːst ˈlʌɡɪdʒ/", "vi": "Được. Gói bảo hiểm còn chi trả gì nữa? Ví dụ hủy chuyến bay hay mất hành lý?",
+          "analysis": { "vocab": [{ "word": "policy", "ipa": "/ˈpɑːləsi/", "pos": "noun", "vi": "hợp đồng/gói bảo hiểm", "example": "Read your policy carefully." }] } },
+        { "speaker": "Agent", "en": "Yes, both. Medical costs up to one million dollars, trip cancellation, and lost or delayed baggage.", "ipa": "/jes boʊθ | ˈmedɪkəl kɔːsts ʌp tə wʌn ˈmɪljən ˈdɑːlərz | trɪp ˌkænsəˈleɪʃən | ənd lɔːst ɔːr dɪˈleɪd ˈbæɡɪdʒ/", "vi": "Có, cả hai. Chi phí y tế đến một triệu đô, hủy chuyến, và hành lý mất hoặc đến chậm.",
+          "analysis": { "phrases": [{ "phrase": "up to", "vi": "lên tới, tối đa" }] } },
+        { "speaker": "Customer", "en": "Great. Could you email me the policy details before I pay?", "ipa": "/ɡreɪt | kʊd juː ˈiːmeɪl miː ðə ˈpɑːləsi ˈdiːteɪlz bɪˈfɔːr aɪ peɪ/", "vi": "Tốt. Bạn gửi email chi tiết hợp đồng cho tôi trước khi tôi thanh toán được không?",
+          "analysis": { "culture": "Đọc kỹ phần “exclusions” (những gì KHÔNG được chi trả) trước khi mua." } }
+      ],
+      "keyPhrases": ["I'd like some information about…", "Is that covered?", "He has diabetes.", "What else does the policy cover?", "Could you email me the details?"]
+    },
+    {
+      "id": "prepare-change-booking-01",
+      "level": "B1",
+      "title": "Changing a flight booking",
+      "titleVi": "Đổi ngày bay",
+      "contextVi": "Bạn gọi tổng đài hãng bay để đổi chuyến bay đi Seoul sớm hơn hai ngày vì có việc gia đình.",
+      "imageQuery": "call center headset",
+      "dialogue": [
+        { "speaker": "Agent", "en": "Thank you for calling. How can I help you today?", "ipa": "/θæŋk juː fɔːr ˈkɔːlɪŋ | haʊ kən aɪ help juː təˈdeɪ/", "vi": "Cảm ơn quý khách đã gọi. Hôm nay tôi giúp gì được ạ?" },
+        { "speaker": "Customer", "en": "Hi. I'd like to change my flight to Seoul. My booking reference is HX7P2Q.", "ipa": "/haɪ | aɪd laɪk tə tʃeɪndʒ maɪ flaɪt tə soʊl | maɪ ˈbʊkɪŋ ˈrefərəns ɪz eɪtʃ eks ˈsevən piː tuː kjuː/", "vi": "Chào bạn. Tôi muốn đổi chuyến bay đi Seoul. Mã đặt chỗ của tôi là HX7P2Q.",
+          "analysis": { "vocab": [{ "word": "booking reference", "ipa": "/ˈbʊkɪŋ ˈrefərəns/", "pos": "noun", "vi": "mã đặt chỗ (PNR)", "example": "What's your booking reference?" }], "culture": "Đánh vần mã bằng từ dễ nghe: H for Hotel, X for X-ray, P for Papa, Q for Quebec." } },
+        { "speaker": "Agent", "en": "Thank you, Mrs. Pham. You're booked on 20 April. What date would you like instead?", "ipa": "/θæŋk juː ˈmɪsɪz fæm | jʊr bʊkt ɑːn ˈtwentiəθ ˈeɪprəl | wɑːt deɪt wʊd juː laɪk ɪnˈsted/", "vi": "Cảm ơn bà Phạm. Bà đang đặt ngày 20 tháng 4. Bà muốn đổi sang ngày nào?",
+          "analysis": { "pronunciation": "Ngày tháng: “20 April” đọc “the twentieth of April” (Anh) hoặc “April twentieth” (Mỹ)." } },
+        { "speaker": "Customer", "en": "The 18th, if possible. Is there a change fee?", "ipa": "/ðə ˌeɪˈtiːnθ | ɪf ˈpɑːsəbəl | ɪz ðer ə tʃeɪndʒ fiː/", "vi": "Ngày 18, nếu được. Có phí đổi vé không?",
+          "analysis": { "vocab": [{ "word": "change fee", "ipa": "/tʃeɪndʒ fiː/", "pos": "noun", "vi": "phí đổi vé", "example": "The change fee is 50 dollars." }] } },
+        { "speaker": "Agent", "en": "There's a change fee of 40 dollars, plus a fare difference of 65 dollars.", "ipa": "/ðerz ə tʃeɪndʒ fiː əv ˈfɔːrti ˈdɑːlərz | plʌs ə fer ˈdɪfrəns əv ˈsɪksti faɪv ˈdɑːlərz/", "vi": "Phí đổi là 40 đô, cộng thêm chênh lệch giá vé 65 đô.",
+          "analysis": { "vocab": [{ "word": "fare difference", "ipa": "/fer ˈdɪfrəns/", "pos": "noun", "vi": "chênh lệch giá vé", "example": "You need to pay the fare difference." }] } },
+        { "speaker": "Customer", "en": "So 105 dollars in total. OK, please go ahead and send the new ticket to my email.", "ipa": "/soʊ wʌn ˈhʌndrəd ənd faɪv ˈdɑːlərz ɪn ˈtoʊtəl | ˌoʊˈkeɪ | pliːz ɡoʊ əˈhed ənd send ðə nuː ˈtɪkɪt tə maɪ ˈiːmeɪl/", "vi": "Vậy tổng cộng 105 đô. Được, bạn cứ làm và gửi vé mới vào email cho tôi.",
+          "analysis": { "phrases": [{ "phrase": "in total", "vi": "tổng cộng" }, { "phrase": "go ahead", "vi": "cứ tiến hành" }], "culture": "Nhắc lại tổng số tiền trước khi đồng ý để tránh hiểu nhầm." } }
+      ],
+      "keyPhrases": ["I'd like to change my flight.", "My booking reference is…", "Is there a change fee?", "So … in total.", "Please send the new ticket to my email."]
+    }
+  ],
+  "reading": [
+    {
+      "title": "Packing checklist",
+      "titleVi": "Danh sách đồ cần mang",
+      "introVi": "Công ty du lịch gửi bạn danh sách chuẩn bị trước chuyến đi châu Âu.",
+      "text": "BEFORE YOU GO - CHECKLIST\n\n☐ Passport valid for at least 6 months after your return date\n☐ Visa (Schengen) and printed copies of all bookings\n☐ Travel insurance certificate\n☐ Universal plug adapter (Europe uses type C/F sockets)\n☐ Medicines in original packaging + prescription in English\n☐ A credit card that works abroad, plus 100-200 EUR in cash\n☐ Comfortable walking shoes and a light raincoat\n☐ Copies of your passport saved in your email\n\nLiquids in hand luggage: max. 100 ml per bottle.",
+      "glossary": { "valid": "còn hiệu lực", "return date": "ngày về", "printed copies": "bản in", "certificate": "giấy chứng nhận", "universal plug adapter": "đầu chuyển phích cắm đa năng", "original packaging": "bao bì gốc", "prescription": "đơn thuốc", "raincoat": "áo mưa" },
+      "questions": [
+        { "q": "You return on 1 June. Your passport expires on 1 September. Is that OK?", "options": ["Yes", "No – it must be valid for 6 months after you return"], "answer": 1, "explainVi": "Hộ chiếu cần còn hạn ít nhất 6 tháng sau ngày về; 1/9 chỉ còn 3 tháng." },
+        { "q": "How should you carry your medicines?", "options": ["In a small plastic bag", "In the original packaging with an English prescription"], "answer": 1, "explainVi": "“Medicines in original packaging + prescription in English”." },
+        { "q": "Why do you need a plug adapter?", "options": ["European sockets are different", "To charge faster"], "answer": 0, "explainVi": "Châu Âu dùng ổ cắm loại C/F." }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "title": "Visa application form",
+      "titleVi": "Điền đơn xin visa (phần thông tin chuyến đi)",
+      "taskVi": "Điền phần thông tin chuyến đi trong đơn xin visa: du lịch Pháp và Ý từ 10/5 đến 24/5, ở khách sạn Hotel Lumière Paris, tự chi trả, nghề nghiệp kế toán.",
+      "form": [
+        { "label": "Main purpose of the journey", "labelVi": "Mục đích chính của chuyến đi", "hintVi": "Tourism / Business…", "example": "Tourism", "noteVi": "Tourism = du lịch; Visiting family or friends = thăm thân." },
+        { "label": "Member State of main destination", "labelVi": "Nước đến chính", "hintVi": "Nước ở lâu nhất", "example": "France", "noteVi": "Ghi nước bạn ở nhiều ngày nhất." },
+        { "label": "Intended date of arrival", "labelVi": "Ngày dự kiến đến", "hintVi": "DD/MM/YYYY", "example": "10/05/2027", "noteVi": "intended = dự kiến." },
+        { "label": "Intended date of departure", "labelVi": "Ngày dự kiến rời đi", "hintVi": "DD/MM/YYYY", "example": "24/05/2027", "noteVi": "departure = rời đi (khỏi khu Schengen)." },
+        { "label": "Hotel name and address", "labelVi": "Tên và địa chỉ khách sạn", "hintVi": "Khách sạn đầu tiên", "example": "Hotel Lumière, 12 Rue Cler, 75007 Paris", "noteVi": "Phải khớp với xác nhận đặt phòng." },
+        { "label": "Cost of travelling is covered by", "labelVi": "Chi phí do ai chi trả", "hintVi": "Myself / Sponsor", "example": "Myself (the applicant)", "noteVi": "applicant = người nộp đơn; sponsor = người bảo lãnh." },
+        { "label": "Current occupation", "labelVi": "Nghề nghiệp hiện tại", "hintVi": "Nghề nghiệp", "example": "Accountant", "noteVi": "accountant = kế toán; retired = đã nghỉ hưu; business owner = chủ doanh nghiệp." }
+      ]
+    }
+  ]
+}

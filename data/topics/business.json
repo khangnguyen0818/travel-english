@@ -1,0 +1,103 @@
+{
+  "topicId": "business",
+  "title": "Business Trips",
+  "titleVi": "Đi công tác",
+  "icon": "💼",
+  "descriptionVi": "Gặp đối tác, giới thiệu bản thân và công ty, đến dự hội nghị, ăn tối với khách hàng.",
+  "situations": [
+    {
+      "id": "business-meeting-01",
+      "level": "B1",
+      "title": "Meeting a business partner",
+      "titleVi": "Gặp đối tác lần đầu",
+      "contextVi": "Bạn đến văn phòng một công ty ở Singapore để gặp ông David Tan, đối tác nhập khẩu cà phê.",
+      "imageQuery": "business handshake office",
+      "dialogue": [
+        { "speaker": "Receptionist", "en": "Good morning. Do you have an appointment?", "ipa": "/ɡʊd ˈmɔːrnɪŋ | duː juː hæv ən əˈpɔɪntmənt/", "vi": "Chào buổi sáng. Anh có hẹn trước không?" },
+        { "speaker": "Visitor", "en": "Yes, I have a meeting with Mr. David Tan at 10. My name is Nguyen Hoang, from Highland Coffee Export.", "ipa": "/jes | aɪ hæv ə ˈmiːtɪŋ wɪð ˈmɪstər ˈdeɪvɪd tæn æt ten | maɪ neɪm ɪz wɪn hwɑːŋ | frʌm ˈhaɪlənd ˈkɔːfi ˈekspɔːrt/", "vi": "Có, tôi có cuộc họp với ông David Tan lúc 10 giờ. Tôi tên Nguyễn Hoàng, từ công ty Highland Coffee Export.",
+          "analysis": { "grammar": { "pattern": "I have a meeting with + người + at + giờ", "explainVi": "Giới thiệu lý do đến văn phòng.", "examples": ["I have an appointment with Dr. Smith.", "I'm here to see Ms. Lee."] } } },
+        { "speaker": "Partner", "en": "Mr. Hoang, welcome to Singapore! It's great to finally meet you in person.", "ipa": "/ˈmɪstər hwɑːŋ | ˈwelkəm tə ˈsɪŋəpɔːr | ɪts ɡreɪt tə ˈfaɪnəli miːt juː ɪn ˈpɜːrsən/", "vi": "Anh Hoàng, chào mừng đến Singapore! Thật vui cuối cùng cũng được gặp trực tiếp anh.",
+          "analysis": { "phrases": [{ "phrase": "in person", "vi": "trực tiếp, gặp mặt" }], "culture": "Tên Việt Nam: họ đứng đầu. Có thể nói rõ “Please call me Hoang” để đối tác không gọi nhầm “Mr. Nguyen”." } },
+        { "speaker": "Visitor", "en": "Likewise. Thank you for taking the time to see me. Here's my business card.", "ipa": "/ˈlaɪkwaɪz | θæŋk juː fɔːr ˈteɪkɪŋ ðə taɪm tə siː miː | hɪrz maɪ ˈbɪznəs kɑːrd/", "vi": "Tôi cũng vậy. Cảm ơn ông đã dành thời gian gặp tôi. Đây là danh thiếp của tôi.",
+          "analysis": { "vocab": [{ "word": "business card", "ipa": "/ˈbɪznəs kɑːrd/", "pos": "noun", "vi": "danh thiếp", "example": "Can I have your business card?" }], "phrases": [{ "phrase": "Likewise.", "vi": "Tôi cũng vậy (đáp lại lời chào/khen)" }], "culture": "Ở châu Á, đưa và nhận danh thiếp bằng hai tay, xem qua trước khi cất." } },
+        { "speaker": "Partner", "en": "Thank you. Shall we go to the meeting room? Would you like some coffee – or maybe you've had enough coffee!", "ipa": "/θæŋk juː | ʃæl wiː ɡoʊ tə ðə ˈmiːtɪŋ ruːm | wʊd juː laɪk sʌm ˈkɔːfi | ɔːr ˈmeɪbi juːv hæd ɪˈnʌf ˈkɔːfi/", "vi": "Cảm ơn. Mình vào phòng họp nhé? Anh uống chút cà phê không – hay anh uống đủ cà phê rồi!",
+          "analysis": { "culture": "Một câu đùa nhẹ để làm không khí thoải mái (ice-breaker) – vì anh Hoàng làm ngành cà phê." } },
+        { "speaker": "Visitor", "en": "Ha! I never say no to coffee. Actually, I've brought some samples of our new Arabica for you to try.", "ipa": "/hɑː | aɪ ˈnevər seɪ noʊ tə ˈkɔːfi | ˈæktʃuəli | aɪv brɔːt sʌm ˈsæmpəlz əv ˈaʊər nuː əˈrɑːbɪkə fɔːr juː tə traɪ/", "vi": "Ha! Tôi chẳng bao giờ từ chối cà phê. Thật ra tôi có mang theo vài mẫu Arabica mới để ông dùng thử.",
+          "analysis": { "vocab": [{ "word": "sample", "ipa": "/ˈsæmpəl/", "pos": "noun", "vi": "hàng mẫu", "example": "Can I see a sample?" }, { "word": "actually", "ipa": "/ˈæktʃuəli/", "pos": "adverb", "vi": "thật ra", "example": "Actually, I'm from Hue." }] } }
+      ],
+      "keyPhrases": ["I have a meeting with… at…", "It's great to meet you in person.", "Thank you for taking the time to see me.", "Here's my business card.", "I've brought some samples."]
+    },
+    {
+      "id": "business-presentation-01",
+      "level": "B2",
+      "title": "Introducing your company",
+      "titleVi": "Giới thiệu công ty",
+      "contextVi": "Trong phòng họp, bạn giới thiệu ngắn gọn về công ty và đề xuất hợp tác.",
+      "imageQuery": "business presentation meeting room",
+      "dialogue": [
+        { "speaker": "Visitor", "en": "Let me give you a quick overview of our company.", "ipa": "/let miː ɡɪv juː ə kwɪk ˈoʊvərvjuː əv ˈaʊər ˈkʌmpəni/", "vi": "Cho phép tôi giới thiệu tổng quan ngắn về công ty chúng tôi.",
+          "analysis": { "vocab": [{ "word": "overview", "ipa": "/ˈoʊvərvjuː/", "pos": "noun", "vi": "tổng quan", "example": "Here's an overview of the plan." }] } },
+        { "speaker": "Visitor", "en": "We were founded in 2010 and we now work with over 500 farmers in the Central Highlands.", "ipa": "/wiː wɜːr ˈfaʊndɪd ɪn ˌtwenti ˈten ənd wiː naʊ wɜːrk wɪð ˈoʊvər faɪv ˈhʌndrəd ˈfɑːrmərz ɪn ðə ˈsentrəl ˈhaɪləndz/", "vi": "Công ty được thành lập năm 2010 và hiện hợp tác với hơn 500 nông dân ở Tây Nguyên.",
+          "analysis": { "vocab": [{ "word": "found", "ipa": "/faʊnd/", "pos": "verb", "vi": "thành lập", "example": "The company was founded in 1998." }], "grammar": { "pattern": "was/were founded in + năm", "explainVi": "Bị động quá khứ: được thành lập vào năm…", "examples": ["The hotel was built in 1920.", "It was founded by my father."] } } },
+        { "speaker": "Visitor", "en": "Last year, we exported 2,000 tonnes of coffee to Japan, Korea and Europe.", "ipa": "/læst jɪr | wiː ɪkˈspɔːrtɪd tuː ˈθaʊzənd tʌnz əv ˈkɔːfi tə dʒəˈpæn | kəˈriːə ənd ˈjʊrəp/", "vi": "Năm ngoái, chúng tôi xuất khẩu 2.000 tấn cà phê sang Nhật, Hàn và châu Âu.",
+          "analysis": { "vocab": [{ "word": "export", "ipa": "/ɪkˈspɔːrt/", "pos": "verb", "vi": "xuất khẩu", "example": "We export rice." }, { "word": "tonne", "ipa": "/tʌn/", "pos": "noun", "vi": "tấn", "example": "10 tonnes of rice" }], "pronunciation": "Động từ export: ex-PORT /ɪkˈspɔːrt/; danh từ: EX-port /ˈekspɔːrt/." } },
+        { "speaker": "Partner", "en": "Impressive. What makes your coffee different from your competitors'?", "ipa": "/ɪmˈpresɪv | wɑːt meɪks jɔːr ˈkɔːfi ˈdɪfrənt frʌm jɔːr kəmˈpetɪtərz/", "vi": "Ấn tượng đấy. Cà phê của anh khác gì so với đối thủ cạnh tranh?",
+          "analysis": { "vocab": [{ "word": "competitor", "ipa": "/kəmˈpetɪtər/", "pos": "noun", "vi": "đối thủ cạnh tranh", "example": "Our competitors are cheaper." }, { "word": "impressive", "ipa": "/ɪmˈpresɪv/", "pos": "adjective", "vi": "ấn tượng", "example": "That's very impressive." }] } },
+        { "speaker": "Visitor", "en": "All our beans are certified organic and hand-picked. We can also offer a 5% discount on your first order.", "ipa": "/ɔːl ˈaʊər biːnz ɑːr ˈsɜːrtɪfaɪd ɔːrˈɡænɪk ənd ˌhænd ˈpɪkt | wiː kən ˈɔːlsoʊ ˈɔːfər ə faɪv pərˈsent ˈdɪskaʊnt ɑːn jɔːr fɜːrst ˈɔːrdər/", "vi": "Toàn bộ hạt cà phê đều có chứng nhận hữu cơ và hái bằng tay. Chúng tôi cũng có thể giảm 5% cho đơn hàng đầu tiên.",
+          "analysis": { "vocab": [{ "word": "certified", "ipa": "/ˈsɜːrtɪfaɪd/", "pos": "adjective", "vi": "được chứng nhận", "example": "a certified product" }, { "word": "organic", "ipa": "/ɔːrˈɡænɪk/", "pos": "adjective", "vi": "hữu cơ", "example": "organic vegetables" }] } },
+        { "speaker": "Partner", "en": "That sounds promising. Could you send us a formal quotation by the end of the week?", "ipa": "/ðæt saʊndz ˈprɑːmɪsɪŋ | kʊd juː send ʌs ə ˈfɔːrməl kwoʊˈteɪʃən baɪ ði end əv ðə wiːk/", "vi": "Nghe có triển vọng. Anh gửi chúng tôi bảng báo giá chính thức trước cuối tuần được không?",
+          "analysis": { "vocab": [{ "word": "quotation", "ipa": "/kwoʊˈteɪʃən/", "pos": "noun", "vi": "bảng báo giá", "example": "Please send me a quotation." }, { "word": "promising", "ipa": "/ˈprɑːmɪsɪŋ/", "pos": "adjective", "vi": "có triển vọng", "example": "a promising idea" }] } }
+      ],
+      "keyPhrases": ["Let me give you a quick overview.", "We were founded in…", "We export to…", "We can offer a discount on…", "I'll send you a quotation."]
+    },
+    {
+      "id": "business-dinner-01",
+      "level": "B1",
+      "title": "Business dinner",
+      "titleVi": "Ăn tối với đối tác",
+      "contextVi": "Tối đó, ông David mời bạn đi ăn tối. Bạn trò chuyện xã giao và cảm ơn khi kết thúc.",
+      "imageQuery": "business dinner restaurant",
+      "dialogue": [
+        { "speaker": "Partner", "en": "Have you tried chilli crab before? It's a Singapore classic.", "ipa": "/həv juː traɪd ˈtʃɪli kræb bɪˈfɔːr | ɪts ə ˈsɪŋəpɔːr ˈklæsɪk/", "vi": "Anh đã thử cua sốt ớt bao giờ chưa? Đó là món kinh điển của Singapore.",
+          "analysis": { "grammar": { "pattern": "Have you (ever) tried + N?", "explainVi": "Hỏi kinh nghiệm: đã từng thử chưa.", "examples": ["Have you ever been to Japan?", "Have you tried durian?"] } } },
+        { "speaker": "Visitor", "en": "No, this is my first time. It looks delicious – and a bit messy!", "ipa": "/noʊ | ðɪs ɪz maɪ fɜːrst taɪm | ɪt lʊks dɪˈlɪʃəs | ənd ə bɪt ˈmesi/", "vi": "Chưa, đây là lần đầu. Trông ngon quá – và hơi bừa bộn khi ăn!",
+          "analysis": { "vocab": [{ "word": "messy", "ipa": "/ˈmesi/", "pos": "adjective", "vi": "bừa bộn, lem nhem", "example": "Eating crab is messy." }] } },
+        { "speaker": "Partner", "en": "Don't worry, everyone uses their hands. So, how long have you been in the coffee business?", "ipa": "/doʊnt ˈwɜːri | ˈevriwʌn ˈjuːzɪz ðer hændz | soʊ | haʊ lɔːŋ həv juː bɪn ɪn ðə ˈkɔːfi ˈbɪznəs/", "vi": "Đừng lo, ai cũng ăn bằng tay. Vậy anh làm ngành cà phê bao lâu rồi?",
+          "analysis": { "grammar": { "pattern": "How long have you been + in/at…?", "explainVi": "Hỏi kinh nghiệm làm việc bao lâu.", "examples": ["How long have you worked here?", "How long have you been a teacher?"] } } },
+        { "speaker": "Visitor", "en": "For almost fifteen years. My family has grown coffee for three generations.", "ipa": "/fɔːr ˈɔːlmoʊst ˌfɪfˈtiːn jɪrz | maɪ ˈfæməli həz ɡroʊn ˈkɔːfi fɔːr θriː ˌdʒenəˈreɪʃənz/", "vi": "Gần 15 năm rồi. Gia đình tôi trồng cà phê đã ba thế hệ.",
+          "analysis": { "vocab": [{ "word": "generation", "ipa": "/ˌdʒenəˈreɪʃən/", "pos": "noun", "vi": "thế hệ", "example": "three generations" }] } },
+        { "speaker": "Partner", "en": "That's a wonderful story. Our customers love stories like that.", "ipa": "/ðæts ə ˈwʌndərfəl ˈstɔːri | ˈaʊər ˈkʌstəmərz lʌv ˈstɔːriz laɪk ðæt/", "vi": "Một câu chuyện tuyệt vời. Khách hàng của chúng tôi rất thích những câu chuyện như vậy." },
+        { "speaker": "Visitor", "en": "Thank you so much for dinner, David. Next time you're in Vietnam, it's my treat.", "ipa": "/θæŋk juː soʊ mʌtʃ fɔːr ˈdɪnər ˈdeɪvɪd | nekst taɪm jʊr ɪn ˌvjetˈnɑːm | ɪts maɪ triːt/", "vi": "Cảm ơn anh rất nhiều vì bữa tối, David. Lần tới anh sang Việt Nam, tôi mời nhé.",
+          "analysis": { "phrases": [{ "phrase": "It's my treat.", "vi": "Để tôi mời / tôi trả." }], "culture": "Người mời (host) thường trả tiền. Đáp lễ bằng lời mời lần sau là phép lịch sự." } }
+      ],
+      "keyPhrases": ["Have you tried…?", "This is my first time.", "I've been in this business for…", "Thank you for dinner.", "Next time, it's my treat."]
+    }
+  ],
+  "reading": [
+    {
+      "title": "Conference programme",
+      "titleVi": "Chương trình hội nghị",
+      "introVi": "Bạn đọc chương trình hội nghị cà phê quốc tế.",
+      "text": "ASIA COFFEE CONFERENCE 2027 - DAY 1\n\n08:30  Registration & welcome coffee (Lobby)\n09:30  Opening speech (Hall A)\n10:15  Panel: Climate change and coffee farming (Hall A)\n11:30  Coffee break\n12:00  Workshop: Exporting to Europe (Room 3 - max. 30 people, sign up at registration)\n13:00  Networking lunch (Terrace)\n15:00  Tasting session (Room 5)\n18:30  Gala dinner (dress code: smart casual)\n\nPlease wear your name badge at all times.",
+      "glossary": { "registration": "đăng ký, nhận thẻ", "opening speech": "bài phát biểu khai mạc", "panel": "phiên thảo luận", "workshop": "hội thảo thực hành", "sign up": "đăng ký", "networking": "giao lưu, kết nối", "tasting session": "buổi nếm thử", "dress code": "quy định trang phục", "smart casual": "lịch sự nhưng không quá trang trọng", "name badge": "thẻ tên" },
+      "questions": [
+        { "q": "You want to attend the workshop about Europe. What must you do?", "options": ["Just go to Room 3", "Sign up at registration", "Pay extra"], "answer": 1, "explainVi": "Giới hạn 30 người, đăng ký tại bàn đăng ký." },
+        { "q": "What should you wear to the gala dinner?", "options": ["A suit and tie", "Smart casual clothes", "Shorts"], "answer": 1, "explainVi": "dress code: smart casual." },
+        { "q": "Where can you meet other people over lunch?", "options": ["Hall A", "On the Terrace", "Room 5"], "answer": 1, "explainVi": "Networking lunch (Terrace)." }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "title": "Follow-up email after a meeting",
+      "titleVi": "Email cảm ơn sau buổi gặp",
+      "taskVi": "Viết email cho ông David Tan sau buổi gặp: cảm ơn cuộc họp và bữa tối, gửi kèm bảng báo giá, nhắc ưu đãi giảm 5% cho đơn đầu tiên, đề xuất gọi video tuần sau.",
+      "info": ["Cảm ơn: meeting + dinner (chilli crab)", "Gửi kèm: quotation", "Ưu đãi: 5% off first order", "Đề xuất: video call next week"],
+      "starters": ["Dear David,", "Thank you for meeting me", "I really enjoyed", "As promised, please find attached", "As we discussed,", "Would you be available for a video call", "I look forward to working with you.", "Best regards,"],
+      "sample": "Dear David,\n\nThank you for meeting me on Tuesday and for the wonderful dinner – the chilli crab was delicious!\n\nAs promised, please find attached our quotation for organic Arabica beans. As we discussed, we can offer a 5% discount on your first order.\n\nWould you be available for a video call next week to discuss the details?\n\nI look forward to working with you.\n\nBest regards,\nNguyen Hoang\nHighland Coffee Export",
+      "minWords": 60,
+      "mustInclude": [{ "regex": "thank you for", "labelVi": "Có lời cảm ơn" }, { "regex": "attached", "labelVi": "Có nhắc tài liệu gửi kèm" }, { "regex": "5%|five percent", "labelVi": "Có ưu đãi 5%" }, { "regex": "video call|call", "labelVi": "Có đề xuất cuộc gọi" }],
+      "checklist": ["Cảm ơn cụ thể (cuộc họp, bữa tối)", "Dùng “As promised / As we discussed”", "Đề xuất bước tiếp theo", "Chữ ký có tên công ty"]
+    }
+  ]
+}

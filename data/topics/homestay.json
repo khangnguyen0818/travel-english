@@ -1,0 +1,103 @@
+{
+  "topicId": "homestay",
+  "title": "Airbnb & Homestay",
+  "titleVi": "Airbnb & Homestay",
+  "icon": "🏡",
+  "descriptionVi": "Nhắn tin với chủ nhà, nhận chìa khóa, hỏi cách dùng đồ trong nhà và báo khi có sự cố.",
+  "situations": [
+    {
+      "id": "homestay-arrival-01",
+      "level": "A2",
+      "title": "Meeting the host",
+      "titleVi": "Gặp chủ nhà khi đến",
+      "contextVi": "Bạn đến căn hộ Airbnb ở Lisbon. Chủ nhà là bà Ana ra đón và giới thiệu căn hộ.",
+      "imageQuery": "apartment host keys welcome",
+      "dialogue": [
+        { "speaker": "Host", "en": "Welcome! You must be Minh. Did you find the place easily?", "ipa": "/ˈwelkəm | juː mʌst biː mɪn | dɪd juː faɪnd ðə pleɪs ˈiːzəli/", "vi": "Chào mừng! Chắc bạn là Minh. Bạn tìm nhà có dễ không?",
+          "analysis": { "grammar": { "pattern": "You must be + tên", "explainVi": "Đoán chắc chắn danh tính người mới gặp.", "examples": ["You must be tired.", "You must be Mr. Brown."] } } },
+        { "speaker": "Guest", "en": "Yes, thanks to your directions. The apartment looks lovely!", "ipa": "/jes | θæŋks tə jɔːr dəˈrekʃənz | ði əˈpɑːrtmənt lʊks ˈlʌvli/", "vi": "Dễ ạ, nhờ chỉ dẫn của bà. Căn hộ trông đẹp quá!",
+          "analysis": { "phrases": [{ "phrase": "thanks to…", "vi": "nhờ có…" }], "vocab": [{ "word": "apartment", "ipa": "/əˈpɑːrtmənt/", "pos": "noun", "vi": "căn hộ (Anh: flat)", "example": "We rented an apartment." }] } },
+        { "speaker": "Host", "en": "Here are the keys. The big one is for the main door, and the small one is for the apartment.", "ipa": "/hɪr ɑːr ðə kiːz | ðə bɪɡ wʌn ɪz fɔːr ðə meɪn dɔːr | ənd ðə smɔːl wʌn ɪz fɔːr ði əˈpɑːrtmənt/", "vi": "Đây là chìa khóa. Chìa lớn mở cửa chính tòa nhà, chìa nhỏ mở cửa căn hộ.",
+          "analysis": { "grammar": { "pattern": "the big one / the small one", "explainVi": "“one” thay cho danh từ đã nhắc đến để khỏi lặp lại.", "examples": ["I'd like the red one.", "This one is cheaper."] } } },
+        { "speaker": "Guest", "en": "Got it. How does the washing machine work? And where do we put the rubbish?", "ipa": "/ɡɑːt ɪt | haʊ dʌz ðə ˈwɑːʃɪŋ məˈʃiːn wɜːrk | ənd wer duː wiː pʊt ðə ˈrʌbɪʃ/", "vi": "Tôi hiểu rồi. Máy giặt dùng thế nào ạ? Và rác thì bỏ ở đâu?",
+          "analysis": { "vocab": [{ "word": "washing machine", "ipa": "/ˈwɑːʃɪŋ məˈʃiːn/", "pos": "noun", "vi": "máy giặt", "example": "Is there a washing machine?" }, { "word": "rubbish", "ipa": "/ˈrʌbɪʃ/", "pos": "noun", "vi": "rác (Mỹ: trash/garbage)", "example": "Take out the rubbish." }], "grammar": { "pattern": "How does + N + work?", "explainVi": "Hỏi cách sử dụng một thiết bị.", "examples": ["How does the heater work?", "How does this app work?"] } } },
+        { "speaker": "Host", "en": "Use program 3 for normal clothes. Please separate the recycling – paper, plastic and glass go in different bins downstairs.", "ipa": "/juːz ˈproʊɡræm θriː fɔːr ˈnɔːrməl kloʊðz | pliːz ˈsepəreɪt ðə ˌriːˈsaɪklɪŋ | ˈpeɪpər | ˈplæstɪk ənd ɡlæs ɡoʊ ɪn ˈdɪfrənt bɪnz ˌdaʊnˈsterz/", "vi": "Dùng chương trình số 3 cho quần áo thường. Vui lòng phân loại rác tái chế – giấy, nhựa và thủy tinh bỏ vào các thùng khác nhau ở tầng dưới.",
+          "analysis": { "vocab": [{ "word": "recycling", "ipa": "/ˌriːˈsaɪklɪŋ/", "pos": "noun", "vi": "rác tái chế; việc tái chế", "example": "The recycling bin is blue." }, { "word": "separate", "ipa": "/ˈsepəreɪt/", "pos": "verb", "vi": "phân loại, tách riêng", "example": "Separate the plastic." }], "culture": "Ở châu Âu, Nhật, Hàn, phân loại rác rất nghiêm. Làm sai có thể bị chủ nhà nhắc nhở hoặc bị phạt." } },
+        { "speaker": "Host", "en": "The house rules are on the fridge: no parties and quiet after 10 p.m. Message me if you need anything!", "ipa": "/ðə haʊs ruːlz ɑːr ɑːn ðə frɪdʒ | noʊ ˈpɑːrtiz ənd ˈkwaɪət ˈæftər ten piː em | ˈmesɪdʒ miː ɪf juː niːd ˈeniθɪŋ/", "vi": "Nội quy dán trên tủ lạnh: không tổ chức tiệc và giữ yên lặng sau 10 giờ tối. Cần gì cứ nhắn cho tôi!",
+          "analysis": { "vocab": [{ "word": "house rules", "ipa": "/haʊs ruːlz/", "pos": "noun", "vi": "nội quy nhà", "example": "Please read the house rules." }, { "word": "fridge", "ipa": "/frɪdʒ/", "pos": "noun", "vi": "tủ lạnh", "example": "There's milk in the fridge." }] } }
+      ],
+      "keyPhrases": ["Did you find the place easily? – Yes, thanks.", "Which key is for the main door?", "How does the washing machine work?", "Where do we put the rubbish?", "What are the house rules?"]
+    },
+    {
+      "id": "homestay-problem-01",
+      "level": "B1",
+      "title": "Messaging the host about a problem",
+      "titleVi": "Nhắn chủ nhà khi có sự cố",
+      "contextVi": "Tối đến, nước nóng không chạy. Bạn nhắn tin (đọc to như đang nói) cho chủ nhà Airbnb.",
+      "imageQuery": "messaging phone apartment",
+      "dialogue": [
+        { "speaker": "Guest", "en": "Hi Ana, sorry to message so late. There's no hot water in the shower.", "ipa": "/haɪ ˈɑːnə | ˈsɑːri tə ˈmesɪdʒ soʊ leɪt | ðerz noʊ hɑːt ˈwɔːtər ɪn ðə ˈʃaʊər/", "vi": "Chào Ana, xin lỗi nhắn tin muộn. Vòi sen không có nước nóng.",
+          "analysis": { "grammar": { "pattern": "There's no + N", "explainVi": "Báo thiếu thứ gì: Không có…", "examples": ["There's no toilet paper.", "There's no Wi-Fi signal."] } } },
+        { "speaker": "Host", "en": "Oh no! Did you switch on the water heater? The switch is next to the bathroom door.", "ipa": "/oʊ noʊ | dɪd juː swɪtʃ ɑːn ðə ˈwɔːtər ˈhiːtər | ðə swɪtʃ ɪz nekst tə ðə ˈbæθruːm dɔːr/", "vi": "Ôi không! Bạn đã bật bình nóng lạnh chưa? Công tắc ở cạnh cửa phòng tắm.",
+          "analysis": { "vocab": [{ "word": "water heater", "ipa": "/ˈwɔːtər ˈhiːtər/", "pos": "noun", "vi": "bình nóng lạnh", "example": "Turn on the water heater 30 minutes before." }, { "word": "switch", "ipa": "/swɪtʃ/", "pos": "noun / verb", "vi": "công tắc; bật/tắt", "example": "Switch off the lights." }] } },
+        { "speaker": "Guest", "en": "Yes, it's on, and the red light is on, but the water is still cold after 30 minutes.", "ipa": "/jes ɪts ɑːn | ənd ðə red laɪt ɪz ɑːn | bət ðə ˈwɔːtər ɪz stɪl koʊld ˈæftər ˈθɜːrti ˈmɪnɪts/", "vi": "Có, đã bật rồi, đèn đỏ cũng sáng, nhưng sau 30 phút nước vẫn lạnh.",
+          "analysis": { "vocab": [{ "word": "still", "ipa": "/stɪl/", "pos": "adverb", "vi": "vẫn", "example": "It's still raining." }] } },
+        { "speaker": "Host", "en": "I'm so sorry. I'll send a plumber tomorrow at 9. Is it OK if he comes in while you're there?", "ipa": "/aɪm soʊ ˈsɑːri | aɪl send ə ˈplʌmər təˈmɑːroʊ æt naɪn | ɪz ɪt ˌoʊˈkeɪ ɪf hiː kʌmz ɪn waɪl jʊr ðer/", "vi": "Tôi rất xin lỗi. Sáng mai 9 giờ tôi sẽ cho thợ sửa ống nước đến. Bạn có ở nhà lúc anh ấy vào không?",
+          "analysis": { "vocab": [{ "word": "plumber", "ipa": "/ˈplʌmər/", "pos": "noun", "vi": "thợ sửa ống nước", "example": "We need a plumber." }], "pronunciation": "“plumber” /ˈplʌmər/ – chữ b câm." } },
+        { "speaker": "Guest", "en": "Sure, we'll be here until 10. Could you also leave a spare blanket? It's colder than we expected.", "ipa": "/ʃʊr | wiːl biː hɪr ənˈtɪl ten | kʊd juː ˈɔːlsoʊ liːv ə sper ˈblæŋkɪt | ɪts ˈkoʊldər ðæn wiː ɪkˈspektɪd/", "vi": "Được, chúng tôi ở nhà đến 10 giờ. Bà để thêm một cái chăn dự phòng được không? Trời lạnh hơn chúng tôi nghĩ.",
+          "analysis": { "vocab": [{ "word": "spare", "ipa": "/sper/", "pos": "adjective", "vi": "dự phòng", "example": "a spare key" }], "grammar": { "pattern": "so sánh hơn + than + S + expected", "explainVi": "Hơn mình nghĩ / mong đợi.", "examples": ["It's bigger than I expected.", "The trip was cheaper than we thought."] } } },
+        { "speaker": "Host", "en": "Of course. There are extra blankets in the wardrobe in the bedroom. Sleep well!", "ipa": "/əv kɔːrs | ðer ɑːr ˈekstrə ˈblæŋkɪts ɪn ðə ˈwɔːrdroʊb ɪn ðə ˈbedruːm | sliːp wel/", "vi": "Dĩ nhiên. Có chăn thêm trong tủ quần áo ở phòng ngủ. Ngủ ngon nhé!",
+          "analysis": { "vocab": [{ "word": "wardrobe", "ipa": "/ˈwɔːrdroʊb/", "pos": "noun", "vi": "tủ quần áo (Mỹ: closet)", "example": "Hang your coat in the wardrobe." }] } }
+      ],
+      "keyPhrases": ["Sorry to message so late.", "There's no hot water.", "It's still cold.", "Is it OK if he comes in?", "Could you leave a spare blanket?"]
+    },
+    {
+      "id": "homestay-checkout-01",
+      "level": "A2",
+      "title": "Checking out and leaving a review",
+      "titleVi": "Trả nhà và hẹn đánh giá",
+      "contextVi": "Ngày cuối, bạn nhắn tin cho chủ nhà về giờ trả nhà, chỗ để chìa khóa và cảm ơn.",
+      "imageQuery": "key box lock",
+      "dialogue": [
+        { "speaker": "Guest", "en": "Good morning, Ana. What time do we need to check out?", "ipa": "/ɡʊd ˈmɔːrnɪŋ ˈɑːnə | wɑːt taɪm duː wiː niːd tə tʃek aʊt/", "vi": "Chào buổi sáng Ana. Chúng tôi cần trả nhà lúc mấy giờ?" },
+        { "speaker": "Host", "en": "By 11, please. Just leave the keys in the key box and close the door behind you.", "ipa": "/baɪ ɪˈlevən pliːz | dʒʌst liːv ðə kiːz ɪn ðə kiː bɑːks ənd kloʊz ðə dɔːr bɪˈhaɪnd juː/", "vi": "Trước 11 giờ nhé. Cứ để chìa khóa vào hộp đựng chìa và đóng cửa khi ra.",
+          "analysis": { "vocab": [{ "word": "key box", "ipa": "/kiː bɑːks/", "pos": "noun", "vi": "hộp khóa đựng chìa", "example": "The code for the key box is 1234." }], "grammar": { "pattern": "by + giờ", "explainVi": "“by 11” = trước hoặc đúng 11 giờ (hạn chót).", "examples": ["Please pay by Friday.", "Be back by 6."] } } },
+        { "speaker": "Guest", "en": "No problem. Should we take out the rubbish and strip the beds?", "ipa": "/noʊ ˈprɑːbləm | ʃʊd wiː teɪk aʊt ðə ˈrʌbɪʃ ənd strɪp ðə bedz/", "vi": "Không vấn đề gì. Chúng tôi có nên đổ rác và tháo ga giường không?",
+          "analysis": { "phrases": [{ "phrase": "take out the rubbish", "vi": "đổ rác" }, { "phrase": "strip the beds", "vi": "tháo ga gối" }] } },
+        { "speaker": "Host", "en": "Taking out the rubbish would be great, but you don't need to strip the beds.", "ipa": "/ˈteɪkɪŋ aʊt ðə ˈrʌbɪʃ wʊd biː ɡreɪt | bət juː doʊnt niːd tə strɪp ðə bedz/", "vi": "Đổ rác giúp thì tốt quá, nhưng không cần tháo ga giường đâu.",
+          "analysis": { "grammar": { "pattern": "V-ing làm chủ ngữ", "explainVi": "Động từ thêm -ing có thể làm chủ ngữ: Taking out the rubbish would be great.", "examples": ["Walking is good for you.", "Cooking at home saves money."] } } },
+        { "speaker": "Guest", "en": "Thank you for everything. We had a wonderful stay, and we'll leave you a five-star review.", "ipa": "/θæŋk juː fɔːr ˈevriθɪŋ | wiː hæd ə ˈwʌndərfəl steɪ | ənd wiːl liːv juː ə faɪv stɑːr rɪˈvjuː/", "vi": "Cảm ơn bà về mọi thứ. Chúng tôi đã có kỳ nghỉ tuyệt vời, và sẽ đánh giá bà 5 sao.",
+          "analysis": { "vocab": [{ "word": "review", "ipa": "/rɪˈvjuː/", "pos": "noun", "vi": "bài đánh giá", "example": "I read the reviews before booking." }], "culture": "Trên Airbnb, chủ nhà và khách đánh giá lẫn nhau – giữ nhà sạch sẽ giúp bạn có đánh giá tốt cho lần sau." } }
+      ],
+      "keyPhrases": ["What time do we need to check out?", "Where should we leave the keys?", "Should we take out the rubbish?", "Thank you for everything.", "We'll leave you a review."]
+    }
+  ],
+  "reading": [
+    {
+      "title": "House manual",
+      "titleVi": "Sổ hướng dẫn trong nhà",
+      "introVi": "Bạn đọc sổ hướng dẫn chủ nhà để trên bàn.",
+      "text": "WELCOME TO CASA ANA!\n\nWi-Fi: CasaAna_5G   Password: Lisboa2024\nCheck-in: from 3 p.m.   Check-out: by 11 a.m.\n\n• Air conditioning: use the white remote. Please turn it off when you go out.\n• Hot water: switch on the heater 30 minutes before showering.\n• Recycling: yellow bin = plastic, blue bin = paper, green bin = glass.\n• Quiet hours: 10 p.m. – 8 a.m. Our neighbours are elderly.\n• No smoking inside. Smoking is allowed on the balcony.\n• Lost keys: a replacement costs 50 EUR.",
+      "glossary": { "remote": "điều khiển từ xa", "turn it off": "tắt nó đi", "heater": "bình nóng lạnh", "bin": "thùng rác", "quiet hours": "giờ giữ yên lặng", "neighbours": "hàng xóm", "allowed": "được phép", "replacement": "thay thế" },
+      "questions": [
+        { "q": "Where should you put an empty wine bottle?", "options": ["Yellow bin", "Blue bin", "Green bin"], "answer": 2, "explainVi": "green bin = glass (thủy tinh)." },
+        { "q": "Your husband wants to smoke. Where can he do it?", "options": ["In the kitchen", "On the balcony", "Nowhere"], "answer": 1, "explainVi": "“Smoking is allowed on the balcony.”" },
+        { "q": "Why should guests be quiet after 10 p.m.?", "options": ["The host is sleeping", "The neighbours are elderly", "It's the law in Lisbon"], "answer": 1, "explainVi": "“Our neighbours are elderly.”" }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "title": "Airbnb review",
+      "titleVi": "Viết đánh giá Airbnb",
+      "taskVi": "Viết review (50–70 từ) cho căn hộ của Ana ở Lisbon: vị trí gần ga metro, sạch sẽ, chủ nhà nhiệt tình (gửi thợ sửa bình nóng lạnh ngay sáng hôm sau), điểm trừ: cầu thang dốc, không có thang máy.",
+      "info": ["Vị trí: 2 minutes from the metro", "Sạch sẽ, đầy đủ đồ", "Chủ nhà phản hồi nhanh khi hỏng bình nóng lạnh", "Điểm trừ: steep stairs, no lift"],
+      "starters": ["We stayed at Ana's apartment for", "The location is perfect –", "The apartment was clean and", "When the water heater stopped working, Ana", "The only downside is", "We would definitely stay here again."],
+      "sample": "We stayed at Ana's apartment for five nights and loved it. The location is perfect – only two minutes from the metro. The apartment was clean and had everything we needed. When the water heater stopped working, Ana sent a plumber the next morning. The only downside is the steep stairs, and there is no lift. We would definitely stay here again!",
+      "minWords": 50,
+      "letter": false,
+      "mustInclude": [{ "regex": "location|metro", "labelVi": "Có nói về vị trí" }, { "regex": "clean", "labelVi": "Có nói về độ sạch sẽ" }, { "regex": "downside|but|however", "labelVi": "Có nêu điểm trừ" }],
+      "checklist": ["Mở đầu: ở bao lâu", "Khen 2–3 điểm cụ thể", "Nêu 1 điểm chưa tốt một cách lịch sự", "Kết luận: có quay lại / giới thiệu không"]
+    }
+  ]
+}

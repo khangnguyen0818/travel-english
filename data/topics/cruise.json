@@ -1,0 +1,103 @@
+{
+  "topicId": "cruise",
+  "title": "Cruises & Ferries",
+  "titleVi": "Tàu biển & phà",
+  "icon": "🛳️",
+  "descriptionVi": "Mua vé phà, lên tàu du lịch biển, hỏi về hoạt động trên tàu và chuyến tham quan bờ.",
+  "situations": [
+    {
+      "id": "cruise-ferry-01",
+      "level": "A2",
+      "title": "Buying a ferry ticket",
+      "titleVi": "Mua vé phà",
+      "contextVi": "Bạn ở bến phà Hong Kong muốn đi Macau. Bạn mua vé cho 2 người lớn và 1 trẻ em.",
+      "imageQuery": "ferry terminal ticket office",
+      "dialogue": [
+        { "speaker": "Traveler", "en": "Hi. Two adults and one child to Macau, please. When's the next ferry?", "ipa": "/haɪ | tuː ˈædʌlts ənd wʌn tʃaɪld tə məˈkaʊ pliːz | wenz ðə nekst ˈferi/", "vi": "Chào bạn. Hai người lớn một trẻ em đi Macau. Chuyến phà tiếp theo lúc mấy giờ?",
+          "analysis": { "vocab": [{ "word": "ferry", "ipa": "/ˈferi/", "pos": "noun", "vi": "phà, tàu thủy chở khách", "example": "We took the ferry to the island." }, { "word": "adult", "ipa": "/ˈædʌlt/", "pos": "noun", "vi": "người lớn", "example": "Adults pay 20 dollars." }] } },
+        { "speaker": "Clerk", "en": "The next one leaves at 2:30. Economy or first class?", "ipa": "/ðə nekst wʌn liːvz æt tuː ˈθɜːrti | ɪˈkɑːnəmi ɔːr fɜːrst klæs/", "vi": "Chuyến tiếp theo khởi hành lúc 2:30. Hạng phổ thông hay hạng nhất?" },
+        { "speaker": "Traveler", "en": "Economy is fine. How long does the crossing take?", "ipa": "/ɪˈkɑːnəmi ɪz faɪn | haʊ lɔːŋ dʌz ðə ˈkrɔːsɪŋ teɪk/", "vi": "Phổ thông là được. Chuyến đi qua mất bao lâu?",
+          "analysis": { "vocab": [{ "word": "crossing", "ipa": "/ˈkrɔːsɪŋ/", "pos": "noun", "vi": "chuyến đi qua (biển, sông)", "example": "The crossing was rough." }] } },
+        { "speaker": "Clerk", "en": "About an hour. Please be at the gate 30 minutes before departure – you need to go through immigration.", "ipa": "/əˈbaʊt ən ˈaʊər | pliːz biː æt ðə ɡeɪt ˈθɜːrti ˈmɪnɪts bɪˈfɔːr dɪˈpɑːrtʃər | juː niːd tə ɡoʊ θruː ˌɪmɪˈɡreɪʃən/", "vi": "Khoảng một tiếng. Vui lòng có mặt ở cửa trước 30 phút – anh chị phải qua thủ tục xuất nhập cảnh.",
+          "analysis": { "culture": "Đi Hong Kong ↔ Macau là qua biên giới hành chính: cần hộ chiếu và làm thủ tục như ra nước ngoài." } },
+        { "speaker": "Traveler", "en": "OK. Can we take our suitcases on board?", "ipa": "/ˌoʊˈkeɪ | kæn wiː teɪk ˈaʊər ˈsuːtkeɪsɪz ɑːn bɔːrd/", "vi": "Được. Chúng tôi mang va li lên tàu được không?" },
+        { "speaker": "Clerk", "en": "One small bag each is free. Large suitcases must be checked in at the luggage counter.", "ipa": "/wʌn smɔːl bæɡ iːtʃ ɪz friː | lɑːrdʒ ˈsuːtkeɪsɪz mʌst biː tʃekt ɪn æt ðə ˈlʌɡɪdʒ ˈkaʊntər/", "vi": "Mỗi người một túi nhỏ miễn phí. Va li lớn phải gửi ở quầy hành lý.",
+          "analysis": { "grammar": { "pattern": "must be + V3", "explainVi": "Bị động bắt buộc: phải được…", "examples": ["Tickets must be shown.", "Bags must be checked in."] } } }
+      ],
+      "keyPhrases": ["Two adults and one child, please.", "When's the next ferry?", "How long does the crossing take?", "Can we take our bags on board?", "Where's the luggage counter?"]
+    },
+    {
+      "id": "cruise-boarding-01",
+      "level": "B1",
+      "title": "On a cruise ship",
+      "titleVi": "Trên tàu du lịch biển",
+      "contextVi": "Bạn và bố mẹ lên tàu du lịch 5 ngày. Bạn hỏi nhân viên về phòng, bữa ăn và hoạt động.",
+      "imageQuery": "cruise ship deck",
+      "dialogue": [
+        { "speaker": "Crew", "en": "Welcome aboard! May I see your boarding cards? Your cabin is on deck 7.", "ipa": "/ˈwelkəm əˈbɔːrd | meɪ aɪ siː jɔːr ˈbɔːrdɪŋ kɑːrdz | jɔːr ˈkæbɪn ɪz ɑːn dek ˈsevən/", "vi": "Chào mừng lên tàu! Cho tôi xem thẻ lên tàu. Phòng của quý khách ở boong số 7.",
+          "analysis": { "vocab": [{ "word": "aboard", "ipa": "/əˈbɔːrd/", "pos": "adverb", "vi": "lên tàu, trên tàu", "example": "All aboard!" }, { "word": "cabin", "ipa": "/ˈkæbɪn/", "pos": "noun", "vi": "cabin, phòng trên tàu", "example": "Our cabin has a balcony." }, { "word": "deck", "ipa": "/dek/", "pos": "noun", "vi": "boong tàu, tầng tàu", "example": "The pool is on deck 12." }] } },
+        { "speaker": "Passenger", "en": "Thank you. What time are meals served, and do we need to book a table?", "ipa": "/θæŋk juː | wɑːt taɪm ɑːr miːlz sɜːrvd | ənd duː wiː niːd tə bʊk ə ˈteɪbəl/", "vi": "Cảm ơn. Bữa ăn phục vụ lúc mấy giờ, và có cần đặt bàn không?",
+          "analysis": { "grammar": { "pattern": "What time are meals served?", "explainVi": "Bị động hiện tại hỏi giờ phục vụ.", "examples": ["When is breakfast served?", "Where is dinner served?"] } } },
+        { "speaker": "Crew", "en": "The buffet on deck 11 is open all day. For the main dining room, dinner is at 6 or 8:30 – you choose when you check in.", "ipa": "/ðə bəˈfeɪ ɑːn dek ɪˈlevən ɪz ˈoʊpən ɔːl deɪ | fɔːr ðə meɪn ˈdaɪnɪŋ ruːm | ˈdɪnər ɪz æt sɪks ɔːr eɪt ˈθɜːrti | juː tʃuːz wen juː tʃek ɪn/", "vi": "Nhà hàng buffet ở boong 11 mở cả ngày. Ở phòng ăn chính, bữa tối lúc 6 giờ hoặc 8:30 – quý khách chọn khi làm thủ tục.",
+          "analysis": { "vocab": [{ "word": "buffet", "ipa": "/bəˈfeɪ/", "pos": "noun", "vi": "tiệc tự chọn", "example": "The breakfast buffet is great." }], "pronunciation": "“buffet” /bəˈfeɪ/ – chữ t câm." } },
+        { "speaker": "Passenger", "en": "My parents are in their seventies. Are there any activities for them?", "ipa": "/maɪ ˈperənts ɑːr ɪn ðer ˈsevəntiz | ɑːr ðer ˈeni ækˈtɪvətiz fɔːr ðem/", "vi": "Bố mẹ tôi đã ngoài 70. Có hoạt động nào dành cho các cụ không?",
+          "analysis": { "phrases": [{ "phrase": "in their seventies", "vi": "ở độ tuổi 70 (70–79)" }] } },
+        { "speaker": "Crew", "en": "Plenty! There's tai chi on deck in the morning, dance classes, and a live show every evening. Check the daily programme in your cabin.", "ipa": "/ˈplenti | ðerz taɪ tʃiː ɑːn dek ɪn ðə ˈmɔːrnɪŋ | dæns ˈklæsɪz | ənd ə laɪv ʃoʊ ˈevri ˈiːvnɪŋ | tʃek ðə ˈdeɪli ˈproʊɡræm ɪn jɔːr ˈkæbɪn/", "vi": "Rất nhiều! Sáng có thái cực quyền trên boong, lớp học nhảy, và chương trình biểu diễn mỗi tối. Xem lịch hoạt động hằng ngày trong cabin.",
+          "analysis": { "vocab": [{ "word": "plenty", "ipa": "/ˈplenti/", "pos": "pronoun", "vi": "rất nhiều", "example": "There's plenty of food." }] } },
+        { "speaker": "Passenger", "en": "Wonderful. And is the Wi-Fi included in our package?", "ipa": "/ˈwʌndərfəl | ənd ɪz ðə ˈwaɪfaɪ ɪnˈkluːdɪd ɪn ˈaʊər ˈpækɪdʒ/", "vi": "Tuyệt. Wi-Fi có bao gồm trong gói của chúng tôi không?",
+          "analysis": { "culture": "Wi-Fi trên tàu thường rất đắt và chậm. Đồ uống có cồn, spa, tour trên bờ thường tính thêm." } }
+      ],
+      "keyPhrases": ["Welcome aboard!", "Which deck is our cabin on?", "What time are meals served?", "Are there activities for older people?", "Is Wi-Fi included?"]
+    },
+    {
+      "id": "cruise-shore-01",
+      "level": "B1",
+      "title": "A shore excursion",
+      "titleVi": "Chuyến tham quan trên bờ",
+      "contextVi": "Tàu cập cảng Ha Long. Bạn hỏi về giờ phải quay lại tàu và chuyến tham quan hang động.",
+      "imageQuery": "Ha Long Bay boats",
+      "dialogue": [
+        { "speaker": "Passenger", "en": "Excuse me, what time do we need to be back on board?", "ipa": "/ɪkˈskjuːz miː | wɑːt taɪm duː wiː niːd tə biː bæk ɑːn bɔːrd/", "vi": "Xin lỗi, chúng tôi phải quay lại tàu lúc mấy giờ?",
+          "analysis": { "culture": "Đây là câu quan trọng nhất khi tàu cập cảng – tàu KHÔNG chờ khách đến muộn." } },
+        { "speaker": "Crew", "en": "All aboard time is 4:30 p.m. The ship leaves at 5. Please don't be late.", "ipa": "/ɔːl əˈbɔːrd taɪm ɪz fɔːr ˈθɜːrti piː em | ðə ʃɪp liːvz æt faɪv | pliːz doʊnt biː leɪt/", "vi": "Giờ phải có mặt trên tàu là 4:30 chiều. Tàu rời bến lúc 5 giờ. Xin đừng đến muộn.",
+          "analysis": { "phrases": [{ "phrase": "all aboard time", "vi": "giờ tất cả hành khách phải có mặt trên tàu" }] } },
+        { "speaker": "Passenger", "en": "We booked the cave tour. Where do we meet the guide?", "ipa": "/wiː bʊkt ðə keɪv tʊr | wer duː wiː miːt ðə ɡaɪd/", "vi": "Chúng tôi đã đặt tour hang động. Gặp hướng dẫn viên ở đâu?",
+          "analysis": { "vocab": [{ "word": "cave", "ipa": "/keɪv/", "pos": "noun", "vi": "hang động", "example": "The cave is huge." }] } },
+        { "speaker": "Crew", "en": "At the pier, next to the yellow sign. Bring your cruise card – you need it to get back on the ship.", "ipa": "/æt ðə pɪr | nekst tə ðə ˈjeloʊ saɪn | brɪŋ jɔːr kruːz kɑːrd | juː niːd ɪt tə ɡet bæk ɑːn ðə ʃɪp/", "vi": "Ở cầu tàu, cạnh biển báo màu vàng. Mang theo thẻ du thuyền – cần nó để lên lại tàu.",
+          "analysis": { "vocab": [{ "word": "pier", "ipa": "/pɪr/", "pos": "noun", "vi": "cầu tàu, bến", "example": "Meet at the pier." }] } },
+        { "speaker": "Passenger", "en": "Is there a lot of walking in the cave? My father uses a walking stick.", "ipa": "/ɪz ðer ə lɑːt əv ˈwɔːkɪŋ ɪn ðə keɪv | maɪ ˈfɑːðər ˈjuːzɪz ə ˈwɔːkɪŋ stɪk/", "vi": "Trong hang có phải đi bộ nhiều không? Bố tôi chống gậy.",
+          "analysis": { "vocab": [{ "word": "walking stick", "ipa": "/ˈwɔːkɪŋ stɪk/", "pos": "noun", "vi": "gậy chống", "example": "He walks with a walking stick." }] } },
+        { "speaker": "Crew", "en": "There are about 100 steps, and they can be slippery. He might prefer the boat tour around the bay instead.", "ipa": "/ðer ɑːr əˈbaʊt wʌn ˈhʌndrəd steps | ənd ðeɪ kən biː ˈslɪpəri | hiː maɪt prɪˈfɜːr ðə boʊt tʊr əˈraʊnd ðə beɪ ɪnˈsted/", "vi": "Có khoảng 100 bậc thang, và có thể trơn trượt. Có lẽ ông sẽ thích tour đi thuyền quanh vịnh hơn.",
+          "analysis": { "vocab": [{ "word": "slippery", "ipa": "/ˈslɪpəri/", "pos": "adjective", "vi": "trơn", "example": "Careful, the floor is slippery." }, { "word": "bay", "ipa": "/beɪ/", "pos": "noun", "vi": "vịnh", "example": "Ha Long Bay" }] } }
+      ],
+      "keyPhrases": ["What time do we need to be back on board?", "Where do we meet the guide?", "Do I need my cruise card?", "Is there a lot of walking?", "Is it slippery?"]
+    }
+  ],
+  "reading": [
+    {
+      "title": "Ferry timetable",
+      "titleVi": "Lịch chạy phà",
+      "introVi": "Bạn đọc lịch phà ở bến tàu.",
+      "text": "HONG KONG – MACAU FERRY\n\nDepartures every 30 minutes, 07:00 – 23:30\nNight service: 00:30, 01:30, 02:30 (extra charge)\n\nFARES (one way)      Economy   First\nAdult                HK$175    HK$346\nChild (2-11)         HK$160    HK$316\nSenior (65+)         HK$160    HK$316\n\nLuggage: 1 bag up to 20 kg free. Extra bags HK$30 each.\nPassengers must arrive 30 minutes before departure.\nPassport required.",
+      "glossary": { "departures": "chuyến khởi hành", "night service": "chuyến đêm", "extra charge": "phụ phí", "fares": "giá vé", "one way": "một chiều", "required": "bắt buộc" },
+      "questions": [
+        { "q": "How much is economy for 2 adults and 1 child (age 8)?", "options": ["HK$510", "HK$525", "HK$350"], "answer": 0, "explainVi": "175 × 2 + 160 = 510." },
+        { "q": "Your ferry leaves at 15:00. When must you arrive?", "options": ["14:30", "14:50", "15:00"], "answer": 0, "explainVi": "Phải đến trước 30 phút." },
+        { "q": "You have 2 bags (15 kg each). How much do you pay for luggage?", "options": ["Nothing", "HK$30", "HK$60"], "answer": 1, "explainVi": "1 túi miễn phí, túi thứ hai HK$30." }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "title": "Cruise special requests",
+      "titleVi": "Yêu cầu đặc biệt cho chuyến tàu biển",
+      "taskVi": "Viết email cho hãng tàu (mã CR-6620) trước chuyến đi: xin cabin gần thang máy cho bố mẹ (74 và 70 tuổi), báo bố ăn kiêng ít muối, và hỏi có thuê xe lăn trên tàu được không.",
+      "info": ["Mã đặt: CR-6620", "Bố mẹ 74 và 70 tuổi", "Bố: low-salt diet", "Hỏi: wheelchair rental on board"],
+      "starters": ["Dear Guest Services,", "We are sailing with you on", "Our booking number is", "My parents are", "Could we have a cabin close to", "My father follows a", "Is it possible to rent", "Thank you for your help.", "Kind regards,"],
+      "sample": "Dear Guest Services,\n\nWe are sailing with you on the Ha Long Bay cruise in May. Our booking number is CR-6620.\n\nMy parents are 74 and 70 years old. Could we have a cabin close to the lifts? My father follows a low-salt diet, so please inform the restaurant. Is it also possible to rent a wheelchair on board?\n\nThank you for your help.\n\nKind regards,\nPham Duc Anh",
+      "minWords": 50,
+      "mustInclude": [{ "regex": "CR-6620", "labelVi": "Có mã đặt chỗ" }, { "regex": "lift|elevator", "labelVi": "Có xin cabin gần thang máy" }, { "regex": "low.?salt|diet", "labelVi": "Có yêu cầu ăn kiêng" }, { "regex": "wheelchair", "labelVi": "Có hỏi thuê xe lăn" }],
+      "checklist": ["Nêu mã đặt chỗ", "Giới thiệu người đi cùng", "Mỗi yêu cầu một câu rõ ràng", "Kết thư lịch sự"]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 // Service worker: lưu giao diện & bài học để dùng offline.
 // Khi sửa code hoặc thêm bài, hãy tăng số VERSION để điện thoại tải bản mới.
-const VERSION = 'traveltalk-v3';
+const VERSION = 'traveltalk-v5';
 const IMG_CACHE = 'traveltalk-images';
 const CORE = [
   './',
@@ -25,13 +25,32 @@ const CORE = [
   'data/topics/smalltalk.json',
   'data/topics/internet.json',
   'data/topics/family.json',
+  'data/topics/onboard.json',
+  'data/topics/flight-problems.json',
+  'data/topics/directions.json',
+  'data/topics/shopping.json',
+  'data/topics/health.json',
+  'data/topics/emergency.json',
+  'data/topics/prepare.json',
+  'data/topics/car.json',
+  'data/topics/homestay.json',
+  'data/topics/photos.json',
+  'data/topics/beach.json',
+  'data/topics/weather.json',
+  'data/topics/business.json',
+  'data/topics/cruise.json',
+  'data/topics/feelings.json',
+  'data/topics/trains.json',
   'icons/icon-192.png',
   'icons/icon-512.png',
   'icons/apple-touch-icon.png'
 ];
 
 self.addEventListener('install', e => {
-  e.waitUntil(caches.open(VERSION).then(c => c.addAll(CORE)).then(() => self.skipWaiting()));
+  // cache: 'reload' để bỏ qua bộ nhớ đệm của trình duyệt, luôn lấy file mới từ GitHub
+  e.waitUntil(caches.open(VERSION)
+    .then(c => c.addAll(CORE.map(u => new Request(u, { cache: 'reload' }))))
+    .then(() => self.skipWaiting()));
 });
 
 self.addEventListener('activate', e => {
@@ -71,17 +90,17 @@ self.addEventListener('fetch', e => {
 
   if (url.origin !== location.origin) return;
 
-  // File của app: trả bản đã lưu ngay, đồng thời cập nhật bản mới ở nền
+  // File của app: có mạng thì luôn lấy bản mới nhất (và lưu lại), mất mạng mới dùng bản đã lưu
   e.respondWith(caches.open(VERSION).then(async c => {
-    const hit = await c.match(req, { ignoreSearch: true });
-    const net = fetch(req).then(res => {
+    try {
+      const res = await fetch(req, { cache: 'no-cache' });
       if (res.ok) c.put(req, res.clone());
       return res;
-    }).catch(() => null);
-    if (hit) return hit;
-    const res = await net;
-    if (res) return res;
-    if (req.mode === 'navigate') return c.match('index.html');
-    return new Response('Offline', { status: 503 });
+    } catch (err) {
+      const hit = await c.match(req, { ignoreSearch: true });
+      if (hit) return hit;
+      if (req.mode === 'navigate') return c.match('index.html');
+      return new Response('Offline', { status: 503 });
+    }
   }));
 });

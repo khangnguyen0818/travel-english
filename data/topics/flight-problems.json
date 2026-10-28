@@ -1,0 +1,105 @@
+{
+  "topicId": "flight-problems",
+  "title": "Delays & Lost Luggage",
+  "titleVi": "Trễ chuyến & Thất lạc hành lý",
+  "icon": "⏰",
+  "descriptionVi": "Xử lý khi chuyến bay bị hủy, hành lý thất lạc hoặc hư hỏng, và yêu cầu bồi thường.",
+  "situations": [
+    {
+      "id": "flight-problems-lost-bag-01",
+      "level": "B1",
+      "title": "Reporting lost luggage",
+      "titleVi": "Báo mất hành lý",
+      "contextVi": "Bạn đến Paris nhưng chờ mãi không thấy vali trên băng chuyền. Bạn đến quầy hành lý thất lạc (Lost Baggage).",
+      "imageQuery": "baggage claim carousel empty",
+      "dialogue": [
+        { "speaker": "Traveler", "en": "Hello. My suitcase didn't come out on the carousel. I was on flight VN19 from Hanoi.", "ipa": "/heˈloʊ | maɪ ˈsuːtkeɪs ˈdɪdənt kʌm aʊt ɑːn ðə ˌkærəˈsel | aɪ wəz ɑːn flaɪt viː en naɪnˈtiːn frʌm hæˈnɔɪ/", "vi": "Xin chào. Va li của tôi không ra trên băng chuyền. Tôi đi chuyến VN19 từ Hà Nội.",
+          "analysis": { "vocab": [{ "word": "carousel", "ipa": "/ˌkærəˈsel/", "pos": "noun", "vi": "băng chuyền hành lý", "example": "Bags from flight VN19 are on carousel 5." }], "grammar": { "pattern": "S + didn't + V", "explainVi": "Phủ định quá khứ đơn: didn't + động từ nguyên mẫu.", "examples": ["My bag didn't arrive.", "The taxi didn't come."] } } },
+        { "speaker": "Agent", "en": "I'm sorry about that. Do you have your baggage tag? It's usually stuck on your boarding pass.", "ipa": "/aɪm ˈsɑːri əˈbaʊt ðæt | duː juː hæv jɔːr ˈbæɡɪdʒ tæɡ | ɪts ˈjuːʒuəli stʌk ɑːn jɔːr ˈbɔːrdɪŋ pæs/", "vi": "Tôi rất tiếc. Anh có thẻ hành lý không? Thường được dán trên thẻ lên máy bay.",
+          "analysis": { "vocab": [{ "word": "baggage tag", "ipa": "/ˈbæɡɪdʒ tæɡ/", "pos": "noun", "vi": "cuống thẻ hành lý ký gửi", "example": "Keep your baggage tag safe." }], "culture": "Cuống thẻ hành lý là bằng chứng quan trọng nhất – đừng vứt đi cho đến khi nhận được vali." } },
+        { "speaker": "Traveler", "en": "Yes, here it is. It's a large grey hard-shell suitcase with a red ribbon on the handle.", "ipa": "/jes hɪr ɪt ɪz | ɪts ə lɑːrdʒ ɡreɪ ˈhɑːrd ʃel ˈsuːtkeɪs wɪð ə red ˈrɪbən ɑːn ðə ˈhændəl/", "vi": "Có, đây. Đó là một va li vỏ cứng lớn màu xám, có buộc ruy băng đỏ ở tay cầm.",
+          "analysis": { "vocab": [{ "word": "handle", "ipa": "/ˈhændəl/", "pos": "noun", "vi": "tay cầm", "example": "The handle is broken." }, { "word": "hard-shell", "ipa": "/ˈhɑːrd ʃel/", "pos": "adjective", "vi": "vỏ cứng", "example": "a hard-shell case" }], "grammar": { "pattern": "cỡ + màu + chất liệu + N", "explainVi": "Thứ tự tính từ trong tiếng Anh: kích thước → màu → chất liệu/loại → danh từ.", "examples": ["a small black leather bag", "a big blue plastic box"] } } },
+        { "speaker": "Agent", "en": "Thank you. It looks like your bag is still in Hanoi. It'll arrive on tomorrow's flight.", "ipa": "/θæŋk juː | ɪt lʊks laɪk jɔːr bæɡ ɪz stɪl ɪn hæˈnɔɪ | ɪtl əˈraɪv ɑːn təˈmɑːroʊz flaɪt/", "vi": "Cảm ơn. Có vẻ túi của anh vẫn ở Hà Nội. Nó sẽ đến trên chuyến bay ngày mai.",
+          "analysis": { "phrases": [{ "phrase": "It looks like…", "vi": "Có vẻ như…" }] } },
+        { "speaker": "Traveler", "en": "Can you deliver it to my hotel? And I need some clothes and a toothbrush for tonight.", "ipa": "/kæn juː dɪˈlɪvər ɪt tə maɪ hoʊˈtel | ənd aɪ niːd sʌm kloʊðz ənd ə ˈtuːθbrʌʃ fɔːr təˈnaɪt/", "vi": "Các anh giao đến khách sạn cho tôi được không? Và tối nay tôi cần quần áo và bàn chải đánh răng.",
+          "analysis": { "vocab": [{ "word": "deliver", "ipa": "/dɪˈlɪvər/", "pos": "verb", "vi": "giao đến", "example": "Can you deliver it today?" }, { "word": "toothbrush", "ipa": "/ˈtuːθbrʌʃ/", "pos": "noun", "vi": "bàn chải đánh răng", "example": "I forgot my toothbrush." }] } },
+        { "speaker": "Agent", "en": "Yes, we'll deliver it for free. Here's an overnight kit, and you can claim up to 100 euros for essentials. Please keep your receipts.", "ipa": "/jes | wiːl dɪˈlɪvər ɪt fɔːr friː | hɪrz ən ˌoʊvərˈnaɪt kɪt | ənd juː kən kleɪm ʌp tə wʌn ˈhʌndrəd ˈjʊroʊz fɔːr ɪˈsenʃəlz | pliːz kiːp jɔːr rɪˈsiːts/", "vi": "Có, chúng tôi giao miễn phí. Đây là bộ đồ dùng qua đêm, và anh được thanh toán tối đa 100 euro cho đồ thiết yếu. Vui lòng giữ hóa đơn.",
+          "analysis": { "vocab": [{ "word": "claim", "ipa": "/kleɪm/", "pos": "verb", "vi": "yêu cầu bồi hoàn", "example": "You can claim it back later." }, { "word": "essentials", "ipa": "/ɪˈsenʃəlz/", "pos": "noun", "vi": "đồ dùng thiết yếu", "example": "Buy some essentials like toothpaste." }], "culture": "Hãy hỏi mã hồ sơ (file reference) và giữ hóa đơn mọi thứ phải mua thêm để được hoàn tiền." } },
+        { "speaker": "Traveler", "en": "Great. What's my reference number, so I can track it online?", "ipa": "/ɡreɪt | wɑːts maɪ ˈrefərəns ˈnʌmbər | soʊ aɪ kən træk ɪt ˌɑːnˈlaɪn/", "vi": "Tốt. Mã hồ sơ của tôi là gì, để tôi theo dõi trên mạng?",
+          "analysis": { "vocab": [{ "word": "track", "ipa": "/træk/", "pos": "verb", "vi": "theo dõi (hành trình)", "example": "Track your bag online." }], "grammar": { "pattern": "…, so (that) + S + can + V", "explainVi": "Nói mục đích: để có thể…", "examples": ["Speak slowly so I can understand.", "Give me your number so I can call you."] } } }
+      ],
+      "keyPhrases": ["My suitcase didn't arrive.", "Here's my baggage tag.", "It's a large grey suitcase.", "Can you deliver it to my hotel?", "What's my reference number?"]
+    },
+    {
+      "id": "flight-problems-cancelled-01",
+      "level": "B1",
+      "title": "My flight was cancelled",
+      "titleVi": "Chuyến bay bị hủy",
+      "contextVi": "Chuyến bay về của bạn bị hủy vì bão. Bạn đến quầy hãng để đặt lại vé và hỏi về khách sạn.",
+      "imageQuery": "airport cancelled flights queue",
+      "dialogue": [
+        { "speaker": "Traveler", "en": "Hi. My flight to Ho Chi Minh City has been cancelled. What are my options?", "ipa": "/haɪ | maɪ flaɪt tə hoʊ tʃiː mɪn ˈsɪti hæz bɪn ˈkænsəld | wɑːt ɑːr maɪ ˈɑːpʃənz/", "vi": "Chào bạn. Chuyến bay về TP.HCM của tôi bị hủy. Tôi có những lựa chọn nào?",
+          "analysis": { "phrases": [{ "phrase": "What are my options?", "vi": "Tôi có những lựa chọn nào? (câu rất hữu ích khi gặp sự cố)" }] } },
+        { "speaker": "Agent", "en": "I'm very sorry. Because of the typhoon, all flights are cancelled until tomorrow morning.", "ipa": "/aɪm ˈveri ˈsɑːri | bɪˈkɔːz əv ðə taɪˈfuːn | ɔːl flaɪts ɑːr ˈkænsəld ənˈtɪl təˈmɑːroʊ ˈmɔːrnɪŋ/", "vi": "Tôi rất xin lỗi. Vì bão, tất cả chuyến bay bị hủy đến sáng mai.",
+          "analysis": { "vocab": [{ "word": "typhoon", "ipa": "/taɪˈfuːn/", "pos": "noun", "vi": "bão (vùng châu Á)", "example": "A typhoon is coming." }], "grammar": { "pattern": "because of + N / because + S + V", "explainVi": "“because of” đi với danh từ; “because” đi với mệnh đề.", "examples": ["because of the rain", "because it's raining"] } } },
+        { "speaker": "Agent", "en": "I can put you on the 9:15 flight tomorrow, or you can get a full refund.", "ipa": "/aɪ kən pʊt juː ɑːn ðə naɪn ˌfɪfˈtiːn flaɪt təˈmɑːroʊ | ɔːr juː kən ɡet ə fʊl ˈriːfʌnd/", "vi": "Tôi có thể chuyển anh sang chuyến 9:15 ngày mai, hoặc anh được hoàn tiền toàn bộ.",
+          "analysis": { "vocab": [{ "word": "full refund", "ipa": "/fʊl ˈriːfʌnd/", "pos": "noun", "vi": "hoàn tiền toàn bộ", "example": "Can I get a full refund?" }] } },
+        { "speaker": "Traveler", "en": "I'll take the 9:15 flight. Will the airline provide a hotel for tonight?", "ipa": "/aɪl teɪk ðə naɪn ˌfɪfˈtiːn flaɪt | wɪl ði ˈerlaɪn prəˈvaɪd ə hoʊˈtel fɔːr təˈnaɪt/", "vi": "Tôi chọn chuyến 9:15. Hãng có bố trí khách sạn cho tối nay không?",
+          "analysis": { "vocab": [{ "word": "provide", "ipa": "/prəˈvaɪd/", "pos": "verb", "vi": "cung cấp", "example": "Breakfast is provided." }] } },
+        { "speaker": "Agent", "en": "Since this is due to weather, we're not required to, but we have arranged discounted rooms at the airport hotel.", "ipa": "/sɪns ðɪs ɪz duː tə ˈweðər | wɪr nɑːt rɪˈkwaɪərd tuː | bət wiː həv əˈreɪndʒd ˈdɪskaʊntɪd ruːmz æt ði ˈerpɔːrt hoʊˈtel/", "vi": "Vì lý do thời tiết nên chúng tôi không bắt buộc phải lo, nhưng chúng tôi đã sắp xếp phòng giảm giá ở khách sạn sân bay.",
+          "analysis": { "vocab": [{ "word": "due to", "ipa": "/duː tuː/", "pos": "preposition", "vi": "do, vì", "example": "The delay is due to bad weather." }, { "word": "arrange", "ipa": "/əˈreɪndʒ/", "pos": "verb", "vi": "sắp xếp", "example": "I've arranged a taxi." }], "culture": "Hủy do thời tiết (bất khả kháng) thì hãng thường không phải bồi thường. Hủy do lỗi kỹ thuật hay thiếu tổ bay thì bạn có quyền đòi khách sạn, bữa ăn. Bảo hiểm du lịch có thể chi trả." } },
+        { "speaker": "Traveler", "en": "I see. Could you write down the new flight details and the hotel name for me?", "ipa": "/aɪ siː | kʊd juː raɪt daʊn ðə nuː flaɪt ˈdiːteɪlz ənd ðə hoʊˈtel neɪm fɔːr miː/", "vi": "Tôi hiểu. Bạn viết ra giúp tôi thông tin chuyến bay mới và tên khách sạn được không?",
+          "analysis": { "phrases": [{ "phrase": "write down", "vi": "ghi ra giấy" }], "culture": "Luôn xin thông tin bằng văn bản (giấy hoặc email) – vừa tránh nghe nhầm, vừa dùng để yêu cầu bảo hiểm." } }
+      ],
+      "keyPhrases": ["My flight has been cancelled.", "What are my options?", "Can you rebook me on the next flight?", "Will the airline provide a hotel?", "Could you write that down for me?"]
+    },
+    {
+      "id": "flight-problems-damaged-01",
+      "level": "B1",
+      "title": "My suitcase is damaged",
+      "titleVi": "Va li bị hư hỏng",
+      "contextVi": "Bạn nhận va li trên băng chuyền thì thấy bánh xe bị gãy và vỏ bị nứt. Bạn báo ngay tại sân bay.",
+      "imageQuery": "broken suitcase",
+      "dialogue": [
+        { "speaker": "Traveler", "en": "Excuse me, my suitcase was damaged during the flight. One of the wheels is broken and there's a crack here.", "ipa": "/ɪkˈskjuːz miː | maɪ ˈsuːtkeɪs wəz ˈdæmɪdʒd ˈdʊrɪŋ ðə flaɪt | wʌn əv ðə wiːlz ɪz ˈbroʊkən ənd ðerz ə kræk hɪr/", "vi": "Xin lỗi, va li của tôi bị hỏng trong chuyến bay. Một bánh xe bị gãy và có một vết nứt ở đây.",
+          "analysis": { "vocab": [{ "word": "damaged", "ipa": "/ˈdæmɪdʒd/", "pos": "adjective", "vi": "bị hư hỏng", "example": "The box was damaged." }, { "word": "crack", "ipa": "/kræk/", "pos": "noun", "vi": "vết nứt", "example": "There's a crack in the screen." }, { "word": "wheel", "ipa": "/wiːl/", "pos": "noun", "vi": "bánh xe", "example": "The wheel doesn't turn." }] } },
+        { "speaker": "Agent", "en": "I'm sorry. You need to report it before leaving the airport. Let me take some photos.", "ipa": "/aɪm ˈsɑːri | juː niːd tə rɪˈpɔːrt ɪt bɪˈfɔːr ˈliːvɪŋ ði ˈerpɔːrt | let miː teɪk sʌm ˈfoʊtoʊz/", "vi": "Tôi xin lỗi. Anh cần báo trước khi rời sân bay. Để tôi chụp vài tấm ảnh.",
+          "analysis": { "grammar": { "pattern": "before + V-ing", "explainVi": "Sau giới từ “before/after” có thể dùng V-ing.", "examples": ["Check your bag before leaving.", "Wash your hands after eating."] }, "culture": "Phải báo hư hỏng ngay tại sân bay, hoặc chậm nhất trong 7 ngày bằng văn bản, nếu không sẽ khó được bồi thường." } },
+        { "speaker": "Traveler", "en": "Sure. It was brand new – I bought it last month. Will you repair or replace it?", "ipa": "/ʃʊr | ɪt wəz brænd nuː | aɪ bɔːt ɪt læst mʌnθ | wɪl juː rɪˈper ɔːr rɪˈpleɪs ɪt/", "vi": "Vâng. Nó còn mới tinh – tôi mua tháng trước. Hãng sẽ sửa hay thay cái mới?",
+          "analysis": { "vocab": [{ "word": "repair", "ipa": "/rɪˈper/", "pos": "verb", "vi": "sửa chữa", "example": "Can you repair it?" }, { "word": "replace", "ipa": "/rɪˈpleɪs/", "pos": "verb", "vi": "thay thế", "example": "We'll replace it with a new one." }], "phrases": [{ "phrase": "brand new", "vi": "mới tinh" }] } },
+        { "speaker": "Agent", "en": "Our partner shop will try to repair it first. If it can't be repaired, we'll offer compensation.", "ipa": "/ˈaʊər ˈpɑːrtnər ʃɑːp wɪl traɪ tə rɪˈper ɪt fɜːrst | ɪf ɪt kænt biː rɪˈperd | wiːl ˈɔːfər ˌkɑːmpenˈseɪʃən/", "vi": "Cửa hàng đối tác sẽ thử sửa trước. Nếu không sửa được, chúng tôi sẽ bồi thường.",
+          "analysis": { "vocab": [{ "word": "compensation", "ipa": "/ˌkɑːmpenˈseɪʃən/", "pos": "noun", "vi": "tiền bồi thường", "example": "I'd like to ask for compensation." }], "grammar": { "pattern": "can't be + V3", "explainVi": "Bị động với động từ khuyết thiếu: can/can't/must be + V3.", "examples": ["It can be fixed.", "This must be paid today."] } } },
+        { "speaker": "Traveler", "en": "OK. Could I have a copy of the report? I'll also need it for my travel insurance.", "ipa": "/ˌoʊˈkeɪ | kʊd aɪ hæv ə ˈkɑːpi əv ðə rɪˈpɔːrt | aɪl ˈɔːlsoʊ niːd ɪt fɔːr maɪ ˈtrævəl ɪnˈʃʊrəns/", "vi": "Được. Cho tôi xin bản sao biên bản được không? Tôi cũng cần nó cho bảo hiểm du lịch.",
+          "analysis": { "vocab": [{ "word": "report", "ipa": "/rɪˈpɔːrt/", "pos": "noun", "vi": "biên bản, bản báo cáo", "example": "Please fill in this report." }, { "word": "copy", "ipa": "/ˈkɑːpi/", "pos": "noun", "vi": "bản sao", "example": "Can I get a copy?" }] } }
+      ],
+      "keyPhrases": ["My suitcase was damaged.", "One of the wheels is broken.", "Will you repair or replace it?", "I'd like compensation.", "Could I have a copy of the report?"]
+    }
+  ],
+  "reading": [
+    {
+      "title": "Delayed baggage information",
+      "titleVi": "Thông tin hành lý đến chậm",
+      "introVi": "Quầy hành lý thất lạc đưa cho bạn tờ hướng dẫn này.",
+      "text": "DELAYED BAGGAGE - WHAT TO DO NEXT\n\nYour file reference: CDGVN48211\nTrack your bag at www.worldtracer-example.com\n\n- Most delayed bags are returned within 48 hours.\n- We will deliver your bag free of charge to your address.\n- You may buy essential items (toiletries, underwear, one change of clothes). Keep all receipts.\n- Maximum reimbursement: 100 EUR per day, up to 5 days.\n- Claims must be submitted within 21 days of receiving your bag.\n- Luxury items and electronics will not be reimbursed.",
+      "glossary": { "file reference": "mã hồ sơ", "within 48 hours": "trong vòng 48 giờ", "free of charge": "miễn phí", "toiletries": "đồ vệ sinh cá nhân", "underwear": "đồ lót", "reimbursement": "khoản hoàn tiền", "submitted": "nộp", "luxury items": "hàng xa xỉ", "electronics": "đồ điện tử" },
+      "questions": [
+        { "q": "Your bag arrives after 3 days. What's the most you can claim?", "options": ["100 EUR", "300 EUR", "500 EUR"], "answer": 1, "explainVi": "100 EUR mỗi ngày × 3 ngày = 300 EUR." },
+        { "q": "You buy a new phone charger and a perfume. Will they be paid back?", "options": ["Yes, both", "No – electronics and luxury items are not reimbursed", "Only the perfume"], "answer": 1, "explainVi": "“Luxury items and electronics will not be reimbursed.”" },
+        { "q": "When must you send your claim?", "options": ["Within 21 days after you get your bag", "Before you leave the airport", "Within 48 hours"], "answer": 0, "explainVi": "“within 21 days of receiving your bag”." }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "title": "Compensation claim email",
+      "titleVi": "Email yêu cầu bồi thường",
+      "taskVi": "Va li của bạn đến chậm 2 ngày (mã hồ sơ CDGVN48211). Bạn đã mua đồ thiết yếu hết 145 euro. Viết email yêu cầu hãng hoàn tiền, nói rằng bạn gửi kèm hóa đơn và số tài khoản.",
+      "info": ["Mã hồ sơ: CDGVN48211", "Chậm 2 ngày, chuyến VN19", "Chi phí: 145 EUR (quần áo, đồ vệ sinh)", "Gửi kèm: receipts + bank details"],
+      "starters": ["Dear Baggage Services,", "My file reference is", "My suitcase was delayed for", "During this time, I had to buy", "The total cost was", "Please find attached", "I would be grateful if you could", "Yours faithfully,"],
+      "sample": "Dear Baggage Services,\n\nMy file reference is CDGVN48211. My suitcase was delayed for two days after flight VN19 from Hanoi to Paris.\n\nDuring this time, I had to buy some clothes and toiletries. The total cost was 145 euros. Please find attached my receipts and my bank details.\n\nI would be grateful if you could refund this amount as soon as possible.\n\nYours faithfully,\nTran Quoc Bao",
+      "minWords": 50,
+      "mustInclude": [{ "regex": "CDGVN48211", "labelVi": "Có mã hồ sơ" }, { "regex": "145", "labelVi": "Có số tiền 145" }, { "regex": "receipt", "labelVi": "Có nhắc đến hóa đơn" }, { "regex": "refund|reimburse", "labelVi": "Có yêu cầu hoàn tiền" }],
+      "checklist": ["Nêu mã hồ sơ ngay đầu thư", "Kể ngắn gọn sự việc (thì quá khứ)", "Nêu rõ số tiền", "Dùng “Please find attached…” khi gửi kèm tài liệu"]
+    }
+  ]
+}

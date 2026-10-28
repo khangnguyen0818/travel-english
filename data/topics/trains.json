@@ -1,0 +1,107 @@
+{
+  "topicId": "trains",
+  "title": "Long-distance Trains & Buses",
+  "titleVi": "Tàu hỏa & xe khách đường dài",
+  "icon": "🚆",
+  "descriptionVi": "Mua vé tàu đường dài, tìm toa và chỗ ngồi, đổi tàu, đi xe khách liên tỉnh.",
+  "situations": [
+    {
+      "id": "trains-ticket-01",
+      "level": "A2",
+      "title": "Buying a train ticket",
+      "titleVi": "Mua vé tàu đường dài",
+      "contextVi": "Bạn ở ga London muốn mua vé đi Edinburgh cho 2 người, ngày mai, ghế cạnh nhau.",
+      "imageQuery": "train station ticket office UK",
+      "dialogue": [
+        { "speaker": "Traveler", "en": "Hello. Two tickets to Edinburgh for tomorrow morning, please.", "ipa": "/heˈloʊ | tuː ˈtɪkɪts tʊ ˈedɪnbərə fɔːr təˈmɑːroʊ ˈmɔːrnɪŋ pliːz/", "vi": "Xin chào. Cho hai vé đi Edinburgh sáng mai.",
+          "analysis": { "pronunciation": "“Edinburgh” đọc /ˈedɪnbərə/ – không đọc “e-đin-bơ-g”." } },
+        { "speaker": "Clerk", "en": "Single or return? And would you like standard or first class?", "ipa": "/ˈsɪŋɡəl ɔːr rɪˈtɜːrn | ənd wʊd juː laɪk ˈstændərd ɔːr fɜːrst klæs/", "vi": "Một chiều hay khứ hồi? Và anh muốn hạng thường hay hạng nhất?",
+          "analysis": { "vocab": [{ "word": "standard class", "ipa": "/ˈstændərd klæs/", "pos": "noun", "vi": "hạng thường", "example": "Standard class is fine." }] } },
+        { "speaker": "Traveler", "en": "Return, standard class. We'd like to sit together, by the window if possible.", "ipa": "/rɪˈtɜːrn | ˈstændərd klæs | wiːd laɪk tə sɪt təˈɡeðər | baɪ ðə ˈwɪndoʊ ɪf ˈpɑːsəbəl/", "vi": "Khứ hồi, hạng thường. Chúng tôi muốn ngồi cạnh nhau, gần cửa sổ nếu được.",
+          "analysis": { "phrases": [{ "phrase": "sit together", "vi": "ngồi cạnh nhau" }] } },
+        { "speaker": "Clerk", "en": "There's a train at 9:00 that arrives at 13:20. That's 186 pounds for two with a railcard discount.", "ipa": "/ðerz ə treɪn æt naɪn ðæt əˈraɪvz æt ˌθɜːrˈtiːn ˈtwenti | ðæts wʌn ˈhʌndrəd ənd ˈeɪti sɪks paʊndz fɔːr tuː wɪð ə ˈreɪlkɑːrd ˈdɪskaʊnt/", "vi": "Có chuyến tàu 9:00, đến lúc 13:20. Giá 186 bảng cho hai người với ưu đãi thẻ đường sắt.",
+          "analysis": { "vocab": [{ "word": "railcard", "ipa": "/ˈreɪlkɑːrd/", "pos": "noun", "vi": "thẻ giảm giá đường sắt (Anh)", "example": "A Senior Railcard saves one third." }], "culture": "Ở Anh, người trên 60 tuổi mua Senior Railcard được giảm 1/3 giá vé. Vé đặt sớm online thường rẻ hơn nhiều." } },
+        { "speaker": "Traveler", "en": "Great. Is it a direct train, or do we need to change?", "ipa": "/ɡreɪt | ɪz ɪt ə dəˈrekt treɪn | ɔːr duː wiː niːd tə tʃeɪndʒ/", "vi": "Tốt. Đó có phải tàu chạy thẳng không, hay phải đổi tàu?",
+          "analysis": { "vocab": [{ "word": "direct", "ipa": "/dəˈrekt/", "pos": "adjective", "vi": "thẳng, không dừng đổi", "example": "Is there a direct flight?" }], "phrases": [{ "phrase": "change (trains)", "vi": "đổi tàu" }] } },
+        { "speaker": "Clerk", "en": "It's direct. Your seats are in coach C, seats 24 and 25. The platform will be shown on the board 15 minutes before departure.", "ipa": "/ɪts dəˈrekt | jɔːr siːts ɑːr ɪn koʊtʃ siː | siːts ˈtwenti fɔːr ənd ˈtwenti faɪv | ðə ˈplætfɔːrm wɪl biː ʃoʊn ɑːn ðə bɔːrd ˌfɪfˈtiːn ˈmɪnɪts bɪˈfɔːr dɪˈpɑːrtʃər/", "vi": "Chạy thẳng. Ghế của anh chị ở toa C, ghế 24 và 25. Sân ga sẽ hiện trên bảng 15 phút trước giờ chạy.",
+          "analysis": { "vocab": [{ "word": "coach / carriage", "ipa": "/koʊtʃ/ /ˈkærɪdʒ/", "pos": "noun", "vi": "toa tàu", "example": "Coach A is at the front." }], "culture": "Ở các ga lớn ở Anh, số sân ga chỉ được thông báo ngay trước giờ tàu chạy – hãy theo dõi bảng điện tử." } }
+      ],
+      "keyPhrases": ["Two tickets to…, please.", "Single or return?", "We'd like to sit together.", "Is it a direct train?", "Which coach are we in?"]
+    },
+    {
+      "id": "trains-onboard-01",
+      "level": "B1",
+      "title": "On the train",
+      "titleVi": "Trên tàu",
+      "contextVi": "Lên tàu, bạn tìm chỗ để hành lý, hỏi nhân viên soát vé về toa ăn uống và thời gian đến.",
+      "imageQuery": "train interior passengers luggage rack",
+      "dialogue": [
+        { "speaker": "Traveler", "en": "Excuse me, where can I put this big suitcase?", "ipa": "/ɪkˈskjuːz miː | wer kæn aɪ pʊt ðɪs bɪɡ ˈsuːtkeɪs/", "vi": "Xin lỗi, tôi để va li to này ở đâu được?" },
+        { "speaker": "Conductor", "en": "There's a luggage rack at the end of the carriage. Smaller bags can go above your seat.", "ipa": "/ðerz ə ˈlʌɡɪdʒ ræk æt ði end əv ðə ˈkærɪdʒ | ˈsmɔːlər bæɡz kən ɡoʊ əˈbʌv jɔːr siːt/", "vi": "Có giá để hành lý ở cuối toa. Túi nhỏ hơn có thể để trên chỗ ngồi.",
+          "analysis": { "vocab": [{ "word": "luggage rack", "ipa": "/ˈlʌɡɪdʒ ræk/", "pos": "noun", "vi": "giá để hành lý", "example": "The luggage rack is full." }, { "word": "conductor", "ipa": "/kənˈdʌktər/", "pos": "noun", "vi": "nhân viên soát vé trên tàu", "example": "Show your ticket to the conductor." }] } },
+        { "speaker": "Conductor", "en": "Tickets, please. Thank you. You're in the right seats.", "ipa": "/ˈtɪkɪts pliːz | θæŋk juː | jʊr ɪn ðə raɪt siːts/", "vi": "Xin cho xem vé. Cảm ơn. Anh chị ngồi đúng chỗ rồi." },
+        { "speaker": "Traveler", "en": "Is there a café on the train? We'd like to get some sandwiches.", "ipa": "/ɪz ðer ə kæˈfeɪ ɑːn ðə treɪn | wiːd laɪk tə ɡet sʌm ˈsænwɪtʃɪz/", "vi": "Trên tàu có quầy cà phê không? Chúng tôi muốn mua ít bánh mì kẹp.",
+          "analysis": { "vocab": [{ "word": "sandwich", "ipa": "/ˈsænwɪtʃ/", "pos": "noun", "vi": "bánh mì kẹp", "example": "A cheese sandwich, please." }] } },
+        { "speaker": "Conductor", "en": "Yes, the café bar is in coach F, two carriages that way. A trolley also comes round with drinks.", "ipa": "/jes | ðə kæˈfeɪ bɑːr ɪz ɪn koʊtʃ ef | tuː ˈkærɪdʒɪz ðæt weɪ | ə ˈtrɑːli ˈɔːlsoʊ kʌmz raʊnd wɪð drɪŋks/", "vi": "Có, quầy café ở toa F, cách hai toa về phía kia. Xe đẩy đồ uống cũng đi qua.",
+          "analysis": { "vocab": [{ "word": "trolley", "ipa": "/ˈtrɑːli/", "pos": "noun", "vi": "xe đẩy", "example": "The trolley has snacks." }] } },
+        { "speaker": "Traveler", "en": "Thanks. Are we running on time? Someone is meeting us at the station.", "ipa": "/θæŋks | ɑːr wiː ˈrʌnɪŋ ɑːn taɪm | ˈsʌmwʌn ɪz ˈmiːtɪŋ ʌs æt ðə ˈsteɪʃən/", "vi": "Cảm ơn. Tàu có chạy đúng giờ không? Có người đón chúng tôi ở ga.",
+          "analysis": { "phrases": [{ "phrase": "running on time / running late", "vi": "chạy đúng giờ / chạy trễ" }], "grammar": { "pattern": "Someone is meeting us (hiện tại tiếp diễn cho tương lai)", "explainVi": "Kế hoạch đã sắp xếp chắc chắn.", "examples": ["My son is picking me up.", "We're flying home on Sunday."] } } },
+        { "speaker": "Conductor", "en": "We're about ten minutes late because of a signal problem, so we should arrive at around 13:30.", "ipa": "/wɪr əˈbaʊt ten ˈmɪnɪts leɪt bɪˈkɔːz əv ə ˈsɪɡnəl ˈprɑːbləm | soʊ wiː ʃʊd əˈraɪv æt əˈraʊnd ˌθɜːrˈtiːn ˈθɜːrti/", "vi": "Chúng ta trễ khoảng mười phút vì sự cố tín hiệu, nên sẽ đến khoảng 13:30.",
+          "analysis": { "vocab": [{ "word": "signal", "ipa": "/ˈsɪɡnəl/", "pos": "noun", "vi": "tín hiệu (đường sắt)", "example": "signal failure" }] } }
+      ],
+      "keyPhrases": ["Where can I put my suitcase?", "Is there a café on the train?", "Are we running on time?", "What time do we arrive?", "Is this seat free?"]
+    },
+    {
+      "id": "trains-bus-01",
+      "level": "B1",
+      "title": "A long-distance bus",
+      "titleVi": "Xe khách liên tỉnh",
+      "contextVi": "Bạn đi xe khách đêm từ Bangkok đến Chiang Mai. Bạn hỏi tài xế về điểm dừng nghỉ và nhà vệ sinh.",
+      "imageQuery": "long distance bus station Thailand",
+      "dialogue": [
+        { "speaker": "Passenger", "en": "Hello. Is this the overnight bus to Chiang Mai?", "ipa": "/heˈloʊ | ɪz ðɪs ði ˌoʊvərˈnaɪt bʌs tə ˌtʃiːæŋ ˈmaɪ/", "vi": "Xin chào. Đây có phải xe đêm đi Chiang Mai không?",
+          "analysis": { "vocab": [{ "word": "overnight", "ipa": "/ˌoʊvərˈnaɪt/", "pos": "adjective", "vi": "qua đêm", "example": "an overnight train" }] } },
+        { "speaker": "Driver", "en": "Yes. Put your big bags under the bus, and keep your valuables with you.", "ipa": "/jes | pʊt jɔːr bɪɡ bæɡz ˈʌndər ðə bʌs | ənd kiːp jɔːr ˈvæljuəbəlz wɪð juː/", "vi": "Phải. Để túi to dưới gầm xe, và giữ đồ có giá trị bên mình." },
+        { "speaker": "Passenger", "en": "How many stops are there, and is there a toilet on board?", "ipa": "/haʊ ˈmeni stɑːps ɑːr ðer | ənd ɪz ðer ə ˈtɔɪlət ɑːn bɔːrd/", "vi": "Xe dừng mấy chặng, và trên xe có nhà vệ sinh không?" },
+        { "speaker": "Driver", "en": "There's a toilet at the back. We stop once for a 30-minute break at around midnight.", "ipa": "/ðerz ə ˈtɔɪlət æt ðə bæk | wiː stɑːp wʌns fɔːr ə ˈθɜːrti ˈmɪnɪt breɪk æt əˈraʊnd ˈmɪdnaɪt/", "vi": "Có nhà vệ sinh ở phía sau. Xe dừng một lần nghỉ 30 phút vào khoảng nửa đêm.",
+          "analysis": { "vocab": [{ "word": "break", "ipa": "/breɪk/", "pos": "noun", "vi": "giờ nghỉ", "example": "Let's take a break." }, { "word": "midnight", "ipa": "/ˈmɪdnaɪt/", "pos": "noun", "vi": "nửa đêm", "example": "The bus leaves at midnight." }] } },
+        { "speaker": "Passenger", "en": "Could you wake me up when we arrive? I'm a heavy sleeper.", "ipa": "/kʊd juː weɪk miː ʌp wen wiː əˈraɪv | aɪm ə ˈhevi ˈsliːpər/", "vi": "Anh gọi tôi dậy khi đến nơi được không? Tôi ngủ rất say.",
+          "analysis": { "phrases": [{ "phrase": "wake someone up", "vi": "đánh thức ai" }, { "phrase": "a heavy sleeper", "vi": "người ngủ say" }] } },
+        { "speaker": "Driver", "en": "Don't worry, Chiang Mai is the last stop. Everyone gets off there at about 7 a.m.", "ipa": "/doʊnt ˈwɜːri | ˌtʃiːæŋ ˈmaɪ ɪz ðə læst stɑːp | ˈevriwʌn ɡets ɔːf ðer æt əˈbaʊt ˈsevən eɪ em/", "vi": "Đừng lo, Chiang Mai là trạm cuối. Mọi người đều xuống ở đó vào khoảng 7 giờ sáng.",
+          "analysis": { "culture": "Xe đêm thường bật máy lạnh rất lạnh – mang theo áo khoác và khăn." } }
+      ],
+      "keyPhrases": ["Is this the bus to…?", "How many stops are there?", "Is there a toilet on board?", "Could you wake me up when we arrive?", "Where should I put my bag?"]
+    }
+  ],
+  "reading": [
+    {
+      "title": "Train departure board",
+      "titleVi": "Bảng giờ tàu khởi hành",
+      "introVi": "Bạn đọc bảng điện tử ở ga King's Cross, London.",
+      "text": "KING'S CROSS - DEPARTURES\n\nTIME   DESTINATION          PLAT  STATUS\n08:30  York                  4    On time\n09:00  Edinburgh             -    Delayed 10 min (expected 09:10)\n09:06  Cambridge             9    Boarding\n09:15  Leeds                 2    Cancelled - replacement 09:45\n09:30  Newcastle             5    On time\n\nThe 09:00 to Edinburgh: First class is in coaches K-M. Coach C (standard, reserved) is at the FRONT of the train.",
+      "glossary": { "destination": "điểm đến", "plat": "sân ga (platform)", "status": "tình trạng", "on time": "đúng giờ", "expected": "dự kiến", "boarding": "đang cho lên tàu", "replacement": "chuyến thay thế", "reserved": "đã đặt chỗ", "front": "phía trước" },
+      "questions": [
+        { "q": "When will the Edinburgh train probably leave?", "options": ["09:00", "09:10", "09:45"], "answer": 1, "explainVi": "Delayed 10 min (expected 09:10)." },
+        { "q": "Why isn't there a platform number for the Edinburgh train yet?", "options": ["It's cancelled.", "The platform is shown just before departure.", "It leaves from a different station."], "answer": 1, "explainVi": "Sân ga sẽ được thông báo gần giờ chạy." },
+        { "q": "You have seats in coach C. Where should you go?", "options": ["The back of the train", "The front of the train", "The middle"], "answer": 1, "explainVi": "Coach C is at the FRONT of the train." }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "title": "Train ticket booking form",
+      "titleVi": "Điền đơn đặt vé tàu online",
+      "taskVi": "Điền mẫu đặt vé tàu online: 2 người lớn (1 người trên 60 tuổi có Senior Railcard), đi London → Edinburgh ngày 12/6 lúc 9:00, khứ hồi ngày 16/6, hạng thường, ghế cạnh cửa sổ, cần chỗ để va li lớn.",
+      "form": [
+        { "label": "From", "labelVi": "Ga đi", "hintVi": "Tên ga", "example": "London King's Cross", "noteVi": "From = đi từ." },
+        { "label": "To", "labelVi": "Ga đến", "hintVi": "Tên ga", "example": "Edinburgh Waverley", "noteVi": "To = đến." },
+        { "label": "Journey type", "labelVi": "Loại hành trình", "hintVi": "Single / Return", "example": "Return", "noteVi": "Single = một chiều; Return = khứ hồi; Open return = khứ hồi không cố định ngày về." },
+        { "label": "Outbound date and time", "labelVi": "Ngày giờ đi", "hintVi": "Ngày, giờ", "example": "12 June, 09:00", "noteVi": "Outbound = chiều đi." },
+        { "label": "Return date", "labelVi": "Ngày về", "hintVi": "Ngày", "example": "16 June", "noteVi": "Inbound/Return = chiều về." },
+        { "label": "Passengers", "labelVi": "Hành khách", "hintVi": "Số người lớn, trẻ em", "example": "2 adults", "noteVi": "Adult = người lớn; Child = trẻ em (thường 5–15 tuổi)." },
+        { "label": "Railcard", "labelVi": "Thẻ giảm giá", "hintVi": "Loại thẻ", "example": "1 x Senior Railcard", "noteVi": "Senior Railcard dành cho người từ 60 tuổi." },
+        { "label": "Seat preference", "labelVi": "Yêu cầu chỗ ngồi", "hintVi": "Window / Aisle / Table", "example": "Window, seats together, near luggage space", "noteVi": "Table seat = ghế có bàn; near luggage space = gần chỗ để hành lý." }
+      ]
+    }
+  ]
+}

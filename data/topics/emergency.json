@@ -1,0 +1,108 @@
+{
+  "topicId": "emergency",
+  "title": "Emergencies",
+  "titleVi": "Tình huống khẩn cấp",
+  "icon": "🚨",
+  "descriptionVi": "Bị trộm, mất hộ chiếu, tai nạn: gọi cấp cứu, báo cảnh sát và liên hệ đại sứ quán.",
+  "situations": [
+    {
+      "id": "emergency-stolen-01",
+      "level": "B1",
+      "title": "Reporting a theft to the police",
+      "titleVi": "Báo cảnh sát bị trộm",
+      "contextVi": "Túi xách của bạn bị giật trên phố ở Barcelona. Bạn đến đồn cảnh sát gần nhất để trình báo.",
+      "imageQuery": "police station Europe",
+      "dialogue": [
+        { "speaker": "Traveler", "en": "Excuse me, I need to report a theft. Someone stole my bag about an hour ago.", "ipa": "/ɪkˈskjuːz miː | aɪ niːd tə rɪˈpɔːrt ə θeft | ˈsʌmwʌn stoʊl maɪ bæɡ əˈbaʊt ən ˈaʊər əˈɡoʊ/", "vi": "Xin lỗi, tôi cần trình báo một vụ trộm. Có người lấy trộm túi của tôi khoảng một tiếng trước.",
+          "analysis": { "vocab": [{ "word": "theft", "ipa": "/θeft/", "pos": "noun", "vi": "vụ trộm", "example": "I want to report a theft." }, { "word": "steal (stole – stolen)", "ipa": "/stiːl/", "pos": "verb", "vi": "ăn trộm", "example": "My phone was stolen." }], "grammar": { "pattern": "Someone stole my + N / My + N + was stolen", "explainVi": "Hai cách nói bị mất cắp: chủ động và bị động.", "examples": ["Someone stole my wallet.", "My wallet was stolen."] } } },
+        { "speaker": "Officer", "en": "I'm sorry. Where exactly did it happen, and can you describe the person?", "ipa": "/aɪm ˈsɑːri | wer ɪɡˈzæktli dɪd ɪt ˈhæpən | ənd kæn juː dɪˈskraɪb ðə ˈpɜːrsən/", "vi": "Tôi rất tiếc. Chính xác chuyện xảy ra ở đâu, và bạn có thể mô tả người đó không?",
+          "analysis": { "vocab": [{ "word": "describe", "ipa": "/dɪˈskraɪb/", "pos": "verb", "vi": "mô tả", "example": "Can you describe your bag?" }] } },
+        { "speaker": "Traveler", "en": "On La Rambla, near the market. A young man on a scooter grabbed it and rode away. He was wearing a black helmet.", "ipa": "/ɑːn lɑː ˈræmblə | nɪr ðə ˈmɑːrkɪt | ə jʌŋ mæn ɑːn ə ˈskuːtər ɡræbd ɪt ənd roʊd əˈweɪ | hiː wəz ˈwerɪŋ ə blæk ˈhelmɪt/", "vi": "Trên phố La Rambla, gần chợ. Một thanh niên đi xe máy giật túi rồi phóng đi. Hắn đội mũ bảo hiểm đen.",
+          "analysis": { "vocab": [{ "word": "grab", "ipa": "/ɡræb/", "pos": "verb", "vi": "giật, chộp lấy", "example": "He grabbed my phone." }], "grammar": { "pattern": "Quá khứ đơn (grabbed, rode) + quá khứ tiếp diễn (was wearing)", "explainVi": "Kể sự việc dùng quá khứ đơn; mô tả bối cảnh/ngoại hình lúc đó dùng quá khứ tiếp diễn.", "examples": ["I was walking when it happened.", "She was wearing a red coat."] } } },
+        { "speaker": "Officer", "en": "What was in the bag?", "ipa": "/wɑːt wəz ɪn ðə bæɡ/", "vi": "Trong túi có những gì?", "analysis": { "grammar": { "pattern": "What was in + N?", "explainVi": "Hỏi bên trong có gì.", "examples": ["What's in the box?", "What was in your wallet?"] } } },
+        { "speaker": "Traveler", "en": "My wallet with about 200 euros, two credit cards, and my phone. Luckily, my passport is in the hotel safe.", "ipa": "/maɪ ˈwɑːlɪt wɪð əˈbaʊt tuː ˈhʌndrəd ˈjʊroʊz | tuː ˈkredɪt kɑːrdz | ənd maɪ foʊn | ˈlʌkɪli | maɪ ˈpæspɔːrt ɪz ɪn ðə hoʊˈtel seɪf/", "vi": "Ví có khoảng 200 euro, hai thẻ tín dụng và điện thoại. May là hộ chiếu tôi để trong két khách sạn.",
+          "analysis": { "vocab": [{ "word": "luckily", "ipa": "/ˈlʌkɪli/", "pos": "adverb", "vi": "may mắn thay", "example": "Luckily, nobody was hurt." }], "culture": "Mẹo: để hộ chiếu trong két, chỉ mang bản photo; chia tiền ra nhiều chỗ; khóa thẻ ngay qua app ngân hàng." } },
+        { "speaker": "Officer", "en": "Please fill in this form. We'll give you a police report for your insurance and your bank.", "ipa": "/pliːz fɪl ɪn ðɪs fɔːrm | wiːl ɡɪv juː ə pəˈliːs rɪˈpɔːrt fɔːr jɔːr ɪnˈʃʊrəns ənd jɔːr bæŋk/", "vi": "Vui lòng điền mẫu này. Chúng tôi sẽ cấp biên bản cảnh sát để bạn làm bảo hiểm và gửi ngân hàng.",
+          "analysis": { "vocab": [{ "word": "police report", "ipa": "/pəˈliːs rɪˈpɔːrt/", "pos": "noun", "vi": "biên bản trình báo cảnh sát", "example": "The insurance needs a police report." }], "phrases": [{ "phrase": "fill in a form", "vi": "điền mẫu đơn" }] } },
+        { "speaker": "Traveler", "en": "Thank you. Could I use a phone? I need to call my bank to block my cards.", "ipa": "/θæŋk juː | kʊd aɪ juːz ə foʊn | aɪ niːd tə kɔːl maɪ bæŋk tə blɑːk maɪ kɑːrdz/", "vi": "Cảm ơn. Tôi có thể dùng nhờ điện thoại không? Tôi cần gọi ngân hàng để khóa thẻ.",
+          "analysis": { "culture": "Lưu số hotline ngân hàng (có mã quốc gia) ra giấy hoặc email trước chuyến đi." } }
+      ],
+      "keyPhrases": ["I need to report a theft.", "Someone stole my bag.", "He was wearing…", "I need a police report.", "Could I use a phone?"]
+    },
+    {
+      "id": "emergency-passport-01",
+      "level": "B1",
+      "title": "Lost passport at the embassy",
+      "titleVi": "Mất hộ chiếu – đến đại sứ quán",
+      "contextVi": "Bạn bị mất hộ chiếu ở Paris, đã có biên bản cảnh sát. Bạn gọi điện đến Đại sứ quán Việt Nam để xin giấy thông hành về nước.",
+      "imageQuery": "embassy building flag",
+      "dialogue": [
+        { "speaker": "Traveler", "en": "Hello, I'm a Vietnamese citizen. I've lost my passport, and my flight home is in four days.", "ipa": "/heˈloʊ | aɪm ə ˌvjetnəˈmiːz ˈsɪtɪzən | aɪv lɔːst maɪ ˈpæspɔːrt | ənd maɪ flaɪt hoʊm ɪz ɪn fɔːr deɪz/", "vi": "Xin chào, tôi là công dân Việt Nam. Tôi bị mất hộ chiếu, và còn bốn ngày nữa là chuyến bay về.",
+          "analysis": { "vocab": [{ "word": "citizen", "ipa": "/ˈsɪtɪzən/", "pos": "noun", "vi": "công dân", "example": "I'm a Vietnamese citizen." }], "culture": "Ở đại sứ quán Việt Nam, bạn có thể nói tiếng Việt. Nhưng ở nước thứ ba (không có ĐSQ Việt Nam) có thể cần tiếng Anh." } },
+        { "speaker": "Embassy staff", "en": "Do you have a police report and a copy of your passport?", "ipa": "/duː juː hæv ə pəˈliːs rɪˈpɔːrt ənd ə ˈkɑːpi əv jɔːr ˈpæspɔːrt/", "vi": "Bạn có biên bản cảnh sát và bản sao hộ chiếu không?",
+          "analysis": { "culture": "Luôn chụp ảnh trang thông tin hộ chiếu, visa và lưu vào email – giúp làm lại giấy tờ nhanh hơn rất nhiều." } },
+        { "speaker": "Traveler", "en": "Yes, I have both. I also have my ID card photo on my phone.", "ipa": "/jes | aɪ hæv boʊθ | aɪ ˈɔːlsoʊ hæv maɪ aɪ ˈdiː kɑːrd ˈfoʊtoʊ ɑːn maɪ foʊn/", "vi": "Có, tôi có cả hai. Tôi còn có ảnh căn cước trong điện thoại.",
+          "analysis": { "vocab": [{ "word": "ID card", "ipa": "/aɪ ˈdiː kɑːrd/", "pos": "noun", "vi": "thẻ căn cước", "example": "Please show your ID card." }], "phrases": [{ "phrase": "both", "vi": "cả hai" }] } },
+        { "speaker": "Embassy staff", "en": "Good. Please come in tomorrow at 9 a.m. with two passport photos. We can issue an emergency travel document.", "ipa": "/ɡʊd | pliːz kʌm ɪn təˈmɑːroʊ æt naɪn eɪ em wɪð tuː ˈpæspɔːrt ˈfoʊtoʊz | wiː kən ˈɪʃuː ən ɪˈmɜːrdʒənsi ˈtrævəl ˈdɑːkjəmənt/", "vi": "Tốt. Vui lòng đến vào 9 giờ sáng mai cùng hai ảnh hộ chiếu. Chúng tôi có thể cấp giấy thông hành khẩn cấp.",
+          "analysis": { "vocab": [{ "word": "issue", "ipa": "/ˈɪʃuː/", "pos": "verb", "vi": "cấp (giấy tờ)", "example": "The visa was issued yesterday." }, { "word": "emergency travel document", "ipa": "/ɪˈmɜːrdʒənsi ˈtrævəl ˈdɑːkjəmənt/", "pos": "noun", "vi": "giấy thông hành khẩn cấp", "example": "You can fly home with this document." }] } },
+        { "speaker": "Traveler", "en": "How long will it take? I'm worried I'll miss my flight.", "ipa": "/haʊ lɔːŋ wɪl ɪt teɪk | aɪm ˈwɜːrid aɪl mɪs maɪ flaɪt/", "vi": "Mất bao lâu ạ? Tôi lo sẽ lỡ chuyến bay.",
+          "analysis": { "grammar": { "pattern": "I'm worried (that) + S + will + V", "explainVi": "Bày tỏ lo lắng về việc có thể xảy ra.", "examples": ["I'm worried it will rain.", "I'm worried we'll be late."] } } },
+        { "speaker": "Embassy staff", "en": "Usually one or two working days, so you should be fine. Bring your flight booking as well.", "ipa": "/ˈjuːʒuəli wʌn ɔːr tuː ˈwɜːrkɪŋ deɪz | soʊ juː ʃʊd biː faɪn | brɪŋ jɔːr flaɪt ˈbʊkɪŋ æz wel/", "vi": "Thường một đến hai ngày làm việc, nên chắc sẽ kịp. Mang theo cả vé máy bay nữa nhé.",
+          "analysis": { "phrases": [{ "phrase": "as well", "vi": "cũng, nữa" }, { "phrase": "you should be fine", "vi": "chắc sẽ ổn thôi" }] } }
+      ],
+      "keyPhrases": ["I've lost my passport.", "I have a police report.", "I need an emergency travel document.", "How long will it take?", "My flight is in four days."]
+    },
+    {
+      "id": "emergency-accident-01",
+      "level": "B1",
+      "title": "Calling an ambulance",
+      "titleVi": "Gọi xe cấp cứu",
+      "contextVi": "Mẹ bạn trượt ngã trên cầu thang khách sạn và không đứng dậy được. Bạn gọi số khẩn cấp 911 (Mỹ).",
+      "imageQuery": "ambulance emergency",
+      "dialogue": [
+        { "speaker": "Operator", "en": "911, what's your emergency?", "ipa": "/naɪn wʌn wʌn | wɑːts jɔːr ɪˈmɜːrdʒənsi/", "vi": "911, có chuyện khẩn cấp gì?",
+          "analysis": { "culture": "Số khẩn cấp: Mỹ/Canada 911, châu Âu 112, Anh 999 (hoặc 112), Úc 000. Lưu sẵn trong điện thoại." } },
+        { "speaker": "Traveler", "en": "I need an ambulance. My mother fell down the stairs and she can't stand up.", "ipa": "/aɪ niːd ən ˈæmbjələns | maɪ ˈmʌðər fel daʊn ðə sterz ənd ʃiː kænt stænd ʌp/", "vi": "Tôi cần xe cấp cứu. Mẹ tôi ngã cầu thang và không đứng dậy được.",
+          "analysis": { "vocab": [{ "word": "ambulance", "ipa": "/ˈæmbjələns/", "pos": "noun", "vi": "xe cấp cứu", "example": "Call an ambulance!" }, { "word": "fall (fell – fallen)", "ipa": "/fɔːl/", "pos": "verb", "vi": "ngã", "example": "She fell and hurt her leg." }], "culture": "Nói điều quan trọng nhất trước: cần gì (ambulance/police/fire), chuyện gì xảy ra, ở đâu." } },
+        { "speaker": "Operator", "en": "What's the address where you are?", "ipa": "/wɑːts ði ˈædres wer juː ɑːr/", "vi": "Địa chỉ chỗ anh đang ở là gì?" },
+        { "speaker": "Traveler", "en": "The Grand Plaza Hotel, 250 Ocean Drive, room 712.", "ipa": "/ðə ɡrænd ˈplɑːzə hoʊˈtel | tuː ˈfɪfti ˈoʊʃən draɪv | ruːm ˈsevən wʌn tuː/", "vi": "Khách sạn Grand Plaza, số 250 Ocean Drive, phòng 712.",
+          "analysis": { "culture": "Luôn chụp ảnh danh thiếp/địa chỉ khách sạn để đọc khi cần gấp." } },
+        { "speaker": "Operator", "en": "Help is on the way. Is she conscious and breathing normally?", "ipa": "/help ɪz ɑːn ðə weɪ | ɪz ʃiː ˈkɑːnʃəs ənd ˈbriːðɪŋ ˈnɔːrməli/", "vi": "Cứu hộ đang đến. Bà có tỉnh táo và thở bình thường không?",
+          "analysis": { "vocab": [{ "word": "conscious", "ipa": "/ˈkɑːnʃəs/", "pos": "adjective", "vi": "tỉnh táo, còn ý thức", "example": "He's conscious but in pain." }, { "word": "breathe", "ipa": "/briːð/", "pos": "verb", "vi": "thở", "example": "She can't breathe." }] } },
+        { "speaker": "Traveler", "en": "Yes, she's awake and talking, but her right leg is very painful and swollen.", "ipa": "/jes | ʃiːz əˈweɪk ənd ˈtɔːkɪŋ | bət hɜːr raɪt leɡ ɪz ˈveri ˈpeɪnfəl ənd ˈswoʊlən/", "vi": "Có, bà tỉnh và nói chuyện được, nhưng chân phải rất đau và sưng.",
+          "analysis": { "vocab": [{ "word": "swollen", "ipa": "/ˈswoʊlən/", "pos": "adjective", "vi": "sưng", "example": "My ankle is swollen." }, { "word": "painful", "ipa": "/ˈpeɪnfəl/", "pos": "adjective", "vi": "đau", "example": "Is it painful?" }] } },
+        { "speaker": "Operator", "en": "Don't move her. Keep her warm, and ask the hotel staff to meet the paramedics at the entrance.", "ipa": "/doʊnt muːv hɜːr | kiːp hɜːr wɔːrm | ənd æsk ðə hoʊˈtel stæf tə miːt ðə ˌpærəˈmedɪks æt ði ˈentrəns/", "vi": "Đừng di chuyển bà. Giữ ấm cho bà, và nhờ nhân viên khách sạn đón nhân viên y tế ở lối vào.",
+          "analysis": { "vocab": [{ "word": "paramedic", "ipa": "/ˌpærəˈmedɪk/", "pos": "noun", "vi": "nhân viên cấp cứu", "example": "The paramedics arrived quickly." }], "grammar": { "pattern": "Don't + V / Keep + O + tính từ", "explainVi": "Câu mệnh lệnh hướng dẫn trong tình huống khẩn cấp.", "examples": ["Don't panic.", "Keep him calm."] } } }
+      ],
+      "keyPhrases": ["I need an ambulance.", "She fell down the stairs.", "The address is…", "She's conscious and breathing.", "Her leg is swollen."]
+    }
+  ],
+  "reading": [
+    {
+      "title": "Hotel emergency information",
+      "titleVi": "Thông tin khẩn cấp trong phòng khách sạn",
+      "introVi": "Tấm biển này dán sau cửa phòng khách sạn.",
+      "text": "IN CASE OF FIRE\n\n1. If you discover a fire, press the nearest fire alarm.\n2. Leave the room immediately. Do not stop to collect belongings.\n3. Close the door behind you.\n4. Use the stairs. DO NOT use the lifts.\n5. Go to the assembly point in the car park opposite the main entrance.\n\nIf there is smoke, stay low and cover your mouth with a wet cloth.\nEmergency number (from room phone): dial 0, then 112.",
+      "glossary": { "discover": "phát hiện", "fire alarm": "chuông báo cháy", "immediately": "ngay lập tức", "belongings": "đồ đạc cá nhân", "lifts": "thang máy", "assembly point": "điểm tập trung", "car park": "bãi đỗ xe", "smoke": "khói", "wet cloth": "khăn ướt" },
+      "questions": [
+        { "q": "The fire alarm rings. You are on the 8th floor. How should you go down?", "options": ["By lift – it's faster", "By the stairs"], "answer": 1, "explainVi": "“Use the stairs. DO NOT use the lifts.”" },
+        { "q": "Where should you wait outside?", "options": ["In the lobby", "In the car park opposite the main entrance", "In your room"], "answer": 1, "explainVi": "Điểm tập trung ở bãi đỗ xe đối diện lối vào chính." },
+        { "q": "How do you call emergency services from the room phone?", "options": ["Dial 112", "Dial 0, then 112", "Dial 911"], "answer": 1, "explainVi": "“dial 0, then 112”." }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "title": "Police report statement",
+      "titleVi": "Viết lời khai trình báo",
+      "taskVi": "Viết lời khai ngắn cho cảnh sát (khoảng 60 từ): ngày 14/7 khoảng 3 giờ chiều trên phố La Rambla, một thanh niên đi xe máy, đội mũ đen, giật túi xách màu nâu của bạn. Trong túi có ví (200 euro), 2 thẻ tín dụng, điện thoại Samsung.",
+      "info": ["14 July, about 3 p.m., La Rambla", "Young man on a scooter, black helmet", "Brown handbag: wallet (200 EUR), 2 credit cards, Samsung phone"],
+      "starters": ["On 14 July, at about 3 p.m.,", "I was walking", "when a young man", "grabbed my", "He was wearing", "My bag contained", "I have already blocked"],
+      "sample": "On 14 July, at about 3 p.m., I was walking on La Rambla near the market when a young man on a scooter grabbed my brown handbag and rode away. He was wearing a black helmet and a dark jacket. My bag contained my wallet with about 200 euros, two credit cards and a Samsung phone. I have already blocked my cards.",
+      "minWords": 50,
+      "letter": false,
+      "mustInclude": [{ "regex": "14 July|July 14", "labelVi": "Có ngày xảy ra" }, { "regex": "was walking", "labelVi": "Dùng quá khứ tiếp diễn (was walking)" }, { "regex": "grabbed|stole", "labelVi": "Có hành động giật/trộm" }, { "regex": "wallet|card|phone", "labelVi": "Liệt kê đồ bị mất" }],
+      "checklist": ["Thời gian, địa điểm ở câu đầu", "Dùng was walking … when … grabbed", "Mô tả kẻ gian", "Liệt kê đồ bị mất"]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "topicId": "onboard",
+  "title": "On the Plane",
+  "titleVi": "Trên máy bay",
+  "icon": "💺",
+  "descriptionVi": "Tìm chỗ ngồi, nhờ tiếp viên, gọi đồ ăn, khi thấy không khỏe trên máy bay.",
+  "situations": [
+    {
+      "id": "onboard-seat-01",
+      "level": "A2",
+      "title": "Someone is in my seat",
+      "titleVi": "Có người ngồi nhầm ghế của mình",
+      "contextVi": "Bạn lên máy bay và thấy có người đang ngồi ở ghế 32C của bạn. Bạn cần nhờ cất hành lý lên ngăn phía trên.",
+      "imageQuery": "airplane cabin passengers seats",
+      "dialogue": [
+        { "speaker": "Traveler", "en": "Excuse me, I think you're in my seat. I'm in 32C.", "ipa": "/ɪkˈskjuːz miː | aɪ θɪŋk jʊr ɪn maɪ siːt | aɪm ɪn ˈθɜːrti tuː siː/", "vi": "Xin lỗi, tôi nghĩ anh đang ngồi ghế của tôi. Ghế tôi là 32C.",
+          "variants": { "polite": "Sorry to bother you, but could you check your seat number?" },
+          "analysis": { "grammar": { "pattern": "I think + S + V", "explainVi": "Mở đầu bằng “I think” làm lời nói nhẹ nhàng, không buộc tội.", "examples": ["I think this is my bag.", "I think there's a mistake."] }, "culture": "Hãy nói nhẹ nhàng và đưa thẻ lên máy bay ra – người kia thường chỉ nhầm." } },
+        { "speaker": "Passenger", "en": "Oh, sorry! I'm in 33C. My mistake.", "ipa": "/oʊ ˈsɑːri | aɪm ɪn ˈθɜːrti θriː siː | maɪ mɪˈsteɪk/", "vi": "Ồ, xin lỗi! Tôi ở ghế 33C. Lỗi của tôi.",
+          "analysis": { "phrases": [{ "phrase": "My mistake.", "vi": "Lỗi của tôi (nhận lỗi nhanh, thân thiện)" }] } },
+        { "speaker": "Traveler", "en": "No problem. Excuse me, could you help me put my bag in the overhead bin?", "ipa": "/noʊ ˈprɑːbləm | ɪkˈskjuːz miː | kʊd juː help miː pʊt maɪ bæɡ ɪn ði ˌoʊvərˈhed bɪn/", "vi": "Không sao. Xin lỗi, chị giúp tôi để túi lên ngăn hành lý phía trên được không?",
+          "analysis": { "vocab": [{ "word": "overhead bin", "ipa": "/ˌoʊvərˈhed bɪn/", "pos": "noun", "vi": "ngăn hành lý phía trên ghế", "example": "The overhead bin is full." }], "grammar": { "pattern": "help + O + V(nguyên mẫu)", "explainVi": "Sau “help someone” dùng động từ nguyên mẫu (không cần “to”).", "examples": ["Can you help me carry this?", "She helped me find my seat."] } } },
+        { "speaker": "Flight attendant", "en": "Of course. This bin is full, so I'll put it a few rows back.", "ipa": "/əv kɔːrs | ðɪs bɪn ɪz fʊl | soʊ aɪl pʊt ɪt ə fjuː roʊz bæk/", "vi": "Dĩ nhiên. Ngăn này đầy rồi, nên tôi sẽ để lùi về sau vài hàng.",
+          "analysis": { "vocab": [{ "word": "row", "ipa": "/roʊ/", "pos": "noun", "vi": "hàng (ghế)", "example": "We're in row 32." }] } },
+        { "speaker": "Traveler", "en": "Thank you. Could I also have a blanket? It's quite cold.", "ipa": "/θæŋk juː | kʊd aɪ ˈɔːlsoʊ hæv ə ˈblæŋkɪt | ɪts kwaɪt koʊld/", "vi": "Cảm ơn. Cho tôi xin thêm một cái chăn được không? Khá lạnh.",
+          "analysis": { "vocab": [{ "word": "blanket", "ipa": "/ˈblæŋkɪt/", "pos": "noun", "vi": "chăn", "example": "Can I have another blanket?" }], "phrases": [{ "phrase": "quite cold", "vi": "khá lạnh" }] } },
+        { "speaker": "Flight attendant", "en": "Sure. Please fasten your seat belt. We'll be taking off shortly.", "ipa": "/ʃʊr | pliːz ˈfæsən jɔːr siːt belt | wiːl biː ˈteɪkɪŋ ɔːf ˈʃɔːrtli/", "vi": "Vâng. Vui lòng thắt dây an toàn. Chúng ta sắp cất cánh.",
+          "analysis": { "vocab": [{ "word": "fasten", "ipa": "/ˈfæsən/", "pos": "verb", "vi": "thắt, cài", "example": "Fasten your seat belt." }, { "word": "shortly", "ipa": "/ˈʃɔːrtli/", "pos": "adverb", "vi": "sắp, chẳng bao lâu nữa", "example": "The train will arrive shortly." }], "pronunciation": "“fasten” /ˈfæsən/ – chữ t câm." } }
+      ],
+      "keyPhrases": ["I think you're in my seat.", "Could you help me with my bag?", "Could I have a blanket?", "Can I change seats?", "Where's the toilet?"]
+    },
+    {
+      "id": "onboard-meal-01",
+      "level": "A2",
+      "title": "Meal service on board",
+      "titleVi": "Bữa ăn trên máy bay",
+      "contextVi": "Tiếp viên đẩy xe đồ ăn đến. Bạn chọn món, hỏi đồ uống và xin thêm nước.",
+      "imageQuery": "airline meal tray",
+      "dialogue": [
+        { "speaker": "Flight attendant", "en": "Would you like chicken with rice or beef with pasta?", "ipa": "/wʊd juː laɪk ˈtʃɪkɪn wɪð raɪs ɔːr biːf wɪð ˈpɑːstə/", "vi": "Anh muốn gà với cơm hay bò với mì Ý?",
+          "analysis": { "grammar": { "pattern": "Would you like A or B?", "explainVi": "Hỏi lựa chọn. Trả lời bằng món mình chọn + please.", "examples": ["Tea or coffee?", "Would you like an aisle or a window seat?"] } } },
+        { "speaker": "Traveler", "en": "Chicken, please. Do you have a vegetarian option, by any chance?", "ipa": "/ˈtʃɪkɪn pliːz | duː juː hæv ə ˌvedʒəˈteriən ˈɑːpʃən | baɪ ˈeni tʃæns/", "vi": "Cho tôi gà. Không biết có món chay không ạ?",
+          "analysis": { "vocab": [{ "word": "option", "ipa": "/ˈɑːpʃən/", "pos": "noun", "vi": "lựa chọn", "example": "What are the options?" }], "phrases": [{ "phrase": "by any chance", "vi": "liệu có… không (hỏi nhẹ nhàng)" }], "culture": "Món chay, halal, không gluten nên đặt trước khi bay ít nhất 24 giờ qua website hãng." } },
+        { "speaker": "Flight attendant", "en": "I'm sorry, special meals need to be ordered before the flight.", "ipa": "/aɪm ˈsɑːri | ˈspeʃəl miːlz niːd tə biː ˈɔːrdərd bɪˈfɔːr ðə flaɪt/", "vi": "Xin lỗi, suất ăn đặc biệt cần đặt trước chuyến bay.",
+          "analysis": { "grammar": { "pattern": "need to be + V3", "explainVi": "Bị động với “need”: cần được làm gì.", "examples": ["This form needs to be signed.", "The room needs to be cleaned."] } } },
+        { "speaker": "Traveler", "en": "That's OK, chicken is fine. And what drinks do you have?", "ipa": "/ðæts ˌoʊˈkeɪ | ˈtʃɪkɪn ɪz faɪn | ənd wɑːt drɪŋks duː juː hæv/", "vi": "Không sao, gà cũng được. Có những đồ uống gì?",
+          "analysis": { "phrases": [{ "phrase": "… is fine", "vi": "… cũng được" }] } },
+        { "speaker": "Flight attendant", "en": "We have water, orange juice, Coke, tea, coffee, beer and wine.", "ipa": "/wiː hæv ˈwɔːtər | ˈɔːrɪndʒ dʒuːs | koʊk | tiː | ˈkɔːfi | bɪr ənd waɪn/", "vi": "Có nước lọc, nước cam, Coca, trà, cà phê, bia và rượu vang.",
+          "analysis": { "culture": "Đồ uống trên chuyến quốc tế thường miễn phí. Hãng giá rẻ thì tính tiền tất cả đồ ăn uống." } },
+        { "speaker": "Traveler", "en": "A tomato juice with no ice, please. And could I get some extra water later?", "ipa": "/ə təˈmeɪtoʊ dʒuːs wɪð noʊ aɪs pliːz | ənd kʊd aɪ ɡet sʌm ˈekstrə ˈwɔːtər ˈleɪtər/", "vi": "Cho tôi nước cà chua, không đá. Lát nữa cho tôi xin thêm nước được không?",
+          "analysis": { "pronunciation": "“tomato” Mỹ /təˈmeɪtoʊ/, Anh /təˈmɑːtəʊ/.", "culture": "Trong cabin không khí rất khô – nên uống nhiều nước, hạn chế rượu bia." } }
+      ],
+      "keyPhrases": ["Chicken, please.", "Do you have a vegetarian option?", "What drinks do you have?", "No ice, please.", "Could I get some water?"]
+    },
+    {
+      "id": "onboard-sick-01",
+      "level": "B1",
+      "title": "Feeling unwell during the flight",
+      "titleVi": "Thấy không khỏe trên máy bay",
+      "contextVi": "Giữa chuyến bay dài, mẹ bạn thấy chóng mặt và buồn nôn. Bạn bấm nút gọi tiếp viên.",
+      "imageQuery": "flight attendant helping passenger",
+      "dialogue": [
+        { "speaker": "Flight attendant", "en": "You pressed the call button. How can I help?", "ipa": "/juː prest ðə kɔːl ˈbʌtən | haʊ kən aɪ help/", "vi": "Anh vừa bấm nút gọi. Tôi giúp gì được ạ?",
+          "analysis": { "vocab": [{ "word": "call button", "ipa": "/kɔːl ˈbʌtən/", "pos": "noun", "vi": "nút gọi tiếp viên", "example": "Press the call button if you need help." }] } },
+        { "speaker": "Traveler", "en": "My mother feels dizzy and a bit sick. She's 70 and has high blood pressure.", "ipa": "/maɪ ˈmʌðər fiːlz ˈdɪzi ənd ə bɪt sɪk | ʃiːz ˈsevənti ənd hæz haɪ blʌd ˈpreʃər/", "vi": "Mẹ tôi thấy chóng mặt và hơi buồn nôn. Bà 70 tuổi và bị cao huyết áp.",
+          "analysis": { "vocab": [{ "word": "dizzy", "ipa": "/ˈdɪzi/", "pos": "adjective", "vi": "chóng mặt", "example": "I feel dizzy." }, { "word": "high blood pressure", "ipa": "/haɪ blʌd ˈpreʃər/", "pos": "noun", "vi": "huyết áp cao", "example": "I take medicine for high blood pressure." }], "grammar": { "pattern": "feel + tính từ", "explainVi": "Mô tả cảm giác cơ thể: feel sick/dizzy/tired/cold.", "examples": ["I feel tired.", "Do you feel better?"] }, "culture": "“Sick” trong tiếng Anh-Anh thường có nghĩa là buồn nôn; “ill” là ốm." } },
+        { "speaker": "Flight attendant", "en": "I'm sorry to hear that. Has she taken her medicine today?", "ipa": "/aɪm ˈsɑːri tə hɪr ðæt | hæz ʃiː ˈteɪkən hɜːr ˈmedɪsən təˈdeɪ/", "vi": "Tôi rất tiếc. Hôm nay bà đã uống thuốc chưa?",
+          "analysis": { "grammar": { "pattern": "Has she + V3…?", "explainVi": "Hiện tại hoàn thành hỏi việc đã làm chưa trong ngày hôm nay.", "examples": ["Have you eaten yet?", "Has he checked in?"] }, "phrases": [{ "phrase": "take medicine", "vi": "uống thuốc (không dùng “drink medicine”)" }] } },
+        { "speaker": "Traveler", "en": "Yes, this morning. Could she have some water and maybe lie down somewhere?", "ipa": "/jes | ðɪs ˈmɔːrnɪŋ | kʊd ʃiː hæv sʌm ˈwɔːtər ənd ˈmeɪbi laɪ daʊn ˈsʌmwer/", "vi": "Rồi, sáng nay. Cho bà ít nước và có chỗ nào cho bà nằm nghỉ không?",
+          "analysis": { "vocab": [{ "word": "lie down", "ipa": "/laɪ daʊn/", "pos": "phrasal verb", "vi": "nằm xuống", "example": "You should lie down for a while." }] } },
+        { "speaker": "Flight attendant", "en": "There are three empty seats in row 40. She can lie across them. I'll also ask if there's a doctor on board.", "ipa": "/ðer ɑːr θriː ˈempti siːts ɪn roʊ ˈfɔːrti | ʃiː kən laɪ əˈkrɔːs ðəm | aɪl ˈɔːlsoʊ æsk ɪf ðerz ə ˈdɑːktər ɑːn bɔːrd/", "vi": "Hàng 40 có ba ghế trống. Bà có thể nằm ngang trên đó. Tôi cũng sẽ hỏi xem trên máy bay có bác sĩ không.",
+          "analysis": { "vocab": [{ "word": "on board", "ipa": "/ɑːn bɔːrd/", "pos": "phrase", "vi": "trên máy bay/tàu", "example": "Is there a doctor on board?" }], "phrases": [{ "phrase": "lie across", "vi": "nằm ngang qua (nhiều ghế)" }] } },
+        { "speaker": "Traveler", "en": "Thank you so much. I'll stay with her.", "ipa": "/θæŋk juː soʊ mʌtʃ | aɪl steɪ wɪð hɜːr/", "vi": "Cảm ơn rất nhiều. Tôi sẽ ở cạnh bà.",
+          "analysis": { "culture": "Luôn để thuốc thường dùng trong hành lý xách tay, kèm đơn thuốc bằng tiếng Anh nếu có." } }
+      ],
+      "keyPhrases": ["I feel dizzy / sick.", "She has high blood pressure.", "Could I have some water?", "Is there a doctor on board?", "Can she lie down somewhere?"]
+    }
+  ],
+  "reading": [
+    {
+      "title": "In-flight safety card",
+      "titleVi": "Thẻ hướng dẫn an toàn trên máy bay",
+      "introVi": "Tấm thẻ này nằm ở túi ghế trước mặt bạn.",
+      "text": "SAFETY INFORMATION\n\n1. Keep your seat belt fastened while seated.\n2. In case of a loss of cabin pressure, oxygen masks will drop from above. Put on your own mask before helping others.\n3. Your life jacket is under your seat. Do not inflate it inside the aircraft.\n4. Emergency exits are located at the front, middle and rear of the cabin.\n5. Smoking, including e-cigarettes, is not permitted at any time.\n6. Electronic devices must be switched to flight mode.",
+      "glossary": { "fastened": "được thắt lại", "loss of cabin pressure": "mất áp suất trong khoang", "oxygen masks": "mặt nạ dưỡng khí", "life jacket": "áo phao", "inflate": "thổi phồng", "emergency exits": "cửa thoát hiểm", "rear": "phía sau", "permitted": "được phép", "flight mode": "chế độ máy bay" },
+      "questions": [
+        { "q": "The oxygen masks drop. You travel with your elderly father. What should you do first?", "options": ["Help your father first", "Put on your own mask first", "Call the flight attendant"], "answer": 1, "explainVi": "“Put on your own mask before helping others.”" },
+        { "q": "When should you inflate your life jacket?", "options": ["As soon as you put it on", "After leaving the aircraft", "Never"], "answer": 1, "explainVi": "“Do not inflate it inside the aircraft” – chỉ thổi khi đã ra khỏi máy bay." },
+        { "q": "Can you use an e-cigarette in the toilet?", "options": ["Yes", "No, never"], "answer": 1, "explainVi": "“not permitted at any time” = không bao giờ được phép." }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "title": "Feedback to the airline",
+      "titleVi": "Viết lời cảm ơn gửi hãng bay",
+      "taskVi": "Viết email ngắn cảm ơn hãng bay vì tiếp viên tên Linda đã chăm sóc mẹ bạn khi bà bị chóng mặt trên chuyến QF24 ngày 12/3 từ Sydney đi Singapore.",
+      "info": ["Chuyến QF24, 12 March, Sydney → Singapore", "Tiếp viên: Linda", "Bà được nằm nghỉ ở hàng 40, có bác sĩ kiểm tra"],
+      "starters": ["Dear Customer Relations,", "I am writing to thank", "on flight", "My mother felt dizzy, and", "She was very kind and", "Please pass on our thanks to", "Best regards,"],
+      "sample": "Dear Customer Relations,\n\nI am writing to thank one of your flight attendants, Linda, on flight QF24 from Sydney to Singapore on 12 March.\n\nDuring the flight, my mother felt dizzy. Linda brought her water, found three empty seats so she could lie down, and asked a doctor on board to check her. She was very kind and calm.\n\nPlease pass on our thanks to Linda.\n\nBest regards,\nNguyen Hoang Nam",
+      "minWords": 50,
+      "mustInclude": [{ "regex": "QF24", "labelVi": "Có số hiệu chuyến bay" }, { "regex": "Linda", "labelVi": "Có tên tiếp viên" }, { "regex": "thank", "labelVi": "Có lời cảm ơn" }],
+      "checklist": ["Nêu lý do viết thư ngay câu đầu", "Kể lại sự việc bằng thì quá khứ", "Dùng tính từ khen ngợi (kind, helpful, calm…)", "Nhờ chuyển lời cảm ơn"]
+    }
+  ]
+}

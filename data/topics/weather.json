@@ -1,0 +1,106 @@
+{
+  "topicId": "weather",
+  "title": "Weather & Plans",
+  "titleVi": "Thời tiết & kế hoạch",
+  "icon": "🌦️",
+  "descriptionVi": "Hỏi dự báo thời tiết, đổi kế hoạch khi trời mưa, và lên lịch tham quan trong ngày.",
+  "situations": [
+    {
+      "id": "weather-forecast-01",
+      "level": "A2",
+      "title": "Asking about the weather",
+      "titleVi": "Hỏi về thời tiết",
+      "contextVi": "Buổi sáng ở khách sạn tại Edinburgh, bạn hỏi lễ tân thời tiết hôm nay để chuẩn bị quần áo.",
+      "imageQuery": "Edinburgh cloudy street",
+      "dialogue": [
+        { "speaker": "Guest", "en": "Good morning. What's the weather going to be like today?", "ipa": "/ɡʊd ˈmɔːrnɪŋ | wɑːts ðə ˈweðər ˈɡoʊɪŋ tə biː laɪk təˈdeɪ/", "vi": "Chào buổi sáng. Hôm nay thời tiết sẽ thế nào?",
+          "analysis": { "grammar": { "pattern": "What's the weather going to be like?", "explainVi": "Hỏi dự báo thời tiết. “like” ở đây nghĩa là “như thế nào”, không phải “thích”.", "examples": ["What's the weather like in Hanoi?", "What was the hotel like?"] } } },
+        { "speaker": "Receptionist", "en": "It's cloudy now, but the forecast says it'll rain this afternoon. The high is 12 degrees.", "ipa": "/ɪts ˈklaʊdi naʊ | bət ðə ˈfɔːrkæst sez ɪtl reɪn ðɪs ˌæftərˈnuːn | ðə haɪ ɪz twelv dɪˈɡriːz/", "vi": "Giờ trời nhiều mây, nhưng dự báo nói chiều nay sẽ mưa. Nhiệt độ cao nhất 12 độ.",
+          "analysis": { "vocab": [{ "word": "cloudy", "ipa": "/ˈklaʊdi/", "pos": "adjective", "vi": "nhiều mây", "example": "It's cloudy today." }, { "word": "forecast", "ipa": "/ˈfɔːrkæst/", "pos": "noun", "vi": "dự báo (thời tiết)", "example": "Check the weather forecast." }, { "word": "degrees", "ipa": "/dɪˈɡriːz/", "pos": "noun", "vi": "độ", "example": "It's 30 degrees." }], "culture": "Mỹ dùng độ F (°F): 50°F ≈ 10°C, 68°F ≈ 20°C, 86°F ≈ 30°C." } },
+        { "speaker": "Guest", "en": "Oh dear. I only brought a light jacket. Where can I buy an umbrella?", "ipa": "/oʊ dɪr | aɪ ˈoʊnli brɔːt ə laɪt ˈdʒækɪt | wer kæn aɪ baɪ ən ʌmˈbrelə/", "vi": "Ôi trời. Tôi chỉ mang áo khoác mỏng. Mua ô ở đâu được?",
+          "analysis": { "vocab": [{ "word": "umbrella", "ipa": "/ʌmˈbrelə/", "pos": "noun", "vi": "cái ô, dù", "example": "Don't forget your umbrella." }], "phrases": [{ "phrase": "Oh dear.", "vi": "Ôi trời (hơi tiếc, lo)" }] } },
+        { "speaker": "Receptionist", "en": "You can borrow one from us. And I'd recommend wearing layers – the weather changes quickly here.", "ipa": "/juː kən ˈbɑːroʊ wʌn frʌm ʌs | ənd aɪd ˌrekəˈmend ˈwerɪŋ ˈleɪərz | ðə ˈweðər ˈtʃeɪndʒɪz ˈkwɪkli hɪr/", "vi": "Anh có thể mượn của chúng tôi. Và tôi khuyên nên mặc nhiều lớp – thời tiết ở đây thay đổi rất nhanh.",
+          "analysis": { "grammar": { "pattern": "I'd recommend + V-ing", "explainVi": "Đưa lời khuyên lịch sự. Sau recommend dùng V-ing.", "examples": ["I'd recommend taking a taxi.", "I'd recommend booking early."] }, "phrases": [{ "phrase": "wear layers", "vi": "mặc nhiều lớp (dễ cởi/mặc thêm)" }] } },
+        { "speaker": "Guest", "en": "Good idea. Will it be sunny tomorrow? We're planning a trip to the Highlands.", "ipa": "/ɡʊd aɪˈdiːə | wɪl ɪt biː ˈsʌni təˈmɑːroʊ | wɪr ˈplænɪŋ ə trɪp tə ðə ˈhaɪləndz/", "vi": "Ý hay đấy. Ngày mai có nắng không? Chúng tôi định đi vùng Cao nguyên.",
+          "analysis": { "vocab": [{ "word": "sunny", "ipa": "/ˈsʌni/", "pos": "adjective", "vi": "nắng", "example": "It's sunny and warm." }] } },
+        { "speaker": "Receptionist", "en": "Tomorrow looks better – dry and bright, but windy in the mountains.", "ipa": "/təˈmɑːroʊ lʊks ˈbetər | draɪ ənd braɪt | bət ˈwɪndi ɪn ðə ˈmaʊntənz/", "vi": "Ngày mai có vẻ đẹp hơn – khô ráo, sáng sủa, nhưng trên núi có gió.",
+          "analysis": { "vocab": [{ "word": "windy", "ipa": "/ˈwɪndi/", "pos": "adjective", "vi": "nhiều gió", "example": "It's very windy today." }, { "word": "dry", "ipa": "/draɪ/", "pos": "adjective", "vi": "khô ráo", "example": "a dry day" }] } }
+      ],
+      "keyPhrases": ["What's the weather like today?", "Is it going to rain?", "What's the temperature?", "Where can I buy an umbrella?", "Will it be sunny tomorrow?"]
+    },
+    {
+      "id": "weather-change-plans-01",
+      "level": "B1",
+      "title": "Changing plans because of rain",
+      "titleVi": "Đổi kế hoạch vì trời mưa",
+      "contextVi": "Trời mưa to, bạn và chồng bàn đổi kế hoạch đi biển sang hoạt động trong nhà.",
+      "imageQuery": "rainy day window city",
+      "dialogue": [
+        { "speaker": "Wife", "en": "It's pouring with rain. I don't think we can go to the beach today.", "ipa": "/ɪts ˈpɔːrɪŋ wɪð reɪn | aɪ doʊnt θɪŋk wiː kən ɡoʊ tə ðə biːtʃ təˈdeɪ/", "vi": "Mưa như trút nước. Em nghĩ hôm nay mình không đi biển được rồi.",
+          "analysis": { "phrases": [{ "phrase": "It's pouring (with rain).", "vi": "Mưa như trút nước." }], "grammar": { "pattern": "I don't think + S + can + V", "explainVi": "Phủ định đặt ở “think” cho mềm mỏng.", "examples": ["I don't think it's open.", "I don't think we have time."] } } },
+        { "speaker": "Husband", "en": "Why don't we visit the aquarium instead? It's indoors.", "ipa": "/waɪ doʊnt wiː ˈvɪzɪt ði əˈkweriəm ɪnˈsted | ɪts ˌɪnˈdɔːrz/", "vi": "Hay là mình đi thủy cung thay vào? Ở trong nhà mà.",
+          "analysis": { "vocab": [{ "word": "indoors / outdoors", "ipa": "/ˌɪnˈdɔːrz/ /ˌaʊtˈdɔːrz/", "pos": "adverb", "vi": "trong nhà / ngoài trời", "example": "Let's stay indoors." }], "grammar": { "pattern": "Why don't we + V?", "explainVi": "Đưa ra gợi ý: Sao mình không… nhỉ? = Hay là mình…", "examples": ["Why don't we take a taxi?", "Why don't we eat here?"] } } },
+        { "speaker": "Wife", "en": "Good idea. But let's check if we need to book tickets online first.", "ipa": "/ɡʊd aɪˈdiːə | bət lets tʃek ɪf wiː niːd tə bʊk ˈtɪkɪts ˌɑːnˈlaɪn fɜːrst/", "vi": "Ý hay. Nhưng mình kiểm tra xem có cần đặt vé online trước không đã.",
+          "analysis": { "grammar": { "pattern": "Let's check if + S + V", "explainVi": "“if” ở đây nghĩa là “liệu… hay không”.", "examples": ["Let's check if it's open.", "I'll ask if they have a table."] } } },
+        { "speaker": "Husband", "en": "It says tickets are 15% cheaper online, and there are free time slots at 11.", "ipa": "/ɪt sez ˈtɪkɪts ɑːr ˌfɪfˈtiːn pərˈsent ˈtʃiːpər ˌɑːnˈlaɪn | ənd ðer ɑːr friː taɪm slɑːts æt ɪˈlevən/", "vi": "Trên mạng ghi vé online rẻ hơn 15%, và còn suất trống lúc 11 giờ.",
+          "analysis": { "grammar": { "pattern": "X% + so sánh hơn", "explainVi": "15% cheaper = rẻ hơn 15%.", "examples": ["It's 20% cheaper on weekdays.", "The train is twice as fast."] } } },
+        { "speaker": "Wife", "en": "Perfect. If the rain stops later, we could still walk along the beach at sunset.", "ipa": "/ˈpɜːrfɪkt | ɪf ðə reɪn stɑːps ˈleɪtər | wiː kʊd stɪl wɔːk əˈlɔːŋ ðə biːtʃ æt ˈsʌnset/", "vi": "Tuyệt. Nếu chiều tạnh mưa, mình vẫn có thể đi dạo dọc biển lúc hoàng hôn.",
+          "analysis": { "vocab": [{ "word": "sunset", "ipa": "/ˈsʌnset/", "pos": "noun", "vi": "hoàng hôn", "example": "The sunset was beautiful." }], "grammar": { "pattern": "If + hiện tại, we could + V", "explainVi": "“could” trong vế kết quả làm lời gợi ý nhẹ nhàng.", "examples": ["If we have time, we could visit the market.", "If you're tired, we could rest."] } } },
+        { "speaker": "Husband", "en": "Let's do that. I'll book the tickets now.", "ipa": "/lets duː ðæt | aɪl bʊk ðə ˈtɪkɪts naʊ/", "vi": "Làm vậy đi. Anh đặt vé ngay bây giờ.",
+          "analysis": { "phrases": [{ "phrase": "Let's do that.", "vi": "Làm vậy đi / Chốt vậy." }] } }
+      ],
+      "keyPhrases": ["It's pouring with rain.", "Why don't we… instead?", "It's indoors.", "Let's check if…", "If the rain stops, we could…"]
+    },
+    {
+      "id": "weather-day-plan-01",
+      "level": "A2",
+      "title": "Planning the day with a guide",
+      "titleVi": "Lên lịch trình trong ngày",
+      "contextVi": "Bạn hỏi nhân viên quầy thông tin du lịch nên tham quan gì trong một ngày nắng nóng ở Rome.",
+      "imageQuery": "tourist information office",
+      "dialogue": [
+        { "speaker": "Tourist", "en": "Hi. We only have one day in Rome. What do you suggest?", "ipa": "/haɪ | wiː ˈoʊnli hæv wʌn deɪ ɪn roʊm | wɑːt duː juː səɡˈdʒest/", "vi": "Chào bạn. Chúng tôi chỉ có một ngày ở Rome. Bạn gợi ý gì?",
+          "analysis": { "vocab": [{ "word": "suggest", "ipa": "/səɡˈdʒest/", "pos": "verb", "vi": "gợi ý", "example": "What do you suggest for dinner?" }] } },
+        { "speaker": "Staff", "en": "It's going to be very hot – about 35 degrees. Visit the Colosseum early in the morning, before it gets crowded.", "ipa": "/ɪts ˈɡoʊɪŋ tə biː ˈveri hɑːt | əˈbaʊt ˈθɜːrti faɪv dɪˈɡriːz | ˈvɪzɪt ðə ˌkɑːləˈsiːəm ˈɜːrli ɪn ðə ˈmɔːrnɪŋ | bɪˈfɔːr ɪt ɡets ˈkraʊdɪd/", "vi": "Hôm nay sẽ rất nóng – khoảng 35 độ. Hãy thăm Đấu trường La Mã thật sớm, trước khi đông người.",
+          "analysis": { "vocab": [{ "word": "crowded", "ipa": "/ˈkraʊdɪd/", "pos": "adjective", "vi": "đông đúc", "example": "The train was crowded." }], "grammar": { "pattern": "get + tính từ", "explainVi": "“get” = trở nên: get crowded, get dark, get hot.", "examples": ["It gets dark at 6.", "It's getting cold."] } } },
+        { "speaker": "Tourist", "en": "And what about the afternoon, when it's hottest?", "ipa": "/ənd wɑːt əˈbaʊt ði ˌæftərˈnuːn | wen ɪts ˈhɑːtɪst/", "vi": "Còn buổi chiều, lúc nóng nhất thì sao?",
+          "analysis": { "grammar": { "pattern": "so sánh nhất: hot → hottest", "explainVi": "Tính từ ngắn kết thúc nguyên âm-phụ âm thì gấp đôi phụ âm: hot → hotter → hottest.", "examples": ["big → biggest", "sunny → sunniest"] } } },
+        { "speaker": "Staff", "en": "Go to the Vatican Museums – they're air-conditioned. Then have dinner in Trastevere when it's cooler.", "ipa": "/ɡoʊ tə ðə ˈvætɪkən mjuˈziːəmz | ðer ˈer kənˌdɪʃənd | ðen hæv ˈdɪnər ɪn trɑːˈsteɪvəreɪ wen ɪts ˈkuːlər/", "vi": "Đến Bảo tàng Vatican – ở đó có máy lạnh. Sau đó ăn tối ở khu Trastevere khi trời mát hơn.",
+          "analysis": { "vocab": [{ "word": "air-conditioned", "ipa": "/ˈer kənˌdɪʃənd/", "pos": "adjective", "vi": "có máy lạnh", "example": "Is the bus air-conditioned?" }, { "word": "cool", "ipa": "/kuːl/", "pos": "adjective", "vi": "mát", "example": "It's cool in the evening." }] } },
+        { "speaker": "Tourist", "en": "That sounds like a great plan. Thanks! Should we bring anything special?", "ipa": "/ðæt saʊndz laɪk ə ɡreɪt plæn | θæŋks | ʃʊd wiː brɪŋ ˈeniθɪŋ ˈspeʃəl/", "vi": "Kế hoạch tuyệt quá. Cảm ơn! Chúng tôi có cần mang gì đặc biệt không?",
+          "analysis": { "grammar": { "pattern": "sound like + N / sound + tính từ", "explainVi": "That sounds like a great plan / That sounds great.", "examples": ["That sounds like fun.", "That sounds expensive."] } } },
+        { "speaker": "Staff", "en": "A refillable water bottle – there are free fountains everywhere. And cover your knees and shoulders for the churches.", "ipa": "/ə ˌriːˈfɪləbəl ˈwɔːtər ˈbɑːtəl | ðer ɑːr friː ˈfaʊntənz ˈevriwer | ənd ˈkʌvər jɔːr niːz ənd ˈʃoʊldərz fɔːr ðə ˈtʃɜːrtʃɪz/", "vi": "Một chai nước có thể rót lại – có vòi nước miễn phí khắp nơi. Và che đầu gối, vai khi vào nhà thờ.",
+          "analysis": { "vocab": [{ "word": "refillable", "ipa": "/ˌriːˈfɪləbəl/", "pos": "adjective", "vi": "có thể đổ đầy lại", "example": "Bring a refillable bottle." }], "culture": "Rome có hàng nghìn vòi nước uống miễn phí (nasoni) – nước sạch, mát." } }
+      ],
+      "keyPhrases": ["We only have one day. What do you suggest?", "It's going to be hot.", "before it gets crowded", "when it's cooler", "Should we bring anything?"]
+    }
+  ],
+  "reading": [
+    {
+      "title": "A 3-day weather forecast",
+      "titleVi": "Dự báo thời tiết 3 ngày",
+      "introVi": "Bạn xem dự báo thời tiết trên ứng dụng điện thoại.",
+      "text": "LONDON - 3-DAY FORECAST\n\nFRIDAY: Light showers in the morning, sunny spells later. High 16°C / Low 9°C. Chance of rain: 60%.\n\nSATURDAY: Mostly sunny and warm. High 22°C / Low 12°C. Chance of rain: 10%. UV index: high.\n\nSUNDAY: Heavy rain and strong winds from midday. High 14°C / Low 10°C. Chance of rain: 90%. Weather warning in place.",
+      "glossary": { "showers": "mưa rào", "sunny spells": "những lúc có nắng", "high": "nhiệt độ cao nhất", "low": "nhiệt độ thấp nhất", "chance of rain": "khả năng mưa", "mostly": "phần lớn", "UV index": "chỉ số tia cực tím", "midday": "giữa trưa", "warning": "cảnh báo" },
+      "questions": [
+        { "q": "Which day is best for a boat trip on the river?", "options": ["Friday", "Saturday", "Sunday"], "answer": 1, "explainVi": "Thứ Bảy nắng, ấm, khả năng mưa chỉ 10%." },
+        { "q": "What should you bring on Saturday?", "options": ["An umbrella", "Sunscreen", "A heavy coat"], "answer": 1, "explainVi": "“UV index: high” → cần kem chống nắng." },
+        { "q": "What will Sunday afternoon be like?", "options": ["Sunny", "Rainy and windy", "Snowy"], "answer": 1, "explainVi": "“Heavy rain and strong winds from midday.”" }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "title": "Message about a change of plan",
+      "titleVi": "Nhắn tin đổi kế hoạch",
+      "taskVi": "Nhắn cho người bạn sống ở London: vì Chủ nhật có cảnh báo mưa to, đề nghị đổi buổi dã ngoại (picnic) ở công viên sang thứ Bảy lúc 11 giờ, hoặc nếu bạn ấy bận thì Chủ nhật đi bảo tàng.",
+      "info": ["Sunday: heavy rain warning", "Đổi picnic sang Saturday 11 a.m.", "Phương án B: museum on Sunday"],
+      "starters": ["Hi Emma!", "I've just checked the forecast –", "Why don't we", "instead?", "If you're busy on Saturday,", "we could", "Let me know what you think!"],
+      "sample": "Hi Emma! I've just checked the forecast – there's a heavy rain warning for Sunday. Why don't we have our picnic on Saturday at 11 instead? It's going to be sunny and warm. If you're busy on Saturday, we could visit the Natural History Museum on Sunday. Let me know what you think!",
+      "minWords": 40,
+      "letter": false,
+      "mustInclude": [{ "regex": "forecast|rain", "labelVi": "Có nói lý do thời tiết" }, { "regex": "why don't we|let's|shall we", "labelVi": "Có câu gợi ý" }, { "regex": "if you're busy|if not", "labelVi": "Có phương án B" }],
+      "checklist": ["Giải thích lý do đổi kế hoạch", "Dùng Why don't we… / We could…", "Có phương án thay thế", "Kết bằng Let me know…"]
+    }
+  ]
+}

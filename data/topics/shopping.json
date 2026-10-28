@@ -1,0 +1,110 @@
+{
+  "topicId": "shopping",
+  "title": "Shopping & Tax Refund",
+  "titleVi": "Mua sắm & Hoàn thuế",
+  "icon": "🛍️",
+  "descriptionVi": "Hỏi size, thử đồ, mặc cả ở chợ, đổi trả hàng và làm thủ tục hoàn thuế.",
+  "situations": [
+    {
+      "id": "shopping-clothes-01",
+      "level": "A2",
+      "title": "Trying on clothes",
+      "titleVi": "Thử quần áo",
+      "contextVi": "Bạn vào một cửa hàng quần áo ở Seoul, muốn thử một chiếc áo khoác và hỏi size khác.",
+      "imageQuery": "clothing store fitting room",
+      "dialogue": [
+        { "speaker": "Shop assistant", "en": "Hi there! Can I help you find anything?", "ipa": "/haɪ ðer | kæn aɪ help juː faɪnd ˈeniθɪŋ/", "vi": "Chào bạn! Tôi giúp bạn tìm gì không?",
+          "analysis": { "vocab": [{ "word": "shop assistant", "ipa": "/ʃɑːp əˈsɪstənt/", "pos": "noun", "vi": "nhân viên bán hàng", "example": "Ask the shop assistant." }], "culture": "Nếu chỉ muốn xem, nói: “I'm just looking, thanks.”" } },
+        { "speaker": "Customer", "en": "Yes, I like this jacket. Do you have it in a medium?", "ipa": "/jes | aɪ laɪk ðɪs ˈdʒækɪt | duː juː hæv ɪt ɪn ə ˈmiːdiəm/", "vi": "Có, tôi thích chiếc áo khoác này. Có size M không?",
+          "analysis": { "grammar": { "pattern": "Do you have it in + size/màu?", "explainVi": "Hỏi sản phẩm có size hoặc màu khác không.", "examples": ["Do you have it in black?", "Do you have this in a size 38?"] }, "vocab": [{ "word": "medium", "ipa": "/ˈmiːdiəm/", "pos": "noun", "vi": "cỡ vừa (M)", "example": "small / medium / large" }] } },
+        { "speaker": "Shop assistant", "en": "Let me check… Here you go. The fitting rooms are at the back.", "ipa": "/let miː tʃek | hɪr juː ɡoʊ | ðə ˈfɪtɪŋ ruːmz ɑːr æt ðə bæk/", "vi": "Để tôi xem… Đây ạ. Phòng thử đồ ở phía sau.",
+          "analysis": { "vocab": [{ "word": "fitting room", "ipa": "/ˈfɪtɪŋ ruːm/", "pos": "noun", "vi": "phòng thử đồ", "example": "Where's the fitting room?" }] } },
+        { "speaker": "Customer", "en": "It's a bit tight around the shoulders. Could I try a large?", "ipa": "/ɪts ə bɪt taɪt əˈraʊnd ðə ˈʃoʊldərz | kʊd aɪ traɪ ə lɑːrdʒ/", "vi": "Hơi chật ở vai. Tôi thử size L được không?",
+          "analysis": { "vocab": [{ "word": "tight", "ipa": "/taɪt/", "pos": "adjective", "vi": "chật", "example": "These shoes are too tight." }, { "word": "loose", "ipa": "/luːs/", "pos": "adjective", "vi": "rộng", "example": "The trousers are a bit loose." }], "phrases": [{ "phrase": "try on", "vi": "thử (quần áo)" }] } },
+        { "speaker": "Customer", "en": "This one fits perfectly. How much is it?", "ipa": "/ðɪs wʌn fɪts ˈpɜːrfɪktli | haʊ mʌtʃ ɪz ɪt/", "vi": "Cái này vừa khít. Giá bao nhiêu?",
+          "analysis": { "vocab": [{ "word": "fit", "ipa": "/fɪt/", "pos": "verb", "vi": "vừa (kích cỡ)", "example": "Does it fit?" }], "commonMistake": { "wrong": "This one is fit.", "right": "This one fits." } } },
+        { "speaker": "Shop assistant", "en": "It's 89,000 won, but it's 20% off today, so 71,200 won.", "ipa": "/ɪts ˈeɪti naɪn ˈθaʊzənd wɑːn | bət ɪts ˈtwenti pərˈsent ɔːf təˈdeɪ | soʊ ˈsevənti wʌn ˈθaʊzənd tuː ˈhʌndrəd wɑːn/", "vi": "89.000 won, nhưng hôm nay giảm 20%, nên còn 71.200 won.",
+          "analysis": { "phrases": [{ "phrase": "20% off", "vi": "giảm 20%" }] } },
+        { "speaker": "Customer", "en": "Great, I'll take it. Can I get a tax refund on this?", "ipa": "/ɡreɪt | aɪl teɪk ɪt | kæn aɪ ɡet ə tæks ˈriːfʌnd ɑːn ðɪs/", "vi": "Tốt, tôi lấy cái này. Tôi có được hoàn thuế món này không?",
+          "analysis": { "phrases": [{ "phrase": "I'll take it.", "vi": "Tôi lấy cái này / Tôi mua." }], "culture": "Nhiều nước hoàn thuế VAT cho khách du lịch khi mua trên một mức tối thiểu. Cần xuất trình hộ chiếu khi thanh toán." } }
+      ],
+      "keyPhrases": ["Do you have it in a medium?", "Can I try it on?", "It's a bit tight / loose.", "It fits perfectly.", "I'll take it."]
+    },
+    {
+      "id": "shopping-market-01",
+      "level": "B1",
+      "title": "Bargaining at a market",
+      "titleVi": "Mặc cả ở chợ",
+      "contextVi": "Bạn ở chợ Chatuchak, Bangkok. Bạn muốn mua 3 chiếc khăn lụa làm quà và trả giá.",
+      "imageQuery": "Chatuchak market stall",
+      "dialogue": [
+        { "speaker": "Customer", "en": "How much are these silk scarves?", "ipa": "/haʊ mʌtʃ ɑːr ðiːz sɪlk skɑːrvz/", "vi": "Mấy chiếc khăn lụa này giá bao nhiêu?",
+          "analysis": { "vocab": [{ "word": "scarf", "ipa": "/skɑːrf/", "pos": "noun (số nhiều: scarves)", "vi": "khăn quàng", "example": "a silk scarf" }], "grammar": { "pattern": "How much is + số ít / are + số nhiều?", "explainVi": "Chia động từ theo danh từ.", "examples": ["How much is this bag?", "How much are these shoes?"] } } },
+        { "speaker": "Seller", "en": "450 baht each. Very good quality, real silk.", "ipa": "/fɔːr ˈhʌndrəd ənd ˈfɪfti bɑːt iːtʃ | ˈveri ɡʊd ˈkwɑːləti | riːl sɪlk/", "vi": "450 baht một chiếc. Chất lượng rất tốt, lụa thật.",
+          "analysis": { "vocab": [{ "word": "quality", "ipa": "/ˈkwɑːləti/", "pos": "noun", "vi": "chất lượng", "example": "high quality" }] } },
+        { "speaker": "Customer", "en": "That's a bit expensive. If I buy three, can you give me a better price?", "ipa": "/ðæts ə bɪt ɪkˈspensɪv | ɪf aɪ baɪ θriː | kæn juː ɡɪv miː ə ˈbetər praɪs/", "vi": "Hơi đắt. Nếu tôi mua ba chiếc, anh bớt cho tôi được không?",
+          "variants": { "casual": "Can you do a discount for three?" },
+          "analysis": { "grammar": { "pattern": "If I + V, can you + V?", "explainVi": "Đặt điều kiện khi mặc cả: mua nhiều thì giá tốt hơn.", "examples": ["If I pay cash, can you give me a discount?", "If I buy two, is it cheaper?"] }, "culture": "Ở chợ châu Á, mặc cả là bình thường. Hãy mỉm cười, thân thiện; ở trung tâm thương mại thì không mặc cả." } },
+        { "speaker": "Seller", "en": "OK, for you, three for 1,200.", "ipa": "/ˌoʊˈkeɪ | fɔːr juː | θriː fɔːr wʌn ˈθaʊzənd tuː ˈhʌndrəd/", "vi": "Được, giá cho bạn, ba chiếc 1.200.",
+          "analysis": { "phrases": [{ "phrase": "three for…", "vi": "ba cái giá…" }] } },
+        { "speaker": "Customer", "en": "How about 1,000 for three? That's my best offer.", "ipa": "/haʊ əˈbaʊt wʌn ˈθaʊzənd fɔːr θriː | ðæts maɪ best ˈɔːfər/", "vi": "1.000 cho ba chiếc thì sao? Đó là giá cao nhất tôi trả được.",
+          "analysis": { "phrases": [{ "phrase": "How about…?", "vi": "… thì sao? (đề xuất)" }, { "phrase": "my best offer", "vi": "giá tốt nhất tôi đưa ra" }] } },
+        { "speaker": "Seller", "en": "1,100, and I'll give you a free bag. Deal?", "ipa": "/wʌn ˈθaʊzənd wʌn ˈhʌndrəd | ənd aɪl ɡɪv juː ə friː bæɡ | diːl/", "vi": "1.100, và tôi tặng bạn một cái túi. Chốt nhé?",
+          "analysis": { "vocab": [{ "word": "deal", "ipa": "/diːl/", "pos": "noun", "vi": "thỏa thuận; chốt giá", "example": "It's a deal!" }] } },
+        { "speaker": "Customer", "en": "Deal! Can you wrap them separately? They're gifts.", "ipa": "/diːl | kæn juː ræp ðəm ˈsepərətli | ðer ɡɪfts/", "vi": "Chốt! Anh gói riêng từng cái được không? Đó là quà tặng.",
+          "analysis": { "vocab": [{ "word": "wrap", "ipa": "/ræp/", "pos": "verb", "vi": "gói", "example": "Could you gift-wrap it?" }], "pronunciation": "“wrap” /ræp/ – chữ w câm." } }
+      ],
+      "keyPhrases": ["How much are these?", "That's a bit expensive.", "Can you give me a better price?", "How about…?", "Can you wrap it separately?"]
+    },
+    {
+      "id": "shopping-return-01",
+      "level": "B1",
+      "title": "Returning an item",
+      "titleVi": "Đổi trả hàng",
+      "contextVi": "Bạn mua một đôi giày ở London nhưng về khách sạn mới thấy một chiếc bị lỗi đường chỉ. Bạn quay lại cửa hàng.",
+      "imageQuery": "shoe store customer service",
+      "dialogue": [
+        { "speaker": "Customer", "en": "Hi. I bought these shoes yesterday, but there's a problem with the stitching.", "ipa": "/haɪ | aɪ bɔːt ðiːz ʃuːz ˈjestərdeɪ | bət ðerz ə ˈprɑːbləm wɪð ðə ˈstɪtʃɪŋ/", "vi": "Chào bạn. Tôi mua đôi giày này hôm qua, nhưng đường chỉ bị lỗi.",
+          "analysis": { "vocab": [{ "word": "stitching", "ipa": "/ˈstɪtʃɪŋ/", "pos": "noun", "vi": "đường chỉ may", "example": "The stitching is coming apart." }], "grammar": { "pattern": "There's a problem with + N", "explainVi": "Cách nêu vấn đề lịch sự, khách quan.", "examples": ["There's a problem with my room.", "There's a problem with the bill."] } } },
+        { "speaker": "Shop assistant", "en": "Oh, I'm sorry. Do you have the receipt?", "ipa": "/oʊ aɪm ˈsɑːri | duː juː hæv ðə rɪˈsiːt/", "vi": "Ồ, xin lỗi. Bạn có hóa đơn không?",
+          "analysis": { "culture": "Gần như mọi cửa hàng yêu cầu hóa đơn để đổi trả. Giữ hóa đơn cẩn thận đến hết chuyến đi." } },
+        { "speaker": "Customer", "en": "Yes, here. I'd like to exchange them for a new pair, please.", "ipa": "/jes hɪr | aɪd laɪk tʊ ɪksˈtʃeɪndʒ ðəm fɔːr ə nuː per pliːz/", "vi": "Có, đây. Tôi muốn đổi lấy một đôi mới.",
+          "analysis": { "vocab": [{ "word": "exchange", "ipa": "/ɪksˈtʃeɪndʒ/", "pos": "verb", "vi": "đổi (hàng)", "example": "Can I exchange this?" }, { "word": "pair", "ipa": "/per/", "pos": "noun", "vi": "đôi", "example": "a pair of socks" }] } },
+        { "speaker": "Shop assistant", "en": "I'm afraid we don't have any more in your size. Would you like a refund instead?", "ipa": "/aɪm əˈfreɪd wiː doʊnt hæv ˈeni mɔːr ɪn jɔːr saɪz | wʊd juː laɪk ə ˈriːfʌnd ɪnˈsted/", "vi": "Tôi e là không còn đôi nào cỡ của bạn. Bạn có muốn hoàn tiền thay vì đổi không?",
+          "analysis": { "phrases": [{ "phrase": "not any more", "vi": "không còn nữa" }] } },
+        { "speaker": "Customer", "en": "Yes, please. Could you put the money back on my card?", "ipa": "/jes pliːz | kʊd juː pʊt ðə ˈmʌni bæk ɑːn maɪ kɑːrd/", "vi": "Vâng. Bạn hoàn tiền vào thẻ cho tôi được không?",
+          "analysis": { "phrases": [{ "phrase": "put the money back on my card", "vi": "hoàn tiền vào thẻ" }] } },
+        { "speaker": "Shop assistant", "en": "Of course. It may take three to five working days to appear on your account.", "ipa": "/əv kɔːrs | ɪt meɪ teɪk θriː tə faɪv ˈwɜːrkɪŋ deɪz tʊ əˈpɪr ɑːn jɔːr əˈkaʊnt/", "vi": "Dĩ nhiên. Có thể mất 3 đến 5 ngày làm việc để tiền về tài khoản.",
+          "analysis": { "vocab": [{ "word": "working days", "ipa": "/ˈwɜːrkɪŋ deɪz/", "pos": "noun", "vi": "ngày làm việc (không tính cuối tuần)", "example": "Delivery takes 2 working days." }], "grammar": { "pattern": "It may take + thời gian + to + V", "explainVi": "Có thể mất bao lâu để…", "examples": ["It may take an hour to get there.", "It takes time to learn."] } } }
+      ],
+      "keyPhrases": ["There's a problem with…", "Here's the receipt.", "I'd like to exchange it.", "Can I get a refund?", "Could you put it back on my card?"]
+    }
+  ],
+  "reading": [
+    {
+      "title": "Tax-free shopping guide",
+      "titleVi": "Hướng dẫn mua sắm miễn thuế",
+      "introVi": "Bạn đọc tờ hướng dẫn hoàn thuế ở trung tâm thương mại.",
+      "text": "TAX FREE SHOPPING FOR VISITORS\n\nWho can claim? Visitors who live outside the EU.\nMinimum purchase: 100 EUR in the same shop on the same day.\n\n1. Show your passport when you pay and ask for a tax refund form.\n2. At the airport, BEFORE check-in, take your goods, receipts and forms to the Customs desk for a stamp.\n3. Keep the goods unused and in their original packaging.\n4. Get your refund at the refund counter (cash) or by card (5-10 days).\n\nA service fee is deducted from your refund.",
+      "glossary": { "visitors": "du khách", "minimum purchase": "giá trị mua tối thiểu", "tax refund form": "mẫu đơn hoàn thuế", "goods": "hàng hóa", "unused": "chưa sử dụng", "original packaging": "bao bì gốc", "deducted": "bị trừ đi" },
+      "questions": [
+        { "q": "You spend 60 EUR in one shop and 70 EUR in another. Can you get a refund?", "options": ["Yes, the total is 130 EUR.", "No, you need 100 EUR in the same shop."], "answer": 1, "explainVi": "Tối thiểu 100 EUR trong cùng một cửa hàng, cùng một ngày." },
+        { "q": "When should you go to the Customs desk?", "options": ["After you board the plane", "Before you check in your luggage", "After you get home"], "answer": 1, "explainVi": "“BEFORE check-in” – vì hải quan có thể muốn xem hàng." },
+        { "q": "Do you get the full tax back?", "options": ["Yes, all of it", "No, a service fee is taken"], "answer": 1, "explainVi": "“A service fee is deducted” = bị trừ phí dịch vụ." }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "title": "Online return request",
+      "titleVi": "Viết yêu cầu trả hàng online",
+      "taskVi": "Bạn đặt mua online một túi xách (đơn hàng #58210) và nhận được hàng sai màu (đặt màu đen, nhận màu nâu). Viết tin nhắn cho bộ phận chăm sóc khách hàng, yêu cầu đổi sang màu đen hoặc hoàn tiền.",
+      "info": ["Đơn hàng #58210", "Đặt: black handbag", "Nhận: brown handbag", "Muốn: đổi màu đen hoặc hoàn tiền"],
+      "starters": ["Hello,", "I recently ordered", "My order number is", "Unfortunately, I received", "instead of", "Could you please send me", "If this is not possible,", "Thank you,"],
+      "sample": "Hello,\n\nI recently ordered a black handbag from your website. My order number is #58210. Unfortunately, I received a brown handbag instead of a black one.\n\nCould you please send me the black handbag and tell me how to return the brown one? If this is not possible, I would like a full refund.\n\nThank you,\nLe Minh Chau",
+      "minWords": 45,
+      "mustInclude": [{ "regex": "58210", "labelVi": "Có mã đơn hàng" }, { "regex": "instead of", "labelVi": "Dùng “instead of” để nói nhận sai" }, { "regex": "refund", "labelVi": "Có phương án hoàn tiền" }],
+      "checklist": ["Nêu mã đơn hàng", "Mô tả lỗi rõ ràng (đặt gì, nhận gì)", "Đưa ra yêu cầu cụ thể", "Có phương án thay thế (If this is not possible…)"]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "topicId": "directions",
+  "title": "Asking for Directions",
+  "titleVi": "Hỏi đường",
+  "icon": "🗺️",
+  "descriptionVi": "Hỏi đường, hiểu chỉ dẫn (rẽ trái, đi thẳng, qua hai dãy nhà…) và xác nhận lại khi chưa chắc.",
+  "situations": [
+    {
+      "id": "directions-walk-01",
+      "level": "A2",
+      "title": "Asking the way on the street",
+      "titleVi": "Hỏi đường trên phố",
+      "contextVi": "Bạn đang ở trung tâm Amsterdam và muốn đi bộ đến bảo tàng Van Gogh. Bạn hỏi một người đi đường.",
+      "imageQuery": "tourist asking directions street",
+      "dialogue": [
+        { "speaker": "Traveler", "en": "Excuse me, sorry to bother you. Could you tell me the way to the Van Gogh Museum?", "ipa": "/ɪkˈskjuːz miː | ˈsɑːri tə ˈbɑːðər juː | kʊd juː tel miː ðə weɪ tə ðə væn ɡoʊ mjuˈziːəm/", "vi": "Xin lỗi đã làm phiền. Bạn chỉ giúp tôi đường đến bảo tàng Van Gogh được không?",
+          "variants": { "casual": "Hi, which way to the Van Gogh Museum?" },
+          "analysis": { "phrases": [{ "phrase": "Sorry to bother you.", "vi": "Xin lỗi đã làm phiền." }, { "phrase": "the way to…", "vi": "đường đến…" }], "grammar": { "pattern": "Could you tell me the way to + nơi chốn?", "explainVi": "Câu hỏi đường lịch sự nhất.", "examples": ["Could you tell me the way to the station?", "Could you tell me where the bank is?"] } } },
+        { "speaker": "Local", "en": "Sure. Go straight down this street for about two blocks.", "ipa": "/ʃʊr | ɡoʊ streɪt daʊn ðɪs striːt fɔːr əˈbaʊt tuː blɑːks/", "vi": "Được. Đi thẳng theo con phố này khoảng hai dãy nhà.",
+          "analysis": { "vocab": [{ "word": "go straight", "ipa": "/ɡoʊ streɪt/", "pos": "phrase", "vi": "đi thẳng", "example": "Go straight until the end." }, { "word": "block", "ipa": "/blɑːk/", "pos": "noun", "vi": "dãy nhà (đoạn giữa hai ngã tư)", "example": "It's two blocks away." }] } },
+        { "speaker": "Local", "en": "Then turn left at the traffic lights and cross the bridge.", "ipa": "/ðen tɜːrn left æt ðə ˈtræfɪk laɪts ənd krɔːs ðə brɪdʒ/", "vi": "Sau đó rẽ trái ở đèn giao thông và đi qua cây cầu.",
+          "analysis": { "vocab": [{ "word": "turn left", "ipa": "/tɜːrn left/", "pos": "phrase", "vi": "rẽ trái", "example": "Turn left at the church." }, { "word": "cross", "ipa": "/krɔːs/", "pos": "verb", "vi": "băng qua", "example": "Cross the road carefully." }, { "word": "bridge", "ipa": "/brɪdʒ/", "pos": "noun", "vi": "cây cầu", "example": "The hotel is near the bridge." }], "grammar": { "pattern": "turn left/right + at + điểm mốc", "explainVi": "Chỉ đường luôn kèm điểm mốc dễ thấy: at the traffic lights, at the corner, at the bank.", "examples": ["Turn right at the corner.", "Turn left at the second street."] } } },
+        { "speaker": "Traveler", "en": "Left at the traffic lights, then over the bridge. And after that?", "ipa": "/left æt ðə ˈtræfɪk laɪts | ðen ˈoʊvər ðə brɪdʒ | ənd ˈæftər ðæt/", "vi": "Rẽ trái ở đèn giao thông, rồi qua cầu. Sau đó thì sao?",
+          "analysis": { "culture": "Nhắc lại chỉ dẫn là cách tốt để kiểm tra mình hiểu đúng – người bản xứ sẽ sửa nếu bạn nhầm." } },
+        { "speaker": "Local", "en": "After the bridge, it's on your right, opposite a big park. You can't miss it.", "ipa": "/ˈæftər ðə brɪdʒ | ɪts ɑːn jɔːr raɪt | ˈɑːpəzɪt ə bɪɡ pɑːrk | juː kænt mɪs ɪt/", "vi": "Qua cầu, nó ở bên tay phải, đối diện một công viên lớn. Bạn không thể nào bỏ lỡ.",
+          "analysis": { "vocab": [{ "word": "opposite", "ipa": "/ˈɑːpəzɪt/", "pos": "preposition", "vi": "đối diện", "example": "The bank is opposite the hotel." }], "phrases": [{ "phrase": "on your right / on your left", "vi": "ở bên tay phải / trái của bạn" }] } },
+        { "speaker": "Traveler", "en": "Great. How long does it take on foot?", "ipa": "/ɡreɪt | haʊ lɔːŋ dʌz ɪt teɪk ɑːn fʊt/", "vi": "Tuyệt. Đi bộ mất bao lâu?",
+          "analysis": { "phrases": [{ "phrase": "on foot", "vi": "đi bộ" }] } },
+        { "speaker": "Local", "en": "About ten minutes. If you get lost, just ask anyone for the Museumplein.", "ipa": "/əˈbaʊt ten ˈmɪnɪts | ɪf juː ɡet lɔːst | dʒʌst æsk ˈeniwʌn fɔːr ðə mjuˈziːəmplaɪn/", "vi": "Khoảng mười phút. Nếu lạc, cứ hỏi bất kỳ ai đường đến quảng trường Museumplein.",
+          "analysis": { "phrases": [{ "phrase": "get lost", "vi": "bị lạc" }] } }
+      ],
+      "keyPhrases": ["Could you tell me the way to…?", "Go straight.", "Turn left / right at…", "It's on your right, opposite…", "How long does it take on foot?"]
+    },
+    {
+      "id": "directions-map-01",
+      "level": "B1",
+      "title": "Using a map and landmarks",
+      "titleVi": "Hỏi đường bằng bản đồ và điểm mốc",
+      "contextVi": "Điện thoại hết pin, bạn chỉ có bản đồ giấy. Bạn nhờ nhân viên một cửa hàng chỉ vị trí hiện tại và đường về khách sạn.",
+      "imageQuery": "paper city map tourist",
+      "dialogue": [
+        { "speaker": "Traveler", "en": "Hi. I'm a bit lost. Could you show me where we are on this map?", "ipa": "/haɪ | aɪm ə bɪt lɔːst | kʊd juː ʃoʊ miː wer wiː ɑːr ɑːn ðɪs mæp/", "vi": "Chào bạn. Tôi hơi bị lạc. Bạn chỉ giúp tôi chúng ta đang ở đâu trên bản đồ này được không?",
+          "analysis": { "grammar": { "pattern": "show me where + S + V", "explainVi": "Câu hỏi gián tiếp: sau “where” giữ trật tự S + V (where we are), không đảo.", "examples": ["Can you show me where the exit is?", "Do you know where he lives?"] }, "commonMistake": { "wrong": "Show me where are we.", "right": "Show me where we are." } } },
+        { "speaker": "Shopkeeper", "en": "We're here, on King Street, next to the post office.", "ipa": "/wɪr hɪr | ɑːn kɪŋ striːt | nekst tə ðə poʊst ˈɔːfɪs/", "vi": "Chúng ta đang ở đây, trên phố King, cạnh bưu điện.",
+          "analysis": { "vocab": [{ "word": "post office", "ipa": "/poʊst ˈɔːfɪs/", "pos": "noun", "vi": "bưu điện", "example": "Is there a post office near here?" }], "grammar": { "pattern": "on + tên đường / at + số nhà", "explainVi": "on King Street (trên phố), at 25 King Street (tại số nhà cụ thể).", "examples": ["The café is on Main Street.", "We live at 10 Park Road."] } } },
+        { "speaker": "Traveler", "en": "My hotel is the Riverside Inn. Is it within walking distance?", "ipa": "/maɪ hoʊˈtel ɪz ðə ˈrɪvərsaɪd ɪn | ɪz ɪt wɪˈðɪn ˈwɔːkɪŋ ˈdɪstəns/", "vi": "Khách sạn của tôi là Riverside Inn. Có đi bộ đến được không?",
+          "analysis": { "phrases": [{ "phrase": "within walking distance", "vi": "trong khoảng cách đi bộ được" }] } },
+        { "speaker": "Shopkeeper", "en": "Yes, but it's a bit complicated. Walk to the end of this street until you see a church.", "ipa": "/jes | bət ɪts ə bɪt ˈkɑːmplɪkeɪtɪd | wɔːk tə ði end əv ðɪs striːt ənˈtɪl juː siː ə tʃɜːrtʃ/", "vi": "Được, nhưng hơi rắc rối. Đi bộ đến cuối phố này cho đến khi thấy một nhà thờ.",
+          "analysis": { "vocab": [{ "word": "complicated", "ipa": "/ˈkɑːmplɪkeɪtɪd/", "pos": "adjective", "vi": "phức tạp, rắc rối", "example": "The ticket machine is complicated." }, { "word": "church", "ipa": "/tʃɜːrtʃ/", "pos": "noun", "vi": "nhà thờ", "example": "Turn right at the church." }], "grammar": { "pattern": "until + S + V", "explainVi": "“cho đến khi” – đi tiếp cho đến khi gặp điểm mốc.", "examples": ["Keep walking until you see a bank.", "Wait here until I come back."] } } },
+        { "speaker": "Shopkeeper", "en": "Take the second right after the church, and follow the river. The hotel is at the end of the path.", "ipa": "/teɪk ðə ˈsekənd raɪt ˈæftər ðə tʃɜːrtʃ | ənd ˈfɑːloʊ ðə ˈrɪvər | ðə hoʊˈtel ɪz æt ði end əv ðə pæθ/", "vi": "Rẽ phải ở ngã thứ hai sau nhà thờ, rồi đi dọc theo con sông. Khách sạn ở cuối con đường.",
+          "analysis": { "phrases": [{ "phrase": "take the second right", "vi": "rẽ phải ở ngã rẽ thứ hai" }, { "phrase": "follow the river", "vi": "đi dọc theo sông" }], "vocab": [{ "word": "path", "ipa": "/pæθ/", "pos": "noun", "vi": "lối đi, đường mòn", "example": "Follow the path to the beach." }] } },
+        { "speaker": "Traveler", "en": "Could you draw it on the map for me, please? Just to be sure.", "ipa": "/kʊd juː drɔː ɪt ɑːn ðə mæp fɔːr miː pliːz | dʒʌst tə biː ʃʊr/", "vi": "Bạn vẽ lên bản đồ giúp tôi được không? Cho chắc ăn.",
+          "analysis": { "phrases": [{ "phrase": "just to be sure", "vi": "cho chắc ăn" }], "culture": "Nhờ người khác vẽ đường lên bản đồ hoặc viết tên phố là cách rất hiệu quả khi nghe chưa rõ." } }
+      ],
+      "keyPhrases": ["I'm a bit lost.", "Could you show me where we are?", "Is it within walking distance?", "Take the second right.", "Could you draw it on the map?"]
+    },
+    {
+      "id": "directions-transport-01",
+      "level": "B1",
+      "title": "Is it far? Walk or take a bus?",
+      "titleVi": "Có xa không? Đi bộ hay đi xe buýt?",
+      "contextVi": "Bạn đang ở khách sạn tại Kyoto, muốn đến chùa Vàng (Kinkaku-ji). Bạn hỏi lễ tân nên đi bằng gì.",
+      "imageQuery": "Kinkakuji golden pavilion",
+      "dialogue": [
+        { "speaker": "Traveler", "en": "Good morning. We'd like to visit the Golden Pavilion. Is it far from here?", "ipa": "/ɡʊd ˈmɔːrnɪŋ | wiːd laɪk tə ˈvɪzɪt ðə ˈɡoʊldən pəˈvɪljən | ɪz ɪt fɑːr frʌm hɪr/", "vi": "Chào buổi sáng. Chúng tôi muốn tham quan chùa Vàng. Có xa đây không?",
+          "analysis": { "grammar": { "pattern": "Is it far from + nơi chốn?", "explainVi": "Hỏi khoảng cách. Trả lời: It's about 5 kilometres / 20 minutes away.", "examples": ["Is the airport far from the city?", "How far is it?"] } } },
+        { "speaker": "Receptionist", "en": "It's about six kilometres away, so it's too far to walk.", "ipa": "/ɪts əˈbaʊt sɪks kɪˈlɑːmətərz əˈweɪ | soʊ ɪts tuː fɑːr tə wɔːk/", "vi": "Cách khoảng 6 cây số, nên quá xa để đi bộ.",
+          "analysis": { "grammar": { "pattern": "too + tính từ + to + V", "explainVi": "Quá… đến mức không thể làm gì.", "examples": ["It's too hot to go out.", "This box is too heavy to carry."] }, "pronunciation": "“kilometres” Mỹ thường /kɪˈlɑːmətərz/, Anh /ˈkɪləmiːtəz/." } },
+        { "speaker": "Receptionist", "en": "You can take bus number 205 from the stop outside. It runs every ten minutes.", "ipa": "/juː kən teɪk bʌs ˈnʌmbər tuː oʊ faɪv frʌm ðə stɑːp ˌaʊtˈsaɪd | ɪt rʌnz ˈevri ten ˈmɪnɪts/", "vi": "Anh chị có thể đi xe buýt số 205 từ trạm ngay bên ngoài. Cứ 10 phút có một chuyến.",
+          "analysis": { "phrases": [{ "phrase": "It runs every ten minutes.", "vi": "Cứ mười phút có một chuyến." }] } },
+        { "speaker": "Traveler", "en": "How long is the ride, and which stop should we get off at?", "ipa": "/haʊ lɔːŋ ɪz ðə raɪd | ənd wɪtʃ stɑːp ʃʊd wiː ɡet ɔːf æt/", "vi": "Đi mất bao lâu, và chúng tôi nên xuống ở trạm nào?",
+          "analysis": { "vocab": [{ "word": "ride", "ipa": "/raɪd/", "pos": "noun", "vi": "chuyến đi (trên xe)", "example": "It's a short ride." }], "grammar": { "pattern": "Which stop should we get off at?", "explainVi": "Giới từ “at” đứng cuối câu hỏi trong văn nói tự nhiên.", "examples": ["Which hotel are you staying at?", "Who are you travelling with?"] } } },
+        { "speaker": "Receptionist", "en": "About 35 minutes. Get off at Kinkakuji-michi. The announcements are in English too.", "ipa": "/əˈbaʊt ˈθɜːrti faɪv ˈmɪnɪts | ɡet ɔːf æt ˌkɪnkɑːkuˈdʒiː ˈmiːtʃi | ði əˈnaʊnsmənts ɑːr ɪn ˈɪŋɡlɪʃ tuː/", "vi": "Khoảng 35 phút. Xuống ở trạm Kinkakuji-michi. Có thông báo bằng tiếng Anh nữa.",
+          "analysis": { "culture": "Ở Nhật, lên xe buýt bằng cửa sau, trả tiền khi xuống ở cửa trước (bằng tiền xu hoặc thẻ IC)." } },
+        { "speaker": "Traveler", "en": "Perfect. Would a taxi be much faster?", "ipa": "/ˈpɜːrfɪkt | wʊd ə ˈtæksi biː mʌtʃ ˈfæstər/", "vi": "Tuyệt. Đi taxi có nhanh hơn nhiều không?",
+          "analysis": { "grammar": { "pattern": "much + so sánh hơn", "explainVi": "“much” nhấn mạnh so sánh: nhanh hơn nhiều.", "examples": ["It's much cheaper by bus.", "Today is much colder."] } } },
+        { "speaker": "Receptionist", "en": "A bit faster, about 20 minutes, but it costs around 2,500 yen instead of 230.", "ipa": "/ə bɪt ˈfæstər | əˈbaʊt ˈtwenti ˈmɪnɪts | bət ɪt kɔːsts əˈraʊnd tuː ˈθaʊzənd faɪv ˈhʌndrəd jen ɪnˈsted əv tuː ˈhʌndrəd ənd ˈθɜːrti/", "vi": "Nhanh hơn chút, khoảng 20 phút, nhưng tốn khoảng 2.500 yên thay vì 230.",
+          "analysis": { "phrases": [{ "phrase": "instead of", "vi": "thay vì" }] } }
+      ],
+      "keyPhrases": ["Is it far from here?", "Can we walk there?", "Which bus goes there?", "Which stop should we get off at?", "Would a taxi be faster?"]
+    }
+  ],
+  "reading": [
+    {
+      "title": "Directions in a hotel email",
+      "titleVi": "Chỉ đường trong email của khách sạn",
+      "introVi": "Khách sạn gửi bạn email hướng dẫn đường đi từ ga tàu.",
+      "text": "HOW TO FIND US\n\nFrom Central Station, take the main exit (Exit B) and turn right.\nWalk along Harbour Road for about 300 metres.\nAt the second set of traffic lights, turn left into Rose Street.\nWe are the white building on the left, between a pharmacy and a small bakery.\nThe walk takes about 7 minutes.\nIf you arrive after 11 p.m., please use the side door and enter the code 4721.",
+      "glossary": { "main exit": "lối ra chính", "along": "dọc theo", "set of traffic lights": "cụm đèn giao thông", "turn left into": "rẽ trái vào", "between": "ở giữa", "pharmacy": "hiệu thuốc", "bakery": "tiệm bánh", "side door": "cửa hông" },
+      "questions": [
+        { "q": "Which exit should you use at Central Station?", "options": ["Exit A", "Exit B", "The side exit"], "answer": 1, "explainVi": "“take the main exit (Exit B)”." },
+        { "q": "Where is the hotel?", "options": ["Opposite a pharmacy", "Between a pharmacy and a bakery", "Next to the station"], "answer": 1, "explainVi": "“between a pharmacy and a small bakery”." },
+        { "q": "You arrive at midnight. What do you do?", "options": ["Ring the bell at the front door", "Use the side door with code 4721", "Wait until morning"], "answer": 1, "explainVi": "Sau 11 giờ đêm, dùng cửa hông và nhập mã 4721." }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "title": "Giving directions to a friend",
+      "titleVi": "Nhắn tin chỉ đường cho bạn",
+      "taskVi": "Một người bạn nước ngoài sẽ đến nhà hàng nơi bạn đang ngồi. Nhắn tin chỉ đường từ ga tàu: ra lối số 2, rẽ trái, đi thẳng 2 dãy nhà, rẽ phải ở ngân hàng, nhà hàng ở bên trái, đối diện công viên, tên Sakura, đi bộ khoảng 5 phút.",
+      "info": ["Exit 2 → turn left", "Go straight 2 blocks", "Turn right at the bank", "Sakura restaurant on the left, opposite the park", "5 minutes on foot"],
+      "starters": ["Hi! From the station,", "take Exit 2 and", "Go straight for", "Turn right at", "The restaurant is called", "It's on your left, opposite", "It's about a 5-minute walk.", "See you soon!"],
+      "sample": "Hi! From the station, take Exit 2 and turn left. Go straight for two blocks. Turn right at the bank. The restaurant is called Sakura. It's on your left, opposite the park. It's about a 5-minute walk. Call me if you get lost. See you soon!",
+      "minWords": 35,
+      "letter": false,
+      "mustInclude": [{ "regex": "exit 2|exit two", "labelVi": "Có lối ra số 2" }, { "regex": "turn left", "labelVi": "Có “turn left”" }, { "regex": "turn right", "labelVi": "Có “turn right”" }, { "regex": "opposite", "labelVi": "Có điểm mốc “opposite the park”" }],
+      "checklist": ["Mỗi bước một câu ngắn", "Dùng câu mệnh lệnh (Go, Turn, Take)", "Có điểm mốc dễ nhận ra", "Có thời gian đi bộ ước tính"]
+    }
+  ]
+}

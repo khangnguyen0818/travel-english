@@ -1197,5 +1197,13 @@ applyTheme();
 router();
 
 if ('serviceWorker' in navigator) {
+  // Khi có phiên bản mới (đã tải lên GitHub), tự tải lại trang một lần để dùng bản mới ngay
+  const hadController = !!navigator.serviceWorker.controller;
+  let reloaded = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (!hadController || reloaded) return;
+    reloaded = true;
+    location.reload();
+  });
   window.addEventListener('load', () => navigator.serviceWorker.register('service-worker.js').catch(() => {}));
 }

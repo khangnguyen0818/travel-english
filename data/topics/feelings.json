@@ -1,0 +1,104 @@
+{
+  "topicId": "feelings",
+  "title": "Thanks, Apologies & Refusals",
+  "titleVi": "Cảm ơn, xin lỗi & từ chối",
+  "icon": "🙏",
+  "descriptionVi": "Cảm ơn, xin lỗi đúng mức, từ chối lịch sự người bán hàng rong và phàn nàn mà không gây mất lòng.",
+  "situations": [
+    {
+      "id": "feelings-sorry-01",
+      "level": "A2",
+      "title": "Apologising",
+      "titleVi": "Xin lỗi",
+      "contextVi": "Trên tàu điện đông người, bạn vô tình làm đổ cà phê lên áo một người phụ nữ.",
+      "imageQuery": "crowded subway train passengers",
+      "dialogue": [
+        { "speaker": "Traveler", "en": "Oh no, I'm so sorry! I didn't mean to do that.", "ipa": "/oʊ noʊ | aɪm soʊ ˈsɑːri | aɪ ˈdɪdənt miːn tə duː ðæt/", "vi": "Ôi không, tôi xin lỗi lắm! Tôi không cố ý.",
+          "analysis": { "phrases": [{ "phrase": "I didn't mean to.", "vi": "Tôi không cố ý." }], "grammar": { "pattern": "I'm so sorry / I'm really sorry", "explainVi": "Thêm “so/really/terribly” để xin lỗi chân thành hơn.", "examples": ["I'm terribly sorry.", "I'm really sorry about that."] } } },
+        { "speaker": "Woman", "en": "It's OK, it was an accident. The train moved suddenly.", "ipa": "/ɪts ˌoʊˈkeɪ | ɪt wəz ən ˈæksɪdənt | ðə treɪn muːvd ˈsʌdənli/", "vi": "Không sao, chỉ là tai nạn thôi. Tàu chuyển động đột ngột mà.",
+          "analysis": { "vocab": [{ "word": "accident", "ipa": "/ˈæksɪdənt/", "pos": "noun", "vi": "tai nạn; sự vô tình", "example": "It was an accident." }, { "word": "suddenly", "ipa": "/ˈsʌdənli/", "pos": "adverb", "vi": "đột ngột", "example": "It suddenly started raining." }] } },
+        { "speaker": "Traveler", "en": "Please let me pay for the dry cleaning. Here's my number.", "ipa": "/pliːz let miː peɪ fɔːr ðə draɪ ˈkliːnɪŋ | hɪrz maɪ ˈnʌmbər/", "vi": "Xin để tôi trả tiền giặt khô. Đây là số điện thoại của tôi.",
+          "analysis": { "vocab": [{ "word": "dry cleaning", "ipa": "/draɪ ˈkliːnɪŋ/", "pos": "noun", "vi": "giặt khô", "example": "This coat needs dry cleaning." }], "grammar": { "pattern": "Let me + V", "explainVi": "Đề nghị làm gì để bù đắp.", "examples": ["Let me help you.", "Let me get you a tissue."] } } },
+        { "speaker": "Woman", "en": "That's very kind, but don't worry about it. It's just an old T-shirt.", "ipa": "/ðæts ˈveri kaɪnd | bət doʊnt ˈwɜːri əˈbaʊt ɪt | ɪts dʒʌst ən oʊld ˈtiːʃɜːrt/", "vi": "Bạn thật tử tế, nhưng đừng bận tâm. Chỉ là cái áo phông cũ thôi.",
+          "analysis": { "phrases": [{ "phrase": "Don't worry about it.", "vi": "Đừng bận tâm / Không sao đâu." }] } },
+        { "speaker": "Traveler", "en": "At least take these tissues. Again, I apologise.", "ipa": "/æt liːst teɪk ðiːz ˈtɪʃuːz | əˈɡen | aɪ əˈpɑːlədʒaɪz/", "vi": "Ít nhất hãy cầm mấy tờ khăn giấy này. Một lần nữa, tôi xin lỗi.",
+          "analysis": { "vocab": [{ "word": "apologise", "ipa": "/əˈpɑːlədʒaɪz/", "pos": "verb", "vi": "xin lỗi (trang trọng)", "example": "We apologise for the delay." }, { "word": "tissue", "ipa": "/ˈtɪʃuː/", "pos": "noun", "vi": "khăn giấy", "example": "Do you have a tissue?" }], "phrases": [{ "phrase": "at least", "vi": "ít nhất" }] } },
+        { "speaker": "Woman", "en": "Thanks. No harm done. Have a nice day!", "ipa": "/θæŋks | noʊ hɑːrm dʌn | hæv ə naɪs deɪ/", "vi": "Cảm ơn. Không sao cả. Chúc một ngày vui!",
+          "analysis": { "phrases": [{ "phrase": "No harm done.", "vi": "Không có thiệt hại gì / Không sao." }] } }
+      ],
+      "keyPhrases": ["I'm so sorry!", "I didn't mean to.", "Let me pay for it.", "It was an accident.", "Don't worry about it."]
+    },
+    {
+      "id": "feelings-refuse-01",
+      "level": "A2",
+      "title": "Saying no politely",
+      "titleVi": "Từ chối lịch sự",
+      "contextVi": "Ở khu phố cổ, người bán hàng rong và người mời tour liên tục mời bạn. Bạn từ chối lịch sự nhưng dứt khoát.",
+      "imageQuery": "street vendor tourists market",
+      "dialogue": [
+        { "speaker": "Vendor", "en": "Hello, my friend! Nice bags, very cheap. Come and have a look!", "ipa": "/heˈloʊ maɪ frend | naɪs bæɡz | ˈveri tʃiːp | kʌm ənd hæv ə lʊk/", "vi": "Chào bạn! Túi đẹp, rất rẻ. Vào xem đi!" },
+        { "speaker": "Traveler", "en": "No, thank you. I'm just looking around.", "ipa": "/noʊ θæŋk juː | aɪm dʒʌst ˈlʊkɪŋ əˈraʊnd/", "vi": "Không, cảm ơn. Tôi chỉ đi dạo xem thôi.",
+          "analysis": { "phrases": [{ "phrase": "No, thank you.", "vi": "Không, cảm ơn (từ chối lịch sự)" }], "culture": "Mỉm cười, nói “No, thank you” và tiếp tục đi. Không cần giải thích dài." } },
+        { "speaker": "Vendor", "en": "Special price for you! Only 20 dollars!", "ipa": "/ˈspeʃəl praɪs fɔːr juː | ˈoʊnli ˈtwenti ˈdɑːlərz/", "vi": "Giá đặc biệt cho bạn! Chỉ 20 đô!" },
+        { "speaker": "Traveler", "en": "That's kind of you, but I really don't need one. Thanks anyway.", "ipa": "/ðæts kaɪnd əv juː | bət aɪ ˈrɪəli doʊnt niːd wʌn | θæŋks ˈeniweɪ/", "vi": "Cảm ơn ý tốt của anh, nhưng tôi thật sự không cần. Dù sao cũng cảm ơn.",
+          "analysis": { "phrases": [{ "phrase": "Thanks anyway.", "vi": "Dù sao cũng cảm ơn." }, { "phrase": "That's kind of you, but…", "vi": "Bạn thật tốt, nhưng… (mở đầu lời từ chối)" }] } },
+        { "speaker": "Tout", "en": "Taxi? Tuk-tuk? Tour to the temple?", "ipa": "/ˈtæksi | ˈtʊk tʊk | tʊr tə ðə ˈtempəl/", "vi": "Taxi không? Tuk-tuk không? Tour đi chùa không?",
+          "analysis": { "vocab": [{ "word": "tout", "ipa": "/taʊt/", "pos": "noun", "vi": "người cò mồi, chèo kéo khách", "example": "Ignore the touts at the station." }] } },
+        { "speaker": "Traveler", "en": "No, thanks. We're fine walking. Have a good day!", "ipa": "/noʊ θæŋks | wɪr faɪn ˈwɔːkɪŋ | hæv ə ɡʊd deɪ/", "vi": "Không, cảm ơn. Chúng tôi đi bộ được. Chúc một ngày tốt lành!",
+          "analysis": { "culture": "Không nên trả lời “Maybe later” – người bán sẽ tiếp tục đi theo. Nói “No, thanks” rõ ràng và thân thiện." } }
+      ],
+      "keyPhrases": ["No, thank you.", "I'm just looking.", "I don't need one, thanks.", "Thanks anyway.", "We're fine, thanks."]
+    },
+    {
+      "id": "feelings-complain-01",
+      "level": "B1",
+      "title": "Complaining politely",
+      "titleVi": "Phàn nàn khéo léo",
+      "contextVi": "Bạn đợi món ở nhà hàng 45 phút, và món mang ra bị nguội. Bạn phàn nàn lịch sự với quản lý.",
+      "imageQuery": "restaurant manager customer",
+      "dialogue": [
+        { "speaker": "Customer", "en": "Excuse me, could I speak to the manager, please?", "ipa": "/ɪkˈskjuːz miː | kʊd aɪ spiːk tə ðə ˈmænɪdʒər pliːz/", "vi": "Xin lỗi, cho tôi nói chuyện với quản lý được không?",
+          "analysis": { "vocab": [{ "word": "manager", "ipa": "/ˈmænɪdʒər/", "pos": "noun", "vi": "người quản lý", "example": "I'd like to see the manager." }] } },
+        { "speaker": "Manager", "en": "I'm the manager. Is everything all right?", "ipa": "/aɪm ðə ˈmænɪdʒər | ɪz ˈevriθɪŋ ɔːl raɪt/", "vi": "Tôi là quản lý. Mọi thứ ổn chứ ạ?" },
+        { "speaker": "Customer", "en": "I'm afraid not. We waited 45 minutes, and when the food came, it was cold.", "ipa": "/aɪm əˈfreɪd nɑːt | wiː ˈweɪtɪd ˈfɔːrti faɪv ˈmɪnɪts | ənd wen ðə fuːd keɪm | ɪt wəz koʊld/", "vi": "Tôi e là không. Chúng tôi chờ 45 phút, và khi món ăn đến thì đã nguội.",
+          "analysis": { "phrases": [{ "phrase": "I'm afraid not.", "vi": "Tôi e là không (phủ định lịch sự)" }], "culture": "Phàn nàn hiệu quả: bình tĩnh, nêu sự việc cụ thể, không chỉ trích cá nhân, đề nghị giải pháp." } },
+        { "speaker": "Manager", "en": "I'm terribly sorry. We're very busy tonight, but that's no excuse.", "ipa": "/aɪm ˈterəbli ˈsɑːri | wɪr ˈveri ˈbɪzi təˈnaɪt | bət ðæts noʊ ɪkˈskjuːs/", "vi": "Tôi thành thật xin lỗi. Tối nay chúng tôi rất đông, nhưng đó không phải là lý do.",
+          "analysis": { "vocab": [{ "word": "excuse", "ipa": "/ɪkˈskjuːs/", "pos": "noun", "vi": "lý do bào chữa", "example": "That's not a good excuse." }], "pronunciation": "Danh từ “excuse” /ɪkˈskjuːs/ (âm s); động từ /ɪkˈskjuːz/ (âm z)." } },
+        { "speaker": "Customer", "en": "I understand it's busy. Could you warm it up or bring us a fresh plate?", "ipa": "/aɪ ˌʌndərˈstænd ɪts ˈbɪzi | kʊd juː wɔːrm ɪt ʌp ɔːr brɪŋ ʌs ə freʃ pleɪt/", "vi": "Tôi hiểu là đông khách. Anh hâm nóng lại hoặc mang ra đĩa mới được không?",
+          "analysis": { "phrases": [{ "phrase": "warm it up", "vi": "hâm nóng lại" }], "grammar": { "pattern": "I understand…, + Could you…?", "explainVi": "Thể hiện sự thông cảm trước rồi mới yêu cầu – rất hiệu quả.", "examples": ["I understand you're busy, but could you check?", "I know it's late, but could you help?"] } } },
+        { "speaker": "Manager", "en": "Of course. We'll bring fresh dishes right away, and dessert is on the house tonight.", "ipa": "/əv kɔːrs | wiːl brɪŋ freʃ ˈdɪʃɪz raɪt əˈweɪ | ənd dɪˈzɜːrt ɪz ɑːn ðə haʊs təˈnaɪt/", "vi": "Dĩ nhiên. Chúng tôi sẽ mang món mới ngay, và tối nay món tráng miệng nhà hàng mời.",
+          "analysis": { "phrases": [{ "phrase": "on the house", "vi": "nhà hàng mời, miễn phí" }] } },
+        { "speaker": "Customer", "en": "Thank you, that's very kind. We appreciate it.", "ipa": "/θæŋk juː | ðæts ˈveri kaɪnd | wiː əˈpriːʃieɪt ɪt/", "vi": "Cảm ơn anh, anh thật chu đáo. Chúng tôi rất cảm kích.",
+          "analysis": { "vocab": [{ "word": "appreciate", "ipa": "/əˈpriːʃieɪt/", "pos": "verb", "vi": "trân trọng, cảm kích", "example": "I really appreciate your help." }] } }
+      ],
+      "keyPhrases": ["Could I speak to the manager?", "I'm afraid not.", "We waited 45 minutes.", "Could you bring us a fresh plate?", "We appreciate it."]
+    }
+  ],
+  "reading": [
+    {
+      "title": "How polite is it?",
+      "titleVi": "Mức độ lịch sự của câu nói",
+      "introVi": "Đọc bảng so sánh mức độ lịch sự trong tiếng Anh.",
+      "text": "POLITE ENGLISH - FROM DIRECT TO VERY POLITE\n\nAsking for something:\n  Give me water.  →  Can I have some water?  →  Could I possibly have some water, please?\n\nSaying no:\n  No.  →  No, thanks.  →  That's very kind of you, but I'm afraid I can't.\n\nApologising:\n  Sorry.  →  I'm so sorry.  →  I do apologise for the inconvenience.\n\nComplaining:\n  This is cold!  →  This is a bit cold.  →  I'm sorry, but I think my food is a little cold.\n\nTip: Words like 'a bit', 'a little', 'I'm afraid' and 'I think' make English softer.",
+      "glossary": { "direct": "thẳng thắn, trực tiếp", "possibly": "có thể (làm câu nhẹ hơn)", "I'm afraid": "tôi e là", "inconvenience": "sự bất tiện", "softer": "mềm mỏng hơn" },
+      "questions": [
+        { "q": "Which is the MOST polite way to ask for water?", "options": ["Give me water.", "Can I have some water?", "Could I possibly have some water, please?"], "answer": 2, "explainVi": "Could + possibly + please = lịch sự nhất." },
+        { "q": "Which words make English softer?", "options": ["very, really", "a bit, I'm afraid, I think", "must, have to"], "answer": 1, "explainVi": "‘a bit’, ‘a little’, ‘I'm afraid’, ‘I think’ làm câu nhẹ nhàng hơn." },
+        { "q": "A hotel says: “We do apologise for the inconvenience.” What are they doing?", "options": ["Thanking you", "Apologising formally", "Refusing"], "answer": 1, "explainVi": "Đây là lời xin lỗi trang trọng." }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "title": "Thank-you note",
+      "titleVi": "Viết thiệp cảm ơn",
+      "taskVi": "Viết một tấm thiệp cảm ơn ngắn (40–60 từ) gửi gia đình chủ homestay ở Úc: cảm ơn họ đã đón tiếp, nấu bữa tối, đưa bạn đi chợ, mời họ đến Việt Nam.",
+      "info": ["Người nhận: the Wilson family", "Cảm ơn: welcome, dinner, trip to the market", "Mời: come to Vietnam"],
+      "starters": ["Dear Wilson family,", "Thank you so much for", "We really enjoyed", "It was so kind of you to", "We will never forget", "If you ever come to Vietnam,", "With love,"],
+      "sample": "Dear Wilson family,\n\nThank you so much for welcoming us into your home. We really enjoyed your delicious roast dinner, and it was so kind of you to take us to the farmers' market. We will never forget our week with you. If you ever come to Vietnam, please stay with us!\n\nWith love,\nLan and Tuan",
+      "minWords": 40,
+      "mustInclude": [{ "regex": "thank", "labelVi": "Có lời cảm ơn" }, { "regex": "kind of you|enjoyed", "labelVi": "Có cụm thể hiện sự trân trọng" }, { "regex": "vietnam", "labelVi": "Có lời mời đến Việt Nam" }],
+      "checklist": ["Mở đầu Dear…", "Cảm ơn ít nhất 2 việc cụ thể", "Dùng “It was so kind of you to…”", "Có lời mời và lời chào thân mật"]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "topicId": "health",
+  "title": "Pharmacy & Hospital",
+  "titleVi": "Hiệu thuốc & Bệnh viện",
+  "icon": "💊",
+  "descriptionVi": "Mô tả triệu chứng, mua thuốc ở hiệu thuốc, khám bác sĩ và làm thủ tục bảo hiểm.",
+  "situations": [
+    {
+      "id": "health-pharmacy-01",
+      "level": "A2",
+      "title": "At the pharmacy",
+      "titleVi": "Tại hiệu thuốc",
+      "contextVi": "Bạn bị cảm, đau họng và hơi sốt khi đang du lịch ở Úc. Bạn vào hiệu thuốc hỏi dược sĩ.",
+      "imageQuery": "pharmacy counter pharmacist",
+      "dialogue": [
+        { "speaker": "Customer", "en": "Hi. I've got a sore throat and a runny nose. I think I have a cold.", "ipa": "/haɪ | aɪv ɡɑːt ə sɔːr θroʊt ənd ə ˈrʌni noʊz | aɪ θɪŋk aɪ hæv ə koʊld/", "vi": "Chào chị. Tôi bị đau họng và sổ mũi. Tôi nghĩ tôi bị cảm.",
+          "analysis": { "vocab": [{ "word": "sore throat", "ipa": "/sɔːr θroʊt/", "pos": "noun", "vi": "đau họng", "example": "I have a sore throat." }, { "word": "runny nose", "ipa": "/ˈrʌni noʊz/", "pos": "noun", "vi": "sổ mũi", "example": "My son has a runny nose." }, { "word": "cold", "ipa": "/koʊld/", "pos": "noun", "vi": "cảm lạnh", "example": "I caught a cold." }], "grammar": { "pattern": "I have / I've got + a + triệu chứng", "explainVi": "Mô tả bệnh: have a headache, have a fever, have a cough.", "examples": ["I have a headache.", "She's got a fever."] } } },
+        { "speaker": "Pharmacist", "en": "Do you have a fever? And how long have you felt like this?", "ipa": "/duː juː hæv ə ˈfiːvər | ənd haʊ lɔːŋ həv juː felt laɪk ðɪs/", "vi": "Bạn có sốt không? Và bạn bị như vậy bao lâu rồi?",
+          "analysis": { "vocab": [{ "word": "fever", "ipa": "/ˈfiːvər/", "pos": "noun", "vi": "sốt", "example": "He has a high fever." }], "grammar": { "pattern": "How long have you + V3?", "explainVi": "Hỏi tình trạng kéo dài bao lâu – dùng hiện tại hoàn thành.", "examples": ["How long have you been here?", "How long have you had this pain?"] } } },
+        { "speaker": "Customer", "en": "A slight fever since yesterday evening. I'm also allergic to penicillin.", "ipa": "/ə slaɪt ˈfiːvər sɪns ˈjestərdeɪ ˈiːvnɪŋ | aɪm ˈɔːlsoʊ əˈlɜːrdʒɪk tə ˌpenɪˈsɪlɪn/", "vi": "Sốt nhẹ từ tối hôm qua. Tôi cũng dị ứng với penicillin.",
+          "analysis": { "vocab": [{ "word": "slight", "ipa": "/slaɪt/", "pos": "adjective", "vi": "nhẹ", "example": "a slight headache" }], "grammar": { "pattern": "since + mốc thời gian", "explainVi": "“since” + mốc (since Monday, since 8 a.m.); “for” + khoảng (for two days).", "examples": ["since last night", "for three days"] }, "culture": "Luôn báo dị ứng thuốc cho dược sĩ, bác sĩ. Nên ghi sẵn bằng tiếng Anh trong điện thoại." } },
+        { "speaker": "Pharmacist", "en": "These tablets will help with the fever and the pain. Take two every six hours, after food.", "ipa": "/ðiːz ˈtæbləts wɪl help wɪð ðə ˈfiːvər ənd ðə peɪn | teɪk tuː ˈevri sɪks ˈaʊərz | ˈæftər fuːd/", "vi": "Thuốc viên này giúp hạ sốt và giảm đau. Uống hai viên mỗi sáu tiếng, sau khi ăn.",
+          "analysis": { "vocab": [{ "word": "tablet", "ipa": "/ˈtæblət/", "pos": "noun", "vi": "viên thuốc", "example": "Take one tablet a day." }], "phrases": [{ "phrase": "every six hours", "vi": "cứ sáu tiếng một lần" }, { "phrase": "after food / before meals", "vi": "sau khi ăn / trước bữa ăn" }] } },
+        { "speaker": "Customer", "en": "Can I take them with my blood pressure medicine?", "ipa": "/kæn aɪ teɪk ðəm wɪð maɪ blʌd ˈpreʃər ˈmedɪsən/", "vi": "Tôi uống chung với thuốc huyết áp được không?",
+          "analysis": { "culture": "Đưa vỉ thuốc đang dùng cho dược sĩ xem để kiểm tra tương tác thuốc." } },
+        { "speaker": "Pharmacist", "en": "Yes, that's fine. But if the fever lasts more than three days, please see a doctor.", "ipa": "/jes ðæts faɪn | bət ɪf ðə ˈfiːvər læsts mɔːr ðæn θriː deɪz | pliːz siː ə ˈdɑːktər/", "vi": "Được, không sao. Nhưng nếu sốt kéo dài quá ba ngày, hãy đi khám bác sĩ.",
+          "analysis": { "vocab": [{ "word": "last", "ipa": "/læst/", "pos": "verb", "vi": "kéo dài", "example": "The tour lasts two hours." }], "phrases": [{ "phrase": "see a doctor", "vi": "đi khám bác sĩ" }] } }
+      ],
+      "keyPhrases": ["I have a sore throat.", "I have a fever.", "I'm allergic to…", "How often should I take it?", "Can I take it with my medicine?"]
+    },
+    {
+      "id": "health-doctor-01",
+      "level": "B1",
+      "title": "Seeing a doctor",
+      "titleVi": "Đi khám bác sĩ",
+      "contextVi": "Bố bạn bị đau bụng và tiêu chảy sau khi ăn hải sản. Bạn đưa bố đến phòng khám gần khách sạn.",
+      "imageQuery": "doctor clinic patient",
+      "dialogue": [
+        { "speaker": "Doctor", "en": "Hello. What seems to be the problem today?", "ipa": "/heˈloʊ | wɑːt siːmz tə biː ðə ˈprɑːbləm təˈdeɪ/", "vi": "Xin chào. Hôm nay có vấn đề gì vậy?",
+          "analysis": { "phrases": [{ "phrase": "What seems to be the problem?", "vi": "Có vấn đề gì vậy? (câu hỏi quen thuộc của bác sĩ)" }] } },
+        { "speaker": "Traveler", "en": "My father has had stomach pain and diarrhoea since last night. He ate some seafood yesterday.", "ipa": "/maɪ ˈfɑːðər həz hæd ˈstʌmək peɪn ənd ˌdaɪəˈriːə sɪns læst naɪt | hiː eɪt sʌm ˈsiːfuːd ˈjestərdeɪ/", "vi": "Bố tôi bị đau bụng và tiêu chảy từ tối qua. Hôm qua ông có ăn hải sản.",
+          "analysis": { "vocab": [{ "word": "stomach pain", "ipa": "/ˈstʌmək peɪn/", "pos": "noun", "vi": "đau bụng", "example": "I have a stomach ache." }, { "word": "diarrhoea", "ipa": "/ˌdaɪəˈriːə/", "pos": "noun", "vi": "tiêu chảy (Mỹ: diarrhea)", "example": "He has diarrhoea." }], "pronunciation": "“stomach” /ˈstʌmək/ – “ch” đọc /k/." } },
+        { "speaker": "Doctor", "en": "Has he been vomiting? And is he drinking enough water?", "ipa": "/hæz hiː bɪn ˈvɑːmɪtɪŋ | ənd ɪz hiː ˈdrɪŋkɪŋ ɪˈnʌf ˈwɔːtər/", "vi": "Ông có bị nôn không? Và ông có uống đủ nước không?",
+          "analysis": { "vocab": [{ "word": "vomit / throw up", "ipa": "/ˈvɑːmɪt/", "pos": "verb", "vi": "nôn", "example": "She threw up twice." }] } },
+        { "speaker": "Traveler", "en": "He threw up twice this morning. He feels weak and can't keep anything down.", "ipa": "/hiː θruː ʌp twaɪs ðɪs ˈmɔːrnɪŋ | hiː fiːlz wiːk ənd kænt kiːp ˈeniθɪŋ daʊn/", "vi": "Sáng nay ông nôn hai lần. Ông thấy yếu và ăn uống gì cũng nôn ra.",
+          "analysis": { "vocab": [{ "word": "weak", "ipa": "/wiːk/", "pos": "adjective", "vi": "yếu, mệt", "example": "I feel weak." }], "phrases": [{ "phrase": "can't keep anything down", "vi": "ăn uống gì cũng nôn ra" }] } },
+        { "speaker": "Doctor", "en": "It looks like food poisoning. I'll give him some medicine and rehydration salts.", "ipa": "/ɪt lʊks laɪk fuːd ˈpɔɪzənɪŋ | aɪl ɡɪv hɪm sʌm ˈmedɪsən ənd ˌriːhaɪˈdreɪʃən sɔːlts/", "vi": "Có vẻ là ngộ độc thực phẩm. Tôi sẽ cho ông thuốc và muối bù nước.",
+          "analysis": { "vocab": [{ "word": "food poisoning", "ipa": "/fuːd ˈpɔɪzənɪŋ/", "pos": "noun", "vi": "ngộ độc thực phẩm", "example": "I think I have food poisoning." }, { "word": "rehydration salts", "ipa": "/ˌriːhaɪˈdreɪʃən sɔːlts/", "pos": "noun", "vi": "muối bù nước (oresol)", "example": "Mix the salts with water." }] } },
+        { "speaker": "Traveler", "en": "Thank you. Could I have a medical report and a receipt for our travel insurance?", "ipa": "/θæŋk juː | kʊd aɪ hæv ə ˈmedɪkəl rɪˈpɔːrt ənd ə rɪˈsiːt fɔːr ˈaʊər ˈtrævəl ɪnˈʃʊrəns/", "vi": "Cảm ơn bác sĩ. Cho tôi xin giấy khám bệnh và hóa đơn để làm bảo hiểm du lịch được không?",
+          "analysis": { "vocab": [{ "word": "medical report", "ipa": "/ˈmedɪkəl rɪˈpɔːrt/", "pos": "noun", "vi": "giấy khám bệnh, kết luận y tế", "example": "The insurance company needs a medical report." }], "culture": "Chi phí khám ở nước ngoài rất cao. Luôn mua bảo hiểm du lịch và xin đủ giấy tờ để được hoàn tiền." } }
+      ],
+      "keyPhrases": ["He has stomach pain.", "She threw up twice.", "I feel weak / dizzy.", "Is it serious?", "Could I have a medical report?"]
+    },
+    {
+      "id": "health-dentist-01",
+      "level": "B1",
+      "title": "A toothache and making an appointment",
+      "titleVi": "Đau răng và đặt lịch khám",
+      "contextVi": "Bạn bị đau răng dữ dội. Bạn gọi điện đến phòng khám nha khoa để đặt lịch khám gấp.",
+      "imageQuery": "dental clinic reception",
+      "dialogue": [
+        { "speaker": "Receptionist", "en": "Good morning, City Dental Clinic. How can I help you?", "ipa": "/ɡʊd ˈmɔːrnɪŋ | ˈsɪti ˈdentəl ˈklɪnɪk | haʊ kən aɪ help juː/", "vi": "Chào buổi sáng, Phòng khám Nha khoa City xin nghe. Tôi giúp gì được ạ?",
+          "analysis": { "vocab": [{ "word": "clinic", "ipa": "/ˈklɪnɪk/", "pos": "noun", "vi": "phòng khám", "example": "Is there a clinic near here?" }] } },
+        { "speaker": "Traveler", "en": "Hi. I'm a tourist and I have a terrible toothache. Could I make an appointment for today?", "ipa": "/haɪ | aɪm ə ˈtʊrɪst ənd aɪ hæv ə ˈterəbəl ˈtuːθeɪk | kʊd aɪ meɪk ən əˈpɔɪntmənt fɔːr təˈdeɪ/", "vi": "Chào chị. Tôi là khách du lịch và bị đau răng dữ dội. Tôi đặt lịch khám hôm nay được không?",
+          "analysis": { "vocab": [{ "word": "toothache", "ipa": "/ˈtuːθeɪk/", "pos": "noun", "vi": "đau răng", "example": "I have a toothache." }, { "word": "appointment", "ipa": "/əˈpɔɪntmənt/", "pos": "noun", "vi": "cuộc hẹn (khám)", "example": "I have an appointment at 3." }], "phrases": [{ "phrase": "make an appointment", "vi": "đặt lịch hẹn" }] } },
+        { "speaker": "Receptionist", "en": "We're quite busy, but we can fit you in at 4:30 this afternoon. Is that OK?", "ipa": "/wɪr kwaɪt ˈbɪzi | bət wiː kən fɪt juː ɪn æt fɔːr ˈθɜːrti ðɪs ˌæftərˈnuːn | ɪz ðæt ˌoʊˈkeɪ/", "vi": "Chúng tôi khá bận, nhưng có thể xếp cho anh lúc 4:30 chiều nay. Được không ạ?",
+          "analysis": { "phrases": [{ "phrase": "fit someone in", "vi": "xếp lịch chen vào cho ai" }] } },
+        { "speaker": "Traveler", "en": "Yes, that's perfect. Is there anything I can take for the pain until then?", "ipa": "/jes ðæts ˈpɜːrfɪkt | ɪz ðer ˈeniθɪŋ aɪ kən teɪk fɔːr ðə peɪn ənˈtɪl ðen/", "vi": "Vâng, tốt quá. Trong lúc chờ, tôi có thể uống gì để giảm đau không?",
+          "analysis": { "vocab": [{ "word": "painkiller", "ipa": "/ˈpeɪnkɪlər/", "pos": "noun", "vi": "thuốc giảm đau", "example": "Do you have any painkillers?" }] } },
+        { "speaker": "Receptionist", "en": "You can buy paracetamol or ibuprofen at any pharmacy. Please bring your passport and insurance details.", "ipa": "/juː kən baɪ ˌpærəˈsiːtəmɒl ɔːr ˌaɪbjuːˈproʊfən æt ˈeni ˈfɑːrməsi | pliːz brɪŋ jɔːr ˈpæspɔːrt ənd ɪnˈʃʊrəns ˈdiːteɪlz/", "vi": "Anh có thể mua paracetamol hoặc ibuprofen ở bất kỳ hiệu thuốc nào. Vui lòng mang hộ chiếu và thông tin bảo hiểm.",
+          "analysis": { "vocab": [{ "word": "insurance details", "ipa": "/ɪnˈʃʊrəns ˈdiːteɪlz/", "pos": "noun", "vi": "thông tin bảo hiểm", "example": "Here are my insurance details." }] } },
+        { "speaker": "Traveler", "en": "OK. Could I have your address, please? I'll take a taxi.", "ipa": "/ˌoʊˈkeɪ | kʊd aɪ hæv jɔːr ˈædres pliːz | aɪl teɪk ə ˈtæksi/", "vi": "Được. Cho tôi xin địa chỉ phòng khám? Tôi sẽ đi taxi đến.",
+          "analysis": { "culture": "Nhờ họ nhắn địa chỉ qua tin nhắn/email để đưa tài xế xem, tránh nghe nhầm." } }
+      ],
+      "keyPhrases": ["I have a toothache.", "Could I make an appointment for today?", "Is there anything I can take for the pain?", "Do I need to bring anything?", "Could I have your address?"]
+    }
+  ],
+  "reading": [
+    {
+      "title": "Reading a medicine label",
+      "titleVi": "Đọc nhãn thuốc",
+      "introVi": "Đây là nhãn trên hộp thuốc bạn mua ở hiệu thuốc.",
+      "text": "COLD & FLU RELIEF - 24 TABLETS\n\nFor the relief of fever, headache, sore throat and nasal congestion.\n\nDOSAGE: Adults and children over 12: Take 2 tablets every 4-6 hours.\nDo not take more than 8 tablets in 24 hours.\nNot suitable for children under 12.\n\nWARNINGS: May cause drowsiness. Do not drive or drink alcohol.\nDo not take with other medicines containing paracetamol.\nConsult a doctor if symptoms last more than 3 days.",
+      "glossary": { "relief": "làm dịu, giảm", "nasal congestion": "nghẹt mũi", "dosage": "liều dùng", "suitable": "phù hợp", "drowsiness": "buồn ngủ", "containing": "có chứa", "consult": "hỏi ý kiến", "symptoms": "triệu chứng" },
+      "questions": [
+        { "q": "What is the maximum number of tablets in one day?", "options": ["2", "6", "8"], "answer": 2, "explainVi": "“Do not take more than 8 tablets in 24 hours.”" },
+        { "q": "Can your 10-year-old daughter take this medicine?", "options": ["Yes", "No"], "answer": 1, "explainVi": "“Not suitable for children under 12.”" },
+        { "q": "You plan to rent a car this afternoon. What does the label say?", "options": ["It's fine to drive.", "It may make you sleepy – don't drive."], "answer": 1, "explainVi": "“May cause drowsiness. Do not drive.”" }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "title": "Medical information card",
+      "titleVi": "Thẻ thông tin y tế cá nhân",
+      "taskVi": "Điền thẻ thông tin y tế bằng tiếng Anh để luôn mang theo khi đi du lịch (lưu trong điện thoại). Thông tin mẫu: Trần Văn Hùng, sinh 1958, nhóm máu O, bị tiểu đường type 2 và cao huyết áp, dị ứng penicillin, đang uống metformin và amlodipine, người liên hệ khẩn cấp: con gái Trần Thu Hà +84 912 345 678.",
+      "form": [
+        { "label": "Full name", "labelVi": "Họ tên", "hintVi": "Họ tên đầy đủ", "example": "TRAN VAN HUNG", "noteVi": "Viết không dấu, giống hộ chiếu." },
+        { "label": "Date of birth", "labelVi": "Ngày sinh", "hintVi": "Năm sinh", "example": "1958", "noteVi": "Ghi đầy đủ ngày/tháng/năm nếu có." },
+        { "label": "Blood type", "labelVi": "Nhóm máu", "hintVi": "A, B, AB, O", "example": "O", "noteVi": "Blood type = nhóm máu." },
+        { "label": "Medical conditions", "labelVi": "Bệnh nền", "hintVi": "Bệnh mãn tính", "example": "Type 2 diabetes, high blood pressure", "noteVi": "diabetes = tiểu đường; high blood pressure = cao huyết áp; heart disease = bệnh tim; asthma = hen suyễn." },
+        { "label": "Allergies", "labelVi": "Dị ứng", "hintVi": "Thuốc, thực phẩm", "example": "Penicillin", "noteVi": "Ghi rõ cả dị ứng thực phẩm (peanuts, shellfish…)." },
+        { "label": "Current medication", "labelVi": "Thuốc đang dùng", "hintVi": "Tên thuốc", "example": "Metformin, amlodipine", "noteVi": "Ghi tên hoạt chất, không chỉ tên thương mại Việt Nam." },
+        { "label": "Emergency contact", "labelVi": "Người liên hệ khẩn cấp", "hintVi": "Tên, quan hệ, số điện thoại", "example": "Tran Thu Ha (daughter) +84 912 345 678", "noteVi": "Ghi mã quốc gia +84 và quan hệ (daughter = con gái, son = con trai, wife = vợ)." }
+      ]
+    }
+  ]
+}
