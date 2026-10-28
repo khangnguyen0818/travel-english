@@ -1,0 +1,397 @@
+{
+  "topicId": "airport",
+  "title": "At the Airport",
+  "titleVi": "Tại sân bay",
+  "icon": "✈️",
+  "descriptionVi": "Làm thủ tục, gửi hành lý, qua cửa an ninh và lên máy bay — những câu bạn chắc chắn sẽ cần.",
+  "situations": [
+    {
+      "id": "airport-checkin-01",
+      "level": "A2",
+      "title": "Checking in for a flight",
+      "titleVi": "Làm thủ tục lên máy bay",
+      "contextVi": "Bạn đến quầy làm thủ tục của hãng hàng không tại sân bay Tân Sơn Nhất để bay đi Singapore, chuyến SQ185 lúc 10:40. Bạn có một vali cần ký gửi.",
+      "imageQuery": "airport check-in counter",
+      "dialogue": [
+        {
+          "speaker": "Agent",
+          "en": "Good morning. Where are you flying to today?",
+          "ipa": "/ɡʊd ˈmɔːrnɪŋ | wer ɑːr juː ˈflaɪɪŋ tə təˈdeɪ/",
+          "vi": "Chào buổi sáng. Hôm nay anh/chị bay đi đâu ạ?",
+          "variants": { "polite": "Good morning. May I ask your destination today?", "casual": "Morning! Where to today?" },
+          "analysis": {
+            "vocab": [{ "word": "fly to", "ipa": "/flaɪ tuː/", "pos": "verb phrase", "vi": "bay đến", "example": "I'm flying to Tokyo next week." }],
+            "grammar": { "pattern": "Where + are you + V-ing…?", "explainVi": "Thì hiện tại tiếp diễn dùng để nói về kế hoạch đã chắc chắn trong tương lai gần.", "examples": ["Where are you staying tonight?", "When are you leaving?"] },
+            "pronunciation": "“flying to” nối âm nhẹ: /ˈflaɪɪŋ tə/. “to” đọc yếu thành /tə/.",
+            "commonMistake": { "wrong": "Where you fly today?", "right": "Where are you flying (to) today?" }
+          }
+        },
+        {
+          "speaker": "Traveler",
+          "en": "I'm flying to Singapore. Here's my passport and booking confirmation.",
+          "ipa": "/aɪm ˈflaɪɪŋ tə ˈsɪŋəpɔːr | hɪrz maɪ ˈpæspɔːrt ənd ˈbʊkɪŋ ˌkɑːnfərˈmeɪʃən/",
+          "vi": "Tôi bay đi Singapore. Đây là hộ chiếu và xác nhận đặt vé của tôi.",
+          "variants": { "polite": "I'm flying to Singapore. Here are my passport and booking confirmation.", "casual": "Singapore. Here you go." },
+          "analysis": {
+            "vocab": [
+              { "word": "passport", "ipa": "/ˈpæspɔːrt/", "pos": "noun", "vi": "hộ chiếu", "example": "Please keep your passport with you." },
+              { "word": "booking confirmation", "ipa": "/ˈbʊkɪŋ ˌkɑːnfərˈmeɪʃən/", "pos": "noun", "vi": "xác nhận đặt chỗ", "example": "I have the booking confirmation on my phone." }
+            ],
+            "phrases": [{ "phrase": "Here's… / Here you go.", "vi": "Đây là… / Của anh/chị đây (khi đưa đồ cho ai)" }],
+            "pronunciation": "Đọc rõ âm cuối /s/ trong “Here's” /hɪrz/. Trọng âm: PASS-port, con-fir-MA-tion.",
+            "commonMistake": { "wrong": "Here is passport.", "right": "Here's my passport." }
+          }
+        },
+        {
+          "speaker": "Agent",
+          "en": "Thank you. Do you have any bags to check in?",
+          "ipa": "/θæŋk juː | duː juː hæv ˈeni bæɡz tə tʃek ɪn/",
+          "vi": "Cảm ơn. Anh/chị có hành lý nào cần ký gửi không?",
+          "variants": { "casual": "Any bags to check?" },
+          "analysis": {
+            "vocab": [
+              { "word": "check in", "ipa": "/tʃek ɪn/", "pos": "phrasal verb", "vi": "ký gửi (hành lý); làm thủ tục", "example": "I'd like to check in this suitcase." },
+              { "word": "bag", "ipa": "/bæɡ/", "pos": "noun", "vi": "túi, hành lý", "example": "How many bags can I bring?" }
+            ],
+            "grammar": { "pattern": "Do you have any + N(số nhiều)…?", "explainVi": "Dùng “any” trong câu hỏi khi hỏi có hay không có cái gì.", "examples": ["Do you have any liquids?", "Do you have any questions?"] },
+            "pronunciation": "“check in” nối thành /tʃe-kɪn/. Âm /θ/ trong “thank”: đặt đầu lưỡi giữa hai răng, không đọc thành /t/ hay /th/ tiếng Việt."
+          }
+        },
+        {
+          "speaker": "Traveler",
+          "en": "Yes, just this one suitcase. Could I have a window seat, please?",
+          "ipa": "/jes | dʒʌst ðɪs wʌn ˈsuːtkeɪs | kʊd aɪ hæv ə ˈwɪndoʊ siːt pliːz/",
+          "vi": "Vâng, chỉ một chiếc vali này thôi. Cho tôi ghế cạnh cửa sổ được không?",
+          "variants": { "polite": "Would it be possible to have a window seat?", "casual": "Window seat, please." },
+          "analysis": {
+            "vocab": [
+              { "word": "suitcase", "ipa": "/ˈsuːtkeɪs/", "pos": "noun", "vi": "va li", "example": "My suitcase is blue." },
+              { "word": "window seat", "ipa": "/ˈwɪndoʊ siːt/", "pos": "noun", "vi": "ghế cạnh cửa sổ", "example": "I always choose a window seat." }
+            ],
+            "phrases": [{ "phrase": "aisle seat /aɪl siːt/", "vi": "ghế cạnh lối đi (chữ s câm!)" }],
+            "grammar": { "pattern": "Could I have + N, please?", "explainVi": "Cách yêu cầu lịch sự và phổ biến nhất khi muốn xin/gọi một thứ gì đó.", "examples": ["Could I have the bill, please?", "Could I have some water, please?"] },
+            "pronunciation": "“suitcase” đọc /ˈsuːtkeɪs/ – không đọc “sui”. Lên giọng ở cuối câu hỏi “please?”.",
+            "commonMistake": { "wrong": "I want window chair.", "right": "Could I have a window seat, please?" }
+          }
+        },
+        {
+          "speaker": "Agent",
+          "en": "Sure. Please put your suitcase on the scale.",
+          "ipa": "/ʃʊr | pliːz pʊt jɔːr ˈsuːtkeɪs ɑːn ðə skeɪl/",
+          "vi": "Được ạ. Xin đặt vali lên cân.",
+          "analysis": {
+            "vocab": [{ "word": "scale", "ipa": "/skeɪl/", "pos": "noun", "vi": "cái cân", "example": "Put your bag on the scale." }],
+            "grammar": { "pattern": "Please + V(nguyên mẫu)…", "explainVi": "Câu mệnh lệnh lịch sự: thêm “please” ở đầu hoặc cuối câu.", "examples": ["Please wait here.", "Please follow me."] },
+            "pronunciation": "“put your” nối thành /pʊtʃər/ khi nói nhanh."
+          }
+        },
+        {
+          "speaker": "Agent",
+          "en": "It's 26 kilos. The limit is 23, so there's an extra fee of 40 dollars.",
+          "ipa": "/ɪts ˈtwenti sɪks ˈkiːloʊz | ðə ˈlɪmɪt ɪz ˈtwenti θriː | soʊ ðerz ən ˈekstrə fiː əv ˈfɔːrti ˈdɑːlərz/",
+          "vi": "Vali nặng 26 ký. Giới hạn là 23 ký, nên có phí phụ trội 40 đô.",
+          "analysis": {
+            "vocab": [
+              { "word": "limit", "ipa": "/ˈlɪmɪt/", "pos": "noun", "vi": "giới hạn", "example": "What's the weight limit?" },
+              { "word": "extra fee", "ipa": "/ˈekstrə fiː/", "pos": "noun", "vi": "phí phụ trội", "example": "Is there an extra fee for this?" }
+            ],
+            "phrases": [{ "phrase": "overweight baggage", "vi": "hành lý quá cân" }],
+            "pronunciation": "Phân biệt forty /ˈfɔːrti/ (40, trọng âm đầu) và fourteen /ˌfɔːrˈtiːn/ (14, trọng âm sau).",
+            "culture": "Hành lý quá cân thường bị tính phí rất cao. Có thể chuyển bớt đồ sang hành lý xách tay nếu còn trong giới hạn."
+          }
+        },
+        {
+          "speaker": "Traveler",
+          "en": "Oh, can I take some things out and put them in my carry-on?",
+          "ipa": "/oʊ | kæn aɪ teɪk sʌm θɪŋz aʊt ənd pʊt ðəm ɪn maɪ ˈkæri ɑːn/",
+          "vi": "Ồ, tôi có thể lấy bớt đồ ra và cho vào hành lý xách tay không?",
+          "analysis": {
+            "vocab": [
+              { "word": "carry-on", "ipa": "/ˈkæri ɑːn/", "pos": "noun", "vi": "hành lý xách tay", "example": "My carry-on is under 7 kilos." },
+              { "word": "take out", "ipa": "/teɪk aʊt/", "pos": "phrasal verb", "vi": "lấy ra", "example": "Please take out your laptop." }
+            ],
+            "grammar": { "pattern": "Can I + V1 + and + V2…?", "explainVi": "Xin phép làm hai việc liên tiếp; hai động từ cùng ở dạng nguyên mẫu, nối bằng “and”.", "examples": ["Can I go out and come back later?", "Can I pay now and pick it up tomorrow?"] },
+            "pronunciation": "“take out” nối âm /teɪ-kaʊt/; “put them” đọc nhanh /pʊt ðəm/.",
+            "commonMistake": { "wrong": "Can I take out some thing?", "right": "Can I take some things out?" }
+          }
+        },
+        {
+          "speaker": "Agent",
+          "en": "Of course. Here's your boarding pass. Boarding starts at 9:50 at Gate 12.",
+          "ipa": "/əv kɔːrs | hɪrz jɔːr ˈbɔːrdɪŋ pæs | ˈbɔːrdɪŋ stɑːrts æt naɪn ˈfɪfti æt ɡeɪt twelv/",
+          "vi": "Dĩ nhiên rồi. Đây là thẻ lên máy bay. Giờ lên máy bay bắt đầu lúc 9:50 ở cửa số 12.",
+          "analysis": {
+            "vocab": [
+              { "word": "boarding pass", "ipa": "/ˈbɔːrdɪŋ pæs/", "pos": "noun", "vi": "thẻ lên máy bay", "example": "Show your boarding pass at the gate." },
+              { "word": "gate", "ipa": "/ɡeɪt/", "pos": "noun", "vi": "cửa ra máy bay", "example": "Which gate is it?" }
+            ],
+            "phrases": [{ "phrase": "Of course.", "vi": "Tất nhiên rồi." }],
+            "grammar": { "pattern": "N + starts at + giờ / at + địa điểm", "explainVi": "“at” dùng cho giờ cụ thể (at 9:50) và cho một điểm cụ thể (at Gate 12).", "examples": ["The tour starts at 8 a.m.", "Let's meet at the hotel lobby."] },
+            "culture": "Hãy có mặt ở cửa lên máy bay trước giờ boarding. Cửa thường đóng 15–20 phút trước giờ cất cánh."
+          }
+        },
+        {
+          "speaker": "Traveler",
+          "en": "Thank you very much. Have a nice day!",
+          "ipa": "/θæŋk juː ˈveri mʌtʃ | hæv ə naɪs deɪ/",
+          "vi": "Cảm ơn rất nhiều. Chúc một ngày tốt lành!",
+          "analysis": {
+            "phrases": [{ "phrase": "Have a nice day!", "vi": "Chúc một ngày tốt lành! (câu chào khi chia tay rất phổ biến)" }],
+            "pronunciation": "Xuống giọng ở “much”, lên rồi xuống ở “day” để nghe thân thiện.",
+            "culture": "Người bản xứ rất hay nói “Have a nice/good day!”. Đáp lại: “You too!”"
+          }
+        }
+      ],
+      "keyPhrases": ["I'm flying to…", "Here's my passport.", "Could I have a window seat / an aisle seat, please?", "Can I put it in my carry-on?", "Which gate is it?"]
+    },
+    {
+      "id": "airport-security-01",
+      "level": "A2",
+      "title": "Going through security",
+      "titleVi": "Qua cửa kiểm tra an ninh",
+      "contextVi": "Bạn đang xếp hàng qua máy soi an ninh. Nhân viên yêu cầu bạn để đồ vào khay. Trong túi bạn có một chai nước và một cục sạc dự phòng.",
+      "imageQuery": "airport security checkpoint",
+      "dialogue": [
+        {
+          "speaker": "Officer",
+          "en": "Please put your bags and jacket in the tray.",
+          "ipa": "/pliːz pʊt jɔːr bæɡz ənd ˈdʒækɪt ɪn ðə treɪ/",
+          "vi": "Xin để túi và áo khoác vào khay.",
+          "analysis": {
+            "vocab": [
+              { "word": "tray", "ipa": "/treɪ/", "pos": "noun", "vi": "khay (để đồ qua máy soi)", "example": "Put your phone in the tray." },
+              { "word": "jacket", "ipa": "/ˈdʒækɪt/", "pos": "noun", "vi": "áo khoác", "example": "Can I keep my jacket on?" }
+            ],
+            "pronunciation": "“tray” /treɪ/ – âm /tr/ đọc liền, không tách “t-ray”."
+          }
+        },
+        {
+          "speaker": "Officer",
+          "en": "Do you have any laptops or liquids in your bag?",
+          "ipa": "/duː juː hæv ˈeni ˈlæptɑːps ɔːr ˈlɪkwɪdz ɪn jɔːr bæɡ/",
+          "vi": "Trong túi anh/chị có máy tính xách tay hay chất lỏng không?",
+          "analysis": {
+            "vocab": [
+              { "word": "liquid", "ipa": "/ˈlɪkwɪd/", "pos": "noun", "vi": "chất lỏng", "example": "Liquids must be under 100 ml." },
+              { "word": "laptop", "ipa": "/ˈlæptɑːp/", "pos": "noun", "vi": "máy tính xách tay", "example": "Please take your laptop out of the bag." }
+            ],
+            "grammar": { "pattern": "Do you have any A or B?", "explainVi": "Hỏi có thứ A hoặc B không. Dùng “or” trong câu hỏi, không dùng “and”.", "examples": ["Do you have any food or drinks?", "Do you have any coins or keys?"] },
+            "culture": "Chất lỏng trong hành lý xách tay thường giới hạn mỗi chai ≤ 100 ml, đựng trong túi nhựa trong suốt."
+          }
+        },
+        {
+          "speaker": "Traveler",
+          "en": "I have a bottle of water and a power bank.",
+          "ipa": "/aɪ hæv ə ˈbɑːtəl əv ˈwɔːtər ənd ə ˈpaʊər bæŋk/",
+          "vi": "Tôi có một chai nước và một cục sạc dự phòng.",
+          "analysis": {
+            "vocab": [
+              { "word": "power bank", "ipa": "/ˈpaʊər bæŋk/", "pos": "noun", "vi": "sạc dự phòng", "example": "Power banks are not allowed in checked bags." },
+              { "word": "bottle", "ipa": "/ˈbɑːtəl/", "pos": "noun", "vi": "chai", "example": "a bottle of water – một chai nước" }
+            ],
+            "grammar": { "pattern": "a + (đơn vị) + of + N", "explainVi": "Dùng để đếm danh từ không đếm được: a bottle of water, a cup of coffee, a piece of cake.", "examples": ["a cup of tea", "a glass of juice"] },
+            "pronunciation": "Giọng Mỹ: “bottle” /ˈbɑːɾəl/ và “water” /ˈwɑːɾər/ – âm t đọc gần như /d/ nhẹ.",
+            "commonMistake": { "wrong": "I have one water.", "right": "I have a bottle of water." }
+          }
+        },
+        {
+          "speaker": "Officer",
+          "en": "I'm sorry, you can't take the water through. The power bank is fine.",
+          "ipa": "/aɪm ˈsɑːri | juː kænt teɪk ðə ˈwɔːtər θruː | ðə ˈpaʊər bæŋk ɪz faɪn/",
+          "vi": "Xin lỗi, anh/chị không thể mang nước qua. Sạc dự phòng thì không sao.",
+          "analysis": {
+            "vocab": [{ "word": "take through", "ipa": "/teɪk θruː/", "pos": "phrasal verb", "vi": "mang qua (cửa kiểm tra)", "example": "Can I take this through security?" }],
+            "pronunciation": "“can't” (Mỹ) /kænt/ vs “can” /kən/: “can't” được nhấn mạnh và có âm /t/ cuối nhẹ. Nghe kỹ để không hiểu nhầm!",
+            "culture": "Bạn có thể uống hết nước ngay tại chỗ, hoặc mang chai rỗng qua và rót nước miễn phí sau khu an ninh."
+          }
+        },
+        {
+          "speaker": "Traveler",
+          "en": "No problem. I'll drink it now.",
+          "ipa": "/noʊ ˈprɑːbləm | aɪl drɪŋk ɪt naʊ/",
+          "vi": "Không sao. Tôi sẽ uống luôn bây giờ.",
+          "analysis": {
+            "grammar": { "pattern": "I'll + V (quyết định ngay lúc nói)", "explainVi": "“will” dùng cho quyết định tức thời, nghĩ ra ngay lúc đang nói.", "examples": ["I'll take this one.", "I'll call you later."] },
+            "pronunciation": "“I'll” /aɪl/ – có âm /l/ nhẹ ở cuối, đừng đọc thành “I”.",
+            "commonMistake": { "wrong": "No problem. I drink now.", "right": "No problem. I'll drink it now." }
+          }
+        },
+        {
+          "speaker": "Officer",
+          "en": "Please remove your belt and walk through the scanner.",
+          "ipa": "/pliːz rɪˈmuːv jɔːr belt ənd wɔːk θruː ðə ˈskænər/",
+          "vi": "Vui lòng tháo thắt lưng và đi qua máy quét.",
+          "analysis": {
+            "vocab": [
+              { "word": "remove", "ipa": "/rɪˈmuːv/", "pos": "verb", "vi": "tháo, cởi, bỏ ra", "example": "Please remove your shoes." },
+              { "word": "scanner", "ipa": "/ˈskænər/", "pos": "noun", "vi": "máy quét", "example": "Walk through the scanner slowly." }
+            ],
+            "pronunciation": "“walk” /wɔːk/ – chữ l câm. Phân biệt với “work” /wɜːrk/."
+          }
+        },
+        {
+          "speaker": "Officer",
+          "en": "Thank you. You can collect your things at the end of the belt.",
+          "ipa": "/θæŋk juː | juː kən kəˈlekt jɔːr θɪŋz æt ði end əv ðə belt/",
+          "vi": "Cảm ơn. Anh/chị có thể lấy đồ ở cuối băng chuyền.",
+          "analysis": {
+            "vocab": [
+              { "word": "collect", "ipa": "/kəˈlekt/", "pos": "verb", "vi": "lấy, nhận lại", "example": "Where can I collect my bag?" },
+              { "word": "belt", "ipa": "/belt/", "pos": "noun", "vi": "băng chuyền (ở đây); thắt lưng", "example": "Your bag is on the belt." }
+            ],
+            "pronunciation": "“the end” đọc /ði end/ vì “end” bắt đầu bằng nguyên âm."
+          }
+        }
+      ],
+      "keyPhrases": ["I have a laptop in my bag.", "Do I need to take off my shoes?", "Can I take this through?", "Where can I collect my things?"]
+    },
+    {
+      "id": "airport-gate-delay-01",
+      "level": "B1",
+      "title": "At the gate: a delayed flight",
+      "titleVi": "Tại cửa lên máy bay: chuyến bay bị hoãn",
+      "contextVi": "Bạn đến cửa số 12 nhưng bảng thông báo ghi chuyến bay bị hoãn (DELAYED). Bạn có chuyến nối tiếp ở Singapore nên hỏi nhân viên.",
+      "imageQuery": "airport departure gate",
+      "dialogue": [
+        {
+          "speaker": "Traveler",
+          "en": "Excuse me, the screen says my flight is delayed. Do you know how long the delay will be?",
+          "ipa": "/ɪkˈskjuːz miː | ðə skriːn sez maɪ flaɪt ɪz dɪˈleɪd | duː juː noʊ haʊ lɔːŋ ðə dɪˈleɪ wɪl biː/",
+          "vi": "Xin lỗi, màn hình ghi chuyến bay của tôi bị hoãn. Chị có biết sẽ hoãn bao lâu không?",
+          "variants": { "polite": "Excuse me, could you tell me how long the delay will be?", "casual": "Hi, how long's the delay?" },
+          "analysis": {
+            "vocab": [
+              { "word": "delayed", "ipa": "/dɪˈleɪd/", "pos": "adjective", "vi": "bị hoãn, bị trễ", "example": "Our train is delayed." },
+              { "word": "screen", "ipa": "/skriːn/", "pos": "noun", "vi": "màn hình", "example": "Check the screen for your gate." }
+            ],
+            "grammar": { "pattern": "Do you know + how long / where / when + S + V?", "explainVi": "Câu hỏi gián tiếp: sau “Do you know” thì phần sau giữ trật tự câu khẳng định (the delay will be), không đảo ngữ.", "examples": ["Do you know where the toilet is?", "Do you know when the shop opens?"] },
+            "pronunciation": "“Excuse me” /ɪkˈskjuːz miː/ – nhấn “CUSE”. “says” đọc /sez/, không phải /seɪz/.",
+            "commonMistake": { "wrong": "Do you know how long will the delay be?", "right": "Do you know how long the delay will be?" }
+          }
+        },
+        {
+          "speaker": "Agent",
+          "en": "I'm afraid it's about two hours. There's a technical problem with the aircraft.",
+          "ipa": "/aɪm əˈfreɪd ɪts əˈbaʊt tuː ˈaʊərz | ðerz ə ˈteknɪkəl ˈprɑːbləm wɪð ði ˈerkræft/",
+          "vi": "Tôi e là khoảng hai tiếng. Máy bay đang gặp sự cố kỹ thuật.",
+          "analysis": {
+            "vocab": [
+              { "word": "aircraft", "ipa": "/ˈerkræft/", "pos": "noun", "vi": "máy bay (từ trang trọng)", "example": "The aircraft is being cleaned." },
+              { "word": "technical problem", "ipa": "/ˈteknɪkəl ˈprɑːbləm/", "pos": "noun", "vi": "sự cố kỹ thuật", "example": "There was a technical problem." }
+            ],
+            "phrases": [{ "phrase": "I'm afraid…", "vi": "Tôi e là… (mở đầu tin không vui một cách lịch sự)" }],
+            "pronunciation": "“hours” /ˈaʊərz/ – chữ h câm, nên nói “an hour”.",
+            "culture": "Khi nghe “I'm afraid…”, hãy chuẩn bị tinh thần cho một tin xấu."
+          }
+        },
+        {
+          "speaker": "Traveler",
+          "en": "Oh no. I have a connecting flight to Sydney at 4 p.m. Will I miss it?",
+          "ipa": "/oʊ noʊ | aɪ hæv ə kəˈnektɪŋ flaɪt tə ˈsɪdni æt fɔːr piː em | wɪl aɪ mɪs ɪt/",
+          "vi": "Ôi không. Tôi có chuyến bay nối chuyến đi Sydney lúc 4 giờ chiều. Tôi có bị lỡ chuyến không?",
+          "analysis": {
+            "vocab": [
+              { "word": "connecting flight", "ipa": "/kəˈnektɪŋ flaɪt/", "pos": "noun", "vi": "chuyến bay nối chuyến", "example": "My connecting flight leaves at 6." },
+              { "word": "miss", "ipa": "/mɪs/", "pos": "verb", "vi": "lỡ, nhỡ (chuyến)", "example": "Hurry, or we'll miss the bus!" }
+            ],
+            "grammar": { "pattern": "Will I + V…?", "explainVi": "Hỏi về một khả năng/kết quả trong tương lai.", "examples": ["Will I get a refund?", "Will it be cold tomorrow?"] },
+            "pronunciation": "“miss it” nối âm thành /mɪ-sɪt/."
+          }
+        },
+        {
+          "speaker": "Agent",
+          "en": "Let me check. Could I see your boarding pass, please?",
+          "ipa": "/let miː tʃek | kʊd aɪ siː jɔːr ˈbɔːrdɪŋ pæs pliːz/",
+          "vi": "Để tôi kiểm tra. Cho tôi xem thẻ lên máy bay được không ạ?",
+          "analysis": {
+            "phrases": [{ "phrase": "Let me check.", "vi": "Để tôi kiểm tra / xem thử." }],
+            "grammar": { "pattern": "Let me + V", "explainVi": "Đề nghị tự mình làm việc gì đó cho người kia.", "examples": ["Let me help you.", "Let me think."] },
+            "pronunciation": "“Let me” nói nhanh thành /ˈlemi/."
+          }
+        },
+        {
+          "speaker": "Agent",
+          "en": "Yes, unfortunately you'll miss it. But don't worry, we'll rebook you on the next flight.",
+          "ipa": "/jes | ʌnˈfɔːrtʃənətli juːl mɪs ɪt | bət doʊnt ˈwɜːri | wiːl riːˈbʊk juː ɑːn ðə nekst flaɪt/",
+          "vi": "Vâng, rất tiếc là anh/chị sẽ lỡ chuyến. Nhưng đừng lo, chúng tôi sẽ đặt lại cho anh/chị chuyến tiếp theo.",
+          "analysis": {
+            "vocab": [
+              { "word": "unfortunately", "ipa": "/ʌnˈfɔːrtʃənətli/", "pos": "adverb", "vi": "thật không may", "example": "Unfortunately, the museum is closed." },
+              { "word": "rebook", "ipa": "/riːˈbʊk/", "pos": "verb", "vi": "đặt lại (vé, chỗ)", "example": "Can you rebook me for tomorrow?" }
+            ],
+            "pronunciation": "“unfortunately” có 5 âm tiết: un-FOR-tu-nate-ly. Nhấn âm thứ hai."
+          }
+        },
+        {
+          "speaker": "Traveler",
+          "en": "Thank you. Will the airline give us a meal voucher while we wait?",
+          "ipa": "/θæŋk juː | wɪl ði ˈerlaɪn ɡɪv ʌs ə miːl ˈvaʊtʃər waɪl wiː weɪt/",
+          "vi": "Cảm ơn. Trong lúc chờ, hãng có phát phiếu ăn cho chúng tôi không?",
+          "analysis": {
+            "vocab": [
+              { "word": "meal voucher", "ipa": "/miːl ˈvaʊtʃər/", "pos": "noun", "vi": "phiếu ăn miễn phí", "example": "You can use this meal voucher at any café." },
+              { "word": "airline", "ipa": "/ˈerlaɪn/", "pos": "noun", "vi": "hãng hàng không", "example": "Which airline are you flying with?" }
+            ],
+            "grammar": { "pattern": "while + S + V", "explainVi": "“while” = trong khi, nối hai hành động xảy ra cùng lúc.", "examples": ["Can you watch my bag while I go to the toilet?", "I read a book while I waited."] },
+            "culture": "Khi hoãn chuyến lâu, nhiều hãng phát phiếu ăn/nước uống. Bạn nên chủ động hỏi."
+          }
+        },
+        {
+          "speaker": "Agent",
+          "en": "Yes. Here's a 15-dollar voucher. You can use it at any restaurant in this terminal.",
+          "ipa": "/jes | hɪrz ə ˌfɪfˈtiːn ˈdɑːlər ˈvaʊtʃər | juː kən juːz ɪt æt ˈeni ˈrestərɑːnt ɪn ðɪs ˈtɜːrmɪnəl/",
+          "vi": "Có ạ. Đây là phiếu trị giá 15 đô. Anh/chị dùng được ở bất kỳ nhà hàng nào trong nhà ga này.",
+          "analysis": {
+            "vocab": [{ "word": "terminal", "ipa": "/ˈtɜːrmɪnəl/", "pos": "noun", "vi": "nhà ga (sân bay)", "example": "International flights leave from Terminal 2." }],
+            "grammar": { "pattern": "a + số-N(số ít) + N", "explainVi": "Khi số đếm đứng trước danh từ như một tính từ, danh từ đơn vị giữ số ít và có gạch nối: a 15-dollar voucher, a two-hour delay.", "examples": ["a three-day tour", "a ten-minute walk"] },
+            "commonMistake": { "wrong": "a 15 dollars voucher", "right": "a 15-dollar voucher" }
+          }
+        }
+      ],
+      "keyPhrases": ["How long will the delay be?", "I have a connecting flight.", "Will I miss my connection?", "Can you rebook me?", "Do you provide meal vouchers?"]
+    }
+  ],
+  "reading": [
+    {
+      "title": "Reading a boarding pass",
+      "titleVi": "Đọc thẻ lên máy bay",
+      "introVi": "Đây là thẻ lên máy bay của bạn. Hãy đọc và trả lời câu hỏi.",
+      "text": "BOARDING PASS\nPASSENGER: NGUYEN / LAN MS\nFROM: HO CHI MINH CITY (SGN)\nTO: SINGAPORE (SIN)\nFLIGHT: SQ185      DATE: 14 NOV\nDEPARTURE: 10:40   BOARDING TIME: 09:50\nGATE: 12           SEAT: 24A\nCLASS: ECONOMY     ZONE: 3\nGate closes 20 minutes before departure.",
+      "glossary": { "passenger": "hành khách", "departure": "giờ khởi hành", "boarding time": "giờ lên máy bay", "seat": "ghế ngồi", "economy": "hạng phổ thông", "zone": "nhóm/khu vực lên máy bay", "gate closes": "cửa đóng", "before": "trước khi" },
+      "questions": [
+        { "q": "What time should Lan be at the gate to board?", "options": ["10:40", "09:50", "10:20"], "answer": 1, "explainVi": "BOARDING TIME: 09:50 – giờ bắt đầu lên máy bay." },
+        { "q": "When does the gate close?", "options": ["At 10:20", "At 10:40", "At 09:50"], "answer": 0, "explainVi": "Cửa đóng 20 phút trước giờ khởi hành 10:40 → 10:20." },
+        { "q": "Seat 24A is probably…", "options": ["an aisle seat", "a window seat", "a business class seat"], "answer": 1, "explainVi": "Ghế A (và ghế cuối dãy như F/K) thường là ghế cạnh cửa sổ; hạng ghế là ECONOMY." }
+      ]
+    },
+    {
+      "title": "Departure board announcement",
+      "titleVi": "Bảng thông báo khởi hành",
+      "introVi": "Bạn nhìn thấy bảng thông tin chuyến bay ở sân bay.",
+      "text": "DEPARTURES\nTIME   FLIGHT   DESTINATION   GATE   STATUS\n10:15  VN301    TOKYO         8      BOARDING\n10:40  SQ185    SINGAPORE     12     DELAYED - NEW TIME 12:40\n11:05  TG551    BANGKOK       5      GATE CHANGE - NOW GATE 9\n11:30  CX766    HONG KONG     —      CANCELLED - SEE TRANSFER DESK",
+      "glossary": { "departures": "các chuyến khởi hành", "destination": "điểm đến", "status": "tình trạng", "boarding": "đang cho lên máy bay", "delayed": "bị hoãn", "gate change": "đổi cửa", "cancelled": "bị hủy", "transfer desk": "quầy nối chuyến" },
+      "questions": [
+        { "q": "Your flight to Bangkok is TG551. Where should you go?", "options": ["Gate 5", "Gate 9", "The transfer desk"], "answer": 1, "explainVi": "GATE CHANGE – NOW GATE 9: cửa đã đổi sang số 9." },
+        { "q": "What happened to the flight to Hong Kong?", "options": ["It is delayed.", "It is boarding.", "It is cancelled."], "answer": 2, "explainVi": "CANCELLED = bị hủy; hành khách cần đến quầy nối chuyến." },
+        { "q": "What is the new departure time of SQ185?", "options": ["10:40", "12:40", "11:05"], "answer": 1, "explainVi": "DELAYED – NEW TIME 12:40." }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "title": "Message to the airline: special request",
+      "titleVi": "Nhắn tin cho hãng bay: yêu cầu đặc biệt",
+      "taskVi": "Viết email ngắn cho hãng hàng không để: (1) xin ghế cạnh lối đi cho mẹ bạn (65 tuổi, đau đầu gối), (2) xin xe lăn hỗ trợ tại sân bay. Chuyến VN301 ngày 10/12, mã đặt chỗ K7Q2LM.",
+      "info": ["Mã đặt chỗ: K7Q2LM", "Chuyến bay: VN301, ngày 10 December", "Hành khách: Mrs. Tran Thi Mai, 65 tuổi"],
+      "starters": ["Dear Customer Service,", "I am writing to", "My booking reference is", "Could you please", "I would also like to request", "Thank you for your help.", "Best regards,"],
+      "sample": "Dear Customer Service,\n\nI am writing about my mother's booking. My booking reference is K7Q2LM, flight VN301 on 10 December.\n\nMy mother, Mrs. Tran Thi Mai, is 65 years old and has a problem with her knees. Could you please give her an aisle seat? I would also like to request wheelchair assistance at the airport.\n\nThank you for your help.\n\nBest regards,\nNguyen Van An",
+      "minWords": 40,
+      "mustInclude": [
+        { "regex": "K7Q2LM", "labelVi": "Có mã đặt chỗ K7Q2LM" },
+        { "regex": "aisle", "labelVi": "Có yêu cầu ghế cạnh lối đi (aisle seat)" },
+        { "regex": "wheelchair", "labelVi": "Có yêu cầu xe lăn (wheelchair)" }
+      ],
+      "checklist": ["Mở đầu bằng Dear…", "Nêu mã đặt chỗ và chuyến bay", "Mỗi yêu cầu dùng Could you please… / I would like to…", "Cảm ơn và ký tên ở cuối"]
+    }
+  ]
+}

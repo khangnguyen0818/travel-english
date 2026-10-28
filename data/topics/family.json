@@ -1,0 +1,328 @@
+{
+  "topicId": "family",
+  "title": "Travelling with Family",
+  "titleVi": "Du lịch cùng gia đình",
+  "icon": "👨‍👩‍👧",
+  "descriptionVi": "Đi du lịch cùng con nhỏ và bố mẹ lớn tuổi: xin hỗ trợ ở sân bay, khách sạn, nhà hàng và khi trẻ bị lạc.",
+  "situations": [
+    {
+      "id": "family-hotel-kids-01",
+      "level": "A2",
+      "title": "Asking for family facilities at a hotel",
+      "titleVi": "Hỏi tiện ích cho gia đình ở khách sạn",
+      "contextVi": "Bạn đi du lịch Phuket cùng vợ, con gái 3 tuổi và bố 70 tuổi. Bạn nhận phòng và hỏi về cũi trẻ em, ghế ăn và phòng tầng thấp.",
+      "imageQuery": "family hotel room baby cot",
+      "dialogue": [
+        {
+          "speaker": "Guest",
+          "en": "Hello. We're checking in. We're travelling with a three-year-old and my elderly father.",
+          "ipa": "/heˈloʊ | wɪr ˈtʃekɪŋ ɪn | wɪr ˈtrævəlɪŋ wɪð ə ˈθriː jɪr oʊld ənd maɪ ˈeldərli ˈfɑːðər/",
+          "vi": "Xin chào. Chúng tôi muốn nhận phòng. Chúng tôi đi cùng một bé 3 tuổi và bố tôi đã lớn tuổi.",
+          "analysis": {
+            "vocab": [
+              { "word": "elderly", "ipa": "/ˈeldərli/", "pos": "adjective", "vi": "cao tuổi (lịch sự)", "example": "Priority seats are for elderly people." },
+              { "word": "three-year-old", "ipa": "/ˈθriː jɪr oʊld/", "pos": "noun", "vi": "đứa trẻ 3 tuổi", "example": "She has a two-year-old and a baby." }
+            ],
+            "grammar": { "pattern": "a + số-year-old", "explainVi": "Dùng như danh từ (a three-year-old = đứa trẻ 3 tuổi) hoặc tính từ (a three-year-old girl). Có gạch nối, “year” số ít.", "examples": ["My son is five years old.", "a five-year-old boy"] },
+            "commonMistake": { "wrong": "a three years old", "right": "a three-year-old" }
+          }
+        },
+        {
+          "speaker": "Receptionist",
+          "en": "Welcome! Would you like us to put a baby cot in your room?",
+          "ipa": "/ˈwelkəm | wʊd juː laɪk ʌs tə pʊt ə ˈbeɪbi kɑːt ɪn jɔːr ruːm/",
+          "vi": "Chào mừng! Quý khách có muốn chúng tôi đặt cũi em bé trong phòng không?",
+          "analysis": {
+            "vocab": [{ "word": "cot / crib", "ipa": "/kɑːt/ /krɪb/", "pos": "noun", "vi": "cũi trẻ em (Anh: cot; Mỹ: crib)", "example": "Do you have a baby cot?" }],
+            "grammar": { "pattern": "Would you like us to + V?", "explainVi": "Lời đề nghị làm gì đó cho khách.", "examples": ["Would you like me to carry your bag?", "Would you like us to call a taxi?"] }
+          }
+        },
+        {
+          "speaker": "Guest",
+          "en": "She's a bit too big for a cot. Could we have an extra bed instead?",
+          "ipa": "/ʃiːz ə bɪt tuː bɪɡ fɔːr ə kɑːt | kʊd wiː hæv ən ˈekstrə bed ɪnˈsted/",
+          "vi": "Bé hơi lớn để nằm cũi rồi. Cho chúng tôi một giường phụ thay vào được không?",
+          "analysis": {
+            "vocab": [{ "word": "extra bed", "ipa": "/ˈekstrə bed/", "pos": "noun", "vi": "giường phụ", "example": "Is there a charge for an extra bed?" }],
+            "grammar": { "pattern": "too + tính từ + for + N", "explainVi": "Quá… so với…", "examples": ["This bag is too heavy for me.", "It's too far for my mother to walk."] }
+          }
+        },
+        {
+          "speaker": "Receptionist",
+          "en": "Certainly. Children under 6 stay free, so there's no charge.",
+          "ipa": "/ˈsɜːrtənli | ˈtʃɪldrən ˈʌndər sɪks steɪ friː | soʊ ðerz noʊ tʃɑːrdʒ/",
+          "vi": "Được ạ. Trẻ dưới 6 tuổi ở miễn phí, nên không tính phí.",
+          "analysis": {
+            "phrases": [{ "phrase": "stay free", "vi": "ở miễn phí" }],
+            "culture": "Nhiều khách sạn miễn phí cho trẻ nhỏ ngủ chung giường bố mẹ, nhưng giường phụ có thể tính tiền. Hãy hỏi trước."
+          }
+        },
+        {
+          "speaker": "Guest",
+          "en": "Great. Also, my father can't climb stairs easily. Is the room near the lift?",
+          "ipa": "/ɡreɪt | ˈɔːlsoʊ | maɪ ˈfɑːðər kænt klaɪm sterz ˈiːzəli | ɪz ðə ruːm nɪr ðə lɪft/",
+          "vi": "Tuyệt. Ngoài ra, bố tôi leo cầu thang không dễ. Phòng có gần thang máy không?",
+          "analysis": {
+            "vocab": [{ "word": "climb", "ipa": "/klaɪm/", "pos": "verb", "vi": "leo, trèo", "example": "We climbed the mountain." }],
+            "pronunciation": "“climb” /klaɪm/ – chữ b câm."
+          }
+        },
+        {
+          "speaker": "Receptionist",
+          "en": "Your room is on the ground floor, right next to the pool and the kids' club.",
+          "ipa": "/jɔːr ruːm ɪz ɑːn ðə ɡraʊnd flɔːr | raɪt nekst tə ðə puːl ənd ðə kɪdz klʌb/",
+          "vi": "Phòng của quý khách ở tầng trệt, ngay cạnh hồ bơi và câu lạc bộ trẻ em.",
+          "analysis": {
+            "vocab": [
+              { "word": "ground floor", "ipa": "/ɡraʊnd flɔːr/", "pos": "noun", "vi": "tầng trệt", "example": "The restaurant is on the ground floor." },
+              { "word": "kids' club", "ipa": "/kɪdz klʌb/", "pos": "noun", "vi": "khu vui chơi có người trông trẻ", "example": "The kids' club is open from 9 to 5." }
+            ]
+          }
+        },
+        {
+          "speaker": "Guest",
+          "en": "Perfect. Is the pool safe for small children? Is there a lifeguard?",
+          "ipa": "/ˈpɜːrfɪkt | ɪz ðə puːl seɪf fɔːr smɔːl ˈtʃɪldrən | ɪz ðer ə ˈlaɪfɡɑːrd/",
+          "vi": "Tuyệt quá. Hồ bơi có an toàn cho trẻ nhỏ không? Có nhân viên cứu hộ không?",
+          "analysis": {
+            "vocab": [{ "word": "lifeguard", "ipa": "/ˈlaɪfɡɑːrd/", "pos": "noun", "vi": "nhân viên cứu hộ", "example": "Swim between the flags, near the lifeguard." }]
+          }
+        },
+        {
+          "speaker": "Receptionist",
+          "en": "There's a shallow kids' pool, and a lifeguard is on duty from 8 to 6. Children must be supervised at all times.",
+          "ipa": "/ðerz ə ˈʃæloʊ kɪdz puːl | ənd ə ˈlaɪfɡɑːrd ɪz ɑːn ˈduːti frʌm eɪt tə sɪks | ˈtʃɪldrən mʌst biː ˈsuːpərvaɪzd æt ɔːl taɪmz/",
+          "vi": "Có hồ bơi trẻ em nông, và nhân viên cứu hộ trực từ 8 đến 6 giờ. Trẻ em phải luôn có người lớn trông.",
+          "analysis": {
+            "vocab": [
+              { "word": "shallow", "ipa": "/ˈʃæloʊ/", "pos": "adjective", "vi": "nông", "example": "The water is shallow here." },
+              { "word": "supervised", "ipa": "/ˈsuːpərvaɪzd/", "pos": "adjective / V3", "vi": "được giám sát", "example": "Children must be supervised." }
+            ],
+            "phrases": [
+              { "phrase": "on duty", "vi": "đang trực" },
+              { "phrase": "at all times", "vi": "mọi lúc" }
+            ]
+          }
+        }
+      ],
+      "keyPhrases": ["We're travelling with a three-year-old.", "Could we have a baby cot / an extra bed?", "Is the room near the lift?", "Is there a kids' club?", "Is there a lifeguard?"]
+    },
+    {
+      "id": "family-airport-assist-01",
+      "level": "B1",
+      "title": "Special assistance at the airport",
+      "titleVi": "Xin hỗ trợ đặc biệt ở sân bay",
+      "contextVi": "Mẹ bạn 75 tuổi, đi lại khó khăn. Bạn đến quầy hãng bay để hỏi về xe lăn và ưu tiên lên máy bay, kèm theo xe đẩy em bé.",
+      "imageQuery": "airport wheelchair assistance",
+      "dialogue": [
+        {
+          "speaker": "Traveler",
+          "en": "Hi. I booked wheelchair assistance for my mother. Where should we wait?",
+          "ipa": "/haɪ | aɪ bʊkt ˈwiːltʃer əˈsɪstəns fɔːr maɪ ˈmʌðər | wer ʃʊd wiː weɪt/",
+          "vi": "Chào bạn. Tôi đã đặt dịch vụ xe lăn hỗ trợ cho mẹ tôi. Chúng tôi nên chờ ở đâu?",
+          "analysis": {
+            "vocab": [{ "word": "assistance", "ipa": "/əˈsɪstəns/", "pos": "noun", "vi": "sự hỗ trợ", "example": "Do you need any assistance?" }],
+            "culture": "Dịch vụ xe lăn ở sân bay thường miễn phí nhưng nên đăng ký trước ít nhất 48 giờ với hãng bay."
+          }
+        },
+        {
+          "speaker": "Agent",
+          "en": "Please wait in the assistance area next to counter 5. Someone will take her through security.",
+          "ipa": "/pliːz weɪt ɪn ði əˈsɪstəns ˈeriə nekst tə ˈkaʊntər faɪv | ˈsʌmwʌn wɪl teɪk hɜːr θruː sɪˈkjʊrəti/",
+          "vi": "Vui lòng chờ ở khu hỗ trợ cạnh quầy số 5. Sẽ có người đưa bà qua cửa an ninh.",
+          "analysis": {
+            "phrases": [{ "phrase": "next to", "vi": "bên cạnh" }]
+          }
+        },
+        {
+          "speaker": "Traveler",
+          "en": "Thank you. Can I go with her? I don't want her to be alone.",
+          "ipa": "/θæŋk juː | kæn aɪ ɡoʊ wɪð hɜːr | aɪ doʊnt wɑːnt hɜːr tə biː əˈloʊn/",
+          "vi": "Cảm ơn. Tôi đi cùng mẹ được không? Tôi không muốn mẹ đi một mình.",
+          "analysis": {
+            "vocab": [{ "word": "alone", "ipa": "/əˈloʊn/", "pos": "adjective", "vi": "một mình", "example": "Don't leave your bag alone." }],
+            "grammar": { "pattern": "I don't want + O + to + V", "explainVi": "Không muốn ai đó làm gì / bị làm sao.", "examples": ["I don't want you to worry.", "I don't want him to get lost."] }
+          }
+        },
+        {
+          "speaker": "Agent",
+          "en": "Of course. Family members can stay together. Are you travelling with any children?",
+          "ipa": "/əv kɔːrs | ˈfæməli ˈmembərz kən steɪ təˈɡeðər | ɑːr juː ˈtrævəlɪŋ wɪð ˈeni ˈtʃɪldrən/",
+          "vi": "Dĩ nhiên. Người nhà được đi cùng nhau. Anh/chị có đi cùng trẻ em không?",
+          "analysis": {
+            "vocab": [{ "word": "family members", "ipa": "/ˈfæməli ˈmembərz/", "pos": "noun", "vi": "thành viên gia đình", "example": "How many family members are travelling?" }]
+          }
+        },
+        {
+          "speaker": "Traveler",
+          "en": "Yes, my baby son. Can I take his stroller to the gate?",
+          "ipa": "/jes | maɪ ˈbeɪbi sʌn | kæn aɪ teɪk hɪz ˈstroʊlər tə ðə ɡeɪt/",
+          "vi": "Có, con trai nhỏ của tôi. Tôi mang xe đẩy của bé đến tận cửa lên máy bay được không?",
+          "analysis": {
+            "vocab": [{ "word": "stroller / pushchair", "ipa": "/ˈstroʊlər/ /ˈpʊʃtʃer/", "pos": "noun", "vi": "xe đẩy em bé (Mỹ: stroller; Anh: pushchair, buggy)", "example": "Can I fold the stroller?" }]
+          }
+        },
+        {
+          "speaker": "Agent",
+          "en": "Yes. Just fold it at the gate and we'll put a tag on it. You'll get it back when you land.",
+          "ipa": "/jes | dʒʌst foʊld ɪt æt ðə ɡeɪt ənd wiːl pʊt ə tæɡ ɑːn ɪt | juːl ɡet ɪt bæk wen juː lænd/",
+          "vi": "Được. Chỉ cần gấp nó lại ở cửa lên máy bay và chúng tôi sẽ gắn thẻ. Anh/chị sẽ nhận lại khi hạ cánh.",
+          "analysis": {
+            "vocab": [
+              { "word": "fold", "ipa": "/foʊld/", "pos": "verb", "vi": "gấp lại", "example": "Please fold your table." },
+              { "word": "tag", "ipa": "/tæɡ/", "pos": "noun", "vi": "thẻ, nhãn", "example": "a luggage tag" }
+            ],
+            "grammar": { "pattern": "when + S + V(hiện tại) – nói về tương lai", "explainVi": "Sau “when” chỉ thời gian tương lai dùng thì hiện tại: when you land (không dùng will land).", "examples": ["Call me when you arrive.", "I'll pay when I check out."] }
+          }
+        },
+        {
+          "speaker": "Traveler",
+          "en": "That's very helpful. Can families with small children board first?",
+          "ipa": "/ðæts ˈveri ˈhelpfəl | kæn ˈfæməliz wɪð smɔːl ˈtʃɪldrən bɔːrd fɜːrst/",
+          "vi": "Thật hữu ích. Gia đình có con nhỏ có được lên máy bay trước không?",
+          "analysis": {
+            "vocab": [{ "word": "board", "ipa": "/bɔːrd/", "pos": "verb", "vi": "lên (máy bay, tàu)", "example": "We will board in 10 minutes." }],
+            "phrases": [{ "phrase": "priority boarding", "vi": "lên máy bay ưu tiên" }]
+          }
+        },
+        {
+          "speaker": "Agent",
+          "en": "Yes, passengers needing assistance and families with young children board first.",
+          "ipa": "/jes | ˈpæsɪndʒərz ˈniːdɪŋ əˈsɪstəns ənd ˈfæməliz wɪð jʌŋ ˈtʃɪldrən bɔːrd fɜːrst/",
+          "vi": "Có, hành khách cần hỗ trợ và gia đình có trẻ nhỏ được lên máy bay trước.",
+          "analysis": {
+            "grammar": { "pattern": "N + V-ing (rút gọn mệnh đề quan hệ)", "explainVi": "“passengers needing assistance” = passengers who need assistance.", "examples": ["people waiting for the bus", "tourists visiting the museum"] }
+          }
+        }
+      ],
+      "keyPhrases": ["I booked wheelchair assistance.", "Can I go with her?", "Can I take the stroller to the gate?", "Can families board first?", "My mother can't walk far."]
+    },
+    {
+      "id": "family-lost-child-01",
+      "level": "B1",
+      "title": "A lost child at a shopping mall",
+      "titleVi": "Trẻ bị lạc trong trung tâm thương mại",
+      "contextVi": "Con trai 6 tuổi của bạn bị lạc trong trung tâm thương mại ở Singapore. Bạn hoảng hốt nhờ nhân viên an ninh giúp.",
+      "imageQuery": "shopping mall security guard",
+      "dialogue": [
+        {
+          "speaker": "Parent",
+          "en": "Please help me! I can't find my son. He was right here a minute ago.",
+          "ipa": "/pliːz help miː | aɪ kænt faɪnd maɪ sʌn | hiː wəz raɪt hɪr ə ˈmɪnɪt əˈɡoʊ/",
+          "vi": "Làm ơn giúp tôi! Tôi không tìm thấy con trai. Một phút trước bé còn ở ngay đây.",
+          "analysis": {
+            "phrases": [{ "phrase": "a minute ago", "vi": "một phút trước" }],
+            "culture": "Ở trung tâm thương mại, nhân viên an ninh có thể phát thông báo và khóa lối ra. Hãy báo ngay, đừng tự tìm quá lâu."
+          }
+        },
+        {
+          "speaker": "Security",
+          "en": "Stay calm. We'll find him. How old is he, and what is he wearing?",
+          "ipa": "/steɪ kɑːm | wiːl faɪnd hɪm | haʊ oʊld ɪz hiː | ənd wɑːt ɪz hiː ˈwerɪŋ/",
+          "vi": "Hãy bình tĩnh. Chúng tôi sẽ tìm thấy bé. Bé bao nhiêu tuổi và đang mặc gì?",
+          "analysis": {
+            "vocab": [{ "word": "calm", "ipa": "/kɑːm/", "pos": "adjective", "vi": "bình tĩnh", "example": "Please stay calm." }],
+            "pronunciation": "“calm” /kɑːm/ – chữ l câm."
+          }
+        },
+        {
+          "speaker": "Parent",
+          "en": "He's six. He's wearing a yellow T-shirt, blue shorts and a red cap. His name is Bao.",
+          "ipa": "/hiːz sɪks | hiːz ˈwerɪŋ ə ˈjeloʊ ˈtiːʃɜːrt | bluː ʃɔːrts ənd ə red kæp | hɪz neɪm ɪz baʊ/",
+          "vi": "Bé 6 tuổi. Bé mặc áo phông vàng, quần short xanh và đội mũ lưỡi trai đỏ. Tên bé là Bảo.",
+          "analysis": {
+            "vocab": [
+              { "word": "shorts", "ipa": "/ʃɔːrts/", "pos": "noun", "vi": "quần short", "example": "He's wearing black shorts." },
+              { "word": "cap", "ipa": "/kæp/", "pos": "noun", "vi": "mũ lưỡi trai", "example": "a baseball cap" }
+            ],
+            "grammar": { "pattern": "S + is wearing + màu + quần áo", "explainVi": "Mô tả trang phục ai đó đang mặc: dùng hiện tại tiếp diễn.", "examples": ["She's wearing a pink dress.", "He's wearing glasses."] }
+          }
+        },
+        {
+          "speaker": "Security",
+          "en": "Where did you last see him?",
+          "ipa": "/wer dɪd juː læst siː hɪm/",
+          "vi": "Lần cuối anh/chị thấy bé ở đâu?",
+          "analysis": {
+            "grammar": { "pattern": "Where did you last + V?", "explainVi": "Hỏi lần cuối cùng làm việc gì ở đâu.", "examples": ["When did you last see your wallet?", "Where did you last use your phone?"] }
+          }
+        },
+        {
+          "speaker": "Parent",
+          "en": "Near the toy shop on the second floor. He loves toys, so he might have gone back there.",
+          "ipa": "/nɪr ðə tɔɪ ʃɑːp ɑːn ðə ˈsekənd flɔːr | hiː lʌvz tɔɪz | soʊ hiː maɪt həv ɡɔːn bæk ðer/",
+          "vi": "Gần cửa hàng đồ chơi ở tầng hai. Bé thích đồ chơi, nên có thể đã quay lại đó.",
+          "analysis": {
+            "vocab": [{ "word": "toy shop", "ipa": "/tɔɪ ʃɑːp/", "pos": "noun", "vi": "cửa hàng đồ chơi", "example": "Let's go to the toy shop." }],
+            "grammar": { "pattern": "might have + V3", "explainVi": "Phỏng đoán về một việc có thể đã xảy ra trong quá khứ.", "examples": ["I might have left it in the taxi.", "She might have gone home."] }
+          }
+        },
+        {
+          "speaker": "Security",
+          "en": "I'll make an announcement and send a guard there. Please wait at the information desk.",
+          "ipa": "/aɪl meɪk ən əˈnaʊnsmənt ənd send ə ɡɑːrd ðer | pliːz weɪt æt ði ˌɪnfərˈmeɪʃən desk/",
+          "vi": "Tôi sẽ phát thông báo và cử một bảo vệ đến đó. Vui lòng chờ ở quầy thông tin.",
+          "analysis": {
+            "vocab": [
+              { "word": "announcement", "ipa": "/əˈnaʊnsmənt/", "pos": "noun", "vi": "thông báo (qua loa)", "example": "Did you hear the announcement?" },
+              { "word": "guard", "ipa": "/ɡɑːrd/", "pos": "noun", "vi": "bảo vệ", "example": "Ask the security guard." }
+            ]
+          }
+        },
+        {
+          "speaker": "Security",
+          "en": "Good news – we found him at the toy shop. He's safe and he's on his way here.",
+          "ipa": "/ɡʊd nuːz | wiː faʊnd hɪm æt ðə tɔɪ ʃɑːp | hiːz seɪf ənd hiːz ɑːn hɪz weɪ hɪr/",
+          "vi": "Tin tốt – chúng tôi đã tìm thấy bé ở cửa hàng đồ chơi. Bé an toàn và đang được đưa đến đây.",
+          "analysis": {
+            "phrases": [{ "phrase": "on his way", "vi": "đang trên đường đến" }],
+            "culture": "Mẹo phòng tránh: dạy con nhớ tên bố mẹ, viết số điện thoại vào vòng tay hoặc giấy trong túi áo của bé, và chụp ảnh con mỗi sáng để biết bé mặc gì."
+          }
+        },
+        {
+          "speaker": "Parent",
+          "en": "Oh, thank goodness! Thank you so much. I was so worried.",
+          "ipa": "/oʊ | θæŋk ˈɡʊdnəs | θæŋk juː soʊ mʌtʃ | aɪ wəz soʊ ˈwɜːrid/",
+          "vi": "Ôi, may quá! Cảm ơn rất nhiều. Tôi đã lo lắng vô cùng.",
+          "analysis": {
+            "vocab": [{ "word": "worried", "ipa": "/ˈwɜːrid/", "pos": "adjective", "vi": "lo lắng", "example": "Don't be worried." }],
+            "phrases": [{ "phrase": "Thank goodness!", "vi": "Ơn trời! / May quá!" }]
+          }
+        }
+      ],
+      "keyPhrases": ["I can't find my son/daughter.", "He's six years old.", "He's wearing a yellow T-shirt.", "I last saw him near…", "Could you make an announcement?"]
+    }
+  ],
+  "reading": [
+    {
+      "title": "Family pass at a theme park",
+      "titleVi": "Vé gia đình ở công viên giải trí",
+      "introVi": "Bạn đọc bảng giá vé ở cổng công viên giải trí.",
+      "text": "ADVENTURE PARK - TICKET PRICES\n\nAdult (13-64) ............. $60\nChild (3-12) .............. $45\nSenior (65+) .............. $40\nUnder 3 ................... FREE\n\nFAMILY PASS (2 adults + 2 children) .... $180\n\nHeight restrictions apply on some rides. Children under 120 cm must ride with an adult.\nStroller and wheelchair hire available at Guest Services ($10 per day).\nBaby change rooms and a first aid station are located near the main entrance.",
+      "glossary": { "adult": "người lớn", "senior": "người cao tuổi", "family pass": "vé gia đình", "height restrictions": "giới hạn chiều cao", "rides": "trò chơi (có chuyển động)", "hire": "thuê", "baby change rooms": "phòng thay tã cho em bé", "first aid station": "trạm sơ cứu", "entrance": "lối vào" },
+      "questions": [
+        { "q": "You go with your wife, your 8-year-old, your 2-year-old and your 70-year-old mother. What's the cheapest way to pay?", "options": ["Family pass + 1 senior ticket = $220", "2 adults + 1 child + 1 senior = $205", "2 adults + 2 children + 1 senior = $250"], "answer": 1, "explainVi": "2 người lớn ($120) + 1 trẻ 8 tuổi ($45) + bà ($40) = $205. Bé 2 tuổi miễn phí, nên vé gia đình ($180 + $40) đắt hơn." },
+        { "q": "Your son is 110 cm tall. Can he go on all rides alone?", "options": ["Yes", "No, he must ride with an adult."], "answer": 1, "explainVi": "Trẻ dưới 120 cm phải đi cùng người lớn." },
+        { "q": "Where can you rent a wheelchair?", "options": ["At the first aid station", "At Guest Services", "At the main entrance for free"], "answer": 1, "explainVi": "“Stroller and wheelchair hire available at Guest Services ($10 per day).”" }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "title": "Email to a hotel about a family stay",
+      "titleVi": "Email hỏi khách sạn cho chuyến đi gia đình",
+      "taskVi": "Bạn sắp ở khách sạn 4 đêm (mã BK-7731) với vợ, con 4 tuổi và mẹ 72 tuổi. Viết email hỏi: (1) có giường phụ cho bé không và giá bao nhiêu, (2) xin phòng gần thang máy cho mẹ, (3) khách sạn có cho thuê xe đẩy không.",
+      "info": ["Mã đặt phòng: BK-7731, 4 nights", "Gia đình: 2 vợ chồng, con 4 tuổi, mẹ 72 tuổi", "3 yêu cầu: extra bed, phòng gần lift, thuê stroller"],
+      "starters": ["Dear Reservations Team,", "We have a booking for", "My booking number is", "We are travelling with", "Could you please provide", "Is it possible to have a room", "Do you also have", "Thank you in advance.", "Kind regards,"],
+      "sample": "Dear Reservations Team,\n\nWe have a booking for four nights at your hotel. My booking number is BK-7731.\n\nWe are travelling with our four-year-old daughter and my 72-year-old mother. Could you please provide an extra bed for our daughter, and let me know how much it costs? My mother cannot walk far, so is it possible to have a room near the lift? Do you also have strollers for rent?\n\nThank you in advance.\n\nKind regards,\nVo Minh Tuan",
+      "minWords": 60,
+      "mustInclude": [
+        { "regex": "BK-7731", "labelVi": "Có mã đặt phòng" },
+        { "regex": "extra bed", "labelVi": "Có hỏi giường phụ (extra bed)" },
+        { "regex": "lift|elevator", "labelVi": "Có xin phòng gần thang máy" },
+        { "regex": "stroller|pushchair|buggy", "labelVi": "Có hỏi thuê xe đẩy" }
+      ],
+      "checklist": ["Giới thiệu các thành viên đi cùng (four-year-old, 72-year-old)", "Mỗi yêu cầu một câu, dùng Could you / Is it possible / Do you have", "Giải thích lý do (so…, because…)", "Kết thư lịch sự"]
+    }
+  ]
+}

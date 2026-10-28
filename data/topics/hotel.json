@@ -1,0 +1,347 @@
+{
+  "topicId": "hotel",
+  "title": "At the Hotel",
+  "titleVi": "Khách sạn",
+  "icon": "🏨",
+  "descriptionVi": "Nhận phòng, yêu cầu dịch vụ, báo sự cố trong phòng và trả phòng.",
+  "situations": [
+    {
+      "id": "hotel-checkin-01",
+      "level": "A2",
+      "title": "Checking in",
+      "titleVi": "Nhận phòng",
+      "contextVi": "Bạn đến khách sạn Harbour View ở Sydney lúc 2 giờ chiều. Bạn đã đặt phòng đôi 3 đêm qua mạng.",
+      "imageQuery": "hotel reception desk",
+      "dialogue": [
+        {
+          "speaker": "Receptionist",
+          "en": "Good afternoon, welcome to the Harbour View Hotel. How can I help you?",
+          "ipa": "/ɡʊd ˌæftərˈnuːn | ˈwelkəm tə ðə ˈhɑːrbər vjuː hoʊˈtel | haʊ kən aɪ help juː/",
+          "vi": "Chào buổi chiều, chào mừng quý khách đến khách sạn Harbour View. Tôi có thể giúp gì ạ?",
+          "analysis": {
+            "vocab": [{ "word": "receptionist", "ipa": "/rɪˈsepʃənɪst/", "pos": "noun", "vi": "nhân viên lễ tân", "example": "Ask the receptionist for a map." }],
+            "phrases": [{ "phrase": "How can I help you?", "vi": "Tôi có thể giúp gì cho bạn? (câu mở đầu của nhân viên phục vụ)" }]
+          }
+        },
+        {
+          "speaker": "Guest",
+          "en": "Hi, I'd like to check in. I have a reservation under the name Tran.",
+          "ipa": "/haɪ | aɪd laɪk tə tʃek ɪn | aɪ hæv ə ˌrezərˈveɪʃən ˈʌndər ðə neɪm træn/",
+          "vi": "Chào chị, tôi muốn nhận phòng. Tôi có đặt phòng dưới tên Trần.",
+          "variants": { "polite": "Good afternoon. I have a booking under Tran. Could I check in, please?", "casual": "Hi, checking in. Name's Tran." },
+          "analysis": {
+            "vocab": [
+              { "word": "reservation", "ipa": "/ˌrezərˈveɪʃən/", "pos": "noun", "vi": "sự đặt chỗ/đặt phòng", "example": "I made a reservation online." },
+              { "word": "check in", "ipa": "/tʃek ɪn/", "pos": "phrasal verb", "vi": "nhận phòng", "example": "What time can I check in?" }
+            ],
+            "phrases": [{ "phrase": "under the name…", "vi": "đặt dưới tên…" }],
+            "grammar": { "pattern": "I'd like to + V", "explainVi": "“I'd like to” = “I would like to”: tôi muốn (lịch sự hơn “I want”).", "examples": ["I'd like to book a table.", "I'd like to change my room."] },
+            "pronunciation": "“I'd like” /aɪd laɪk/ – âm /d/ rất nhẹ, nhưng đừng bỏ hẳn.",
+            "commonMistake": { "wrong": "I want check in.", "right": "I'd like to check in." }
+          }
+        },
+        {
+          "speaker": "Receptionist",
+          "en": "Let me see… Yes, a double room for three nights. May I see your passport and a credit card?",
+          "ipa": "/let miː siː | jes | ə ˈdʌbəl ruːm fɔːr θriː naɪts | meɪ aɪ siː jɔːr ˈpæspɔːrt ənd ə ˈkredɪt kɑːrd/",
+          "vi": "Để tôi xem… Vâng, phòng đôi trong ba đêm. Cho tôi xem hộ chiếu và một thẻ tín dụng được không ạ?",
+          "analysis": {
+            "vocab": [
+              { "word": "double room", "ipa": "/ˈdʌbəl ruːm/", "pos": "noun", "vi": "phòng 1 giường đôi", "example": "A double room, please." },
+              { "word": "twin room", "ipa": "/twɪn ruːm/", "pos": "noun", "vi": "phòng 2 giường đơn", "example": "We need a twin room." }
+            ],
+            "culture": "Khách sạn thường giữ (pre-authorize) một khoản tiền đặt cọc trên thẻ tín dụng và hoàn lại khi trả phòng."
+          }
+        },
+        {
+          "speaker": "Receptionist",
+          "en": "We'll put a deposit of 100 dollars on your card. It will be returned when you check out.",
+          "ipa": "/wiːl pʊt ə dɪˈpɑːzɪt əv wʌn ˈhʌndrəd ˈdɑːlərz ɑːn jɔːr kɑːrd | ɪt wɪl biː rɪˈtɜːrnd wen juː tʃek aʊt/",
+          "vi": "Chúng tôi sẽ giữ khoản đặt cọc 100 đô trên thẻ. Khoản này sẽ được hoàn lại khi quý khách trả phòng.",
+          "analysis": {
+            "vocab": [
+              { "word": "deposit", "ipa": "/dɪˈpɑːzɪt/", "pos": "noun", "vi": "tiền đặt cọc", "example": "Is the deposit refundable?" },
+              { "word": "check out", "ipa": "/tʃek aʊt/", "pos": "phrasal verb", "vi": "trả phòng", "example": "Check-out is at 11 a.m." }
+            ],
+            "grammar": { "pattern": "It will be + V3 (bị động tương lai)", "explainVi": "Bị động thì tương lai: will be + quá khứ phân từ.", "examples": ["Breakfast will be served at 7.", "Your bags will be brought to your room."] }
+          }
+        },
+        {
+          "speaker": "Guest",
+          "en": "That's fine. What time is breakfast, and is the Wi-Fi free?",
+          "ipa": "/ðæts faɪn | wɑːt taɪm ɪz ˈbrekfəst | ənd ɪz ðə ˈwaɪfaɪ friː/",
+          "vi": "Được. Bữa sáng lúc mấy giờ, và Wi-Fi có miễn phí không?",
+          "analysis": {
+            "vocab": [
+              { "word": "breakfast", "ipa": "/ˈbrekfəst/", "pos": "noun", "vi": "bữa sáng", "example": "Is breakfast included?" },
+              { "word": "free", "ipa": "/friː/", "pos": "adjective", "vi": "miễn phí", "example": "Is parking free?" }
+            ],
+            "pronunciation": "“breakfast” đọc /ˈbrekfəst/ chứ không phải “brếch-phát”.",
+            "commonMistake": { "wrong": "Breakfast what time?", "right": "What time is breakfast?" }
+          }
+        },
+        {
+          "speaker": "Receptionist",
+          "en": "Breakfast is served from 6:30 to 10 in the restaurant on the first floor. The Wi-Fi password is on your key card holder.",
+          "ipa": "/ˈbrekfəst ɪz sɜːrvd frʌm sɪks ˈθɜːrti tə ten ɪn ðə ˈrestərɑːnt ɑːn ðə fɜːrst flɔːr | ðə ˈwaɪfaɪ ˈpæswɜːrd ɪz ɑːn jɔːr kiː kɑːrd ˈhoʊldər/",
+          "vi": "Bữa sáng phục vụ từ 6:30 đến 10 giờ tại nhà hàng tầng một. Mật khẩu Wi-Fi ghi trên bao đựng thẻ phòng.",
+          "analysis": {
+            "vocab": [
+              { "word": "key card", "ipa": "/kiː kɑːrd/", "pos": "noun", "vi": "thẻ từ mở cửa phòng", "example": "My key card doesn't work." },
+              { "word": "floor", "ipa": "/flɔːr/", "pos": "noun", "vi": "tầng", "example": "Our room is on the fifth floor." }
+            ],
+            "grammar": { "pattern": "from + A + to + B", "explainVi": "Nói khoảng thời gian: from 6:30 to 10.", "examples": ["The museum is open from 9 to 5.", "from Monday to Friday"] },
+            "culture": "Ở Anh/Úc, “first floor” là tầng 2 (tầng trệt là “ground floor”). Ở Mỹ, “first floor” là tầng trệt."
+          }
+        },
+        {
+          "speaker": "Receptionist",
+          "en": "You're in room 508. The elevators are on your right. Enjoy your stay!",
+          "ipa": "/jʊr ɪn ruːm faɪv oʊ eɪt | ði ˈelɪveɪtərz ɑːr ɑːn jɔːr raɪt | ɪnˈdʒɔɪ jɔːr steɪ/",
+          "vi": "Quý khách ở phòng 508. Thang máy ở bên phải. Chúc quý khách nghỉ ngơi vui vẻ!",
+          "analysis": {
+            "vocab": [{ "word": "elevator", "ipa": "/ˈelɪveɪtər/", "pos": "noun", "vi": "thang máy (Mỹ); Anh: lift", "example": "Take the elevator to the 5th floor." }],
+            "pronunciation": "Số phòng 508 thường đọc “five-oh-eight” /faɪv oʊ eɪt/ – số 0 đọc là “oh”."
+          }
+        }
+      ],
+      "keyPhrases": ["I'd like to check in.", "I have a reservation under…", "What time is breakfast?", "What's the Wi-Fi password?", "What time is check-out?"]
+    },
+    {
+      "id": "hotel-problem-01",
+      "level": "B1",
+      "title": "A problem with the room",
+      "titleVi": "Phòng gặp sự cố",
+      "contextVi": "Tối đến, máy lạnh trong phòng không chạy và phòng bên cạnh rất ồn. Bạn gọi điện xuống lễ tân.",
+      "imageQuery": "hotel room air conditioner",
+      "dialogue": [
+        {
+          "speaker": "Receptionist",
+          "en": "Front desk, this is Emma speaking. How can I help?",
+          "ipa": "/frʌnt desk | ðɪs ɪz ˈemə ˈspiːkɪŋ | haʊ kən aɪ help/",
+          "vi": "Lễ tân xin nghe, tôi là Emma. Tôi có thể giúp gì ạ?",
+          "analysis": {
+            "vocab": [{ "word": "front desk", "ipa": "/frʌnt desk/", "pos": "noun", "vi": "quầy lễ tân", "example": "Please call the front desk." }],
+            "phrases": [{ "phrase": "This is … speaking.", "vi": "… đang nghe máy (cách giới thiệu khi nghe điện thoại)" }]
+          }
+        },
+        {
+          "speaker": "Guest",
+          "en": "Hi, I'm calling from room 508. The air conditioner isn't working, and it's really hot.",
+          "ipa": "/haɪ | aɪm ˈkɔːlɪŋ frʌm ruːm faɪv oʊ eɪt | ði er kənˈdɪʃənər ˈɪzənt ˈwɜːrkɪŋ | ənd ɪts ˈrɪəli hɑːt/",
+          "vi": "Chào chị, tôi gọi từ phòng 508. Máy lạnh không hoạt động, và phòng rất nóng.",
+          "variants": { "polite": "Sorry to bother you, but there seems to be a problem with the air conditioning.", "casual": "Hi, room 508 – the AC's broken." },
+          "analysis": {
+            "vocab": [
+              { "word": "air conditioner", "ipa": "/er kənˈdɪʃənər/", "pos": "noun", "vi": "máy lạnh, điều hòa (AC)", "example": "Can you turn on the air conditioner?" },
+              { "word": "not working", "ipa": "/nɑːt ˈwɜːrkɪŋ/", "pos": "phrase", "vi": "bị hỏng, không hoạt động", "example": "The shower isn't working." }
+            ],
+            "grammar": { "pattern": "S + isn't/aren't + working", "explainVi": "Cách đơn giản và tự nhiên nhất để nói một thiết bị bị hỏng.", "examples": ["The TV isn't working.", "The lights aren't working."] },
+            "pronunciation": "“isn't working” – nhấn “isn't” để nhấn mạnh vấn đề.",
+            "commonMistake": { "wrong": "The air conditioner is broken not work.", "right": "The air conditioner isn't working." }
+          }
+        },
+        {
+          "speaker": "Receptionist",
+          "en": "I'm so sorry about that. I'll send someone from maintenance right away.",
+          "ipa": "/aɪm soʊ ˈsɑːri əˈbaʊt ðæt | aɪl send ˈsʌmwʌn frʌm ˈmeɪntənəns raɪt əˈweɪ/",
+          "vi": "Tôi rất xin lỗi về việc đó. Tôi sẽ cử người bên bộ phận kỹ thuật lên ngay.",
+          "analysis": {
+            "vocab": [
+              { "word": "maintenance", "ipa": "/ˈmeɪntənəns/", "pos": "noun", "vi": "bộ phận bảo trì, sửa chữa", "example": "Maintenance will fix it soon." },
+              { "word": "right away", "ipa": "/raɪt əˈweɪ/", "pos": "adverb", "vi": "ngay lập tức", "example": "I'll do it right away." }
+            ]
+          }
+        },
+        {
+          "speaker": "Guest",
+          "en": "Thank you. Also, the people next door are very noisy. Is it possible to change rooms?",
+          "ipa": "/θæŋk juː | ˈɔːlsoʊ | ðə ˈpiːpəl nekst dɔːr ɑːr ˈveri ˈnɔɪzi | ɪz ɪt ˈpɑːsəbəl tə tʃeɪndʒ ruːmz/",
+          "vi": "Cảm ơn. Ngoài ra, phòng bên cạnh rất ồn. Có thể đổi phòng được không?",
+          "analysis": {
+            "vocab": [
+              { "word": "next door", "ipa": "/nekst dɔːr/", "pos": "phrase", "vi": "bên cạnh, sát vách", "example": "There's a shop next door." },
+              { "word": "noisy", "ipa": "/ˈnɔɪzi/", "pos": "adjective", "vi": "ồn ào", "example": "The street is very noisy at night." }
+            ],
+            "grammar": { "pattern": "Is it possible to + V…?", "explainVi": "Hỏi khả năng một cách lịch sự và mềm mỏng.", "examples": ["Is it possible to get a late check-out?", "Is it possible to pay later?"] },
+            "pronunciation": "“change rooms” – âm /dʒ/ cuối của change nối với /r/: /tʃeɪndʒ ruːmz/."
+          }
+        },
+        {
+          "speaker": "Receptionist",
+          "en": "Of course. We have a quiet room on the 12th floor. I can upgrade you to a room with a view at no extra charge.",
+          "ipa": "/əv kɔːrs | wiː hæv ə ˈkwaɪət ruːm ɑːn ðə twelfθ flɔːr | aɪ kən ˈʌpɡreɪd juː tʊ ə ruːm wɪð ə vjuː æt noʊ ˈekstrə tʃɑːrdʒ/",
+          "vi": "Dĩ nhiên. Chúng tôi có một phòng yên tĩnh ở tầng 12. Tôi có thể nâng hạng cho quý khách lên phòng có view mà không tính thêm phí.",
+          "analysis": {
+            "vocab": [
+              { "word": "upgrade", "ipa": "/ˈʌpɡreɪd/", "pos": "verb / noun", "vi": "nâng hạng", "example": "Can I get a free upgrade?" },
+              { "word": "at no extra charge", "ipa": "/æt noʊ ˈekstrə tʃɑːrdʒ/", "pos": "phrase", "vi": "không tính thêm phí", "example": "Breakfast is included at no extra charge." }
+            ],
+            "pronunciation": "“quiet” /ˈkwaɪət/ (yên tĩnh) – 2 âm tiết. Đừng nhầm với “quite” /kwaɪt/ (khá)."
+          }
+        },
+        {
+          "speaker": "Guest",
+          "en": "That would be wonderful. Should I bring my luggage down to the lobby?",
+          "ipa": "/ðæt wʊd biː ˈwʌndərfəl | ʃʊd aɪ brɪŋ maɪ ˈlʌɡɪdʒ daʊn tə ðə ˈlɑːbi/",
+          "vi": "Vậy thì tuyệt quá. Tôi có nên mang hành lý xuống sảnh không?",
+          "analysis": {
+            "vocab": [
+              { "word": "luggage", "ipa": "/ˈlʌɡɪdʒ/", "pos": "noun (không đếm được)", "vi": "hành lý", "example": "How much luggage do you have?" },
+              { "word": "lobby", "ipa": "/ˈlɑːbi/", "pos": "noun", "vi": "sảnh khách sạn", "example": "Let's meet in the lobby at 8." }
+            ],
+            "grammar": { "pattern": "Should I + V…?", "explainVi": "Hỏi xin lời khuyên / hỏi mình có nên làm gì.", "examples": ["Should I take a taxi?", "Should I book in advance?"] },
+            "commonMistake": { "wrong": "my luggages", "right": "my luggage / my bags" }
+          }
+        },
+        {
+          "speaker": "Receptionist",
+          "en": "No need. A porter will come up with your new key and help you with your bags.",
+          "ipa": "/noʊ niːd | ə ˈpɔːrtər wɪl kʌm ʌp wɪð jɔːr nuː kiː ənd help juː wɪð jɔːr bæɡz/",
+          "vi": "Không cần đâu ạ. Nhân viên hành lý sẽ lên cùng chìa khóa mới và giúp quý khách mang túi.",
+          "analysis": {
+            "vocab": [{ "word": "porter", "ipa": "/ˈpɔːrtər/", "pos": "noun", "vi": "nhân viên khuân vác hành lý (bellboy)", "example": "The porter took our bags." }],
+            "phrases": [{ "phrase": "help someone with something", "vi": "giúp ai làm việc gì" }],
+            "culture": "Ở Mỹ, thường tip nhân viên hành lý khoảng 1–2 đô mỗi kiện hành lý."
+          }
+        }
+      ],
+      "keyPhrases": ["The … isn't working.", "Is it possible to change rooms?", "Could you send someone up?", "There's no hot water.", "Could I have an extra towel / pillow?"]
+    },
+    {
+      "id": "hotel-checkout-01",
+      "level": "A2",
+      "title": "Checking out",
+      "titleVi": "Trả phòng",
+      "contextVi": "Sáng ngày cuối, bạn trả phòng. Bạn muốn gửi hành lý lại vì chiều mới ra sân bay, và kiểm tra hóa đơn.",
+      "imageQuery": "hotel lobby luggage",
+      "dialogue": [
+        {
+          "speaker": "Guest",
+          "en": "Good morning. I'd like to check out, please. Room 1204.",
+          "ipa": "/ɡʊd ˈmɔːrnɪŋ | aɪd laɪk tə tʃek aʊt pliːz | ruːm twelv oʊ fɔːr/",
+          "vi": "Chào buổi sáng. Tôi muốn trả phòng. Phòng 1204.",
+          "analysis": {
+            "vocab": [{ "word": "check out", "ipa": "/tʃek aʊt/", "pos": "phrasal verb", "vi": "trả phòng", "example": "We need to check out by 11." }],
+            "pronunciation": "1204 đọc là “twelve-oh-four”."
+          }
+        },
+        {
+          "speaker": "Receptionist",
+          "en": "Certainly. Did you take anything from the minibar?",
+          "ipa": "/ˈsɜːrtənli | dɪd juː teɪk ˈeniθɪŋ frʌm ðə ˈmɪnibɑːr/",
+          "vi": "Vâng. Quý khách có dùng gì trong minibar không?",
+          "analysis": {
+            "vocab": [
+              { "word": "minibar", "ipa": "/ˈmɪnibɑːr/", "pos": "noun", "vi": "tủ lạnh nhỏ trong phòng (đồ uống tính tiền)", "example": "The minibar drinks are expensive." },
+              { "word": "certainly", "ipa": "/ˈsɜːrtənli/", "pos": "adverb", "vi": "chắc chắn rồi, vâng ạ (lịch sự)", "example": "Certainly, sir." }
+            ],
+            "grammar": { "pattern": "Did you + V(nguyên mẫu)…?", "explainVi": "Câu hỏi thì quá khứ đơn: Did + S + V nguyên mẫu (không chia quá khứ).", "examples": ["Did you sleep well?", "Did you enjoy your stay?"] }
+          }
+        },
+        {
+          "speaker": "Guest",
+          "en": "Just two bottles of water and a can of Coke.",
+          "ipa": "/dʒʌst tuː ˈbɑːtəlz əv ˈwɔːtər ənd ə kæn əv koʊk/",
+          "vi": "Chỉ hai chai nước và một lon Coca.",
+          "analysis": {
+            "vocab": [{ "word": "can", "ipa": "/kæn/", "pos": "noun", "vi": "lon", "example": "a can of beer – một lon bia" }],
+            "pronunciation": "“bottles of” nối âm /ˈbɑːtəlzəv/."
+          }
+        },
+        {
+          "speaker": "Receptionist",
+          "en": "Here's your bill. The total is 645 dollars, including tax.",
+          "ipa": "/hɪrz jɔːr bɪl | ðə ˈtoʊtəl ɪz sɪks ˈhʌndrəd ənd ˈfɔːrti faɪv ˈdɑːlərz | ɪnˈkluːdɪŋ tæks/",
+          "vi": "Đây là hóa đơn của quý khách. Tổng cộng 645 đô, đã bao gồm thuế.",
+          "analysis": {
+            "vocab": [
+              { "word": "bill", "ipa": "/bɪl/", "pos": "noun", "vi": "hóa đơn", "example": "Could I see the bill?" },
+              { "word": "including tax", "ipa": "/ɪnˈkluːdɪŋ tæks/", "pos": "phrase", "vi": "đã gồm thuế", "example": "Is that price including tax?" }
+            ],
+            "pronunciation": "Số tiền: 645 = six hundred (and) forty-five. Người Anh thêm “and”, người Mỹ thường bỏ."
+          }
+        },
+        {
+          "speaker": "Guest",
+          "en": "Sorry, what's this charge for 30 dollars? I don't think I ordered room service.",
+          "ipa": "/ˈsɑːri | wɑːts ðɪs tʃɑːrdʒ fɔːr ˈθɜːrti ˈdɑːlərz | aɪ doʊnt θɪŋk aɪ ˈɔːrdərd ruːm ˈsɜːrvɪs/",
+          "vi": "Xin lỗi, khoản phí 30 đô này là gì vậy? Tôi nghĩ là tôi không gọi dịch vụ phòng.",
+          "analysis": {
+            "vocab": [
+              { "word": "charge", "ipa": "/tʃɑːrdʒ/", "pos": "noun", "vi": "khoản phí", "example": "Is there a charge for parking?" },
+              { "word": "room service", "ipa": "/ruːm ˈsɜːrvɪs/", "pos": "noun", "vi": "dịch vụ phục vụ đồ ăn tại phòng", "example": "Let's order room service." }
+            ],
+            "grammar": { "pattern": "I don't think + S + V", "explainVi": "Người Anh phủ định ở “think” chứ không phải ở động từ sau – nghe mềm mỏng hơn.", "examples": ["I don't think it's correct.", "I don't think we need a taxi."] },
+            "culture": "Luôn kiểm tra kỹ hóa đơn trước khi thanh toán. Hỏi lịch sự, không buộc tội.",
+            "commonMistake": { "wrong": "I think I didn't order room service.", "right": "I don't think I ordered room service." }
+          }
+        },
+        {
+          "speaker": "Receptionist",
+          "en": "Let me check… You're right, that's our mistake. I've removed it. The new total is 615 dollars.",
+          "ipa": "/let miː tʃek | jʊr raɪt | ðæts ˈaʊər mɪˈsteɪk | aɪv rɪˈmuːvd ɪt | ðə nuː ˈtoʊtəl ɪz sɪks ˈhʌndrəd ənd ˌfɪfˈtiːn ˈdɑːlərz/",
+          "vi": "Để tôi kiểm tra… Quý khách nói đúng, đó là lỗi của chúng tôi. Tôi đã xóa rồi. Tổng mới là 615 đô.",
+          "analysis": {
+            "vocab": [{ "word": "mistake", "ipa": "/mɪˈsteɪk/", "pos": "noun", "vi": "lỗi, sai sót", "example": "Sorry, my mistake." }],
+            "grammar": { "pattern": "I've + V3 (hiện tại hoàn thành)", "explainVi": "Hành động vừa xong và có kết quả ngay lúc này (khoản phí đã được xóa).", "examples": ["I've lost my key.", "I've booked a taxi for you."] }
+          }
+        },
+        {
+          "speaker": "Guest",
+          "en": "Thank you. Could you keep my luggage here until 3 p.m.? My flight is in the evening.",
+          "ipa": "/θæŋk juː | kʊd juː kiːp maɪ ˈlʌɡɪdʒ hɪr ənˈtɪl θriː piː em | maɪ flaɪt ɪz ɪn ði ˈiːvnɪŋ/",
+          "vi": "Cảm ơn. Chị giữ hành lý của tôi ở đây đến 3 giờ chiều được không? Chuyến bay của tôi vào buổi tối.",
+          "analysis": {
+            "vocab": [{ "word": "until", "ipa": "/ənˈtɪl/", "pos": "preposition", "vi": "cho đến khi", "example": "The shop is open until 10 p.m." }],
+            "phrases": [{ "phrase": "luggage storage / left luggage", "vi": "dịch vụ gửi hành lý" }],
+            "culture": "Hầu hết khách sạn giữ hành lý miễn phí sau khi trả phòng – bạn sẽ nhận một tấm thẻ (tag) để lấy lại."
+          }
+        },
+        {
+          "speaker": "Receptionist",
+          "en": "No problem. Here's your luggage tag. Have a safe flight!",
+          "ipa": "/noʊ ˈprɑːbləm | hɪrz jɔːr ˈlʌɡɪdʒ tæɡ | hæv ə seɪf flaɪt/",
+          "vi": "Không vấn đề gì. Đây là thẻ gửi hành lý. Chúc quý khách bay an toàn!",
+          "analysis": {
+            "vocab": [{ "word": "luggage tag", "ipa": "/ˈlʌɡɪdʒ tæɡ/", "pos": "noun", "vi": "thẻ/nhãn hành lý", "example": "Don't lose your luggage tag." }],
+            "phrases": [{ "phrase": "Have a safe flight / trip!", "vi": "Chúc bay / đi đường an toàn!" }]
+          }
+        }
+      ],
+      "keyPhrases": ["I'd like to check out.", "What's this charge for?", "Could you keep my luggage until…?", "Can I get a receipt?", "Could you call a taxi for me?"]
+    }
+  ],
+  "reading": [
+    {
+      "title": "Hotel booking confirmation",
+      "titleVi": "Email xác nhận đặt phòng",
+      "introVi": "Bạn nhận được email này sau khi đặt phòng.",
+      "text": "Dear Mr. Tran,\n\nThank you for choosing the Harbour View Hotel.\n\nConfirmation number: HV-55821\nCheck-in: Friday, 12 May (from 3:00 p.m.)\nCheck-out: Monday, 15 May (by 11:00 a.m.)\nRoom: Deluxe Double, non-smoking\nRate: AUD 210 per night, breakfast included\n\nFree cancellation until 48 hours before arrival. Late cancellations will be charged one night.\nEarly check-in is subject to availability.\n\nWe look forward to welcoming you.\nGuest Services Team",
+      "glossary": { "confirmation number": "mã xác nhận", "non-smoking": "không hút thuốc", "rate": "giá phòng", "per night": "mỗi đêm", "included": "đã bao gồm", "cancellation": "việc hủy", "arrival": "lúc đến", "charged": "bị tính phí", "subject to availability": "tùy tình trạng phòng trống", "look forward to": "mong đợi" },
+      "questions": [
+        { "q": "How many nights is Mr. Tran staying?", "options": ["Two", "Three", "Four"], "answer": 1, "explainVi": "Từ thứ Sáu 12 đến thứ Hai 15 = 3 đêm." },
+        { "q": "Mr. Tran arrives at 10 a.m. Can he definitely check in?", "options": ["Yes, always.", "Maybe – it depends on availability.", "No, never."], "answer": 1, "explainVi": "“Early check-in is subject to availability” = nhận phòng sớm tùy còn phòng hay không." },
+        { "q": "He cancels on 11 May. What happens?", "options": ["It's free.", "He pays for one night.", "He pays for three nights."], "answer": 1, "explainVi": "Hủy trong vòng 48 giờ trước khi đến → bị tính phí 1 đêm." }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "title": "Email: asking for early check-in",
+      "titleVi": "Email xin nhận phòng sớm",
+      "taskVi": "Chuyến bay của bạn hạ cánh lúc 7 giờ sáng. Viết email cho khách sạn (mã đặt phòng HV-55821) để: hỏi có thể nhận phòng sớm khoảng 9 giờ sáng không, nếu không thì có thể gửi hành lý không, và hỏi khách sạn có dịch vụ đón sân bay không.",
+      "info": ["Mã đặt phòng: HV-55821", "Hạ cánh: 7:00 sáng, ngày 12 May", "3 yêu cầu: nhận phòng sớm, gửi hành lý, đón sân bay"],
+      "starters": ["Dear Guest Services Team,", "My confirmation number is", "My flight arrives at", "Would it be possible to", "If not, could I", "I would also like to know if", "I look forward to your reply.", "Kind regards,"],
+      "sample": "Dear Guest Services Team,\n\nI have a reservation at your hotel from 12 to 15 May. My confirmation number is HV-55821.\n\nMy flight arrives at 7 a.m., so I will be at the hotel at around 9 a.m. Would it be possible to check in early? If not, could I leave my luggage at the reception?\n\nI would also like to know if you offer an airport pick-up service, and how much it costs.\n\nI look forward to your reply.\n\nKind regards,\nTran Van Minh",
+      "minWords": 50,
+      "mustInclude": [
+        { "regex": "HV-55821", "labelVi": "Có mã đặt phòng" },
+        { "regex": "early", "labelVi": "Có hỏi nhận phòng sớm (early check-in)" },
+        { "regex": "luggage|bags", "labelVi": "Có hỏi gửi hành lý (luggage)" },
+        { "regex": "pick.?up|shuttle|transfer", "labelVi": "Có hỏi dịch vụ đón sân bay (pick-up)" }
+      ],
+      "checklist": ["Mở đầu Dear…", "Nêu mã đặt phòng và ngày ở", "Dùng Would it be possible to… / Could I…", "Kết thư bằng I look forward to your reply."]
+    }
+  ]
+}

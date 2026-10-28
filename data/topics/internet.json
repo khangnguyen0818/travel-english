@@ -1,0 +1,300 @@
+{
+  "topicId": "internet",
+  "title": "Wi-Fi, SIM & Phone",
+  "titleVi": "Wi-Fi, SIM & điện thoại",
+  "icon": "📶",
+  "descriptionVi": "Mua SIM/eSIM du lịch, hỏi Wi-Fi, mượn sạc và xử lý khi điện thoại có vấn đề.",
+  "situations": [
+    {
+      "id": "internet-sim-01",
+      "level": "A2",
+      "title": "Buying a tourist SIM card",
+      "titleVi": "Mua SIM du lịch",
+      "contextVi": "Bạn vừa đến sân bay Bangkok và muốn mua SIM có data cho 7 ngày.",
+      "imageQuery": "SIM card shop airport",
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "en": "Hi. I'd like a tourist SIM card with data, please.",
+          "ipa": "/haɪ | aɪd laɪk ə ˈtʊrɪst sɪm kɑːrd wɪð ˈdeɪtə pliːz/",
+          "vi": "Chào bạn. Tôi muốn mua SIM du lịch có data.",
+          "analysis": {
+            "vocab": [
+              { "word": "SIM card", "ipa": "/ˈsɪm kɑːrd/", "pos": "noun", "vi": "thẻ SIM", "example": "Where can I buy a SIM card?" },
+              { "word": "data", "ipa": "/ˈdeɪtə/", "pos": "noun", "vi": "dữ liệu di động (3G/4G/5G)", "example": "I've run out of data." }
+            ],
+            "pronunciation": "“data” Mỹ: /ˈdeɪtə/ hoặc /ˈdæɾə/; Anh: /ˈdeɪtə/."
+          }
+        },
+        {
+          "speaker": "Staff",
+          "en": "How long are you staying, and how much data do you need?",
+          "ipa": "/haʊ lɔːŋ ɑːr juː ˈsteɪɪŋ | ənd haʊ mʌtʃ ˈdeɪtə duː juː niːd/",
+          "vi": "Bạn ở bao lâu, và cần bao nhiêu data?",
+          "analysis": {
+            "grammar": { "pattern": "How much + N không đếm được?", "explainVi": "“data” không đếm được nên dùng “how much”.", "examples": ["How much time do we have?", "How much money do you need?"] }
+          }
+        },
+        {
+          "speaker": "Customer",
+          "en": "Seven days. I use maps and video calls a lot, so maybe unlimited data?",
+          "ipa": "/ˈsevən deɪz | aɪ juːz mæps ənd ˈvɪdioʊ kɔːlz ə lɑːt | soʊ ˈmeɪbi ʌnˈlɪmɪtɪd ˈdeɪtə/",
+          "vi": "Bảy ngày. Tôi dùng bản đồ và gọi video nhiều, nên có lẽ data không giới hạn?",
+          "analysis": {
+            "vocab": [
+              { "word": "unlimited", "ipa": "/ʌnˈlɪmɪtɪd/", "pos": "adjective", "vi": "không giới hạn", "example": "Is the data really unlimited?" },
+              { "word": "video call", "ipa": "/ˈvɪdioʊ kɔːl/", "pos": "noun", "vi": "cuộc gọi video", "example": "I make video calls to my family every night." }
+            ]
+          }
+        },
+        {
+          "speaker": "Staff",
+          "en": "This 8-day unlimited package is 399 baht. It also includes 100 minutes of local calls.",
+          "ipa": "/ðɪs eɪt deɪ ʌnˈlɪmɪtɪd ˈpækɪdʒ ɪz θriː ˈhʌndrəd ənd ˈnaɪnti naɪn bɑːt | ɪt ˈɔːlsoʊ ɪnˈkluːdz wʌn ˈhʌndrəd ˈmɪnɪts əv ˈloʊkəl kɔːlz/",
+          "vi": "Gói 8 ngày không giới hạn này giá 399 baht. Gói còn có 100 phút gọi trong nước.",
+          "analysis": {
+            "vocab": [
+              { "word": "package", "ipa": "/ˈpækɪdʒ/", "pos": "noun", "vi": "gói (cước)", "example": "Which package is the cheapest?" },
+              { "word": "local calls", "ipa": "/ˈloʊkəl kɔːlz/", "pos": "noun", "vi": "cuộc gọi nội địa", "example": "Local calls are free." }
+            ],
+            "grammar": { "pattern": "an 8-day + N", "explainVi": "Số + danh từ đơn vị (có gạch nối, số ít) đứng trước danh từ chính.", "examples": ["a 7-day pass", "a 30-minute call"] }
+          }
+        },
+        {
+          "speaker": "Customer",
+          "en": "Perfect. Can you set it up for me? I'm not sure how to change the settings.",
+          "ipa": "/ˈpɜːrfɪkt | kæn juː set ɪt ʌp fɔːr miː | aɪm nɑːt ʃʊr haʊ tə tʃeɪndʒ ðə ˈsetɪŋz/",
+          "vi": "Tuyệt. Bạn cài giúp tôi được không? Tôi không chắc cách đổi cài đặt.",
+          "analysis": {
+            "vocab": [
+              { "word": "set up", "ipa": "/set ʌp/", "pos": "phrasal verb", "vi": "cài đặt, thiết lập", "example": "Can you help me set up my phone?" },
+              { "word": "settings", "ipa": "/ˈsetɪŋz/", "pos": "noun", "vi": "phần cài đặt", "example": "Go to Settings and turn on roaming." }
+            ],
+            "grammar": { "pattern": "I'm not sure how to + V", "explainVi": "Nói mình không biết cách làm gì – để nhờ giúp đỡ.", "examples": ["I'm not sure how to use this machine.", "I'm not sure how to get there."] }
+          }
+        },
+        {
+          "speaker": "Staff",
+          "en": "Sure. I'll need your passport to register the SIM. Please turn on your phone and enter the PIN 1234.",
+          "ipa": "/ʃʊr | aɪl niːd jɔːr ˈpæspɔːrt tə ˈredʒɪstər ðə sɪm | pliːz tɜːrn ɑːn jɔːr foʊn ənd ˈentər ðə pɪn wʌn tuː θriː fɔːr/",
+          "vi": "Được. Tôi cần hộ chiếu để đăng ký SIM. Bạn bật điện thoại lên và nhập mã PIN 1234.",
+          "analysis": {
+            "vocab": [{ "word": "register", "ipa": "/ˈredʒɪstər/", "pos": "verb", "vi": "đăng ký", "example": "You need to register online." }],
+            "culture": "Nhiều nước yêu cầu hộ chiếu để đăng ký SIM. Giữ lại SIM Việt Nam cẩn thận để dùng khi về."
+          }
+        },
+        {
+          "speaker": "Customer",
+          "en": "Here you are. Could you also keep my old SIM in this little bag?",
+          "ipa": "/hɪr juː ɑːr | kʊd juː ˈɔːlsoʊ kiːp maɪ oʊld sɪm ɪn ðɪs ˈlɪtəl bæɡ/",
+          "vi": "Đây ạ. Bạn bỏ SIM cũ của tôi vào túi nhỏ này giúp tôi được không?",
+          "analysis": {
+            "culture": "Mẹo: điện thoại hỗ trợ eSIM có thể mua eSIM du lịch online trước chuyến đi – không cần tháo SIM Việt Nam."
+          }
+        }
+      ],
+      "keyPhrases": ["I'd like a tourist SIM with data.", "How much is the 7-day package?", "Is the data unlimited?", "Can you set it up for me?", "Does it include calls?"]
+    },
+    {
+      "id": "internet-wifi-01",
+      "level": "A2",
+      "title": "Wi-Fi isn't working",
+      "titleVi": "Wi-Fi không vào được",
+      "contextVi": "Bạn đang ở một quán cà phê. Bạn hỏi mật khẩu Wi-Fi, nhưng kết nối xong vẫn không vào mạng được. Điện thoại cũng sắp hết pin.",
+      "imageQuery": "free wifi sign cafe",
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "en": "Excuse me, do you have Wi-Fi here?",
+          "ipa": "/ɪkˈskjuːz miː | duː juː hæv ˈwaɪfaɪ hɪr/",
+          "vi": "Xin lỗi, ở đây có Wi-Fi không?",
+          "analysis": {
+            "pronunciation": "“Wi-Fi” đọc /ˈwaɪfaɪ/ (oai-phai), không đọc “uy-phi”."
+          }
+        },
+        {
+          "speaker": "Staff",
+          "en": "Yes. The network is “CafeLuna” and the password is on your receipt.",
+          "ipa": "/jes | ðə ˈnetwɜːrk ɪz ˈkæfeɪ ˈluːnə ənd ðə ˈpæswɜːrd ɪz ɑːn jɔːr rɪˈsiːt/",
+          "vi": "Có. Tên mạng là “CafeLuna” và mật khẩu in trên hóa đơn của bạn.",
+          "analysis": {
+            "vocab": [
+              { "word": "network", "ipa": "/ˈnetwɜːrk/", "pos": "noun", "vi": "mạng", "example": "Which network should I connect to?" },
+              { "word": "password", "ipa": "/ˈpæswɜːrd/", "pos": "noun", "vi": "mật khẩu", "example": "What's the password?" }
+            ]
+          }
+        },
+        {
+          "speaker": "Customer",
+          "en": "Thanks. Hmm, it says “connected”, but nothing loads. Is the Internet down?",
+          "ipa": "/θæŋks | hm | ɪt sez kəˈnektɪd | bət ˈnʌθɪŋ loʊdz | ɪz ði ˈɪntərnet daʊn/",
+          "vi": "Cảm ơn. Hừm, máy báo đã “kết nối”, nhưng không tải được gì. Mạng bị sập à?",
+          "analysis": {
+            "vocab": [
+              { "word": "connected", "ipa": "/kəˈnektɪd/", "pos": "adjective", "vi": "đã kết nối", "example": "I can't get connected." },
+              { "word": "load", "ipa": "/loʊd/", "pos": "verb", "vi": "tải (trang)", "example": "The page won't load." }
+            ],
+            "phrases": [{ "phrase": "be down", "vi": "bị sập, ngừng hoạt động (mạng, hệ thống)" }]
+          }
+        },
+        {
+          "speaker": "Staff",
+          "en": "Sometimes a login page pops up. Try opening your browser and accepting the terms.",
+          "ipa": "/ˈsʌmtaɪmz ə ˈlɔːɡɪn peɪdʒ pɑːps ʌp | traɪ ˈoʊpənɪŋ jɔːr ˈbraʊzər ənd əkˈseptɪŋ ðə tɜːrmz/",
+          "vi": "Đôi khi có trang đăng nhập hiện lên. Bạn thử mở trình duyệt và bấm đồng ý điều khoản.",
+          "analysis": {
+            "vocab": [
+              { "word": "browser", "ipa": "/ˈbraʊzər/", "pos": "noun", "vi": "trình duyệt web", "example": "Open Safari or Chrome." },
+              { "word": "pop up", "ipa": "/pɑːp ʌp/", "pos": "phrasal verb", "vi": "hiện ra (đột ngột)", "example": "A message popped up on the screen." }
+            ],
+            "grammar": { "pattern": "Try + V-ing", "explainVi": "“Thử làm gì xem sao” – gợi ý một giải pháp.", "examples": ["Try restarting your phone.", "Try turning it off and on again."] }
+          }
+        },
+        {
+          "speaker": "Customer",
+          "en": "Oh, it works now! Also, my battery is almost dead. Is there anywhere I can charge my phone?",
+          "ipa": "/oʊ | ɪt wɜːrks naʊ | ˈɔːlsoʊ | maɪ ˈbætəri ɪz ˈɔːlmoʊst ded | ɪz ðer ˈeniwer aɪ kən tʃɑːrdʒ maɪ foʊn/",
+          "vi": "Ồ, được rồi! Còn nữa, pin điện thoại tôi gần hết. Ở đâu có chỗ sạc không?",
+          "analysis": {
+            "vocab": [
+              { "word": "battery", "ipa": "/ˈbætəri/", "pos": "noun", "vi": "pin", "example": "My battery is low." },
+              { "word": "charge", "ipa": "/tʃɑːrdʒ/", "pos": "verb", "vi": "sạc (pin)", "example": "Can I charge my phone here?" }
+            ],
+            "phrases": [{ "phrase": "My battery is dead.", "vi": "Điện thoại hết sạch pin." }]
+          }
+        },
+        {
+          "speaker": "Staff",
+          "en": "There's a socket under that table by the window. Do you need a charger?",
+          "ipa": "/ðerz ə ˈsɑːkɪt ˈʌndər ðæt ˈteɪbəl baɪ ðə ˈwɪndoʊ | duː juː niːd ə ˈtʃɑːrdʒər/",
+          "vi": "Có ổ cắm dưới cái bàn cạnh cửa sổ. Bạn có cần mượn sạc không?",
+          "analysis": {
+            "vocab": [
+              { "word": "socket", "ipa": "/ˈsɑːkɪt/", "pos": "noun", "vi": "ổ cắm (Mỹ: outlet)", "example": "Is there a socket near my seat?" },
+              { "word": "charger", "ipa": "/ˈtʃɑːrdʒər/", "pos": "noun", "vi": "cục sạc, dây sạc", "example": "I forgot my charger." }
+            ]
+          }
+        },
+        {
+          "speaker": "Customer",
+          "en": "Yes, please, if you have a USB-C cable. I'll give it back before I leave.",
+          "ipa": "/jes pliːz | ɪf juː hæv ə ˌjuː es ˈbiː siː ˈkeɪbəl | aɪl ɡɪv ɪt bæk bɪˈfɔːr aɪ liːv/",
+          "vi": "Có ạ, nếu bạn có dây USB-C. Tôi sẽ trả lại trước khi về.",
+          "analysis": {
+            "vocab": [{ "word": "cable", "ipa": "/ˈkeɪbəl/", "pos": "noun", "vi": "dây cáp", "example": "a charging cable" }],
+            "phrases": [{ "phrase": "give it back", "vi": "trả lại" }],
+            "grammar": { "pattern": "before + S + V(hiện tại)", "explainVi": "Sau “before/after/when” chỉ thời gian tương lai vẫn dùng thì hiện tại.", "examples": ["Call me before you leave.", "I'll pay when I finish."] }
+          }
+        }
+      ],
+      "keyPhrases": ["Do you have Wi-Fi?", "What's the password?", "It's connected but nothing loads.", "My battery is almost dead.", "Can I charge my phone here?"]
+    },
+    {
+      "id": "internet-lost-phone-01",
+      "level": "B1",
+      "title": "I left my phone in a taxi",
+      "titleVi": "Để quên điện thoại trên taxi",
+      "contextVi": "Bạn để quên điện thoại trên taxi và quay lại quầy lễ tân khách sạn nhờ giúp. May là bạn còn hóa đơn taxi.",
+      "imageQuery": "hotel receptionist phone",
+      "dialogue": [
+        {
+          "speaker": "Guest",
+          "en": "Excuse me, I think I left my phone in the taxi that just dropped me off.",
+          "ipa": "/ɪkˈskjuːz miː | aɪ θɪŋk aɪ left maɪ foʊn ɪn ðə ˈtæksi ðæt dʒʌst drɑːpt miː ɔːf/",
+          "vi": "Xin lỗi, tôi nghĩ tôi để quên điện thoại trên chiếc taxi vừa thả tôi xuống.",
+          "analysis": {
+            "vocab": [{ "word": "left", "ipa": "/left/", "pos": "verb (V2 của leave)", "vi": "để quên, bỏ lại", "example": "I left my umbrella on the bus." }],
+            "grammar": { "pattern": "N + that + V (mệnh đề quan hệ)", "explainVi": "“the taxi that just dropped me off” = chiếc taxi vừa thả tôi xuống.", "examples": ["the man that helped me", "the bus that goes to the airport"] },
+            "commonMistake": { "wrong": "I forgot my phone in the taxi.", "right": "I left my phone in the taxi." }
+          }
+        },
+        {
+          "speaker": "Receptionist",
+          "en": "Oh no. Do you have the receipt? It usually shows the taxi number.",
+          "ipa": "/oʊ noʊ | duː juː hæv ðə rɪˈsiːt | ɪt ˈjuːʒuəli ʃoʊz ðə ˈtæksi ˈnʌmbər/",
+          "vi": "Ôi không. Bạn có hóa đơn không? Hóa đơn thường có số xe taxi.",
+          "analysis": {
+            "culture": "Luôn xin hóa đơn (receipt) khi đi taxi – nó giúp tìm lại đồ thất lạc. Với Grab/Uber, liên hệ tài xế qua app."
+          }
+        },
+        {
+          "speaker": "Guest",
+          "en": "Yes, here it is. The phone is a black Samsung in a blue case.",
+          "ipa": "/jes | hɪr ɪt ɪz | ðə foʊn ɪz ə blæk ˈsæmsʌŋ ɪn ə bluː keɪs/",
+          "vi": "Có, đây. Điện thoại là Samsung màu đen, ốp lưng màu xanh dương.",
+          "analysis": {
+            "vocab": [{ "word": "case", "ipa": "/keɪs/", "pos": "noun", "vi": "ốp lưng; vỏ bọc", "example": "a phone case" }],
+            "grammar": { "pattern": "a + màu + hãng + in a + màu + case", "explainVi": "Mô tả đồ vật: màu sắc đứng trước danh từ.", "examples": ["a red suitcase with a black handle", "a small brown wallet"] }
+          }
+        },
+        {
+          "speaker": "Receptionist",
+          "en": "Let me call the taxi company. Meanwhile, could you try calling your number from my phone?",
+          "ipa": "/let miː kɔːl ðə ˈtæksi ˈkʌmpəni | ˈmiːnwaɪl | kʊd juː traɪ ˈkɔːlɪŋ jɔːr ˈnʌmbər frʌm maɪ foʊn/",
+          "vi": "Để tôi gọi hãng taxi. Trong lúc đó, bạn thử gọi vào số của mình bằng điện thoại của tôi xem?",
+          "analysis": {
+            "vocab": [{ "word": "meanwhile", "ipa": "/ˈmiːnwaɪl/", "pos": "adverb", "vi": "trong lúc đó", "example": "Meanwhile, please wait here." }]
+          }
+        },
+        {
+          "speaker": "Guest",
+          "en": "Good idea. … It's ringing! The driver answered – he's coming back now.",
+          "ipa": "/ɡʊd aɪˈdiːə | ɪts ˈrɪŋɪŋ | ðə ˈdraɪvər ˈænsərd | hiːz ˈkʌmɪŋ bæk naʊ/",
+          "vi": "Ý hay đấy. … Đổ chuông rồi! Tài xế bắt máy – anh ấy đang quay lại.",
+          "analysis": {
+            "vocab": [{ "word": "ring", "ipa": "/rɪŋ/", "pos": "verb", "vi": "đổ chuông", "example": "Your phone is ringing." }]
+          }
+        },
+        {
+          "speaker": "Receptionist",
+          "en": "That's great news! You could give him a small tip to say thank you.",
+          "ipa": "/ðæts ɡreɪt nuːz | juː kʊd ɡɪv hɪm ə smɔːl tɪp tə seɪ θæŋk juː/",
+          "vi": "Tin tốt quá! Bạn có thể cho anh ấy chút tiền boa để cảm ơn.",
+          "analysis": {
+            "grammar": { "pattern": "You could + V (gợi ý)", "explainVi": "“could” dùng để đưa ra gợi ý nhẹ nhàng.", "examples": ["You could take the train.", "You could ask at reception."] }
+          }
+        },
+        {
+          "speaker": "Guest",
+          "en": "Of course. Thank you so much – I don't know what I'd do without my phone!",
+          "ipa": "/əv kɔːrs | θæŋk juː soʊ mʌtʃ | aɪ doʊnt noʊ wɑːt aɪd duː wɪˈðaʊt maɪ foʊn/",
+          "vi": "Dĩ nhiên. Cảm ơn bạn rất nhiều – không có điện thoại tôi chẳng biết làm sao!",
+          "analysis": {
+            "grammar": { "pattern": "I don't know what I'd do without + N", "explainVi": "Câu điều kiện loại 2 rút gọn: diễn tả mình rất cần điều gì.", "examples": ["I don't know what I'd do without you.", "What would I do without Google Maps?"] }
+          }
+        }
+      ],
+      "keyPhrases": ["I left my phone in the taxi.", "It's a black phone in a blue case.", "Could I use your phone?", "Can you call the taxi company?", "Thank you so much!"]
+    }
+  ],
+  "reading": [
+    {
+      "title": "eSIM instructions",
+      "titleVi": "Hướng dẫn cài eSIM",
+      "introVi": "Bạn mua eSIM online và nhận được email hướng dẫn này.",
+      "text": "YOUR eSIM IS READY - JAPAN 10GB / 15 DAYS\n\nBEFORE YOU TRAVEL:\n1. Connect to Wi-Fi.\n2. Go to Settings > Mobile Data > Add eSIM.\n3. Scan the QR code below. Do NOT delete the eSIM after installing.\n\nWHEN YOU ARRIVE:\n4. Turn ON the eSIM and turn ON data roaming for this eSIM only.\n5. Turn OFF data roaming for your home SIM to avoid extra charges.\n\nYour 15 days start when the eSIM first connects to a network in Japan.\nThe QR code can only be used once.",
+      "glossary": { "install": "cài đặt", "delete": "xóa", "data roaming": "chuyển vùng dữ liệu", "avoid": "tránh", "extra charges": "phí phát sinh", "connects": "kết nối", "only be used once": "chỉ dùng được một lần" },
+      "questions": [
+        { "q": "When should you scan the QR code?", "options": ["Before you travel, using Wi-Fi", "When you land in Japan", "After 15 days"], "answer": 0, "explainVi": "“BEFORE YOU TRAVEL: Connect to Wi-Fi… Scan the QR code.”" },
+        { "q": "Why should you turn off data roaming for your home SIM?", "options": ["To save battery", "To avoid extra charges", "To make the eSIM faster"], "answer": 1, "explainVi": "“to avoid extra charges” = tránh phí phát sinh từ nhà mạng Việt Nam." },
+        { "q": "You delete the eSIM by mistake. Can you scan the QR code again?", "options": ["Yes, any time.", "No, it can only be used once."], "answer": 1, "explainVi": "“The QR code can only be used once.”" }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "title": "Lost item report form",
+      "titleVi": "Điền đơn báo mất đồ",
+      "taskVi": "Bạn mất điện thoại trên tàu điện ngầm. Điền đơn báo mất đồ: iPhone 14 màu trắng, ốp trong suốt có ảnh gia đình phía sau, mất trên tàu tuyến Đỏ khoảng 2 giờ chiều ngày 3/5, giữa ga Central và ga Park.",
+      "form": [
+        { "label": "Item lost", "labelVi": "Đồ bị mất", "hintVi": "Tên món đồ", "example": "Mobile phone (iPhone 14)", "noteVi": "Ghi rõ loại đồ và hãng." },
+        { "label": "Colour / Description", "labelVi": "Màu sắc / Mô tả", "hintVi": "Đặc điểm nhận dạng", "example": "White, clear case with a family photo inside", "noteVi": "Mô tả chi tiết đặc biệt giúp nhận ra đồ của bạn." },
+        { "label": "Date lost", "labelVi": "Ngày mất", "hintVi": "Ngày/tháng/năm", "example": "3 May 2026", "noteVi": "Viết tháng bằng chữ để tránh nhầm định dạng ngày." },
+        { "label": "Approximate time", "labelVi": "Giờ (khoảng)", "hintVi": "Ví dụ: around 2 p.m.", "example": "Around 2 p.m.", "noteVi": "approximate = khoảng chừng." },
+        { "label": "Where lost", "labelVi": "Nơi bị mất", "hintVi": "Tuyến/ga", "example": "Red Line train, between Central and Park stations", "noteVi": "Dùng between … and … để chỉ khoảng giữa hai ga." },
+        { "label": "Contact email", "labelVi": "Email liên hệ", "hintVi": "Email của bạn", "example": "lan.nguyen@email.com", "noteVi": "Ghi email vì bạn đang không có điện thoại." },
+        { "label": "Hotel / Local address", "labelVi": "Khách sạn / địa chỉ tạm trú", "hintVi": "Tên khách sạn", "example": "Harbour View Hotel, Room 508", "noteVi": "Ghi cả số phòng để họ liên hệ." }
+      ]
+    }
+  ]
+}

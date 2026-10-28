@@ -1,0 +1,313 @@
+{
+  "topicId": "cafe",
+  "title": "Cafés, Bars & Street Food",
+  "titleVi": "Cà phê, quán bar & đồ ăn đường phố",
+  "icon": "☕",
+  "descriptionVi": "Gọi cà phê theo ý mình, mua đồ ăn ở chợ đêm và quầy hàng rong, gọi đồ uống ở quán bar.",
+  "situations": [
+    {
+      "id": "cafe-coffee-01",
+      "level": "A2",
+      "title": "Ordering coffee your way",
+      "titleVi": "Gọi cà phê theo ý mình",
+      "contextVi": "Bạn vào một quán cà phê ở Melbourne. Bạn muốn một ly latte ít ngọt bằng sữa yến mạch và một cái bánh sừng bò mang đi.",
+      "imageQuery": "barista coffee shop counter",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "en": "Hi! What can I get for you today?",
+          "ipa": "/haɪ | wɑːt kən aɪ ɡet fɔːr juː təˈdeɪ/",
+          "vi": "Chào bạn! Hôm nay bạn dùng gì?",
+          "variants": { "casual": "Hey, what'll it be?" },
+          "analysis": {
+            "vocab": [{ "word": "barista", "ipa": "/bəˈriːstə/", "pos": "noun", "vi": "nhân viên pha cà phê", "example": "The barista made a heart in my latte." }],
+            "phrases": [{ "phrase": "What can I get for you?", "vi": "Tôi lấy gì cho bạn? (câu hỏi quen thuộc ở quầy)" }]
+          }
+        },
+        {
+          "speaker": "Customer",
+          "en": "Can I get a large latte with oat milk, please?",
+          "ipa": "/kæn aɪ ɡet ə lɑːrdʒ ˈlɑːteɪ wɪð oʊt mɪlk pliːz/",
+          "vi": "Cho tôi một ly latte lớn với sữa yến mạch nhé.",
+          "variants": { "polite": "Could I have a large oat milk latte, please?", "casual": "Large oat latte, please." },
+          "analysis": {
+            "vocab": [
+              { "word": "oat milk", "ipa": "/oʊt mɪlk/", "pos": "noun", "vi": "sữa yến mạch", "example": "Do you have oat milk or soy milk?" },
+              { "word": "latte", "ipa": "/ˈlɑːteɪ/", "pos": "noun", "vi": "cà phê latte (nhiều sữa)", "example": "A small latte, please." }
+            ],
+            "grammar": { "pattern": "Can I get + a/an + cỡ + đồ uống + with + N?", "explainVi": "Thứ tự gọi đồ uống tự nhiên: cỡ → tên → thêm gì (with…).", "examples": ["Can I get a small tea with milk?", "Can I get a medium Americano with an extra shot?"] },
+            "pronunciation": "“latte” đọc /ˈlɑːteɪ/ (LA-tei), không đọc “lát-tê”.",
+            "culture": "Ở Úc, “flat white” là món rất phổ biến. Sữa thay thế (oat, soy, almond) thường tính thêm 50 cent – 1 đô."
+          }
+        },
+        {
+          "speaker": "Barista",
+          "en": "Sure. Would you like any sugar or syrup in it?",
+          "ipa": "/ʃʊr | wʊd juː laɪk ˈeni ˈʃʊɡər ɔːr ˈsɪrəp ɪn ɪt/",
+          "vi": "Được. Bạn có muốn thêm đường hay siro không?",
+          "analysis": {
+            "vocab": [{ "word": "syrup", "ipa": "/ˈsɪrəp/", "pos": "noun", "vi": "siro (vani, caramel…)", "example": "A vanilla syrup, please." }],
+            "grammar": { "pattern": "Would you like + any + N?", "explainVi": "Lời mời lịch sự. Trả lời: Yes, please / No, thank you.", "examples": ["Would you like any milk?", "Would you like any ice?"] }
+          }
+        },
+        {
+          "speaker": "Customer",
+          "en": "Just half a sugar, please. Not too sweet.",
+          "ipa": "/dʒʌst hæf ə ˈʃʊɡər pliːz | nɑːt tuː swiːt/",
+          "vi": "Chỉ nửa gói đường thôi. Đừng ngọt quá.",
+          "analysis": {
+            "vocab": [{ "word": "sweet", "ipa": "/swiːt/", "pos": "adjective", "vi": "ngọt", "example": "This is too sweet for me." }],
+            "grammar": { "pattern": "Not too + tính từ", "explainVi": "“too” = quá (mức không mong muốn). “Not too sweet” = đừng ngọt quá.", "examples": ["Not too spicy, please.", "Not too hot, please."] },
+            "pronunciation": "“sugar” /ˈʃʊɡər/ – chữ s đọc /ʃ/ (sh).",
+            "commonMistake": { "wrong": "Little sweet only.", "right": "Not too sweet, please." }
+          }
+        },
+        {
+          "speaker": "Barista",
+          "en": "Anything to eat? Our croissants just came out of the oven.",
+          "ipa": "/ˈeniθɪŋ tʊ iːt | ˈaʊər krəˈsɑːnts dʒʌst keɪm aʊt əv ði ˈʌvən/",
+          "vi": "Bạn có ăn gì không? Bánh sừng bò vừa mới ra lò.",
+          "analysis": {
+            "vocab": [
+              { "word": "croissant", "ipa": "/krəˈsɑːnt/", "pos": "noun", "vi": "bánh sừng bò", "example": "A chocolate croissant, please." },
+              { "word": "oven", "ipa": "/ˈʌvən/", "pos": "noun", "vi": "lò nướng", "example": "fresh out of the oven – vừa ra lò" }
+            ],
+            "pronunciation": "“oven” /ˈʌvən/ – đọc “ắ-vần”, không đọc “ô-ven”."
+          }
+        },
+        {
+          "speaker": "Customer",
+          "en": "Oh, one croissant, please. Can I have everything to go?",
+          "ipa": "/oʊ | wʌn krəˈsɑːnt pliːz | kæn aɪ hæv ˈevriθɪŋ tə ɡoʊ/",
+          "vi": "Ồ, cho tôi một cái bánh sừng bò. Tôi mang tất cả đi được không?",
+          "analysis": {
+            "phrases": [
+              { "phrase": "to go / takeaway", "vi": "mang đi (Mỹ: to go; Anh, Úc: takeaway)" },
+              { "phrase": "for here", "vi": "dùng tại chỗ" }
+            ],
+            "culture": "Nhân viên thường hỏi “For here or to go?” – hãy chuẩn bị câu trả lời."
+          }
+        },
+        {
+          "speaker": "Barista",
+          "en": "No worries. That's 9 dollars 80. What's your name for the order?",
+          "ipa": "/noʊ ˈwɜːriz | ðæts naɪn ˈdɑːlərz ˈeɪti | wɑːts jɔːr neɪm fɔːr ði ˈɔːrdər/",
+          "vi": "Không sao. Của bạn 9 đô 80. Bạn tên gì để tôi ghi lên đơn?",
+          "analysis": {
+            "phrases": [{ "phrase": "No worries.", "vi": "Không sao / Được thôi (cách nói rất phổ biến ở Úc)" }],
+            "culture": "Quán thường gọi tên bạn khi đồ uống xong. Nếu tên khó đọc, có thể nói một tên tiếng Anh ngắn, ví dụ “Anna”."
+          }
+        }
+      ],
+      "keyPhrases": ["Can I get a … with …?", "Not too sweet, please.", "Less ice, please.", "For here or to go?", "Can I have it to go?"]
+    },
+    {
+      "id": "cafe-streetfood-01",
+      "level": "A2",
+      "title": "At a night market food stall",
+      "titleVi": "Mua đồ ăn ở chợ đêm",
+      "contextVi": "Bạn đi chợ đêm ở Singapore. Bạn muốn hỏi món nào không cay, giá bao nhiêu, và tìm chỗ ngồi.",
+      "imageQuery": "hawker centre food stall Singapore",
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "en": "Hi, what's this dish called?",
+          "ipa": "/haɪ | wɑːts ðɪs dɪʃ kɔːld/",
+          "vi": "Chào anh, món này tên là gì vậy?",
+          "analysis": {
+            "vocab": [{ "word": "dish", "ipa": "/dɪʃ/", "pos": "noun", "vi": "món ăn; cái đĩa", "example": "What's your favourite dish?" }],
+            "grammar": { "pattern": "What's this + N + called?", "explainVi": "Hỏi tên một thứ: “… được gọi là gì?” (bị động với called).", "examples": ["What's this fruit called?", "What's this street called?"] },
+            "commonMistake": { "wrong": "What name this food?", "right": "What's this dish called?" }
+          }
+        },
+        {
+          "speaker": "Vendor",
+          "en": "It's chicken rice. It's our most popular dish.",
+          "ipa": "/ɪts ˈtʃɪkɪn raɪs | ɪts ˈaʊər moʊst ˈpɑːpjələr dɪʃ/",
+          "vi": "Là cơm gà. Đây là món được ưa chuộng nhất của chúng tôi.",
+          "analysis": {
+            "vocab": [
+              { "word": "popular", "ipa": "/ˈpɑːpjələr/", "pos": "adjective", "vi": "được ưa chuộng, phổ biến", "example": "This place is very popular with locals." },
+              { "word": "vendor", "ipa": "/ˈvendər/", "pos": "noun", "vi": "người bán hàng (rong)", "example": "street food vendors" }
+            ],
+            "grammar": { "pattern": "the most + tính từ dài", "explainVi": "So sánh nhất với tính từ dài (2 âm tiết trở lên): the most popular, the most expensive.", "examples": ["It's the most famous temple here.", "This is the most delicious soup!"] }
+          }
+        },
+        {
+          "speaker": "Customer",
+          "en": "Is it spicy? I can't eat very spicy food.",
+          "ipa": "/ɪz ɪt ˈspaɪsi | aɪ kænt iːt ˈveri ˈspaɪsi fuːd/",
+          "vi": "Món đó có cay không? Tôi không ăn cay nhiều được.",
+          "analysis": {
+            "vocab": [{ "word": "spicy", "ipa": "/ˈspaɪsi/", "pos": "adjective", "vi": "cay", "example": "Mild, medium or spicy?" }],
+            "phrases": [{ "phrase": "mild", "vi": "ít cay, dịu" }],
+            "pronunciation": "“can't” nhấn mạnh và có âm /t/ cuối để không nhầm với “can”."
+          }
+        },
+        {
+          "speaker": "Vendor",
+          "en": "No, the chilli sauce is on the side. You can add as much as you like.",
+          "ipa": "/noʊ | ðə ˈtʃɪli sɔːs ɪz ɑːn ðə saɪd | juː kən æd əz mʌtʃ əz juː laɪk/",
+          "vi": "Không, tương ớt để riêng. Bạn có thể thêm bao nhiêu tùy thích.",
+          "analysis": {
+            "vocab": [{ "word": "chilli sauce", "ipa": "/ˈtʃɪli sɔːs/", "pos": "noun", "vi": "tương ớt", "example": "No chilli sauce, please." }],
+            "grammar": { "pattern": "as much as + S + like", "explainVi": "Bao nhiêu tùy thích (với danh từ không đếm được). Đếm được dùng “as many as”.", "examples": ["Take as much as you want.", "Eat as many as you like."] }
+          }
+        },
+        {
+          "speaker": "Customer",
+          "en": "Great. One chicken rice and a sugar cane juice, please. How much is that?",
+          "ipa": "/ɡreɪt | wʌn ˈtʃɪkɪn raɪs ənd ə ˈʃʊɡər keɪn dʒuːs pliːz | haʊ mʌtʃ ɪz ðæt/",
+          "vi": "Tuyệt. Cho tôi một phần cơm gà và một ly nước mía. Bao nhiêu tiền vậy?",
+          "analysis": {
+            "vocab": [{ "word": "sugar cane juice", "ipa": "/ˈʃʊɡər keɪn dʒuːs/", "pos": "noun", "vi": "nước mía", "example": "Sugar cane juice is very refreshing." }],
+            "phrases": [{ "phrase": "How much is that?", "vi": "Tổng cộng bao nhiêu?" }]
+          }
+        },
+        {
+          "speaker": "Vendor",
+          "en": "That's 8 dollars altogether. Cash or PayNow only, sorry.",
+          "ipa": "/ðæts eɪt ˈdɑːlərz ˌɔːltəˈɡeðər | kæʃ ɔːr ˈpeɪnaʊ ˈoʊnli | ˈsɑːri/",
+          "vi": "Tổng cộng 8 đô. Xin lỗi, chỉ nhận tiền mặt hoặc PayNow.",
+          "analysis": {
+            "vocab": [{ "word": "altogether", "ipa": "/ˌɔːltəˈɡeðər/", "pos": "adverb", "vi": "tổng cộng", "example": "How much is it altogether?" }],
+            "culture": "Nhiều quầy hàng rong ở châu Á chỉ nhận tiền mặt hoặc ví điện tử địa phương. Hãy mang theo tiền lẻ."
+          }
+        },
+        {
+          "speaker": "Customer",
+          "en": "Here you go. Excuse me, is this table free?",
+          "ipa": "/hɪr juː ɡoʊ | ɪkˈskjuːz miː | ɪz ðɪs ˈteɪbəl friː/",
+          "vi": "Gửi anh. Xin lỗi, bàn này còn trống không?",
+          "analysis": {
+            "vocab": [{ "word": "free", "ipa": "/friː/", "pos": "adjective", "vi": "trống; miễn phí", "example": "Are these seats free?" }],
+            "culture": "Ở hawker centre Singapore, người ta “giữ chỗ” bằng gói khăn giấy đặt trên bàn (gọi là “chope”). Thấy khăn giấy thì đừng ngồi!"
+          }
+        }
+      ],
+      "keyPhrases": ["What's this called?", "Is it spicy?", "No chilli, please.", "How much is that?", "Is this table free?"]
+    },
+    {
+      "id": "cafe-bar-01",
+      "level": "B1",
+      "title": "Ordering drinks at a bar",
+      "titleVi": "Gọi đồ uống ở quán bar",
+      "contextVi": "Buổi tối bạn vào một quán pub ở London cùng bạn. Bạn muốn hỏi loại bia địa phương và gọi đồ uống không cồn cho bạn mình.",
+      "imageQuery": "London pub bar counter",
+      "dialogue": [
+        {
+          "speaker": "Bartender",
+          "en": "Evening! What are you having?",
+          "ipa": "/ˈiːvnɪŋ | wɑːt ɑːr juː ˈhævɪŋ/",
+          "vi": "Chào buổi tối! Bạn uống gì?",
+          "analysis": {
+            "grammar": { "pattern": "What are you having?", "explainVi": "“have” ở thì tiếp diễn = ăn/uống. Hỏi người khác chọn món gì.", "examples": ["I'm having the fish.", "What are you having for dinner?"] },
+            "culture": "Ở pub Anh, bạn gọi và trả tiền ngay tại quầy bar, không có phục vụ đến bàn."
+          }
+        },
+        {
+          "speaker": "Customer",
+          "en": "What would you recommend? I'd like to try a local beer.",
+          "ipa": "/wɑːt wʊd juː ˌrekəˈmend | aɪd laɪk tə traɪ ə ˈloʊkəl bɪr/",
+          "vi": "Anh gợi ý gì? Tôi muốn thử một loại bia địa phương.",
+          "analysis": {
+            "vocab": [
+              { "word": "recommend", "ipa": "/ˌrekəˈmend/", "pos": "verb", "vi": "giới thiệu, gợi ý", "example": "Can you recommend a good restaurant?" },
+              { "word": "local", "ipa": "/ˈloʊkəl/", "pos": "adjective", "vi": "(thuộc) địa phương", "example": "I love trying local food." }
+            ],
+            "grammar": { "pattern": "What would you recommend?", "explainVi": "Câu hỏi xin gợi ý lịch sự, dùng được ở nhà hàng, quán bar, cửa hàng.", "examples": ["Which dish would you recommend?", "What would you recommend for children?"] },
+            "pronunciation": "“recommend” nhấn âm cuối: re-co-MMEND."
+          }
+        },
+        {
+          "speaker": "Bartender",
+          "en": "This ale is brewed just down the road. Would you like a pint or a half?",
+          "ipa": "/ðɪs eɪl ɪz bruːd dʒʌst daʊn ðə roʊd | wʊd juː laɪk ə paɪnt ɔːr ə hæf/",
+          "vi": "Loại bia ale này được nấu ngay gần đây. Bạn muốn một panh hay nửa panh?",
+          "analysis": {
+            "vocab": [
+              { "word": "pint", "ipa": "/paɪnt/", "pos": "noun", "vi": "panh (khoảng 568 ml ở Anh)", "example": "A pint of lager, please." },
+              { "word": "brewed", "ipa": "/bruːd/", "pos": "verb (V3)", "vi": "được ủ, được nấu (bia)", "example": "This beer is brewed in Scotland." }
+            ],
+            "phrases": [{ "phrase": "just down the road", "vi": "ngay gần đây, cuối đường" }],
+            "grammar": { "pattern": "is + V3 (bị động hiện tại)", "explainVi": "Dùng bị động khi quan tâm đến sản phẩm hơn người làm ra nó.", "examples": ["This cheese is made in France.", "English is spoken here."] }
+          }
+        },
+        {
+          "speaker": "Customer",
+          "en": "A half, please. And do you have any non-alcoholic drinks for my friend?",
+          "ipa": "/ə hæf pliːz | ənd duː juː hæv ˈeni ˌnɑːnælkəˈhɔːlɪk drɪŋks fɔːr maɪ frend/",
+          "vi": "Nửa panh thôi. Anh có đồ uống không cồn nào cho bạn tôi không?",
+          "analysis": {
+            "vocab": [{ "word": "non-alcoholic", "ipa": "/ˌnɑːnælkəˈhɔːlɪk/", "pos": "adjective", "vi": "không cồn", "example": "Do you have non-alcoholic beer?" }],
+            "phrases": [{ "phrase": "soft drink", "vi": "nước ngọt" }],
+            "culture": "Không uống rượu bia hoàn toàn bình thường ở phương Tây. Chỉ cần nói: “I don't drink, thanks.”"
+          }
+        },
+        {
+          "speaker": "Bartender",
+          "en": "We've got alcohol-free beer, juice, or I can make a mocktail.",
+          "ipa": "/wiːv ɡɑːt ˈælkəhɔːl friː bɪr | dʒuːs | ɔːr aɪ kən meɪk ə ˈmɑːkteɪl/",
+          "vi": "Chúng tôi có bia không cồn, nước ép, hoặc tôi có thể pha một ly mocktail.",
+          "analysis": {
+            "vocab": [{ "word": "mocktail", "ipa": "/ˈmɑːkteɪl/", "pos": "noun", "vi": "cocktail không cồn", "example": "This mocktail has mint and lime." }],
+            "grammar": { "pattern": "We've got = We have", "explainVi": "Trong tiếng Anh-Anh, “have got” rất phổ biến trong văn nói, nghĩa như “have”.", "examples": ["I've got two tickets.", "Have you got any change?"] }
+          }
+        },
+        {
+          "speaker": "Customer",
+          "en": "A mocktail sounds good. Can I start a tab, or do I pay now?",
+          "ipa": "/ə ˈmɑːkteɪl saʊndz ɡʊd | kæn aɪ stɑːrt ə tæb | ɔːr duː aɪ peɪ naʊ/",
+          "vi": "Một ly mocktail nghe hay đấy. Tôi ghi sổ rồi trả sau được không, hay phải trả ngay?",
+          "analysis": {
+            "vocab": [{ "word": "tab", "ipa": "/tæb/", "pos": "noun", "vi": "hóa đơn ghi sổ (uống trước, trả sau)", "example": "Put it on my tab, please." }],
+            "grammar": { "pattern": "N + sounds + tính từ", "explainVi": "“sounds good/great” = nghe có vẻ hay. Dùng để đồng ý với một đề xuất.", "examples": ["That sounds great!", "Sounds like a plan."] }
+          }
+        },
+        {
+          "speaker": "Bartender",
+          "en": "You can start a tab if you leave your card with me. Cheers!",
+          "ipa": "/juː kən stɑːrt ə tæb ɪf juː liːv jɔːr kɑːrd wɪð miː | tʃɪrz/",
+          "vi": "Bạn có thể ghi sổ nếu để lại thẻ ở chỗ tôi. Cảm ơn nhé!",
+          "analysis": {
+            "phrases": [{ "phrase": "Cheers!", "vi": "Cạn ly! / Cảm ơn! (Anh dùng “cheers” cả nghĩa cảm ơn)" }],
+            "culture": "Ở Anh và Úc, “Cheers” vừa là lời chúc khi nâng ly, vừa là cách nói cảm ơn thân mật."
+          }
+        }
+      ],
+      "keyPhrases": ["What would you recommend?", "I'd like to try something local.", "Do you have anything non-alcoholic?", "Can I start a tab?", "Cheers!"]
+    }
+  ],
+  "reading": [
+    {
+      "title": "A café menu board",
+      "titleVi": "Bảng thực đơn quán cà phê",
+      "introVi": "Bạn đọc bảng thực đơn phía trên quầy.",
+      "text": "COFFEE              SMALL   LARGE\nFlat white          $4.80   $5.80\nLatte / Cappuccino  $4.80   $5.80\nLong black          $4.20   $5.20\nIced coffee                 $7.50\n\nExtras: extra shot +$0.80 | oat, soy or almond milk +$0.70\nDecaf available on request.\n\nTEA & OTHERS\nEnglish breakfast tea  $4.50\nHot chocolate          $5.00\n\nKeep cup discount: 50c off when you bring your own cup!",
+      "glossary": { "extras": "thêm (tính tiền)", "extra shot": "thêm một shot cà phê", "almond": "hạnh nhân", "decaf": "cà phê đã khử caffeine", "on request": "khi khách yêu cầu", "long black": "cà phê đen pha máy (Úc)", "discount": "giảm giá", "bring your own cup": "tự mang cốc" },
+      "questions": [
+        { "q": "How much is a large latte with soy milk?", "options": ["$5.80", "$6.50", "$6.60"], "answer": 1, "explainVi": "$5.80 + $0.70 (sữa đậu nành) = $6.50." },
+        { "q": "You can't drink caffeine at night. What can you ask for?", "options": ["An extra shot", "Decaf", "A long black"], "answer": 1, "explainVi": "“Decaf available on request” = có cà phê khử caffeine nếu yêu cầu." },
+        { "q": "How can you save 50 cents?", "options": ["Order a small coffee", "Bring your own cup", "Pay by card"], "answer": 1, "explainVi": "“50c off when you bring your own cup”." }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "title": "Review of a street food stall",
+      "titleVi": "Viết đánh giá quầy đồ ăn đường phố",
+      "taskVi": "Viết một review ngắn (khoảng 40–60 từ) cho quầy cơm gà ở chợ đêm: món ăn thế nào, giá, cách thanh toán (chỉ nhận tiền mặt), và một lời khuyên cho du khách khác.",
+      "info": ["Món: chicken rice + sugar cane juice", "Giá: 8 đô, rẻ", "Chỉ nhận tiền mặt / PayNow", "Lời khuyên: đến trước 7 giờ tối để tránh xếp hàng"],
+      "starters": ["I tried the chicken rice here", "The chicken was", "It was really cheap –", "Please note that", "My tip:", "Highly recommended!"],
+      "sample": "I tried the chicken rice here on my first night in Singapore. The chicken was soft and the rice was full of flavour. It was really cheap – only 8 dollars with a sugar cane juice. Please note that they only accept cash or PayNow. My tip: come before 7 p.m. because the queue gets very long. Highly recommended!",
+      "minWords": 40,
+      "letter": false,
+      "mustInclude": [
+        { "regex": "cash", "labelVi": "Có nói về thanh toán (cash)" },
+        { "regex": "cheap|price|dollar|\\$", "labelVi": "Có nói về giá" },
+        { "regex": "tip|advice|recommend|come|try", "labelVi": "Có lời khuyên cho du khách" }
+      ],
+      "checklist": ["Dùng thì quá khứ để kể (I tried, it was…)", "Có ít nhất 2 tính từ miêu tả món ăn", "Có thông tin thực tế (giá, thanh toán)", "Có lời khuyên cụ thể"]
+    }
+  ]
+}

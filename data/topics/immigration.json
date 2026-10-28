@@ -1,0 +1,333 @@
+{
+  "topicId": "immigration",
+  "title": "Immigration & Customs",
+  "titleVi": "Nhập cảnh & Hải quan",
+  "icon": "🛂",
+  "descriptionVi": "Trả lời câu hỏi của nhân viên xuất nhập cảnh, khai báo hải quan và điền tờ khai nhập cảnh.",
+  "situations": [
+    {
+      "id": "immigration-passport-01",
+      "level": "A2",
+      "title": "At passport control",
+      "titleVi": "Tại quầy kiểm tra hộ chiếu",
+      "contextVi": "Bạn vừa hạ cánh ở sân bay Heathrow (London). Nhân viên xuất nhập cảnh hỏi bạn vài câu trước khi đóng dấu hộ chiếu.",
+      "imageQuery": "passport control airport",
+      "dialogue": [
+        {
+          "speaker": "Officer",
+          "en": "Good afternoon. Passport, please.",
+          "ipa": "/ɡʊd ˌæftərˈnuːn | ˈpæspɔːrt pliːz/",
+          "vi": "Chào buổi chiều. Cho xem hộ chiếu.",
+          "analysis": {
+            "vocab": [{ "word": "passport control", "ipa": "/ˈpæspɔːrt kənˈtroʊl/", "pos": "noun", "vi": "khu kiểm tra hộ chiếu", "example": "Follow the signs to passport control." }],
+            "culture": "Ở quầy nhập cảnh, hãy tháo kính râm, mũ, cất điện thoại và trả lời ngắn gọn, thật thà."
+          }
+        },
+        {
+          "speaker": "Officer",
+          "en": "What's the purpose of your visit?",
+          "ipa": "/wɑːts ðə ˈpɜːrpəs əv jɔːr ˈvɪzɪt/",
+          "vi": "Mục đích chuyến đi của anh/chị là gì?",
+          "variants": { "casual": "Business or pleasure?" },
+          "analysis": {
+            "vocab": [
+              { "word": "purpose", "ipa": "/ˈpɜːrpəs/", "pos": "noun", "vi": "mục đích", "example": "The purpose of my trip is tourism." },
+              { "word": "visit", "ipa": "/ˈvɪzɪt/", "pos": "noun / verb", "vi": "chuyến thăm; đến thăm", "example": "This is my first visit to the UK." }
+            ],
+            "phrases": [{ "phrase": "Business or pleasure?", "vi": "Đi công tác hay du lịch?" }],
+            "pronunciation": "“purpose” /ˈpɜːrpəs/ – âm thứ hai đọc nhẹ /pəs/, không đọc “pơ-pốt”.",
+            "culture": "Câu trả lời thường gặp: “Tourism / Holiday”, “Business”, “Visiting family”."
+          }
+        },
+        {
+          "speaker": "Traveler",
+          "en": "I'm here on holiday with my husband.",
+          "ipa": "/aɪm hɪr ɑːn ˈhɑːlədeɪ wɪð maɪ ˈhʌzbənd/",
+          "vi": "Tôi đến đây du lịch cùng chồng.",
+          "variants": { "polite": "We're here for tourism.", "casual": "Holiday." },
+          "analysis": {
+            "vocab": [
+              { "word": "on holiday", "ipa": "/ɑːn ˈhɑːlədeɪ/", "pos": "phrase", "vi": "đi nghỉ, đi du lịch (Anh-Anh); Mỹ dùng “on vacation”", "example": "We're on vacation in Florida." },
+              { "word": "husband", "ipa": "/ˈhʌzbənd/", "pos": "noun", "vi": "chồng", "example": "This is my husband, Minh." }
+            ],
+            "grammar": { "pattern": "I'm here + on holiday / for + N / to + V", "explainVi": "Ba cách nói lý do có mặt: on holiday/on business; for tourism/for a conference; to visit my son/to see the city.", "examples": ["I'm here on business.", "I'm here to visit my daughter."] },
+            "pronunciation": "“husband” /ˈhʌzbənd/: chữ s đọc /z/.",
+            "commonMistake": { "wrong": "I go travel.", "right": "I'm here on holiday." }
+          }
+        },
+        {
+          "speaker": "Officer",
+          "en": "How long are you staying in the UK?",
+          "ipa": "/haʊ lɔːŋ ɑːr juː ˈsteɪɪŋ ɪn ðə ˌjuːˈkeɪ/",
+          "vi": "Anh/chị sẽ ở Vương quốc Anh bao lâu?",
+          "analysis": {
+            "grammar": { "pattern": "How long + are you + V-ing?", "explainVi": "Hỏi thời gian của một kế hoạch. Trả lời: For + khoảng thời gian (for ten days, for two weeks).", "examples": ["How long are you staying here?", "How long are you travelling for?"] },
+            "pronunciation": "“UK” /ˌjuːˈkeɪ/ – nhấn chữ K."
+          }
+        },
+        {
+          "speaker": "Traveler",
+          "en": "For ten days. We're flying back to Vietnam on the 24th.",
+          "ipa": "/fɔːr ten deɪz | wɪr ˈflaɪɪŋ bæk tə ˌvjetˈnɑːm ɑːn ðə ˌtwentiˈfɔːrθ/",
+          "vi": "Mười ngày. Chúng tôi bay về Việt Nam vào ngày 24.",
+          "analysis": {
+            "vocab": [{ "word": "fly back", "ipa": "/flaɪ bæk/", "pos": "phrasal verb", "vi": "bay về", "example": "When do you fly back?" }],
+            "grammar": { "pattern": "on + the + ngày (số thứ tự)", "explainVi": "Ngày trong tháng dùng số thứ tự: the 1st (first), 2nd (second), 3rd (third), 24th (twenty-fourth).", "examples": ["on the 3rd of May", "on the 21st"] },
+            "pronunciation": "“24th” /ˌtwentiˈfɔːrθ/: kết thúc bằng âm /θ/ – đưa lưỡi ra giữa răng.",
+            "culture": "Nên chuẩn bị sẵn vé khứ hồi để xuất trình nếu được hỏi."
+          }
+        },
+        {
+          "speaker": "Officer",
+          "en": "Where will you be staying?",
+          "ipa": "/wer wɪl juː biː ˈsteɪɪŋ/",
+          "vi": "Anh/chị sẽ ở đâu?",
+          "analysis": {
+            "grammar": { "pattern": "Where will you be + V-ing?", "explainVi": "Tương lai tiếp diễn – cách hỏi lịch sự về kế hoạch của người khác.", "examples": ["Will you be travelling alone?", "When will you be leaving?"] }
+          }
+        },
+        {
+          "speaker": "Traveler",
+          "en": "At the Park Plaza Hotel in Westminster. Here's my hotel booking.",
+          "ipa": "/æt ðə pɑːrk ˈplɑːzə hoʊˈtel ɪn ˈwestmɪnstər | hɪrz maɪ hoʊˈtel ˈbʊkɪŋ/",
+          "vi": "Ở khách sạn Park Plaza tại Westminster. Đây là xác nhận đặt phòng của tôi.",
+          "analysis": {
+            "vocab": [{ "word": "hotel booking", "ipa": "/hoʊˈtel ˈbʊkɪŋ/", "pos": "noun", "vi": "đặt phòng khách sạn", "example": "I have a hotel booking for five nights." }],
+            "pronunciation": "“hotel” /hoʊˈtel/ – nhấn âm sau: ho-TEL.",
+            "commonMistake": { "wrong": "I stay Park Plaza.", "right": "At the Park Plaza Hotel." }
+          }
+        },
+        {
+          "speaker": "Officer",
+          "en": "Thank you. Enjoy your stay.",
+          "ipa": "/θæŋk juː | ɪnˈdʒɔɪ jɔːr steɪ/",
+          "vi": "Cảm ơn. Chúc chuyến đi vui vẻ.",
+          "analysis": {
+            "vocab": [{ "word": "stay", "ipa": "/steɪ/", "pos": "noun", "vi": "thời gian lưu trú", "example": "How was your stay?" }],
+            "phrases": [{ "phrase": "Enjoy your stay / trip / meal.", "vi": "Chúc bạn có kỳ nghỉ / chuyến đi / bữa ăn vui vẻ." }],
+            "culture": "Đáp lại đơn giản: “Thank you!”"
+          }
+        }
+      ],
+      "keyPhrases": ["I'm here on holiday / on business.", "For ten days.", "I'm staying at…", "Here's my return ticket.", "This is my first time here."]
+    },
+    {
+      "id": "immigration-customs-01",
+      "level": "B1",
+      "title": "Customs declaration",
+      "titleVi": "Khai báo hải quan",
+      "contextVi": "Sau khi lấy hành lý, bạn đi qua khu hải quan. Nhân viên chặn lại và hỏi về đồ ăn trong vali — bạn mang theo cà phê và bánh pía làm quà.",
+      "imageQuery": "customs airport nothing to declare",
+      "dialogue": [
+        {
+          "speaker": "Officer",
+          "en": "Excuse me, madam. Do you have anything to declare?",
+          "ipa": "/ɪkˈskjuːz miː ˈmædəm | duː juː hæv ˈeniθɪŋ tə dɪˈkler/",
+          "vi": "Xin lỗi chị. Chị có gì cần khai báo không?",
+          "analysis": {
+            "vocab": [
+              { "word": "declare", "ipa": "/dɪˈkler/", "pos": "verb", "vi": "khai báo (hải quan)", "example": "You must declare cash over 10,000 euros." },
+              { "word": "customs", "ipa": "/ˈkʌstəmz/", "pos": "noun", "vi": "hải quan", "example": "We went through customs quickly." }
+            ],
+            "phrases": [{ "phrase": "Nothing to declare / Goods to declare", "vi": "Lối đi xanh: không có gì khai báo / Lối đi đỏ: có hàng cần khai báo" }],
+            "grammar": { "pattern": "anything + to + V", "explainVi": "“anything/something/nothing + to V” = cái gì đó để làm gì.", "examples": ["I have nothing to declare.", "Do you have something to eat?"] },
+            "culture": "Nếu mang thực phẩm, thuốc hoặc nhiều tiền mặt, hãy đi lối đỏ (Goods to declare) để tránh bị phạt."
+          }
+        },
+        {
+          "speaker": "Traveler",
+          "en": "I'm not sure. I have some coffee and some cakes as gifts.",
+          "ipa": "/aɪm nɑːt ʃʊr | aɪ hæv sʌm ˈkɔːfi ənd sʌm keɪks æz ɡɪfts/",
+          "vi": "Tôi không chắc. Tôi có một ít cà phê và bánh làm quà.",
+          "analysis": {
+            "vocab": [{ "word": "gift", "ipa": "/ɡɪft/", "pos": "noun", "vi": "quà tặng", "example": "This is a gift for my friend." }],
+            "grammar": { "pattern": "as + N", "explainVi": "“as” = với vai trò là, làm (quà/ví dụ...).", "examples": ["I bought this as a souvenir.", "She works as a nurse."] },
+            "pronunciation": "“gifts” /ɡɪfts/ – cụm phụ âm cuối /fts/ phải đọc đủ, người Việt hay nuốt mất.",
+            "commonMistake": { "wrong": "I have some coffees for present.", "right": "I have some coffee as gifts." }
+          }
+        },
+        {
+          "speaker": "Officer",
+          "en": "Could you open your suitcase for me, please?",
+          "ipa": "/kʊd juː ˈoʊpən jɔːr ˈsuːtkeɪs fɔːr miː pliːz/",
+          "vi": "Chị vui lòng mở vali cho tôi xem được không?",
+          "analysis": {
+            "grammar": { "pattern": "Could you + V…, please?", "explainVi": "Nhờ người khác làm gì một cách lịch sự. Dùng rất nhiều khi đi du lịch.", "examples": ["Could you help me, please?", "Could you speak more slowly, please?"] },
+            "pronunciation": "“Could you” nối thành /kʊdʒuː/."
+          }
+        },
+        {
+          "speaker": "Officer",
+          "en": "The coffee is fine, but are these cakes made with meat or eggs?",
+          "ipa": "/ðə ˈkɔːfi ɪz faɪn | bət ɑːr ðiːz keɪks meɪd wɪð miːt ɔːr eɡz/",
+          "vi": "Cà phê thì được, nhưng những chiếc bánh này có làm từ thịt hay trứng không?",
+          "analysis": {
+            "vocab": [{ "word": "made with", "ipa": "/meɪd wɪð/", "pos": "phrase", "vi": "được làm với (nguyên liệu)", "example": "This soup is made with chicken." }],
+            "grammar": { "pattern": "be + made with / made of / made in", "explainVi": "Bị động: made with (nguyên liệu), made of (chất liệu), made in (nơi sản xuất).", "examples": ["It's made of silk.", "It's made in Vietnam."] },
+            "culture": "Nhiều nước (Úc, Mỹ, New Zealand, Anh) cấm hoặc kiểm soát nghiêm thịt, trứng, sữa, trái cây tươi."
+          }
+        },
+        {
+          "speaker": "Traveler",
+          "en": "Some of them have egg yolk inside. I didn't know that was a problem.",
+          "ipa": "/sʌm əv ðəm hæv eɡ joʊk ɪnˈsaɪd | aɪ ˈdɪdənt noʊ ðæt wəz ə ˈprɑːbləm/",
+          "vi": "Một số cái có lòng đỏ trứng bên trong. Tôi không biết như vậy là không được.",
+          "analysis": {
+            "vocab": [{ "word": "egg yolk", "ipa": "/eɡ joʊk/", "pos": "noun", "vi": "lòng đỏ trứng", "example": "salted egg yolk – trứng muối" }],
+            "grammar": { "pattern": "I didn't know (that) + S + V(quá khứ)", "explainVi": "Lùi thì: vì “didn't know” ở quá khứ nên vế sau cũng lùi về quá khứ (was).", "examples": ["I didn't know the shop was closed.", "I didn't know you were here."] },
+            "pronunciation": "“yolk” /joʊk/ – chữ l câm."
+          }
+        },
+        {
+          "speaker": "Officer",
+          "en": "I'm sorry, but we'll have to take those. You can keep the coffee.",
+          "ipa": "/aɪm ˈsɑːri bət wiːl hæv tə teɪk ðoʊz | juː kən kiːp ðə ˈkɔːfi/",
+          "vi": "Xin lỗi, nhưng chúng tôi phải giữ lại những cái bánh đó. Chị có thể giữ cà phê.",
+          "analysis": {
+            "grammar": { "pattern": "will have to + V", "explainVi": "“have to” = phải (bắt buộc do quy định). Thêm “will” cho tương lai.", "examples": ["You'll have to pay a fee.", "We'll have to wait."] },
+            "culture": "Khai báo thật thà thường chỉ bị tịch thu đồ. Không khai báo mà bị phát hiện có thể bị phạt nặng."
+          }
+        },
+        {
+          "speaker": "Traveler",
+          "en": "I understand. Thank you for explaining.",
+          "ipa": "/aɪ ˌʌndərˈstænd | θæŋk juː fɔːr ɪkˈspleɪnɪŋ/",
+          "vi": "Tôi hiểu rồi. Cảm ơn anh đã giải thích.",
+          "analysis": {
+            "grammar": { "pattern": "Thank you for + V-ing / N", "explainVi": "Sau “for” động từ phải thêm -ing.", "examples": ["Thank you for helping me.", "Thank you for your time."] },
+            "commonMistake": { "wrong": "Thank you for explain.", "right": "Thank you for explaining." }
+          }
+        }
+      ],
+      "keyPhrases": ["I have nothing to declare.", "I have some food in my bag.", "It's a gift.", "Is this allowed?", "I didn't know that."]
+    },
+    {
+      "id": "immigration-questions-01",
+      "level": "B1",
+      "title": "Extra questions from the officer",
+      "titleVi": "Nhân viên hỏi thêm chi tiết",
+      "contextVi": "Bạn đến Mỹ thăm con trai đang du học. Nhân viên nhập cảnh hỏi thêm về công việc, tiền bạc và vé về.",
+      "imageQuery": "immigration officer airport",
+      "dialogue": [
+        {
+          "speaker": "Officer",
+          "en": "Is this your first time in the United States?",
+          "ipa": "/ɪz ðɪs jɔːr fɜːrst taɪm ɪn ðə juˌnaɪtɪd ˈsteɪts/",
+          "vi": "Đây có phải lần đầu anh đến Mỹ không?",
+          "analysis": {
+            "grammar": { "pattern": "Is this your first time + in/at + nơi chốn / + V-ing?", "explainVi": "Hỏi trải nghiệm lần đầu.", "examples": ["Is this your first time in Paris?", "Is it your first time flying?"] },
+            "pronunciation": "“first time” – âm /st/ cuối của first và /t/ của time dính vào nhau: /fɜːrs taɪm/."
+          }
+        },
+        {
+          "speaker": "Traveler",
+          "en": "No, I came here two years ago for my son's graduation.",
+          "ipa": "/noʊ | aɪ keɪm hɪr tuː jɪrz əˈɡoʊ fɔːr maɪ sʌnz ˌɡrædʒuˈeɪʃən/",
+          "vi": "Không, tôi đã đến đây hai năm trước để dự lễ tốt nghiệp của con trai.",
+          "analysis": {
+            "vocab": [{ "word": "graduation", "ipa": "/ˌɡrædʒuˈeɪʃən/", "pos": "noun", "vi": "lễ tốt nghiệp", "example": "Her graduation is in June." }],
+            "grammar": { "pattern": "S + V(quá khứ) + thời gian + ago", "explainVi": "“ago” = cách đây, luôn đi với thì quá khứ đơn.", "examples": ["I arrived two hours ago.", "We met five years ago."] },
+            "pronunciation": "“son's” /sʌnz/ – sở hữu cách đọc /z/.",
+            "commonMistake": { "wrong": "I have come here two years ago.", "right": "I came here two years ago." }
+          }
+        },
+        {
+          "speaker": "Officer",
+          "en": "What do you do for a living?",
+          "ipa": "/wɑːt duː juː duː fɔːr ə ˈlɪvɪŋ/",
+          "vi": "Anh làm nghề gì?",
+          "analysis": {
+            "phrases": [{ "phrase": "What do you do (for a living)?", "vi": "Bạn làm nghề gì? (KHÔNG phải “bạn đang làm gì”)" }],
+            "culture": "Nhân viên nhập cảnh hỏi nghề nghiệp để chắc rằng bạn có lý do quay về nước."
+          }
+        },
+        {
+          "speaker": "Traveler",
+          "en": "I'm an engineer. I work for a construction company in Da Nang.",
+          "ipa": "/aɪm ən ˌendʒɪˈnɪr | aɪ wɜːrk fɔːr ə kənˈstrʌkʃən ˈkʌmpəni ɪn dɑː nɑːŋ/",
+          "vi": "Tôi là kỹ sư. Tôi làm cho một công ty xây dựng ở Đà Nẵng.",
+          "analysis": {
+            "vocab": [
+              { "word": "engineer", "ipa": "/ˌendʒɪˈnɪr/", "pos": "noun", "vi": "kỹ sư", "example": "My wife is an engineer too." },
+              { "word": "construction", "ipa": "/kənˈstrʌkʃən/", "pos": "noun", "vi": "xây dựng", "example": "a construction site – công trường" }
+            ],
+            "grammar": { "pattern": "I'm a/an + nghề. I work for/at + nơi làm việc.", "explainVi": "Nghề nghiệp luôn có mạo từ a/an. “an” trước nguyên âm: an engineer, an accountant.", "examples": ["I'm a teacher.", "I work at a hospital."] },
+            "commonMistake": { "wrong": "I am engineer.", "right": "I'm an engineer." }
+          }
+        },
+        {
+          "speaker": "Officer",
+          "en": "Do you have a return ticket and enough money for your trip?",
+          "ipa": "/duː juː hæv ə rɪˈtɜːrn ˈtɪkɪt ənd ɪˈnʌf ˈmʌni fɔːr jɔːr trɪp/",
+          "vi": "Anh có vé khứ hồi và đủ tiền cho chuyến đi không?",
+          "analysis": {
+            "vocab": [
+              { "word": "return ticket", "ipa": "/rɪˈtɜːrn ˈtɪkɪt/", "pos": "noun", "vi": "vé khứ hồi / vé chiều về", "example": "Can I see your return ticket?" },
+              { "word": "enough", "ipa": "/ɪˈnʌf/", "pos": "determiner", "vi": "đủ", "example": "Do we have enough time?" }
+            ],
+            "pronunciation": "“enough” /ɪˈnʌf/ – “gh” đọc /f/."
+          }
+        },
+        {
+          "speaker": "Traveler",
+          "en": "Yes. My return flight is on March 3rd, and I have a credit card and about two thousand dollars in cash.",
+          "ipa": "/jes | maɪ rɪˈtɜːrn flaɪt ɪz ɑːn mɑːrtʃ θɜːrd | ənd aɪ hæv ə ˈkredɪt kɑːrd ənd əˈbaʊt tuː ˈθaʊzənd ˈdɑːlərz ɪn kæʃ/",
+          "vi": "Có. Chuyến bay về của tôi vào ngày 3 tháng 3, và tôi có thẻ tín dụng cùng khoảng hai nghìn đô tiền mặt.",
+          "analysis": {
+            "vocab": [
+              { "word": "in cash", "ipa": "/ɪn kæʃ/", "pos": "phrase", "vi": "bằng tiền mặt", "example": "Can I pay in cash?" },
+              { "word": "credit card", "ipa": "/ˈkredɪt kɑːrd/", "pos": "noun", "vi": "thẻ tín dụng", "example": "Do you accept credit cards?" }
+            ],
+            "pronunciation": "“thousand” /ˈθaʊzənd/ – bắt đầu bằng âm /θ/; “third” /θɜːrd/.",
+            "culture": "Nếu mang trên 10.000 USD tiền mặt vào Mỹ, bạn bắt buộc phải khai báo."
+          }
+        },
+        {
+          "speaker": "Officer",
+          "en": "All right. Please look at the camera and put your fingers on the scanner.",
+          "ipa": "/ɔːl raɪt | pliːz lʊk æt ðə ˈkæmərə ənd pʊt jɔːr ˈfɪŋɡərz ɑːn ðə ˈskænər/",
+          "vi": "Được rồi. Vui lòng nhìn vào camera và đặt các ngón tay lên máy quét.",
+          "analysis": {
+            "vocab": [{ "word": "fingerprint", "ipa": "/ˈfɪŋɡərprɪnt/", "pos": "noun", "vi": "dấu vân tay", "example": "They took my fingerprints." }],
+            "phrases": [{ "phrase": "look at", "vi": "nhìn vào" }],
+            "culture": "Mỹ, Nhật, Hàn… chụp ảnh và lấy dấu vân tay khi nhập cảnh. Làm theo hướng dẫn: “left hand / right hand / thumb (ngón cái)”."
+          }
+        }
+      ],
+      "keyPhrases": ["I'm visiting my son.", "I came here two years ago.", "I'm an engineer.", "Here's my return ticket.", "I have about … dollars in cash."]
+    }
+  ],
+  "reading": [
+    {
+      "title": "Customs sign at the airport",
+      "titleVi": "Biển báo hải quan",
+      "introVi": "Bạn thấy biển báo này sau khi lấy hành lý.",
+      "text": "CUSTOMS\n\nGREEN CHANNEL - NOTHING TO DECLARE\nUse this exit only if you are NOT carrying:\n- meat, dairy or egg products\n- fresh fruit, vegetables or plants\n- more than 10,000 EUR in cash\n- more than 200 cigarettes or 1 litre of spirits\n\nRED CHANNEL - GOODS TO DECLARE\nIf you are not sure, use the red channel.\nFines may apply for undeclared goods.",
+      "glossary": { "channel": "lối đi", "declare": "khai báo", "carrying": "mang theo", "dairy": "(sản phẩm) sữa", "plants": "cây cối", "spirits": "rượu mạnh", "goods": "hàng hóa", "fines": "tiền phạt", "undeclared": "không khai báo" },
+      "questions": [
+        { "q": "You have two cans of milk powder for your grandchild. Which channel should you use?", "options": ["Green channel", "Red channel"], "answer": 1, "explainVi": "Sữa là “dairy products” → đi lối đỏ để khai báo." },
+        { "q": "What should you do if you are not sure?", "options": ["Use the green channel", "Use the red channel", "Throw your bag away"], "answer": 1, "explainVi": "“If you are not sure, use the red channel.”" },
+        { "q": "What can happen if you don't declare goods?", "options": ["You may have to pay a fine.", "You get a gift.", "Nothing happens."], "answer": 0, "explainVi": "“Fines may apply” = có thể bị phạt tiền." }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "title": "Filling in an arrival card",
+      "titleVi": "Điền tờ khai nhập cảnh (arrival card)",
+      "taskVi": "Bạn tên Nguyễn Thị Lan, sinh ngày 15/08/1972, hộ chiếu C1234567, bay chuyến SQ185, ở khách sạn Marina Bay Sands trong 5 ngày để du lịch. Hãy điền tờ khai theo đúng định dạng tiếng Anh.",
+      "form": [
+        { "label": "Surname / Family name", "labelVi": "Họ", "hintVi": "Họ viết IN HOA", "example": "NGUYEN", "noteVi": "Surname = họ. Viết in hoa, không dấu." },
+        { "label": "Given name(s)", "labelVi": "Tên đệm và tên", "hintVi": "Tên đệm + tên", "example": "THI LAN", "noteVi": "Given names = tên đệm + tên." },
+        { "label": "Date of birth (DD/MM/YYYY)", "labelVi": "Ngày sinh", "hintVi": "Ngày/tháng/năm", "example": "15/08/1972", "noteVi": "Chú ý: Mỹ thường dùng MM/DD/YYYY – đọc kỹ định dạng!" },
+        { "label": "Sex (M/F)", "labelVi": "Giới tính", "hintVi": "M = nam, F = nữ", "example": "F", "noteVi": "M = Male (nam), F = Female (nữ)." },
+        { "label": "Nationality", "labelVi": "Quốc tịch", "hintVi": "Quốc tịch", "example": "VIETNAMESE", "noteVi": "Ghi quốc tịch (Vietnamese), không phải tên nước (Vietnam)." },
+        { "label": "Passport number", "labelVi": "Số hộ chiếu", "hintVi": "Số hộ chiếu", "example": "C1234567", "noteVi": "Chép đúng từng ký tự trên hộ chiếu." },
+        { "label": "Flight number", "labelVi": "Số hiệu chuyến bay", "hintVi": "Ví dụ: VN123", "example": "SQ185", "noteVi": "In trên thẻ lên máy bay." },
+        { "label": "Address in Singapore", "labelVi": "Địa chỉ lưu trú", "hintVi": "Tên khách sạn", "example": "MARINA BAY SANDS HOTEL", "noteVi": "Ghi tên khách sạn hoặc địa chỉ nhà người thân." },
+        { "label": "Length of stay (days)", "labelVi": "Thời gian lưu trú (ngày)", "hintVi": "Số ngày", "example": "5", "noteVi": "Length of stay = thời gian ở lại." },
+        { "label": "Purpose of visit", "labelVi": "Mục đích chuyến đi", "hintVi": "Holiday / Business / Visiting…", "example": "HOLIDAY", "noteVi": "Holiday/Tourism = du lịch; Business = công tác; Visiting relatives = thăm người thân." }
+      ]
+    }
+  ]
+}

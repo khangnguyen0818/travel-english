@@ -1,0 +1,329 @@
+{
+  "topicId": "sightseeing",
+  "title": "Sightseeing & Tours",
+  "titleVi": "Tham quan & Tour",
+  "icon": "🏛️",
+  "descriptionVi": "Mua vé tham quan, đặt tour, hỏi hướng dẫn viên và giữ đúng giờ tập trung.",
+  "situations": [
+    {
+      "id": "sightseeing-ticket-01",
+      "level": "A2",
+      "title": "Buying museum tickets",
+      "titleVi": "Mua vé vào bảo tàng",
+      "contextVi": "Bạn và mẹ (68 tuổi) đến bảo tàng Louvre ở Paris. Bạn muốn hỏi giá vé, giảm giá cho người cao tuổi và thuê máy thuyết minh.",
+      "imageQuery": "museum ticket office",
+      "dialogue": [
+        {
+          "speaker": "Visitor",
+          "en": "Hello. Two tickets, please. Is there a discount for seniors?",
+          "ipa": "/heˈloʊ | tuː ˈtɪkɪts pliːz | ɪz ðer ə ˈdɪskaʊnt fɔːr ˈsiːniərz/",
+          "vi": "Xin chào. Cho hai vé. Có giảm giá cho người cao tuổi không?",
+          "analysis": {
+            "vocab": [
+              { "word": "discount", "ipa": "/ˈdɪskaʊnt/", "pos": "noun", "vi": "giảm giá", "example": "Is there a student discount?" },
+              { "word": "senior", "ipa": "/ˈsiːniər/", "pos": "noun", "vi": "người cao tuổi", "example": "Seniors get in free on Mondays." }
+            ],
+            "grammar": { "pattern": "Is there a discount for + N?", "explainVi": "Hỏi giảm giá cho đối tượng nào đó.", "examples": ["Is there a discount for children?", "Is there a discount for groups?"] },
+            "culture": "Nhiều nơi giảm giá cho người trên 60 hoặc 65 tuổi, nhưng có khi chỉ áp dụng cho người cư trú trong nước. Hãy mang hộ chiếu để chứng minh tuổi."
+          }
+        },
+        {
+          "speaker": "Staff",
+          "en": "I'm afraid the senior discount is only for EU residents. It's 22 euros each.",
+          "ipa": "/aɪm əˈfreɪd ðə ˈsiːniər ˈdɪskaʊnt ɪz ˈoʊnli fɔːr ˌiː ˈjuː ˈrezɪdənts | ɪts ˈtwenti tuː ˈjʊroʊz iːtʃ/",
+          "vi": "Tôi e là giảm giá người cao tuổi chỉ dành cho người cư trú ở EU. Mỗi vé 22 euro.",
+          "analysis": {
+            "vocab": [
+              { "word": "resident", "ipa": "/ˈrezɪdənt/", "pos": "noun", "vi": "người cư trú", "example": "Free entry for local residents." },
+              { "word": "each", "ipa": "/iːtʃ/", "pos": "adverb", "vi": "mỗi (người, cái)", "example": "They cost 5 dollars each." }
+            ],
+            "pronunciation": "“euros” /ˈjʊroʊz/ – bắt đầu bằng âm /j/ (giống “you”)."
+          }
+        },
+        {
+          "speaker": "Visitor",
+          "en": "OK, no problem. Do you have audio guides in Vietnamese?",
+          "ipa": "/ˌoʊˈkeɪ noʊ ˈprɑːbləm | duː juː hæv ˈɔːdioʊ ɡaɪdz ɪn ˌvjetnəˈmiːz/",
+          "vi": "Được, không sao. Ở đây có máy thuyết minh tiếng Việt không?",
+          "analysis": {
+            "vocab": [{ "word": "audio guide", "ipa": "/ˈɔːdioʊ ɡaɪd/", "pos": "noun", "vi": "máy thuyết minh tự động", "example": "The audio guide costs 6 euros." }],
+            "pronunciation": "“guide” /ɡaɪd/ – chữ u câm."
+          }
+        },
+        {
+          "speaker": "Staff",
+          "en": "Not in Vietnamese, but we have English, Chinese, Korean and Japanese.",
+          "ipa": "/nɑːt ɪn ˌvjetnəˈmiːz | bət wiː hæv ˈɪŋɡlɪʃ | tʃaɪˈniːz | kəˈriːən ənd ˌdʒæpəˈniːz/",
+          "vi": "Không có tiếng Việt, nhưng có tiếng Anh, Trung, Hàn và Nhật.",
+          "analysis": {
+            "culture": "Nhiều bảo tàng có app miễn phí thuyết minh nhiều ngôn ngữ – hãy hỏi “Is there a free app?”"
+          }
+        },
+        {
+          "speaker": "Visitor",
+          "en": "English is fine. Where can we leave our bags? My mother's bag is quite heavy.",
+          "ipa": "/ˈɪŋɡlɪʃ ɪz faɪn | wer kæn wiː liːv ˈaʊər bæɡz | maɪ ˈmʌðərz bæɡ ɪz kwaɪt ˈhevi/",
+          "vi": "Tiếng Anh cũng được. Chúng tôi gửi túi ở đâu? Túi của mẹ tôi khá nặng.",
+          "analysis": {
+            "vocab": [
+              { "word": "cloakroom", "ipa": "/ˈkloʊkruːm/", "pos": "noun", "vi": "phòng gửi đồ", "example": "You can leave your coat in the cloakroom." },
+              { "word": "heavy", "ipa": "/ˈhevi/", "pos": "adjective", "vi": "nặng", "example": "This suitcase is too heavy." }
+            ],
+            "pronunciation": "“quite” /kwaɪt/ (khá) – khác “quiet” /ˈkwaɪət/ (yên tĩnh)."
+          }
+        },
+        {
+          "speaker": "Staff",
+          "en": "There are free lockers downstairs. And there's a lift on the left if your mother needs it.",
+          "ipa": "/ðer ɑːr friː ˈlɑːkərz ˌdaʊnˈsterz | ənd ðerz ə lɪft ɑːn ðə left ɪf jɔːr ˈmʌðər niːdz ɪt/",
+          "vi": "Có tủ khóa miễn phí ở tầng dưới. Và có thang máy bên trái nếu mẹ bạn cần.",
+          "analysis": {
+            "vocab": [
+              { "word": "locker", "ipa": "/ˈlɑːkər/", "pos": "noun", "vi": "tủ khóa gửi đồ", "example": "Put your bag in a locker." },
+              { "word": "downstairs", "ipa": "/ˌdaʊnˈsterz/", "pos": "adverb", "vi": "ở tầng dưới", "example": "The toilets are downstairs." }
+            ]
+          }
+        },
+        {
+          "speaker": "Visitor",
+          "en": "Thank you. One more question – can we take photos inside?",
+          "ipa": "/θæŋk juː | wʌn mɔːr ˈkwestʃən | kæn wiː teɪk ˈfoʊtoʊz ˌɪnˈsaɪd/",
+          "vi": "Cảm ơn. Thêm một câu hỏi – chúng tôi có được chụp ảnh bên trong không?",
+          "analysis": {
+            "grammar": { "pattern": "Can we + V…?", "explainVi": "Hỏi xin phép cho cả nhóm.", "examples": ["Can we sit here?", "Can we touch it?"] },
+            "culture": "Nhiều bảo tàng cho chụp ảnh nhưng cấm dùng đèn flash (“No flash photography”)."
+          }
+        },
+        {
+          "speaker": "Staff",
+          "en": "Yes, but no flash, please. Enjoy your visit!",
+          "ipa": "/jes | bət noʊ flæʃ pliːz | ɪnˈdʒɔɪ jɔːr ˈvɪzɪt/",
+          "vi": "Được, nhưng không dùng đèn flash nhé. Chúc tham quan vui vẻ!",
+          "analysis": {
+            "vocab": [{ "word": "flash", "ipa": "/flæʃ/", "pos": "noun", "vi": "đèn flash", "example": "Please turn off your flash." }]
+          }
+        }
+      ],
+      "keyPhrases": ["Two tickets, please.", "Is there a discount for seniors?", "Do you have an audio guide?", "Where can we leave our bags?", "Can we take photos inside?"]
+    },
+    {
+      "id": "sightseeing-tour-01",
+      "level": "B1",
+      "title": "Booking a day tour",
+      "titleVi": "Đặt tour trong ngày",
+      "contextVi": "Bạn ở Rome và muốn đặt tour đi Pompeii trong ngày cho 2 người. Bạn đến văn phòng du lịch để hỏi chi tiết.",
+      "imageQuery": "Pompeii ruins tourists",
+      "dialogue": [
+        {
+          "speaker": "Tourist",
+          "en": "Hi. We're interested in a day trip to Pompeii. What does the tour include?",
+          "ipa": "/haɪ | wɪr ˈɪntrəstɪd ɪn ə deɪ trɪp tə pɑːmˈpeɪ | wɑːt dʌz ðə tʊr ɪnˈkluːd/",
+          "vi": "Chào bạn. Chúng tôi muốn đi tour trong ngày đến Pompeii. Tour bao gồm những gì?",
+          "analysis": {
+            "vocab": [
+              { "word": "day trip", "ipa": "/deɪ trɪp/", "pos": "noun", "vi": "chuyến đi trong ngày", "example": "We took a day trip to the mountains." },
+              { "word": "include", "ipa": "/ɪnˈkluːd/", "pos": "verb", "vi": "bao gồm", "example": "Does the price include lunch?" }
+            ],
+            "grammar": { "pattern": "be interested in + N / V-ing", "explainVi": "Quan tâm đến, muốn tìm hiểu về.", "examples": ["I'm interested in history.", "Are you interested in visiting the temple?"] },
+            "commonMistake": { "wrong": "We are interesting in a tour.", "right": "We're interested in a tour." }
+          }
+        },
+        {
+          "speaker": "Agent",
+          "en": "It includes hotel pick-up, return transport, entrance tickets and a guided tour in English.",
+          "ipa": "/ɪt ɪnˈkluːdz hoʊˈtel ˈpɪkʌp | rɪˈtɜːrn ˈtrænspɔːrt | ˈentrəns ˈtɪkɪts ənd ə ˈɡaɪdɪd tʊr ɪn ˈɪŋɡlɪʃ/",
+          "vi": "Tour gồm đón tại khách sạn, xe đưa đón hai chiều, vé vào cửa và hướng dẫn viên tiếng Anh.",
+          "analysis": {
+            "vocab": [
+              { "word": "pick-up", "ipa": "/ˈpɪkʌp/", "pos": "noun", "vi": "việc đón khách", "example": "What time is the pick-up?" },
+              { "word": "entrance ticket", "ipa": "/ˈentrəns ˈtɪkɪt/", "pos": "noun", "vi": "vé vào cửa", "example": "Entrance tickets are not included." },
+              { "word": "guided tour", "ipa": "/ˈɡaɪdɪd tʊr/", "pos": "noun", "vi": "tour có hướng dẫn viên", "example": "There's a free guided tour at 11." }
+            ]
+          }
+        },
+        {
+          "speaker": "Tourist",
+          "en": "That sounds good. What about lunch? Is it included too?",
+          "ipa": "/ðæt saʊndz ɡʊd | wɑːt əˈbaʊt lʌntʃ | ɪz ɪt ɪnˈkluːdɪd tuː/",
+          "vi": "Nghe hay đấy. Còn bữa trưa thì sao? Có bao gồm luôn không?",
+          "analysis": {
+            "phrases": [{ "phrase": "What about…?", "vi": "Còn… thì sao?" }],
+            "culture": "Luôn hỏi rõ những gì KHÔNG bao gồm (not included): bữa ăn, tip cho hướng dẫn viên, vé vào điểm phụ…"
+          }
+        },
+        {
+          "speaker": "Agent",
+          "en": "Lunch isn't included, but the bus stops at a restaurant. It costs about 15 euros.",
+          "ipa": "/lʌntʃ ˈɪzənt ɪnˈkluːdɪd | bət ðə bʌs stɑːps æt ə ˈrestərɑːnt | ɪt kɔːsts əˈbaʊt ˌfɪfˈtiːn ˈjʊroʊz/",
+          "vi": "Bữa trưa không bao gồm, nhưng xe sẽ dừng ở một nhà hàng. Khoảng 15 euro.",
+          "analysis": {
+            "grammar": { "pattern": "It costs + số tiền", "explainVi": "Nói giá: It costs… / How much does it cost?", "examples": ["It costs 20 dollars.", "How much does the tour cost?"] }
+          }
+        },
+        {
+          "speaker": "Tourist",
+          "en": "I see. How much walking is there? My husband has a bad knee.",
+          "ipa": "/aɪ siː | haʊ mʌtʃ ˈwɔːkɪŋ ɪz ðer | maɪ ˈhʌzbənd hæz ə bæd niː/",
+          "vi": "Tôi hiểu. Phải đi bộ nhiều không? Chồng tôi bị đau đầu gối.",
+          "analysis": {
+            "vocab": [{ "word": "knee", "ipa": "/niː/", "pos": "noun", "vi": "đầu gối", "example": "My knee hurts." }],
+            "phrases": [{ "phrase": "a bad knee / a bad back", "vi": "đầu gối yếu / lưng đau (bệnh lâu năm)" }],
+            "pronunciation": "“knee” /niː/ – chữ k câm."
+          }
+        },
+        {
+          "speaker": "Agent",
+          "en": "There's about two hours of walking on uneven ground, so comfortable shoes are a must.",
+          "ipa": "/ðerz əˈbaʊt tuː ˈaʊərz əv ˈwɔːkɪŋ ɑːn ʌnˈiːvən ɡraʊnd | soʊ ˈkʌmftərbəl ʃuːz ɑːr ə mʌst/",
+          "vi": "Phải đi bộ khoảng hai tiếng trên nền đất gồ ghề, nên bắt buộc phải mang giày thoải mái.",
+          "analysis": {
+            "vocab": [
+              { "word": "uneven", "ipa": "/ʌnˈiːvən/", "pos": "adjective", "vi": "gồ ghề, không bằng phẳng", "example": "Be careful, the path is uneven." },
+              { "word": "comfortable", "ipa": "/ˈkʌmftərbəl/", "pos": "adjective", "vi": "thoải mái", "example": "Wear comfortable clothes." }
+            ],
+            "phrases": [{ "phrase": "a must", "vi": "điều bắt buộc phải có" }],
+            "pronunciation": "“comfortable” thường đọc 3 âm tiết: /ˈkʌmf-tər-bəl/."
+          }
+        },
+        {
+          "speaker": "Tourist",
+          "en": "OK, we'll take it easy. Can we book for tomorrow, and can we cancel if it rains?",
+          "ipa": "/ˌoʊˈkeɪ | wiːl teɪk ɪt ˈiːzi | kæn wiː bʊk fɔːr təˈmɑːroʊ | ənd kæn wiː ˈkænsəl ɪf ɪt reɪnz/",
+          "vi": "Được, chúng tôi sẽ đi chậm thôi. Có đặt được cho ngày mai không, và có hủy được nếu trời mưa không?",
+          "analysis": {
+            "phrases": [{ "phrase": "take it easy", "vi": "từ từ, thong thả" }],
+            "grammar": { "pattern": "if + S + V(hiện tại)", "explainVi": "Điều kiện có thể xảy ra trong tương lai, nhưng sau “if” dùng thì hiện tại (if it rains, không dùng “if it will rain”).", "examples": ["Can I get a refund if I cancel?", "What happens if we're late?"] },
+            "commonMistake": { "wrong": "if it will rain", "right": "if it rains" }
+          }
+        },
+        {
+          "speaker": "Agent",
+          "en": "Yes, free cancellation up to 24 hours before. Please be in the lobby at 7:15 sharp.",
+          "ipa": "/jes | friː ˌkænsəˈleɪʃən ʌp tə ˈtwenti fɔːr ˈaʊərz bɪˈfɔːr | pliːz biː ɪn ðə ˈlɑːbi æt ˈsevən ˌfɪfˈtiːn ʃɑːrp/",
+          "vi": "Được, hủy miễn phí trước 24 giờ. Vui lòng có mặt ở sảnh đúng 7:15.",
+          "analysis": {
+            "vocab": [{ "word": "sharp", "ipa": "/ʃɑːrp/", "pos": "adverb", "vi": "đúng (giờ)", "example": "The bus leaves at 8 sharp." }],
+            "phrases": [{ "phrase": "up to 24 hours before", "vi": "tối đa đến 24 giờ trước" }],
+            "culture": "Xe tour thường không chờ khách đến muộn. “7:15 sharp” nghĩa là phải có mặt trước giờ đó."
+          }
+        }
+      ],
+      "keyPhrases": ["What does the tour include?", "Is lunch included?", "How much walking is there?", "Can we cancel if it rains?", "What time is the pick-up?"]
+    },
+    {
+      "id": "sightseeing-guide-01",
+      "level": "B1",
+      "title": "Asking the tour guide",
+      "titleVi": "Hỏi hướng dẫn viên",
+      "contextVi": "Trong tour, hướng dẫn viên cho cả đoàn tự do tham quan. Bạn hỏi về giờ tập trung, nhà vệ sinh và lịch sử của nơi này.",
+      "imageQuery": "tour guide group tourists",
+      "dialogue": [
+        {
+          "speaker": "Guide",
+          "en": "OK everyone, you now have 45 minutes of free time. Please meet back here at the fountain.",
+          "ipa": "/ˌoʊˈkeɪ ˈevriwʌn | juː naʊ hæv ˈfɔːrti faɪv ˈmɪnɪts əv friː taɪm | pliːz miːt bæk hɪr æt ðə ˈfaʊntən/",
+          "vi": "Mọi người ơi, bây giờ có 45 phút tự do. Vui lòng tập trung lại ở đài phun nước này.",
+          "analysis": {
+            "vocab": [
+              { "word": "free time", "ipa": "/friː taɪm/", "pos": "noun", "vi": "thời gian tự do", "example": "We have free time after lunch." },
+              { "word": "fountain", "ipa": "/ˈfaʊntən/", "pos": "noun", "vi": "đài phun nước", "example": "Let's meet at the fountain." }
+            ],
+            "phrases": [{ "phrase": "meet back here", "vi": "tập trung lại ở đây" }]
+          }
+        },
+        {
+          "speaker": "Tourist",
+          "en": "Sorry, what time exactly do we need to be back?",
+          "ipa": "/ˈsɑːri | wɑːt taɪm ɪɡˈzæktli duː wiː niːd tə biː bæk/",
+          "vi": "Xin lỗi, chính xác mấy giờ chúng tôi phải quay lại?",
+          "analysis": {
+            "culture": "Luôn xác nhận lại GIỜ CỤ THỂ thay vì chỉ nhớ “45 phút”, và chụp ảnh điểm tập trung."
+          }
+        },
+        {
+          "speaker": "Guide",
+          "en": "At 11:30. If you get lost, call the number on your ticket.",
+          "ipa": "/æt ɪˈlevən ˈθɜːrti | ɪf juː ɡet lɔːst | kɔːl ðə ˈnʌmbər ɑːn jɔːr ˈtɪkɪt/",
+          "vi": "Lúc 11:30. Nếu bị lạc, hãy gọi số điện thoại trên vé.",
+          "analysis": {
+            "phrases": [{ "phrase": "get lost", "vi": "bị lạc" }],
+            "grammar": { "pattern": "If + S + V, + V (mệnh lệnh)", "explainVi": "Điều kiện + lời hướng dẫn.", "examples": ["If you need help, ask me.", "If it's closed, call this number."] }
+          }
+        },
+        {
+          "speaker": "Tourist",
+          "en": "Got it. And where are the nearest toilets?",
+          "ipa": "/ɡɑːt ɪt | ənd wer ɑːr ðə ˈnɪrəst ˈtɔɪləts/",
+          "vi": "Tôi hiểu rồi. Nhà vệ sinh gần nhất ở đâu?",
+          "analysis": {
+            "vocab": [{ "word": "toilets / restroom", "ipa": "/ˈtɔɪləts/ /ˈrestruːm/", "pos": "noun", "vi": "nhà vệ sinh (Anh: toilets; Mỹ: restroom)", "example": "Excuse me, where's the restroom?" }],
+            "grammar": { "pattern": "the nearest + N", "explainVi": "So sánh nhất của “near”: gần nhất.", "examples": ["Where's the nearest pharmacy?", "the nearest bus stop"] }
+          }
+        },
+        {
+          "speaker": "Guide",
+          "en": "Behind the café. Some toilets here cost one euro, so keep some coins with you.",
+          "ipa": "/bɪˈhaɪnd ðə kæˈfeɪ | sʌm ˈtɔɪləts hɪr kɔːst wʌn ˈjʊroʊ | soʊ kiːp sʌm kɔɪnz wɪð juː/",
+          "vi": "Phía sau quán cà phê. Một số nhà vệ sinh ở đây mất một euro, nên hãy giữ ít tiền xu bên mình.",
+          "analysis": {
+            "vocab": [{ "word": "behind", "ipa": "/bɪˈhaɪnd/", "pos": "preposition", "vi": "phía sau", "example": "The car park is behind the hotel." }],
+            "culture": "Ở châu Âu, nhà vệ sinh công cộng thường thu phí 0,5–1 euro."
+          }
+        },
+        {
+          "speaker": "Tourist",
+          "en": "Thanks. By the way, how old is this building?",
+          "ipa": "/θæŋks | baɪ ðə weɪ | haʊ oʊld ɪz ðɪs ˈbɪldɪŋ/",
+          "vi": "Cảm ơn. Nhân tiện, tòa nhà này bao nhiêu năm tuổi rồi?",
+          "analysis": {
+            "phrases": [{ "phrase": "By the way…", "vi": "Nhân tiện… (chuyển sang chủ đề khác)" }],
+            "grammar": { "pattern": "How old is + N?", "explainVi": "Hỏi tuổi của người hoặc vật.", "examples": ["How old is this temple?", "How old are your children?"] }
+          }
+        },
+        {
+          "speaker": "Guide",
+          "en": "It was built in the 16th century, so it's almost 500 years old.",
+          "ipa": "/ɪt wəz bɪlt ɪn ðə ˌsɪksˈtiːnθ ˈsentʃəri | soʊ ɪts ˈɔːlmoʊst faɪv ˈhʌndrəd jɪrz oʊld/",
+          "vi": "Nó được xây vào thế kỷ 16, nên đã gần 500 năm tuổi.",
+          "analysis": {
+            "vocab": [{ "word": "century", "ipa": "/ˈsentʃəri/", "pos": "noun", "vi": "thế kỷ", "example": "the 21st century" }],
+            "grammar": { "pattern": "was + V3 (bị động quá khứ)", "explainVi": "“was built” = được xây. Dùng nhiều khi nói về lịch sử công trình.", "examples": ["It was painted by Monet.", "The bridge was opened in 1932."] },
+            "pronunciation": "“16th” /ˌsɪksˈtiːnθ/ – kết thúc bằng /θ/."
+          }
+        }
+      ],
+      "keyPhrases": ["What time do we need to be back?", "Where's the meeting point?", "Where are the nearest toilets?", "How old is this building?", "Can you take a photo of us?"]
+    }
+  ],
+  "reading": [
+    {
+      "title": "Tour booking voucher",
+      "titleVi": "Phiếu xác nhận tour",
+      "introVi": "Đây là phiếu xác nhận tour bạn nhận được qua email.",
+      "text": "TOUR VOUCHER - POMPEII FULL-DAY TRIP\nBooking ref: RT-90217   Guests: 2 adults\nDate: Thursday, 14 September\nPick-up: Hotel Artemide lobby, 7:15 a.m.\nReturn: approx. 7:30 p.m.\n\nINCLUDED: air-conditioned coach, entrance tickets, English-speaking guide\nNOT INCLUDED: lunch, drinks, gratuities\n\nWHAT TO BRING: comfortable shoes, hat, sunscreen, water\nThe site has limited shade.\n\nCancellation: free up to 24 hours before departure. No refund for no-shows or late arrivals.",
+      "glossary": { "voucher": "phiếu xác nhận", "booking ref": "mã đặt chỗ", "approx.": "khoảng", "coach": "xe khách du lịch", "gratuities": "tiền boa", "shade": "bóng râm", "limited": "hạn chế, ít", "refund": "hoàn tiền", "no-shows": "khách không đến" },
+      "questions": [
+        { "q": "What is NOT included in the price?", "options": ["Entrance tickets", "The guide", "Lunch and tips"], "answer": 2, "explainVi": "NOT INCLUDED: lunch, drinks, gratuities (tiền boa)." },
+        { "q": "Why should you bring a hat and sunscreen?", "options": ["The site has little shade.", "It will rain.", "The coach has no air-conditioning."], "answer": 0, "explainVi": "“The site has limited shade” = ít bóng râm." },
+        { "q": "You arrive at the lobby at 7:30. What happens?", "options": ["They wait for you.", "You may miss the tour and get no refund.", "You get a free taxi."], "answer": 1, "explainVi": "“No refund for no-shows or late arrivals.”" }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "title": "Email to a tour company",
+      "titleVi": "Email hỏi công ty du lịch",
+      "taskVi": "Viết email cho công ty tour (mã RT-90217) để hỏi: (1) có thể đổi tour sang ngày 15/9 không, (2) có chỗ ngồi gần phía trước xe cho chồng bạn vì anh ấy hay say xe không, (3) có ghế/đồ hỗ trợ cho người khó đi lại không.",
+      "info": ["Mã đặt: RT-90217", "Đổi từ 14 sang 15 September", "Chồng bị say xe (car sick), đau đầu gối"],
+      "starters": ["Dear Sir or Madam,", "I have booked", "My booking reference is", "Would it be possible to change", "My husband gets car sick, so", "Could you also tell me whether", "I look forward to hearing from you.", "Best regards,"],
+      "sample": "Dear Sir or Madam,\n\nI have booked the Pompeii full-day trip for two adults. My booking reference is RT-90217.\n\nWould it be possible to change the date from 14 September to 15 September? My husband gets car sick, so could we have seats near the front of the coach? Could you also tell me whether there is any support for people who cannot walk long distances?\n\nI look forward to hearing from you.\n\nBest regards,\nPham Thu Ha",
+      "minWords": 50,
+      "mustInclude": [
+        { "regex": "RT-90217", "labelVi": "Có mã đặt chỗ" },
+        { "regex": "15", "labelVi": "Có nêu ngày muốn đổi (15)" },
+        { "regex": "front", "labelVi": "Có xin ghế phía trước (front)" }
+      ],
+      "checklist": ["Mở đầu trang trọng (Dear Sir or Madam)", "Nêu mã đặt chỗ", "Mỗi yêu cầu một câu hỏi lịch sự", "Kết thư: I look forward to hearing from you."]
+    }
+  ]
+}

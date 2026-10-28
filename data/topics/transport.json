@@ -1,0 +1,358 @@
+{
+  "topicId": "transport",
+  "title": "Taxi & Public Transport",
+  "titleVi": "Taxi & Phương tiện công cộng",
+  "icon": "🚕",
+  "descriptionVi": "Đi taxi, mua vé tàu điện ngầm, đi xe buýt và hỏi đường đến ga.",
+  "situations": [
+    {
+      "id": "transport-taxi-01",
+      "level": "A2",
+      "title": "Taking a taxi from the airport",
+      "titleVi": "Đi taxi từ sân bay",
+      "contextVi": "Bạn vừa ra khỏi sân bay JFK ở New York và lên taxi để về khách sạn Hilton Midtown.",
+      "imageQuery": "yellow taxi New York",
+      "dialogue": [
+        {
+          "speaker": "Driver",
+          "en": "Hi there. Where to?",
+          "ipa": "/haɪ ðer | wer tuː/",
+          "vi": "Chào anh. Đi đâu ạ?",
+          "analysis": {
+            "phrases": [{ "phrase": "Where to?", "vi": "Đi đâu? (cách hỏi ngắn của tài xế)" }],
+            "culture": "Ở New York, hãy dùng taxi vàng xếp hàng chính thức hoặc ứng dụng (Uber/Lyft). Không đi xe của người mời chào trong sân bay."
+          }
+        },
+        {
+          "speaker": "Passenger",
+          "en": "Hi. Could you take me to the Hilton Midtown, please? Here's the address.",
+          "ipa": "/haɪ | kʊd juː teɪk miː tə ðə ˈhɪltən ˈmɪdtaʊn pliːz | hɪrz ði ˈædres/",
+          "vi": "Chào anh. Anh chở tôi đến khách sạn Hilton Midtown được không? Đây là địa chỉ.",
+          "variants": { "polite": "Good afternoon. I'd like to go to the Hilton Midtown, please.", "casual": "Hilton Midtown, please." },
+          "analysis": {
+            "vocab": [{ "word": "address", "ipa": "/ˈædres/ (Mỹ) /əˈdres/ (Anh)", "pos": "noun", "vi": "địa chỉ", "example": "Can you write down the address?" }],
+            "grammar": { "pattern": "Could you take me to + nơi chốn, please?", "explainVi": "Câu nói chuẩn nhất khi đi taxi.", "examples": ["Could you take me to the airport?", "Could you take us to this restaurant?"] },
+            "culture": "Đưa địa chỉ viết sẵn hoặc trên điện thoại giúp tránh hiểu nhầm.",
+            "commonMistake": { "wrong": "Go Hilton.", "right": "Could you take me to the Hilton, please?" }
+          }
+        },
+        {
+          "speaker": "Driver",
+          "en": "Sure. Can I put your bags in the trunk?",
+          "ipa": "/ʃʊr | kən aɪ pʊt jɔːr bæɡz ɪn ðə trʌŋk/",
+          "vi": "Được. Tôi để túi của anh vào cốp xe nhé?",
+          "analysis": {
+            "vocab": [{ "word": "trunk / boot", "ipa": "/trʌŋk/ /buːt/", "pos": "noun", "vi": "cốp xe (Mỹ: trunk, Anh: boot)", "example": "My suitcase is in the trunk." }]
+          }
+        },
+        {
+          "speaker": "Passenger",
+          "en": "Yes, thanks. How long does it take to get there?",
+          "ipa": "/jes θæŋks | haʊ lɔːŋ dʌz ɪt teɪk tə ɡet ðer/",
+          "vi": "Vâng, cảm ơn. Đến đó mất bao lâu?",
+          "analysis": {
+            "grammar": { "pattern": "How long does it take to + V?", "explainVi": "Hỏi việc gì mất bao nhiêu thời gian. Trả lời: It takes about + thời gian.", "examples": ["How long does it take to walk there?", "It takes about 20 minutes."] },
+            "pronunciation": "“get there” – âm /t/ của get gần như không bật: /ɡe(t) ðer/.",
+            "commonMistake": { "wrong": "How long it takes?", "right": "How long does it take?" }
+          }
+        },
+        {
+          "speaker": "Driver",
+          "en": "About 45 minutes, depending on the traffic. It's a flat fare of 70 dollars plus tolls.",
+          "ipa": "/əˈbaʊt ˈfɔːrti faɪv ˈmɪnɪts | dɪˈpendɪŋ ɑːn ðə ˈtræfɪk | ɪts ə flæt fer əv ˈsevənti ˈdɑːlərz plʌs toʊlz/",
+          "vi": "Khoảng 45 phút, tùy tình hình giao thông. Giá cố định 70 đô cộng phí cầu đường.",
+          "analysis": {
+            "vocab": [
+              { "word": "traffic", "ipa": "/ˈtræfɪk/", "pos": "noun", "vi": "giao thông, xe cộ", "example": "The traffic is terrible today." },
+              { "word": "fare", "ipa": "/fer/", "pos": "noun", "vi": "giá vé, cước xe", "example": "What's the fare to downtown?" },
+              { "word": "toll", "ipa": "/toʊl/", "pos": "noun", "vi": "phí cầu đường", "example": "There's a toll on this bridge." }
+            ],
+            "phrases": [{ "phrase": "depending on…", "vi": "tùy thuộc vào…" }],
+            "pronunciation": "Phân biệt seventy /ˈsevənti/ (70) và seventeen /ˌsevənˈtiːn/ (17). Nếu không chắc, hỏi lại: “Seven-zero?”"
+          }
+        },
+        {
+          "speaker": "Passenger",
+          "en": "OK. Could you turn the air conditioning down a little? It's a bit cold.",
+          "ipa": "/ˌoʊˈkeɪ | kʊd juː tɜːrn ði er kənˈdɪʃənɪŋ daʊn ə ˈlɪtəl | ɪts ə bɪt koʊld/",
+          "vi": "Được. Anh giảm máy lạnh xuống một chút được không? Hơi lạnh.",
+          "analysis": {
+            "vocab": [{ "word": "turn down / turn up", "ipa": "/tɜːrn daʊn/ /tɜːrn ʌp/", "pos": "phrasal verb", "vi": "vặn nhỏ / vặn to", "example": "Could you turn the music down?" }],
+            "phrases": [{ "phrase": "a bit / a little", "vi": "hơi, một chút" }],
+            "pronunciation": "“a little” giọng Mỹ: /ə ˈlɪɾəl/."
+          }
+        },
+        {
+          "speaker": "Driver",
+          "en": "Here we are. That's 76 dollars with the toll.",
+          "ipa": "/hɪr wiː ɑːr | ðæts ˈsevənti sɪks ˈdɑːlərz wɪð ðə toʊl/",
+          "vi": "Đến nơi rồi. Tổng cộng 76 đô tính cả phí cầu đường.",
+          "analysis": {
+            "phrases": [{ "phrase": "Here we are.", "vi": "Đến nơi rồi." }]
+          }
+        },
+        {
+          "speaker": "Passenger",
+          "en": "Here's 90 dollars. Keep the change. Could I have a receipt, please?",
+          "ipa": "/hɪrz ˈnaɪnti ˈdɑːlərz | kiːp ðə tʃeɪndʒ | kʊd aɪ hæv ə rɪˈsiːt pliːz/",
+          "vi": "Đây là 90 đô. Anh giữ tiền thừa nhé. Cho tôi xin hóa đơn được không?",
+          "analysis": {
+            "vocab": [
+              { "word": "change", "ipa": "/tʃeɪndʒ/", "pos": "noun", "vi": "tiền thối, tiền lẻ", "example": "Do you have change for 50?" },
+              { "word": "receipt", "ipa": "/rɪˈsiːt/", "pos": "noun", "vi": "biên lai, hóa đơn", "example": "Can I get a receipt?" }
+            ],
+            "phrases": [{ "phrase": "Keep the change.", "vi": "Giữ lại tiền thừa (coi như tiền tip)." }],
+            "pronunciation": "“receipt” /rɪˈsiːt/ – chữ p câm!",
+            "culture": "Tip taxi ở Mỹ thường 15–20%. 76 → 90 đô là tip khoảng 18%."
+          }
+        }
+      ],
+      "keyPhrases": ["Could you take me to…?", "How long does it take?", "How much is it to…?", "Can you stop here, please?", "Keep the change."]
+    },
+    {
+      "id": "transport-metro-01",
+      "level": "A2",
+      "title": "Buying a metro ticket",
+      "titleVi": "Mua vé tàu điện ngầm",
+      "contextVi": "Bạn ở ga tàu điện ngầm ở London, muốn đi đến bảo tàng Anh (British Museum). Máy bán vé khó dùng nên bạn hỏi nhân viên.",
+      "imageQuery": "London Underground station",
+      "dialogue": [
+        {
+          "speaker": "Traveler",
+          "en": "Excuse me, how do I get to the British Museum?",
+          "ipa": "/ɪkˈskjuːz miː | haʊ duː aɪ ɡet tə ðə ˈbrɪtɪʃ mjuˈziːəm/",
+          "vi": "Xin lỗi, tôi đi đến Bảo tàng Anh bằng cách nào?",
+          "analysis": {
+            "vocab": [{ "word": "museum", "ipa": "/mjuˈziːəm/", "pos": "noun", "vi": "bảo tàng", "example": "The museum opens at 10." }],
+            "grammar": { "pattern": "How do I get to + nơi chốn?", "explainVi": "Câu hỏi đường phổ biến nhất.", "examples": ["How do I get to the airport?", "How do I get to Platform 3?"] },
+            "pronunciation": "“museum” nhấn âm giữa: mu-SE-um."
+          }
+        },
+        {
+          "speaker": "Staff",
+          "en": "Take the Central line to Tottenham Court Road. It's about a five-minute walk from there.",
+          "ipa": "/teɪk ðə ˈsentrəl laɪn tə ˈtɑːtənəm kɔːrt roʊd | ɪts əˈbaʊt ə faɪv ˈmɪnɪt wɔːk frʌm ðer/",
+          "vi": "Đi tuyến Central đến ga Tottenham Court Road. Từ đó đi bộ khoảng năm phút.",
+          "analysis": {
+            "vocab": [
+              { "word": "line", "ipa": "/laɪn/", "pos": "noun", "vi": "tuyến (tàu điện)", "example": "Which line goes to the airport?" },
+              { "word": "walk", "ipa": "/wɔːk/", "pos": "noun", "vi": "quãng đi bộ", "example": "It's a short walk." }
+            ],
+            "grammar": { "pattern": "Take + the + tuyến/phương tiện + to + điểm đến", "explainVi": "“take” dùng cho phương tiện: take the train, take a taxi, take bus 25.", "examples": ["Take bus number 10.", "Take the Red Line to Downtown."] }
+          }
+        },
+        {
+          "speaker": "Traveler",
+          "en": "Thank you. How much is a single ticket?",
+          "ipa": "/θæŋk juː | haʊ mʌtʃ ɪz ə ˈsɪŋɡəl ˈtɪkɪt/",
+          "vi": "Cảm ơn. Vé một chiều giá bao nhiêu?",
+          "analysis": {
+            "vocab": [
+              { "word": "single ticket", "ipa": "/ˈsɪŋɡəl ˈtɪkɪt/", "pos": "noun", "vi": "vé một chiều (Mỹ: one-way ticket)", "example": "A single ticket to Oxford, please." },
+              { "word": "return ticket", "ipa": "/rɪˈtɜːrn ˈtɪkɪt/", "pos": "noun", "vi": "vé khứ hồi (Mỹ: round-trip ticket)", "example": "Is a return ticket cheaper?" }
+            ]
+          }
+        },
+        {
+          "speaker": "Staff",
+          "en": "A paper ticket is 6 pounds 70, but it's cheaper if you just tap your contactless card at the gate.",
+          "ipa": "/ə ˈpeɪpər ˈtɪkɪt ɪz sɪks paʊndz ˈsevənti | bət ɪts ˈtʃiːpər ɪf juː dʒʌst tæp jɔːr ˈkɑːntæktləs kɑːrd æt ðə ɡeɪt/",
+          "vi": "Vé giấy giá 6 bảng 70, nhưng sẽ rẻ hơn nếu anh/chị chỉ cần chạm thẻ không tiếp xúc ở cổng soát vé.",
+          "analysis": {
+            "vocab": [
+              { "word": "contactless", "ipa": "/ˈkɑːntæktləs/", "pos": "adjective", "vi": "không tiếp xúc (thanh toán chạm thẻ/điện thoại)", "example": "Can I pay contactless?" },
+              { "word": "tap", "ipa": "/tæp/", "pos": "verb", "vi": "chạm (thẻ)", "example": "Tap your card here." }
+            ],
+            "grammar": { "pattern": "It's cheaper if + S + V(hiện tại)", "explainVi": "Câu điều kiện loại 0/1: nói sự thật hay kết quả chắc chắn.", "examples": ["It's faster if you take the train.", "It's free if you're under 11."] },
+            "culture": "London, Sydney, New York… cho phép chạm thẻ Visa/Mastercard hoặc điện thoại ở cổng – không cần mua vé. Chạm khi vào VÀ khi ra."
+          }
+        },
+        {
+          "speaker": "Traveler",
+          "en": "Oh, I didn't know that. Do I need to tap my card when I leave the station too?",
+          "ipa": "/oʊ | aɪ ˈdɪdənt noʊ ðæt | duː aɪ niːd tə tæp maɪ kɑːrd wen aɪ liːv ðə ˈsteɪʃən tuː/",
+          "vi": "Ồ, tôi không biết điều đó. Tôi có cần chạm thẻ khi ra khỏi ga nữa không?",
+          "analysis": {
+            "vocab": [{ "word": "station", "ipa": "/ˈsteɪʃən/", "pos": "noun", "vi": "nhà ga", "example": "Where's the nearest station?" }],
+            "grammar": { "pattern": "Do I need to + V…?", "explainVi": "Hỏi mình có cần/phải làm gì không.", "examples": ["Do I need to book in advance?", "Do I need a visa?"] }
+          }
+        },
+        {
+          "speaker": "Staff",
+          "en": "Yes, always tap in and tap out with the same card. Otherwise, you'll be charged the maximum fare.",
+          "ipa": "/jes | ˈɔːlweɪz tæp ɪn ənd tæp aʊt wɪð ðə seɪm kɑːrd | ˈʌðərwaɪz | juːl biː tʃɑːrdʒd ðə ˈmæksɪməm fer/",
+          "vi": "Có, luôn chạm thẻ khi vào và khi ra bằng cùng một thẻ. Nếu không, anh/chị sẽ bị tính giá vé tối đa.",
+          "analysis": {
+            "vocab": [
+              { "word": "otherwise", "ipa": "/ˈʌðərwaɪz/", "pos": "adverb", "vi": "nếu không thì", "example": "Hurry, otherwise we'll be late." },
+              { "word": "maximum", "ipa": "/ˈmæksɪməm/", "pos": "adjective", "vi": "tối đa", "example": "the maximum weight" }
+            ],
+            "phrases": [{ "phrase": "tap in / tap out", "vi": "chạm thẻ vào / chạm thẻ ra" }]
+          }
+        },
+        {
+          "speaker": "Traveler",
+          "en": "Got it. Which platform is it for the Central line eastbound?",
+          "ipa": "/ɡɑːt ɪt | wɪtʃ ˈplætfɔːrm ɪz ɪt fɔːr ðə ˈsentrəl laɪn ˈiːstbaʊnd/",
+          "vi": "Tôi hiểu rồi. Tuyến Central chiều đi về phía đông ở sân ga nào?",
+          "analysis": {
+            "vocab": [
+              { "word": "platform", "ipa": "/ˈplætfɔːrm/", "pos": "noun", "vi": "sân ga", "example": "The train leaves from platform 4." },
+              { "word": "eastbound", "ipa": "/ˈiːstbaʊnd/", "pos": "adjective", "vi": "theo hướng đông", "example": "westbound / northbound / southbound" }
+            ],
+            "phrases": [{ "phrase": "Got it.", "vi": "Hiểu rồi. (thân mật)" }]
+          }
+        },
+        {
+          "speaker": "Staff",
+          "en": "Platform 2. Go down the escalator and follow the red signs.",
+          "ipa": "/ˈplætfɔːrm tuː | ɡoʊ daʊn ði ˈeskəleɪtər ənd ˈfɑːloʊ ðə red saɪnz/",
+          "vi": "Sân ga số 2. Đi thang cuốn xuống và đi theo biển báo màu đỏ.",
+          "analysis": {
+            "vocab": [
+              { "word": "escalator", "ipa": "/ˈeskəleɪtər/", "pos": "noun", "vi": "thang cuốn", "example": "Stand on the right on the escalator." },
+              { "word": "sign", "ipa": "/saɪn/", "pos": "noun", "vi": "biển báo", "example": "Follow the signs to the exit." }
+            ],
+            "pronunciation": "“sign” /saɪn/ – chữ g câm.",
+            "culture": "Ở London, đứng bên PHẢI thang cuốn, để bên trái cho người đi nhanh."
+          }
+        }
+      ],
+      "keyPhrases": ["How do I get to…?", "Which line goes to…?", "A single / return ticket to…, please.", "Which platform is it?", "Do I need to change trains?"]
+    },
+    {
+      "id": "transport-bus-01",
+      "level": "B1",
+      "title": "Taking a bus and missing the stop",
+      "titleVi": "Đi xe buýt và lỡ trạm",
+      "contextVi": "Bạn đi xe buýt ở Sydney đến Bãi biển Bondi. Bạn hỏi tài xế, rồi nhờ một hành khách nhắc khi đến trạm.",
+      "imageQuery": "Sydney bus",
+      "dialogue": [
+        {
+          "speaker": "Traveler",
+          "en": "Hi, does this bus go to Bondi Beach?",
+          "ipa": "/haɪ | dʌz ðɪs bʌs ɡoʊ tə ˈbɑːndaɪ biːtʃ/",
+          "vi": "Chào anh, xe buýt này có đi Bãi biển Bondi không?",
+          "analysis": {
+            "grammar": { "pattern": "Does this + phương tiện + go to…?", "explainVi": "Hỏi xe/tàu có đi đến đâu không. Chủ ngữ số ít nên dùng “does”.", "examples": ["Does this train go to the city?", "Does this bus stop at the hospital?"] },
+            "pronunciation": "“beach” /biːtʃ/ – âm /iː/ kéo dài. Đọc ngắn sẽ thành một từ khác rất bất lịch sự!"
+          }
+        },
+        {
+          "speaker": "Driver",
+          "en": "Yes, it does. Just tap your card on the reader when you get on and off.",
+          "ipa": "/jes ɪt dʌz | dʒʌst tæp jɔːr kɑːrd ɑːn ðə ˈriːdər wen juː ɡet ɑːn ənd ɔːf/",
+          "vi": "Có. Chỉ cần chạm thẻ vào máy đọc khi lên và khi xuống xe.",
+          "analysis": {
+            "vocab": [
+              { "word": "get on / get off", "ipa": "/ɡet ɑːn/ /ɡet ɔːf/", "pos": "phrasal verb", "vi": "lên xe / xuống xe (buýt, tàu, máy bay)", "example": "Get off at the next stop." },
+              { "word": "card reader", "ipa": "/kɑːrd ˈriːdər/", "pos": "noun", "vi": "máy đọc thẻ", "example": "Hold your card near the reader." }
+            ],
+            "grammar": { "pattern": "Yes, it does. / No, it doesn't.", "explainVi": "Trả lời ngắn câu hỏi Does…? bằng trợ động từ.", "examples": ["Do you speak English? – Yes, I do.", "Is it far? – No, it isn't."] },
+            "culture": "Với ô tô/taxi dùng “get in / get out”; với xe buýt, tàu, máy bay dùng “get on / get off”."
+          }
+        },
+        {
+          "speaker": "Traveler",
+          "en": "Could you tell me when we get to Bondi Beach? I'm not familiar with the area.",
+          "ipa": "/kʊd juː tel miː wen wiː ɡet tə ˈbɑːndaɪ biːtʃ | aɪm nɑːt fəˈmɪliər wɪð ði ˈeriə/",
+          "vi": "Anh có thể báo tôi khi đến Bãi biển Bondi không? Tôi không quen khu vực này.",
+          "analysis": {
+            "vocab": [{ "word": "familiar with", "ipa": "/fəˈmɪliər wɪð/", "pos": "adjective phrase", "vi": "quen thuộc với", "example": "Are you familiar with this city?" }],
+            "grammar": { "pattern": "Could you tell me when + S + V?", "explainVi": "Câu hỏi gián tiếp nhờ ai báo cho mình biết khi nào điều gì xảy ra.", "examples": ["Could you tell me when it's my stop?", "Could you tell me where to get off?"] }
+          }
+        },
+        {
+          "speaker": "Driver",
+          "en": "It's the last stop, so you can't miss it. It's about 30 minutes.",
+          "ipa": "/ɪts ðə læst stɑːp | soʊ juː kænt mɪs ɪt | ɪts əˈbaʊt ˈθɜːrti ˈmɪnɪts/",
+          "vi": "Đó là trạm cuối, nên anh không thể lỡ được đâu. Khoảng 30 phút.",
+          "analysis": {
+            "vocab": [{ "word": "last stop", "ipa": "/læst stɑːp/", "pos": "noun", "vi": "trạm cuối", "example": "This is the last stop. All change, please." }],
+            "phrases": [{ "phrase": "You can't miss it.", "vi": "Bạn không thể nào bỏ lỡ được (rất dễ thấy)." }]
+          }
+        },
+        {
+          "speaker": "Traveler",
+          "en": "Excuse me, is anyone sitting here?",
+          "ipa": "/ɪkˈskjuːz miː | ɪz ˈeniwʌn ˈsɪtɪŋ hɪr/",
+          "vi": "Xin lỗi, chỗ này có ai ngồi không?",
+          "variants": { "polite": "Excuse me, is this seat taken?", "casual": "Is this seat free?" },
+          "analysis": {
+            "phrases": [{ "phrase": "Is this seat taken?", "vi": "Ghế này có người ngồi chưa?" }],
+            "culture": "Trên phương tiện công cộng, hãy nhường ghế ưu tiên (priority seats) cho người già, phụ nữ mang thai."
+          }
+        },
+        {
+          "speaker": "Passenger",
+          "en": "No, go ahead. Are you visiting Sydney?",
+          "ipa": "/noʊ | ɡoʊ əˈhed | ɑːr juː ˈvɪzɪtɪŋ ˈsɪdni/",
+          "vi": "Không, mời bạn ngồi. Bạn đến Sydney du lịch à?",
+          "analysis": {
+            "phrases": [{ "phrase": "Go ahead.", "vi": "Cứ tự nhiên / Mời bạn." }],
+            "culture": "Người Úc rất thân thiện và hay bắt chuyện (small talk) – một cơ hội tốt để luyện nói!"
+          }
+        },
+        {
+          "speaker": "Traveler",
+          "en": "Yes, I've been here for three days. I'm going to the beach to see the famous coastal walk.",
+          "ipa": "/jes | aɪv bɪn hɪr fɔːr θriː deɪz | aɪm ˈɡoʊɪŋ tə ðə biːtʃ tə siː ðə ˈfeɪməs ˈkoʊstəl wɔːk/",
+          "vi": "Vâng, tôi ở đây được ba ngày rồi. Tôi đến bãi biển để xem con đường đi bộ ven biển nổi tiếng.",
+          "analysis": {
+            "vocab": [
+              { "word": "coastal", "ipa": "/ˈkoʊstəl/", "pos": "adjective", "vi": "ven biển", "example": "a coastal town" },
+              { "word": "famous", "ipa": "/ˈfeɪməs/", "pos": "adjective", "vi": "nổi tiếng", "example": "It's a famous restaurant." }
+            ],
+            "grammar": { "pattern": "I've been here for + khoảng thời gian", "explainVi": "Hiện tại hoàn thành + for: diễn tả việc bắt đầu trong quá khứ và vẫn đang tiếp diễn.", "examples": ["I've been in London for a week.", "We've been married for 30 years."] },
+            "commonMistake": { "wrong": "I am here since three days.", "right": "I've been here for three days." }
+          }
+        },
+        {
+          "speaker": "Passenger",
+          "en": "You'll love it! Don't forget your sunscreen – the sun here is really strong.",
+          "ipa": "/juːl lʌv ɪt | doʊnt fərˈɡet jɔːr ˈsʌnskriːn | ðə sʌn hɪr ɪz ˈrɪəli strɔːŋ/",
+          "vi": "Bạn sẽ thích lắm! Đừng quên kem chống nắng – nắng ở đây rất gắt.",
+          "analysis": {
+            "vocab": [{ "word": "sunscreen", "ipa": "/ˈsʌnskriːn/", "pos": "noun", "vi": "kem chống nắng", "example": "Put on some sunscreen." }],
+            "grammar": { "pattern": "Don't forget + N / to + V", "explainVi": "Nhắc nhở ai đừng quên điều gì.", "examples": ["Don't forget your passport.", "Don't forget to call me."] },
+            "culture": "Tia UV ở Úc rất mạnh. Người Úc thường nhắc nhau: “Slip, slop, slap” (mặc áo, bôi kem, đội mũ)."
+          }
+        }
+      ],
+      "keyPhrases": ["Does this bus go to…?", "Could you tell me when we get to…?", "Is this seat taken?", "Where should I get off?", "I've been here for … days."]
+    }
+  ],
+  "reading": [
+    {
+      "title": "A notice at the station",
+      "titleVi": "Thông báo tại nhà ga",
+      "introVi": "Bạn thấy thông báo này tại ga tàu điện ngầm.",
+      "text": "PLANNED ENGINEERING WORKS\n\nSaturday 18 and Sunday 19 November\nNo Central line service between Liverpool Street and Stratford.\n\nRail replacement buses will run every 10 minutes.\nPlease allow an extra 30 minutes for your journey.\n\nStep-free access is available at this station. Ask staff for help.\nAvoid travelling between 7:30 and 9:30 on weekdays if possible.",
+      "glossary": { "engineering works": "công trình sửa chữa kỹ thuật", "service": "chuyến tàu (hoạt động)", "between": "giữa", "replacement buses": "xe buýt thay thế", "every 10 minutes": "cứ 10 phút một chuyến", "allow": "dành thêm (thời gian)", "journey": "hành trình", "step-free access": "lối đi không bậc thang", "avoid": "tránh", "weekdays": "ngày thường" },
+      "questions": [
+        { "q": "You want to go from Liverpool Street to Stratford on Sunday 19 November. What should you do?", "options": ["Take the Central line as usual.", "Take a replacement bus.", "Wait until Monday."], "answer": 1, "explainVi": "Không có tàu Central line giữa hai ga này; có xe buýt thay thế (rail replacement buses)." },
+        { "q": "How much extra time should you plan for?", "options": ["10 minutes", "30 minutes", "2 hours"], "answer": 1, "explainVi": "“Please allow an extra 30 minutes.”" },
+        { "q": "Your mother uses a wheelchair. Can she use this station?", "options": ["Yes, there is step-free access.", "No, there are only stairs."], "answer": 0, "explainVi": "“Step-free access is available” = có lối đi không bậc thang." }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "title": "Message to a ride-hailing driver",
+      "titleVi": "Nhắn tin cho tài xế xe công nghệ",
+      "taskVi": "Bạn đặt Uber/Grab ở sân bay. Hãy nhắn cho tài xế: bạn đang đứng ở đâu (cửa số 4, tầng đến – Arrivals, cạnh quầy cà phê), bạn mặc áo khoác màu đỏ, đi cùng 2 người với 3 vali lớn, và hỏi xe có đủ chỗ không.",
+      "info": ["Vị trí: Door 4, Arrivals level, next to the coffee shop", "Nhận dạng: red jacket", "3 người, 3 vali lớn"],
+      "starters": ["Hi, I'm at", "next to", "I'm wearing a", "There are three of us", "with three large suitcases", "Is there enough space in your car?", "Thank you!"],
+      "sample": "Hi, I'm at Door 4 on the Arrivals level, next to the coffee shop. I'm wearing a red jacket. There are three of us with three large suitcases. Is there enough space in your car? Thank you!",
+      "minWords": 30,
+      "letter": false,
+      "mustInclude": [
+        { "regex": "door 4|door four", "labelVi": "Có vị trí cửa số 4" },
+        { "regex": "red", "labelVi": "Có mô tả áo đỏ để nhận dạng" },
+        { "regex": "suitcase|bags|luggage", "labelVi": "Có nói về hành lý" },
+        { "regex": "space|room|fit", "labelVi": "Có hỏi xe đủ chỗ không" }
+      ],
+      "checklist": ["Câu ngắn, rõ ràng", "Mô tả vị trí bằng giới từ: at, on, next to", "Mô tả bản thân để tài xế dễ nhận ra", "Có câu hỏi kết thúc bằng dấu ?"]
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "topicId": "money",
+  "title": "Money & Banks",
+  "titleVi": "Tiền, ngân hàng & ATM",
+  "icon": "💳",
+  "descriptionVi": "Đổi tiền, rút tiền ATM, xử lý khi thẻ bị nuốt hoặc bị từ chối thanh toán.",
+  "situations": [
+    {
+      "id": "money-exchange-01",
+      "level": "A2",
+      "title": "At a currency exchange",
+      "titleVi": "Tại quầy đổi tiền",
+      "contextVi": "Bạn đến Tokyo và muốn đổi 500 đô Mỹ sang yên Nhật tại quầy đổi tiền. Bạn muốn hỏi tỷ giá và phí.",
+      "imageQuery": "currency exchange counter",
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "en": "Hello. I'd like to change 500 US dollars into yen, please.",
+          "ipa": "/heˈloʊ | aɪd laɪk tə tʃeɪndʒ faɪv ˈhʌndrəd juː es ˈdɑːlərz ˈɪntə jen pliːz/",
+          "vi": "Xin chào. Tôi muốn đổi 500 đô Mỹ sang yên Nhật.",
+          "variants": { "polite": "Could I exchange 500 US dollars for Japanese yen, please?", "casual": "500 dollars to yen, please." },
+          "analysis": {
+            "vocab": [{ "word": "change / exchange", "ipa": "/tʃeɪndʒ/ /ɪksˈtʃeɪndʒ/", "pos": "verb", "vi": "đổi (tiền)", "example": "Where can I exchange money?" }],
+            "grammar": { "pattern": "change A into B / exchange A for B", "explainVi": "Đổi tiền A sang tiền B. Chú ý giới từ: change … into, exchange … for.", "examples": ["I'd like to change euros into pounds.", "Can I exchange dollars for baht?"] },
+            "commonMistake": { "wrong": "I want change money to yen.", "right": "I'd like to change money into yen." }
+          }
+        },
+        {
+          "speaker": "Clerk",
+          "en": "Certainly. Today's rate is 148 yen to the dollar.",
+          "ipa": "/ˈsɜːrtənli | təˈdeɪz reɪt ɪz wʌn ˈhʌndrəd ənd ˈfɔːrti eɪt jen tə ðə ˈdɑːlər/",
+          "vi": "Vâng. Tỷ giá hôm nay là 148 yên một đô.",
+          "analysis": {
+            "vocab": [{ "word": "rate", "ipa": "/reɪt/", "pos": "noun", "vi": "tỷ giá; mức giá", "example": "What's the exchange rate?" }],
+            "phrases": [{ "phrase": "X to the dollar", "vi": "X (đơn vị) đổi được 1 đô" }]
+          }
+        },
+        {
+          "speaker": "Customer",
+          "en": "Is there a commission or any other fee?",
+          "ipa": "/ɪz ðer ə kəˈmɪʃən ɔːr ˈeni ˈʌðər fiː/",
+          "vi": "Có tính hoa hồng hay phí nào khác không?",
+          "analysis": {
+            "vocab": [
+              { "word": "commission", "ipa": "/kəˈmɪʃən/", "pos": "noun", "vi": "phí hoa hồng (khi đổi tiền)", "example": "No commission!" },
+              { "word": "fee", "ipa": "/fiː/", "pos": "noun", "vi": "phí", "example": "Is there a fee for using this card?" }
+            ],
+            "culture": "Quầy đổi tiền ở sân bay thường có tỷ giá kém hơn trong thành phố. Biển “0% commission” không có nghĩa là tỷ giá tốt – hãy hỏi số tiền cuối cùng nhận được."
+          }
+        },
+        {
+          "speaker": "Clerk",
+          "en": "No commission. You'll receive 74,000 yen. How would you like the notes?",
+          "ipa": "/noʊ kəˈmɪʃən | juːl rɪˈsiːv ˈsevənti fɔːr ˈθaʊzənd jen | haʊ wʊd juː laɪk ðə noʊts/",
+          "vi": "Không có hoa hồng. Bạn sẽ nhận 74.000 yên. Bạn muốn tiền mệnh giá thế nào?",
+          "analysis": {
+            "vocab": [
+              { "word": "notes", "ipa": "/noʊts/", "pos": "noun", "vi": "tiền giấy (Mỹ: bills)", "example": "Can I have some small notes?" },
+              { "word": "receive", "ipa": "/rɪˈsiːv/", "pos": "verb", "vi": "nhận được", "example": "You'll receive an email." }
+            ],
+            "pronunciation": "Số lớn: 74,000 = seventy-four thousand. Dấu phẩy trong tiếng Anh ngăn cách hàng nghìn."
+          }
+        },
+        {
+          "speaker": "Customer",
+          "en": "Could I have some small notes and coins? I'll need them for the bus.",
+          "ipa": "/kʊd aɪ hæv sʌm smɔːl noʊts ənd kɔɪnz | aɪl niːd ðəm fɔːr ðə bʌs/",
+          "vi": "Cho tôi ít tiền mệnh giá nhỏ và tiền xu được không? Tôi cần để đi xe buýt.",
+          "analysis": {
+            "vocab": [{ "word": "coins", "ipa": "/kɔɪnz/", "pos": "noun", "vi": "tiền xu", "example": "The machine only takes coins." }],
+            "culture": "Ở Nhật, nhiều xe buýt và đền chùa chỉ nhận tiền xu hoặc thẻ IC (Suica/Pasmo)."
+          }
+        },
+        {
+          "speaker": "Clerk",
+          "en": "Of course. Here you are. Please count it and keep your receipt.",
+          "ipa": "/əv kɔːrs | hɪr juː ɑːr | pliːz kaʊnt ɪt ənd kiːp jɔːr rɪˈsiːt/",
+          "vi": "Dĩ nhiên. Của bạn đây. Vui lòng đếm lại và giữ biên lai.",
+          "analysis": {
+            "vocab": [{ "word": "count", "ipa": "/kaʊnt/", "pos": "verb", "vi": "đếm", "example": "Please count your change." }],
+            "culture": "Luôn đếm tiền ngay tại quầy, vì sau khi rời đi sẽ khó khiếu nại."
+          }
+        }
+      ],
+      "keyPhrases": ["I'd like to change … into …", "What's the exchange rate?", "Is there a commission?", "Could I have some small notes?", "Can I have a receipt?"]
+    },
+    {
+      "id": "money-atm-01",
+      "level": "B1",
+      "title": "The ATM kept my card",
+      "titleVi": "Cây ATM nuốt thẻ",
+      "contextVi": "Bạn rút tiền ở cây ATM bên ngoài một ngân hàng ở Sydney, nhưng máy giữ thẻ của bạn lại. Bạn vào ngân hàng nhờ giúp.",
+      "imageQuery": "ATM machine bank",
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "en": "Excuse me, the ATM outside has just kept my card.",
+          "ipa": "/ɪkˈskjuːz miː | ði ˌeɪ tiː ˈem ˌaʊtˈsaɪd hæz dʒʌst kept maɪ kɑːrd/",
+          "vi": "Xin lỗi, cây ATM bên ngoài vừa giữ thẻ của tôi.",
+          "variants": { "casual": "The ATM swallowed my card!" },
+          "analysis": {
+            "vocab": [{ "word": "ATM", "ipa": "/ˌeɪ tiː ˈem/", "pos": "noun", "vi": "máy rút tiền (Anh: cash machine)", "example": "Is there an ATM near here?" }],
+            "grammar": { "pattern": "has just + V3", "explainVi": "Hiện tại hoàn thành với “just”: việc vừa mới xảy ra.", "examples": ["The bus has just left.", "I've just arrived."] },
+            "phrases": [{ "phrase": "swallow a card", "vi": "nuốt thẻ (cách nói thân mật)" }]
+          }
+        },
+        {
+          "speaker": "Bank clerk",
+          "en": "I'm sorry to hear that. What happened exactly?",
+          "ipa": "/aɪm ˈsɑːri tə hɪr ðæt | wɑːt ˈhæpənd ɪɡˈzæktli/",
+          "vi": "Tôi rất tiếc. Chính xác đã xảy ra chuyện gì?",
+          "analysis": {
+            "phrases": [{ "phrase": "I'm sorry to hear that.", "vi": "Tôi rất tiếc khi nghe điều đó (thể hiện sự cảm thông)" }],
+            "pronunciation": "“exactly” /ɪɡˈzæktli/ – âm “x” đọc /ɡz/."
+          }
+        },
+        {
+          "speaker": "Customer",
+          "en": "I entered my PIN, but the screen froze and the card didn't come out.",
+          "ipa": "/aɪ ˈentərd maɪ pɪn | bət ðə skriːn froʊz ənd ðə kɑːrd ˈdɪdənt kʌm aʊt/",
+          "vi": "Tôi đã nhập mã PIN, nhưng màn hình bị đứng và thẻ không ra.",
+          "analysis": {
+            "vocab": [
+              { "word": "PIN", "ipa": "/pɪn/", "pos": "noun", "vi": "mã PIN", "example": "Please enter your PIN." },
+              { "word": "froze", "ipa": "/froʊz/", "pos": "verb (V2 của freeze)", "vi": "bị đứng, treo (máy)", "example": "My phone froze." }
+            ],
+            "grammar": { "pattern": "S + V2, but + S + V2", "explainVi": "Kể lại sự việc bằng quá khứ đơn. Freeze → froze (động từ bất quy tắc).", "examples": ["I paid, but I didn't get a ticket.", "I pressed the button, but nothing happened."] },
+            "commonMistake": { "wrong": "The card don't come out.", "right": "The card didn't come out." }
+          }
+        },
+        {
+          "speaker": "Bank clerk",
+          "en": "Is it one of our cards, or is it from a foreign bank?",
+          "ipa": "/ɪz ɪt wʌn əv ˈaʊər kɑːrdz | ɔːr ɪz ɪt frʌm ə ˈfɔːrən bæŋk/",
+          "vi": "Thẻ của ngân hàng chúng tôi hay của một ngân hàng nước ngoài?",
+          "analysis": {
+            "vocab": [{ "word": "foreign", "ipa": "/ˈfɔːrən/", "pos": "adjective", "vi": "nước ngoài", "example": "Do you accept foreign cards?" }],
+            "pronunciation": "“foreign” /ˈfɔːrən/ – chữ g câm."
+          }
+        },
+        {
+          "speaker": "Customer",
+          "en": "It's a Vietnamese Visa card. I really need it – it's my only card.",
+          "ipa": "/ɪts ə ˌvjetnəˈmiːz ˈviːzə kɑːrd | aɪ ˈrɪəli niːd ɪt | ɪts maɪ ˈoʊnli kɑːrd/",
+          "vi": "Đó là thẻ Visa của Việt Nam. Tôi thật sự cần nó – đó là thẻ duy nhất của tôi.",
+          "analysis": {
+            "culture": "Bài học: khi đi du lịch, luôn mang ít nhất 2 thẻ của 2 ngân hàng khác nhau và để riêng một ít tiền mặt dự phòng."
+          }
+        },
+        {
+          "speaker": "Bank clerk",
+          "en": "Don't worry. We'll open the machine this afternoon. Please come back after 3 with your passport.",
+          "ipa": "/doʊnt ˈwɜːri | wiːl ˈoʊpən ðə məˈʃiːn ðɪs ˌæftərˈnuːn | pliːz kʌm bæk ˈæftər θriː wɪð jɔːr ˈpæspɔːrt/",
+          "vi": "Đừng lo. Chúng tôi sẽ mở máy chiều nay. Vui lòng quay lại sau 3 giờ cùng hộ chiếu.",
+          "analysis": {
+            "phrases": [{ "phrase": "come back", "vi": "quay lại" }],
+            "culture": "Ngân hàng chỉ trả thẻ khi bạn chứng minh được danh tính, nên hãy mang theo hộ chiếu."
+          }
+        },
+        {
+          "speaker": "Customer",
+          "en": "Thank you. Should I call my bank to block the card, just in case?",
+          "ipa": "/θæŋk juː | ʃʊd aɪ kɔːl maɪ bæŋk tə blɑːk ðə kɑːrd | dʒʌst ɪn keɪs/",
+          "vi": "Cảm ơn. Tôi có nên gọi cho ngân hàng của tôi để khóa thẻ, để phòng hờ không?",
+          "analysis": {
+            "vocab": [{ "word": "block", "ipa": "/blɑːk/", "pos": "verb", "vi": "khóa (thẻ)", "example": "Please block my card immediately." }],
+            "phrases": [{ "phrase": "just in case", "vi": "để phòng hờ" }]
+          }
+        },
+        {
+          "speaker": "Bank clerk",
+          "en": "That's not necessary yet. If we can't find it, then you should block it.",
+          "ipa": "/ðæts nɑːt ˈnesəseri jet | ɪf wiː kænt faɪnd ɪt | ðen juː ʃʊd blɑːk ɪt/",
+          "vi": "Chưa cần đâu. Nếu chúng tôi không tìm thấy thẻ, lúc đó bạn nên khóa nó.",
+          "analysis": {
+            "vocab": [{ "word": "necessary", "ipa": "/ˈnesəseri/", "pos": "adjective", "vi": "cần thiết", "example": "Is it necessary to book?" }],
+            "grammar": { "pattern": "If + S + V(hiện tại), (then) S + should + V", "explainVi": "Câu điều kiện loại 1 kèm lời khuyên.", "examples": ["If it rains, you should take a taxi.", "If you feel sick, you should see a doctor."] }
+          }
+        }
+      ],
+      "keyPhrases": ["The ATM kept my card.", "The screen froze.", "It's from a foreign bank.", "I need to block my card.", "Just in case."]
+    },
+    {
+      "id": "money-card-declined-01",
+      "level": "B1",
+      "title": "My card was declined",
+      "titleVi": "Thẻ bị từ chối khi thanh toán",
+      "contextVi": "Bạn mua đồ lưu niệm ở một cửa hàng tại Paris. Khi quẹt thẻ, máy báo bị từ chối.",
+      "imageQuery": "card payment terminal shop",
+      "dialogue": [
+        {
+          "speaker": "Cashier",
+          "en": "I'm sorry, your card has been declined.",
+          "ipa": "/aɪm ˈsɑːri | jɔːr kɑːrd hæz bɪn dɪˈklaɪnd/",
+          "vi": "Xin lỗi, thẻ của bạn đã bị từ chối.",
+          "analysis": {
+            "vocab": [{ "word": "declined", "ipa": "/dɪˈklaɪnd/", "pos": "adjective / V3", "vi": "bị từ chối (giao dịch)", "example": "My payment was declined." }],
+            "grammar": { "pattern": "has been + V3", "explainVi": "Bị động thì hiện tại hoàn thành.", "examples": ["My flight has been cancelled.", "The room has been cleaned."] }
+          }
+        },
+        {
+          "speaker": "Customer",
+          "en": "Really? That's strange. Could you try it again, please?",
+          "ipa": "/ˈrɪəli | ðæts streɪndʒ | kʊd juː traɪ ɪt əˈɡen pliːz/",
+          "vi": "Thật sao? Lạ nhỉ. Bạn thử lại giúp tôi được không?",
+          "analysis": {
+            "vocab": [{ "word": "strange", "ipa": "/streɪndʒ/", "pos": "adjective", "vi": "lạ", "example": "That's strange, it worked yesterday." }]
+          }
+        },
+        {
+          "speaker": "Cashier",
+          "en": "Of course. Would you like to insert it this time instead of tapping?",
+          "ipa": "/əv kɔːrs | wʊd juː laɪk tʊ ɪnˈsɜːrt ɪt ðɪs taɪm ɪnˈsted əv ˈtæpɪŋ/",
+          "vi": "Được ạ. Lần này bạn muốn cắm thẻ vào máy thay vì chạm không?",
+          "analysis": {
+            "vocab": [{ "word": "insert", "ipa": "/ɪnˈsɜːrt/", "pos": "verb", "vi": "cắm vào, đưa vào", "example": "Insert your card and enter your PIN." }],
+            "grammar": { "pattern": "instead of + V-ing / N", "explainVi": "“thay vì”. Sau “of” động từ thêm -ing.", "examples": ["Let's walk instead of taking a taxi.", "Tea instead of coffee, please."] }
+          }
+        },
+        {
+          "speaker": "Customer",
+          "en": "It still doesn't work. Maybe my bank blocked it because I'm abroad.",
+          "ipa": "/ɪt stɪl ˈdʌzənt wɜːrk | ˈmeɪbi maɪ bæŋk blɑːkt ɪt bɪˈkɔːz aɪm əˈbrɔːd/",
+          "vi": "Vẫn không được. Có lẽ ngân hàng khóa thẻ vì tôi đang ở nước ngoài.",
+          "analysis": {
+            "vocab": [{ "word": "abroad", "ipa": "/əˈbrɔːd/", "pos": "adverb", "vi": "ở nước ngoài", "example": "I'm travelling abroad next month." }],
+            "culture": "Trước khi đi, hãy bật “thanh toán quốc tế” trong app ngân hàng và báo ngân hàng lịch trình để tránh bị khóa thẻ."
+          }
+        },
+        {
+          "speaker": "Cashier",
+          "en": "That happens sometimes. Do you have another card, or would you like to pay in cash?",
+          "ipa": "/ðæt ˈhæpənz ˈsʌmtaɪmz | duː juː hæv əˈnʌðər kɑːrd | ɔːr wʊd juː laɪk tə peɪ ɪn kæʃ/",
+          "vi": "Chuyện đó thỉnh thoảng xảy ra. Bạn có thẻ khác không, hay muốn trả tiền mặt?",
+          "analysis": {
+            "vocab": [{ "word": "another", "ipa": "/əˈnʌðər/", "pos": "determiner", "vi": "một cái khác", "example": "Can I try another card?" }]
+          }
+        },
+        {
+          "speaker": "Customer",
+          "en": "I'll pay in cash. Could you keep these items for me while I go to the ATM?",
+          "ipa": "/aɪl peɪ ɪn kæʃ | kʊd juː kiːp ðiːz ˈaɪtəmz fɔːr miː waɪl aɪ ɡoʊ tə ði ˌeɪ tiː ˈem/",
+          "vi": "Tôi sẽ trả tiền mặt. Bạn giữ mấy món này giúp tôi trong lúc tôi ra cây ATM được không?",
+          "analysis": {
+            "vocab": [{ "word": "items", "ipa": "/ˈaɪtəmz/", "pos": "noun", "vi": "món hàng, đồ vật", "example": "I'd like to return these items." }],
+            "grammar": { "pattern": "Could you keep + N + for me?", "explainVi": "Nhờ ai giữ đồ giúp mình.", "examples": ["Could you keep my bag for me?", "Could you hold this for me?"] }
+          }
+        },
+        {
+          "speaker": "Cashier",
+          "en": "No problem. There's a cash machine on the corner. I'll keep them behind the counter.",
+          "ipa": "/noʊ ˈprɑːbləm | ðerz ə kæʃ məˈʃiːn ɑːn ðə ˈkɔːrnər | aɪl kiːp ðəm bɪˈhaɪnd ðə ˈkaʊntər/",
+          "vi": "Không vấn đề. Có máy rút tiền ở góc phố. Tôi sẽ giữ đồ sau quầy.",
+          "analysis": {
+            "vocab": [{ "word": "counter", "ipa": "/ˈkaʊntər/", "pos": "noun", "vi": "quầy", "example": "Please pay at the counter." }],
+            "phrases": [{ "phrase": "on the corner", "vi": "ở góc phố" }]
+          }
+        }
+      ],
+      "keyPhrases": ["My card was declined.", "Could you try again?", "Can I insert it instead?", "Do you accept cash?", "Where's the nearest ATM?"]
+    }
+  ],
+  "reading": [
+    {
+      "title": "ATM screen messages",
+      "titleVi": "Thông báo trên màn hình ATM",
+      "introVi": "Đây là các thông báo bạn có thể gặp trên màn hình ATM ở nước ngoài.",
+      "text": "WELCOME - PLEASE INSERT YOUR CARD\n\nSELECT LANGUAGE: ENGLISH / FRANÇAIS / 日本語\n\nPLEASE ENTER YOUR PIN AND PRESS ENTER\n\nSELECT TRANSACTION:\n> WITHDRAWAL\n> BALANCE ENQUIRY\n\nTHIS ATM WILL CHARGE A FEE OF 3.50 AUD.\nYOUR OWN BANK MAY ALSO CHARGE A FEE.\nDO YOU WISH TO CONTINUE?  YES / NO\n\nWOULD YOU LIKE TO BE CHARGED IN AUD OR VND?\n\nPLEASE TAKE YOUR CARD. YOUR CASH IS BEING COUNTED.",
+      "glossary": { "insert": "đưa vào", "transaction": "giao dịch", "withdrawal": "rút tiền", "balance enquiry": "xem số dư", "charge": "tính phí", "fee": "phí", "continue": "tiếp tục", "counted": "được đếm" },
+      "questions": [
+        { "q": "You want to take out money. Which option do you choose?", "options": ["Balance enquiry", "Withdrawal"], "answer": 1, "explainVi": "Withdrawal = rút tiền. Balance enquiry = xem số dư." },
+        { "q": "How much does this ATM charge?", "options": ["Nothing", "3.50 AUD", "3.50 VND"], "answer": 1, "explainVi": "“This ATM will charge a fee of 3.50 AUD.”" },
+        { "q": "The ATM asks: AUD or VND? Experts usually recommend…", "options": ["AUD (local currency)", "VND (your home currency)"], "answer": 0, "explainVi": "Chọn tiền địa phương (AUD) thường có tỷ giá tốt hơn. Chọn VND là để máy tự quy đổi với tỷ giá cao (gọi là DCC)." }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "title": "Email to your bank: card blocked abroad",
+      "titleVi": "Email cho ngân hàng: thẻ bị khóa ở nước ngoài",
+      "taskVi": "Thẻ Visa của bạn (4 số cuối 5821) bị từ chối ở Pháp. Viết email ngắn cho ngân hàng: bạn đang du lịch ở Pháp đến ngày 20/6, nhờ mở khóa thẻ cho giao dịch quốc tế, và hỏi số điện thoại hỗ trợ 24/7.",
+      "info": ["Thẻ Visa, 4 số cuối 5821", "Đang ở Pháp đến 20 June", "Yêu cầu: mở khóa giao dịch quốc tế, xin số hotline 24/7"],
+      "starters": ["Dear Customer Support,", "I am currently travelling in", "My Visa card ending in", "was declined", "Could you please unblock", "I would also like to know", "Thank you for your quick help.", "Yours sincerely,"],
+      "sample": "Dear Customer Support,\n\nI am currently travelling in France until 20 June. Yesterday, my Visa card ending in 5821 was declined in several shops.\n\nCould you please unblock my card for international payments? I would also like to know your 24/7 support phone number in case I have another problem.\n\nThank you for your quick help.\n\nYours sincerely,\nLe Thi Hoa",
+      "minWords": 50,
+      "mustInclude": [
+        { "regex": "5821", "labelVi": "Có 4 số cuối thẻ" },
+        { "regex": "France", "labelVi": "Có nói đang ở Pháp (France)" },
+        { "regex": "unblock|activate|enable", "labelVi": "Có yêu cầu mở khóa (unblock)" },
+        { "regex": "24/7|phone|number", "labelVi": "Có hỏi số điện thoại hỗ trợ" }
+      ],
+      "checklist": ["Nêu bạn đang ở đâu và đến ngày nào", "Mô tả vấn đề bằng thì quá khứ (was declined)", "Yêu cầu rõ ràng bằng Could you please…", "Kết thư trang trọng (Yours sincerely)"]
+    }
+  ]
+}

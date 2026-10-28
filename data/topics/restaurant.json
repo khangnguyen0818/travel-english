@@ -1,0 +1,336 @@
+{
+  "topicId": "restaurant",
+  "title": "At the Restaurant",
+  "titleVi": "Nhà hàng",
+  "icon": "🍽️",
+  "descriptionVi": "Đặt bàn, gọi món, nói về dị ứng thực phẩm, thanh toán và tiền tip.",
+  "situations": [
+    {
+      "id": "restaurant-booking-01",
+      "level": "A2",
+      "title": "Booking a table by phone",
+      "titleVi": "Gọi điện đặt bàn",
+      "contextVi": "Bạn gọi điện đến nhà hàng Bella Italia ở Melbourne để đặt bàn cho 4 người vào tối thứ Bảy lúc 7 giờ.",
+      "imageQuery": "restaurant table reserved",
+      "dialogue": [
+        {
+          "speaker": "Host",
+          "en": "Good afternoon, Bella Italia. How may I help you?",
+          "ipa": "/ɡʊd ˌæftərˈnuːn | ˈbelə ɪˈtæliə | haʊ meɪ aɪ help juː/",
+          "vi": "Chào buổi chiều, nhà hàng Bella Italia xin nghe. Tôi có thể giúp gì ạ?",
+          "analysis": {
+            "vocab": [{ "word": "host / hostess", "ipa": "/hoʊst/ /ˈhoʊstəs/", "pos": "noun", "vi": "nhân viên đón khách, xếp bàn", "example": "The host showed us to our table." }]
+          }
+        },
+        {
+          "speaker": "Customer",
+          "en": "Hi, I'd like to book a table for four people on Saturday evening, please.",
+          "ipa": "/haɪ | aɪd laɪk tə bʊk ə ˈteɪbəl fɔːr fɔːr ˈpiːpəl ɑːn ˈsætərdeɪ ˈiːvnɪŋ pliːz/",
+          "vi": "Chào anh, tôi muốn đặt một bàn cho bốn người vào tối thứ Bảy.",
+          "variants": { "polite": "Could I make a reservation for four on Saturday evening?", "casual": "Table for four on Saturday night?" },
+          "analysis": {
+            "vocab": [{ "word": "book a table", "ipa": "/bʊk ə ˈteɪbəl/", "pos": "verb phrase", "vi": "đặt bàn", "example": "Should we book a table?" }],
+            "grammar": { "pattern": "a table for + số người", "explainVi": "Cách nói số người ăn: a table for two/four.", "examples": ["A table for two, please.", "Do you have a table for six?"] },
+            "pronunciation": "“for four” /fər fɔːr/ – “for” đọc yếu, “four” đọc mạnh.",
+            "commonMistake": { "wrong": "I want to order a table.", "right": "I'd like to book a table." }
+          }
+        },
+        {
+          "speaker": "Host",
+          "en": "Certainly. What time would you like?",
+          "ipa": "/ˈsɜːrtənli | wɑːt taɪm wʊd juː laɪk/",
+          "vi": "Vâng ạ. Quý khách muốn đặt lúc mấy giờ?",
+          "analysis": {
+            "grammar": { "pattern": "What + N + would you like?", "explainVi": "Câu hỏi lịch sự về lựa chọn của khách.", "examples": ["What size would you like?", "What would you like to drink?"] },
+            "pronunciation": "“would you” nối thành /wʊdʒuː/."
+          }
+        },
+        {
+          "speaker": "Customer",
+          "en": "Around 7 o'clock, if possible.",
+          "ipa": "/əˈraʊnd ˈsevən əˈklɑːk | ɪf ˈpɑːsəbəl/",
+          "vi": "Khoảng 7 giờ, nếu được.",
+          "analysis": {
+            "vocab": [{ "word": "around", "ipa": "/əˈraʊnd/", "pos": "preposition", "vi": "khoảng (thời gian)", "example": "I'll arrive around noon." }],
+            "phrases": [{ "phrase": "if possible", "vi": "nếu có thể (làm lời đề nghị mềm hơn)" }]
+          }
+        },
+        {
+          "speaker": "Host",
+          "en": "I'm sorry, we're fully booked at 7. We have a table at 7:30. Would that be OK?",
+          "ipa": "/aɪm ˈsɑːri | wɪr ˈfʊli bʊkt æt ˈsevən | wiː hæv ə ˈteɪbəl æt ˈsevən ˈθɜːrti | wʊd ðæt biː ˌoʊˈkeɪ/",
+          "vi": "Xin lỗi, lúc 7 giờ chúng tôi đã kín bàn. Chúng tôi còn một bàn lúc 7:30. Như vậy có được không ạ?",
+          "analysis": {
+            "vocab": [{ "word": "fully booked", "ipa": "/ˈfʊli bʊkt/", "pos": "adjective", "vi": "kín chỗ, hết chỗ", "example": "The hotel is fully booked." }],
+            "pronunciation": "“booked” /bʊkt/ – đuôi -ed sau âm /k/ đọc là /t/."
+          }
+        },
+        {
+          "speaker": "Customer",
+          "en": "7:30 is fine. Could we have a table by the window?",
+          "ipa": "/ˈsevən ˈθɜːrti ɪz faɪn | kʊd wiː hæv ə ˈteɪbəl baɪ ðə ˈwɪndoʊ/",
+          "vi": "7:30 cũng được. Cho chúng tôi bàn cạnh cửa sổ được không?",
+          "analysis": {
+            "vocab": [{ "word": "by the window", "ipa": "/baɪ ðə ˈwɪndoʊ/", "pos": "phrase", "vi": "cạnh cửa sổ", "example": "I'd like to sit by the window." }],
+            "phrases": [{ "phrase": "outside / on the terrace", "vi": "bàn ngoài trời / ngoài hiên" }]
+          }
+        },
+        {
+          "speaker": "Host",
+          "en": "I'll make a note of that. Can I have your name and phone number, please?",
+          "ipa": "/aɪl meɪk ə noʊt əv ðæt | kən aɪ hæv jɔːr neɪm ənd foʊn ˈnʌmbər pliːz/",
+          "vi": "Tôi sẽ ghi chú lại. Cho tôi xin tên và số điện thoại của quý khách.",
+          "analysis": {
+            "phrases": [{ "phrase": "make a note of something", "vi": "ghi chú lại điều gì" }],
+            "culture": "Khi đánh vần tên qua điện thoại, nói từng chữ: “N-G-U-Y-E-N”. Học bảng chữ cái tiếng Anh rất hữu ích!"
+          }
+        },
+        {
+          "speaker": "Customer",
+          "en": "It's Hoa, H-O-A. My number is 0412 555 789.",
+          "ipa": "/ɪts hwɑː | eɪtʃ oʊ eɪ | maɪ ˈnʌmbər ɪz oʊ fɔːr wʌn tuː faɪv faɪv faɪv ˈsevən eɪt naɪn/",
+          "vi": "Tên tôi là Hoa, H-O-A. Số của tôi là 0412 555 789.",
+          "analysis": {
+            "pronunciation": "Đọc số điện thoại từng chữ số, số 0 đọc “oh”. Chữ H đọc /eɪtʃ/, A đọc /eɪ/.",
+            "commonMistake": { "wrong": "My number is four hundred twelve…", "right": "My number is oh-four-one-two…" }
+          }
+        }
+      ],
+      "keyPhrases": ["I'd like to book a table for…", "Around 7, if possible.", "Could we sit by the window?", "My name is…, spelled…", "Do you have anything earlier/later?"]
+    },
+    {
+      "id": "restaurant-ordering-01",
+      "level": "B1",
+      "title": "Ordering food and food allergies",
+      "titleVi": "Gọi món & dị ứng thực phẩm",
+      "contextVi": "Bạn đang ở nhà hàng. Bạn bị dị ứng đậu phộng và muốn hỏi phục vụ về món ăn trước khi gọi.",
+      "imageQuery": "waiter taking order restaurant",
+      "dialogue": [
+        {
+          "speaker": "Waiter",
+          "en": "Are you ready to order, or do you need a few more minutes?",
+          "ipa": "/ɑːr juː ˈredi tʊ ˈɔːrdər | ɔːr duː juː niːd ə fjuː mɔːr ˈmɪnɪts/",
+          "vi": "Quý khách đã sẵn sàng gọi món chưa, hay cần thêm vài phút?",
+          "analysis": {
+            "vocab": [{ "word": "order", "ipa": "/ˈɔːrdər/", "pos": "verb / noun", "vi": "gọi món; món đã gọi", "example": "Can I change my order?" }],
+            "phrases": [{ "phrase": "a few more minutes", "vi": "thêm vài phút" }],
+            "culture": "Nếu chưa sẵn sàng, hãy nói: “Could we have a few more minutes, please?”"
+          }
+        },
+        {
+          "speaker": "Customer",
+          "en": "I think we're ready. But first, I have a peanut allergy. Does the chicken salad contain any nuts?",
+          "ipa": "/aɪ θɪŋk wɪr ˈredi | bət fɜːrst | aɪ hæv ə ˈpiːnʌt ˈælərdʒi | dʌz ðə ˈtʃɪkɪn ˈsæləd kənˈteɪn ˈeni nʌts/",
+          "vi": "Tôi nghĩ chúng tôi sẵn sàng rồi. Nhưng trước tiên, tôi bị dị ứng đậu phộng. Món salad gà có hạt gì không?",
+          "variants": { "polite": "Before we order, could you tell me if the chicken salad has nuts in it? I'm allergic to peanuts.", "casual": "Any nuts in the chicken salad? I'm allergic." },
+          "analysis": {
+            "vocab": [
+              { "word": "allergy", "ipa": "/ˈælərdʒi/", "pos": "noun", "vi": "sự dị ứng", "example": "I have a seafood allergy." },
+              { "word": "contain", "ipa": "/kənˈteɪn/", "pos": "verb", "vi": "chứa, có (thành phần)", "example": "Does this contain milk?" },
+              { "word": "peanut", "ipa": "/ˈpiːnʌt/", "pos": "noun", "vi": "đậu phộng, lạc", "example": "peanut butter – bơ đậu phộng" }
+            ],
+            "grammar": { "pattern": "I have a + N + allergy / I'm allergic to + N", "explainVi": "Hai cách nói dị ứng. Lưu ý: allergy (danh từ) – allergic (tính từ) + to.", "examples": ["I'm allergic to shellfish.", "She has a gluten allergy."] },
+            "pronunciation": "“allergy” /ˈælərdʒi/ – nhấn âm đầu AL-ler-gy; “allergic” /əˈlɜːrdʒɪk/ nhấn âm 2.",
+            "culture": "Ở nước ngoài, nhân viên rất coi trọng thông tin dị ứng. Hãy luôn nói rõ trước khi gọi món.",
+            "commonMistake": { "wrong": "I allergy peanut.", "right": "I'm allergic to peanuts." }
+          }
+        },
+        {
+          "speaker": "Waiter",
+          "en": "Yes, it comes with a peanut dressing. But the chef can make it without the dressing for you.",
+          "ipa": "/jes | ɪt kʌmz wɪð ə ˈpiːnʌt ˈdresɪŋ | bət ðə ʃef kən meɪk ɪt wɪˈðaʊt ðə ˈdresɪŋ fɔːr juː/",
+          "vi": "Có, món đó ăn kèm nước sốt đậu phộng. Nhưng bếp trưởng có thể làm không có sốt cho quý khách.",
+          "analysis": {
+            "vocab": [
+              { "word": "dressing", "ipa": "/ˈdresɪŋ/", "pos": "noun", "vi": "nước sốt trộn salad", "example": "Can I have the dressing on the side?" },
+              { "word": "chef", "ipa": "/ʃef/", "pos": "noun", "vi": "bếp trưởng, đầu bếp", "example": "The chef recommends the fish." }
+            ],
+            "grammar": { "pattern": "come(s) with + N / without + N", "explainVi": "“come with” = ăn kèm, đi kèm. “without” = không có.", "examples": ["The steak comes with fries.", "Coffee without sugar, please."] },
+            "pronunciation": "“chef” đọc /ʃef/ – âm “sh”, không phải “ch”."
+          }
+        },
+        {
+          "speaker": "Customer",
+          "en": "That would be great. I'll have the chicken salad without dressing, and could I get some olive oil on the side?",
+          "ipa": "/ðæt wʊd biː ɡreɪt | aɪl hæv ðə ˈtʃɪkɪn ˈsæləd wɪˈðaʊt ˈdresɪŋ | ənd kʊd aɪ ɡet sʌm ˈɑːlɪv ɔɪl ɑːn ðə saɪd/",
+          "vi": "Vậy thì tốt quá. Cho tôi món salad gà không sốt, và cho tôi ít dầu ô liu để riêng được không?",
+          "analysis": {
+            "phrases": [
+              { "phrase": "I'll have…", "vi": "Tôi sẽ dùng… (cách gọi món tự nhiên nhất)" },
+              { "phrase": "on the side", "vi": "để riêng ra (không trộn vào món)" }
+            ],
+            "grammar": { "pattern": "I'll have + món ăn", "explainVi": "Gọi món: “I'll have…” hoặc “Could I get…?”. Tránh “I want…” vì nghe cộc lốc.", "examples": ["I'll have the soup, please.", "Could I get a coffee?"] },
+            "commonMistake": { "wrong": "Give me chicken salad.", "right": "I'll have the chicken salad, please." }
+          }
+        },
+        {
+          "speaker": "Waiter",
+          "en": "Of course. And for you, sir?",
+          "ipa": "/əv kɔːrs | ənd fɔːr juː sɜːr/",
+          "vi": "Dĩ nhiên. Còn anh thì dùng gì ạ?",
+          "analysis": {
+            "phrases": [{ "phrase": "And for you?", "vi": "Còn quý khách dùng gì? (hỏi người tiếp theo)" }]
+          }
+        },
+        {
+          "speaker": "Friend",
+          "en": "I'd like the steak, medium-rare, with mashed potatoes, please.",
+          "ipa": "/aɪd laɪk ðə steɪk | ˈmiːdiəm rer | wɪð mæʃt pəˈteɪtoʊz pliːz/",
+          "vi": "Cho tôi món bít tết, chín tái, kèm khoai tây nghiền.",
+          "analysis": {
+            "vocab": [
+              { "word": "medium-rare", "ipa": "/ˈmiːdiəm rer/", "pos": "adjective", "vi": "chín tái (hồng ở giữa)", "example": "rare – tái; medium – chín vừa; well-done – chín kỹ" },
+              { "word": "mashed potatoes", "ipa": "/mæʃt pəˈteɪtoʊz/", "pos": "noun", "vi": "khoai tây nghiền", "example": "The fish comes with mashed potatoes." }
+            ],
+            "pronunciation": "“steak” đọc /steɪk/ (giống “stake”), không đọc “stiếc”.",
+            "culture": "Khi gọi bít tết, phục vụ sẽ hỏi “How would you like your steak?” – hãy chọn rare / medium-rare / medium / well-done."
+          }
+        },
+        {
+          "speaker": "Waiter",
+          "en": "Excellent choice. Can I get you anything to drink?",
+          "ipa": "/ˈeksələnt tʃɔɪs | kən aɪ ɡet juː ˈeniθɪŋ tə drɪŋk/",
+          "vi": "Lựa chọn tuyệt vời. Quý khách có muốn uống gì không?",
+          "analysis": {
+            "grammar": { "pattern": "Can I get you + N?", "explainVi": "Câu mời của nhân viên phục vụ: “Tôi lấy cho bạn… nhé?”", "examples": ["Can I get you some water?", "Can I get you a menu?"] }
+          }
+        },
+        {
+          "speaker": "Customer",
+          "en": "Two glasses of orange juice and a jug of tap water, please.",
+          "ipa": "/tuː ˈɡlæsɪz əv ˈɔːrɪndʒ dʒuːs ənd ə dʒʌɡ əv tæp ˈwɔːtər pliːz/",
+          "vi": "Cho hai ly nước cam và một bình nước lọc.",
+          "analysis": {
+            "vocab": [
+              { "word": "tap water", "ipa": "/tæp ˈwɔːtər/", "pos": "noun", "vi": "nước máy (uống được, thường miễn phí)", "example": "Is tap water free here?" },
+              { "word": "jug", "ipa": "/dʒʌɡ/", "pos": "noun", "vi": "bình (đựng nước)", "example": "a jug of water" }
+            ],
+            "culture": "Ở Úc, Anh, Mỹ, nước máy (tap water) uống được và thường miễn phí. Nếu nói “water”, có thể bị mang nước đóng chai tính tiền."
+          }
+        }
+      ],
+      "keyPhrases": ["I'm allergic to…", "Does this contain…?", "Can I have it without…?", "I'll have the…, please.", "Could I have the dressing on the side?"]
+    },
+    {
+      "id": "restaurant-bill-01",
+      "level": "A2",
+      "title": "Paying the bill",
+      "titleVi": "Thanh toán hóa đơn",
+      "contextVi": "Bữa ăn kết thúc. Bạn gọi phục vụ để thanh toán, muốn chia hóa đơn với bạn và trả bằng thẻ.",
+      "imageQuery": "paying bill restaurant card",
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "en": "Excuse me, could we have the bill, please?",
+          "ipa": "/ɪkˈskjuːz miː | kʊd wiː hæv ðə bɪl pliːz/",
+          "vi": "Xin lỗi, cho chúng tôi xin hóa đơn.",
+          "variants": { "polite": "Could we get the bill when you have a moment?", "casual": "Check, please! (Mỹ)" },
+          "analysis": {
+            "vocab": [{ "word": "bill / check", "ipa": "/bɪl/ /tʃek/", "pos": "noun", "vi": "hóa đơn (Anh: bill, Mỹ: check)", "example": "Can I have the check, please?" }],
+            "culture": "Ở phương Tây, phục vụ thường không mang hóa đơn ra cho đến khi bạn yêu cầu – họ không muốn hối khách."
+          }
+        },
+        {
+          "speaker": "Waiter",
+          "en": "Sure. Would you like to pay together or separately?",
+          "ipa": "/ʃʊr | wʊd juː laɪk tə peɪ təˈɡeðər ɔːr ˈsepərətli/",
+          "vi": "Vâng. Quý khách muốn trả chung hay trả riêng?",
+          "analysis": {
+            "vocab": [
+              { "word": "separately", "ipa": "/ˈsepərətli/", "pos": "adverb", "vi": "riêng, tách riêng", "example": "Can we pay separately?" },
+              { "word": "together", "ipa": "/təˈɡeðər/", "pos": "adverb", "vi": "cùng nhau, chung", "example": "We'll pay together." }
+            ],
+            "phrases": [{ "phrase": "split the bill", "vi": "chia đôi hóa đơn" }]
+          }
+        },
+        {
+          "speaker": "Customer",
+          "en": "Separately, please. I'll pay for the salad and the orange juice.",
+          "ipa": "/ˈsepərətli pliːz | aɪl peɪ fɔːr ðə ˈsæləd ənd ði ˈɔːrɪndʒ dʒuːs/",
+          "vi": "Trả riêng ạ. Tôi sẽ trả cho món salad và nước cam.",
+          "analysis": {
+            "grammar": { "pattern": "pay for + N", "explainVi": "Trả tiền cho cái gì phải có “for”.", "examples": ["I'll pay for the taxi.", "Who's paying for dinner?"] },
+            "commonMistake": { "wrong": "I pay the salad.", "right": "I'll pay for the salad." }
+          }
+        },
+        {
+          "speaker": "Waiter",
+          "en": "No problem. That's 28 dollars 50. Are you paying by card or cash?",
+          "ipa": "/noʊ ˈprɑːbləm | ðæts ˈtwenti eɪt ˈdɑːlərz ˈfɪfti | ɑːr juː ˈpeɪɪŋ baɪ kɑːrd ɔːr kæʃ/",
+          "vi": "Không vấn đề. Của quý khách là 28 đô 50. Quý khách trả bằng thẻ hay tiền mặt?",
+          "analysis": {
+            "grammar": { "pattern": "pay by card / in cash", "explainVi": "Chú ý giới từ: pay BY card, pay IN cash.", "examples": ["Can I pay by card?", "I'll pay in cash."] },
+            "pronunciation": "Giá tiền $28.50 thường đọc: “twenty-eight fifty”."
+          }
+        },
+        {
+          "speaker": "Customer",
+          "en": "By card, please. Is service included?",
+          "ipa": "/baɪ kɑːrd pliːz | ɪz ˈsɜːrvɪs ɪnˈkluːdɪd/",
+          "vi": "Bằng thẻ. Phí phục vụ đã bao gồm chưa?",
+          "analysis": {
+            "vocab": [{ "word": "service charge", "ipa": "/ˈsɜːrvɪs tʃɑːrdʒ/", "pos": "noun", "vi": "phí phục vụ", "example": "A 10% service charge is added." }],
+            "culture": "Mỹ: tip 15–20% gần như bắt buộc. Úc, Nhật: không bắt buộc tip. Anh: thường có sẵn phí phục vụ 12,5%."
+          }
+        },
+        {
+          "speaker": "Waiter",
+          "en": "No, it isn't. You can add a tip on the card machine if you like.",
+          "ipa": "/noʊ ɪt ˈɪzənt | juː kən æd ə tɪp ɑːn ðə kɑːrd məˈʃiːn ɪf juː laɪk/",
+          "vi": "Chưa ạ. Quý khách có thể thêm tiền tip trên máy quẹt thẻ nếu muốn.",
+          "analysis": {
+            "vocab": [
+              { "word": "tip", "ipa": "/tɪp/", "pos": "noun / verb", "vi": "tiền boa; boa", "example": "Should I leave a tip?" },
+              { "word": "card machine", "ipa": "/kɑːrd məˈʃiːn/", "pos": "noun", "vi": "máy quẹt thẻ (POS)", "example": "The card machine isn't working." }
+            ],
+            "phrases": [{ "phrase": "if you like", "vi": "nếu bạn muốn" }]
+          }
+        },
+        {
+          "speaker": "Customer",
+          "en": "Great. Everything was delicious. Thank you for your help with my allergy.",
+          "ipa": "/ɡreɪt | ˈevriθɪŋ wəz dɪˈlɪʃəs | θæŋk juː fɔːr jɔːr help wɪð maɪ ˈælərdʒi/",
+          "vi": "Tuyệt. Mọi thứ đều rất ngon. Cảm ơn anh đã giúp tôi về vấn đề dị ứng.",
+          "analysis": {
+            "vocab": [{ "word": "delicious", "ipa": "/dɪˈlɪʃəs/", "pos": "adjective", "vi": "ngon", "example": "This soup is delicious!" }],
+            "pronunciation": "“delicious” /dɪˈlɪʃəs/ – nhấn âm giữa de-LI-cious, “ci” đọc /ʃ/.",
+            "culture": "Khen món ăn và cảm ơn phục vụ là phép lịch sự rất được đánh giá cao."
+          }
+        }
+      ],
+      "keyPhrases": ["Could we have the bill, please?", "Can we pay separately?", "Can I pay by card?", "Is service included?", "Keep the change."]
+    }
+  ],
+  "reading": [
+    {
+      "title": "Reading a menu",
+      "titleVi": "Đọc thực đơn",
+      "introVi": "Đây là thực đơn của một quán ăn ở Úc.",
+      "text": "BELLA ITALIA - DINNER MENU\n\nSTARTERS\nGarlic bread (V) ........................ $9\nTomato soup (V, GF) .................... $12\n\nMAINS\nGrilled salmon with seasonal vegetables (GF) .. $32\nChicken salad with peanut dressing ........... $24\nBeef steak, served with fries or mashed potatoes .. $38\nMushroom risotto (V) ........................ $27\n\nDESSERTS\nTiramisu (contains alcohol) ............. $14\nFresh fruit plate (VG, GF) ............. $11\n\nV = vegetarian  VG = vegan  GF = gluten-free\nPlease tell your server about any allergies.\nA 10% surcharge applies on public holidays.",
+      "glossary": { "starters": "món khai vị", "mains": "món chính", "desserts": "món tráng miệng", "garlic": "tỏi", "grilled": "nướng", "salmon": "cá hồi", "seasonal": "theo mùa", "served with": "phục vụ kèm", "mushroom": "nấm", "vegetarian": "ăn chay (có thể ăn trứng, sữa)", "vegan": "thuần chay", "gluten-free": "không chứa gluten", "surcharge": "phụ phí", "public holidays": "ngày lễ" },
+      "questions": [
+        { "q": "You are vegetarian. Which main course can you eat?", "options": ["Grilled salmon", "Mushroom risotto", "Beef steak"], "answer": 1, "explainVi": "Mushroom risotto có ký hiệu (V) = vegetarian." },
+        { "q": "Which dessert is NOT good for someone who doesn't drink alcohol?", "options": ["Tiramisu", "Fresh fruit plate"], "answer": 0, "explainVi": "Tiramisu “contains alcohol” = có chứa cồn." },
+        { "q": "You eat here on Christmas Day. What happens?", "options": ["Food is free.", "You pay 10% extra.", "The restaurant is closed."], "answer": 1, "explainVi": "“A 10% surcharge applies on public holidays.”" }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "title": "Writing a restaurant review",
+      "titleVi": "Viết đánh giá nhà hàng",
+      "taskVi": "Viết một bài review ngắn (khoảng 50–80 từ) trên Google Maps cho nhà hàng Bella Italia: món bạn ăn, chất lượng phục vụ (nhân viên giúp bạn về dị ứng), giá cả và bạn có giới thiệu cho người khác không.",
+      "info": ["Món: chicken salad (không sốt), steak", "Phục vụ: rất chu đáo với dị ứng đậu phộng", "Giá: hơi đắt nhưng xứng đáng", "Đánh giá: 5 sao"],
+      "starters": ["We had dinner here", "The food was", "The staff were very", "I especially liked", "It's a bit expensive, but", "I would definitely recommend", "Five stars!"],
+      "sample": "We had dinner here last Saturday and it was excellent. I'm allergic to peanuts, and the waiter was very helpful – the chef made my chicken salad without the dressing. My husband loved his steak, which was cooked perfectly. The restaurant is a bit expensive, but the food and service are worth it. I would definitely recommend Bella Italia to anyone visiting Melbourne. Five stars!",
+      "minWords": 50,
+      "letter": false,
+      "mustInclude": [
+        { "regex": "food|dish|steak|salad", "labelVi": "Có nói về món ăn" },
+        { "regex": "staff|waiter|service", "labelVi": "Có nói về phục vụ" },
+        { "regex": "recommend", "labelVi": "Có lời giới thiệu (recommend)" }
+      ],
+      "checklist": ["Nói thời gian đến ăn (thì quá khứ)", "Dùng tính từ: delicious, helpful, friendly…", "Có một ý chưa hài lòng (but…)", "Kết luận: có giới thiệu hay không"]
+    }
+  ]
+}

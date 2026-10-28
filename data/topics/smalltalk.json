@@ -1,0 +1,315 @@
+{
+  "topicId": "smalltalk",
+  "title": "Small Talk & Making Friends",
+  "titleVi": "Làm quen & trò chuyện",
+  "icon": "🤝",
+  "descriptionVi": "Giới thiệu bản thân, nói về Việt Nam, trò chuyện xã giao và giữ liên lạc với bạn mới.",
+  "situations": [
+    {
+      "id": "smalltalk-intro-01",
+      "level": "A2",
+      "title": "Meeting someone new",
+      "titleVi": "Làm quen với người mới",
+      "contextVi": "Trên chuyến tàu từ Edinburgh đi London, một hành khách người Anh ngồi cạnh bắt chuyện với bạn.",
+      "imageQuery": "train passengers talking",
+      "dialogue": [
+        {
+          "speaker": "Local",
+          "en": "Hi! Are you travelling for work or for fun?",
+          "ipa": "/haɪ | ɑːr juː ˈtrævəlɪŋ fɔːr wɜːrk ɔːr fɔːr fʌn/",
+          "vi": "Chào bạn! Bạn đi công tác hay đi chơi?",
+          "analysis": {
+            "phrases": [{ "phrase": "for work or for fun", "vi": "vì công việc hay để vui chơi" }],
+            "culture": "Ở Anh, người lạ thường bắt chuyện bằng câu hỏi nhẹ nhàng về chuyến đi hoặc thời tiết – đây là “small talk”."
+          }
+        },
+        {
+          "speaker": "Traveler",
+          "en": "For fun! I'm on holiday with my wife. We're from Vietnam.",
+          "ipa": "/fɔːr fʌn | aɪm ɑːn ˈhɑːlədeɪ wɪð maɪ waɪf | wɪr frʌm ˌvjetˈnɑːm/",
+          "vi": "Đi chơi! Tôi đi nghỉ cùng vợ. Chúng tôi đến từ Việt Nam.",
+          "analysis": {
+            "vocab": [{ "word": "wife", "ipa": "/waɪf/", "pos": "noun", "vi": "vợ", "example": "This is my wife, Lan." }],
+            "grammar": { "pattern": "I'm / We're from + quốc gia/thành phố", "explainVi": "Nói mình đến từ đâu.", "examples": ["I'm from Hanoi.", "Where are you from?"] }
+          }
+        },
+        {
+          "speaker": "Local",
+          "en": "Vietnam! I've always wanted to go there. Which part are you from?",
+          "ipa": "/ˌvjetˈnɑːm | aɪv ˈɔːlweɪz ˈwɑːntɪd tə ɡoʊ ðer | wɪtʃ pɑːrt ɑːr juː frʌm/",
+          "vi": "Việt Nam! Tôi luôn muốn đến đó. Bạn ở vùng nào?",
+          "analysis": {
+            "grammar": { "pattern": "I've always wanted to + V", "explainVi": "“Tôi luôn mong muốn…” – hiện tại hoàn thành diễn tả mong muốn kéo dài từ trước đến giờ.", "examples": ["I've always wanted to see snow.", "I've always wanted to visit Japan."] }
+          }
+        },
+        {
+          "speaker": "Traveler",
+          "en": "We live in Hue, in the centre of the country. It's famous for its old palace and its food.",
+          "ipa": "/wiː lɪv ɪn hweɪ | ɪn ðə ˈsentər əv ðə ˈkʌntri | ɪts ˈfeɪməs fɔːr ɪts oʊld ˈpæləs ənd ɪts fuːd/",
+          "vi": "Chúng tôi sống ở Huế, miền Trung. Huế nổi tiếng với cung điện cổ và các món ăn.",
+          "analysis": {
+            "vocab": [
+              { "word": "palace", "ipa": "/ˈpæləs/", "pos": "noun", "vi": "cung điện", "example": "the Imperial Palace" },
+              { "word": "famous for", "ipa": "/ˈfeɪməs fɔːr/", "pos": "adjective phrase", "vi": "nổi tiếng về", "example": "Da Lat is famous for its flowers." }
+            ],
+            "grammar": { "pattern": "S + is famous for + N", "explainVi": "Giới thiệu điểm nổi bật của quê hương – câu rất hữu ích khi làm quen.", "examples": ["Hoi An is famous for its lanterns.", "Ha Long Bay is famous for its islands."] },
+            "culture": "Chuẩn bị sẵn 2–3 câu giới thiệu quê mình. Người nước ngoài rất thích nghe về món ăn và địa danh."
+          }
+        },
+        {
+          "speaker": "Local",
+          "en": "How lovely. How are you finding the UK so far?",
+          "ipa": "/haʊ ˈlʌvli | haʊ ɑːr juː ˈfaɪndɪŋ ðə ˌjuːˈkeɪ soʊ fɑːr/",
+          "vi": "Hay quá. Đến giờ bạn thấy nước Anh thế nào?",
+          "analysis": {
+            "phrases": [
+              { "phrase": "How are you finding…?", "vi": "Bạn thấy… thế nào? (hỏi cảm nhận)" },
+              { "phrase": "so far", "vi": "cho đến giờ" }
+            ],
+            "culture": "“Lovely” là từ người Anh dùng rất nhiều: hay, đẹp, tuyệt."
+          }
+        },
+        {
+          "speaker": "Traveler",
+          "en": "We love it! The scenery in Scotland was amazing, but the weather is a bit cold for us.",
+          "ipa": "/wiː lʌv ɪt | ðə ˈsiːnəri ɪn ˈskɑːtlənd wəz əˈmeɪzɪŋ | bət ðə ˈweðər ɪz ə bɪt koʊld fɔːr ʌs/",
+          "vi": "Chúng tôi rất thích! Phong cảnh ở Scotland tuyệt đẹp, nhưng thời tiết hơi lạnh với chúng tôi.",
+          "analysis": {
+            "vocab": [
+              { "word": "scenery", "ipa": "/ˈsiːnəri/", "pos": "noun", "vi": "phong cảnh", "example": "The mountain scenery is beautiful." },
+              { "word": "amazing", "ipa": "/əˈmeɪzɪŋ/", "pos": "adjective", "vi": "tuyệt vời", "example": "The view was amazing!" }
+            ],
+            "culture": "Phàn nàn nhẹ về thời tiết là chủ đề người Anh rất thích – họ sẽ đồng ý ngay!"
+          }
+        },
+        {
+          "speaker": "Local",
+          "en": "Ha, we complain about it too! I'm Sarah, by the way.",
+          "ipa": "/hɑː | wiː kəmˈpleɪn əˈbaʊt ɪt tuː | aɪm ˈserə | baɪ ðə weɪ/",
+          "vi": "Ha, chúng tôi cũng hay phàn nàn về nó! Nhân tiện, tôi là Sarah.",
+          "analysis": {
+            "vocab": [{ "word": "complain", "ipa": "/kəmˈpleɪn/", "pos": "verb", "vi": "phàn nàn", "example": "Don't complain!" }]
+          }
+        },
+        {
+          "speaker": "Traveler",
+          "en": "Nice to meet you, Sarah. I'm Duc. It's a bit hard to say, so you can call me Duke.",
+          "ipa": "/naɪs tə miːt juː ˈserə | aɪm dʊk | ɪts ə bɪt hɑːrd tə seɪ | soʊ juː kən kɔːl miː duːk/",
+          "vi": "Rất vui được gặp chị, Sarah. Tôi là Đức. Tên tôi hơi khó đọc, nên chị có thể gọi tôi là Duke.",
+          "analysis": {
+            "phrases": [{ "phrase": "Nice to meet you.", "vi": "Rất vui được gặp bạn." }],
+            "grammar": { "pattern": "You can call me + tên", "explainVi": "Gợi ý cách gọi tên mình – giúp người nước ngoài thoải mái hơn.", "examples": ["Please call me Anna.", "Everyone calls me Tom."] },
+            "culture": "Ở phương Tây, người ta gọi nhau bằng tên (first name) ngay cả khi lớn tuổi hơn. Không cần “anh/chị/cô/chú”."
+          }
+        }
+      ],
+      "keyPhrases": ["I'm from…", "It's famous for…", "How are you finding…?", "Nice to meet you.", "You can call me…"]
+    },
+    {
+      "id": "smalltalk-family-work-01",
+      "level": "B1",
+      "title": "Talking about family and work",
+      "titleVi": "Nói về gia đình và công việc",
+      "contextVi": "Tại bữa sáng ở homestay, bạn trò chuyện với ông chủ nhà người Úc về gia đình, công việc và sở thích.",
+      "imageQuery": "breakfast conversation friends",
+      "dialogue": [
+        {
+          "speaker": "Host",
+          "en": "So, do you have any kids?",
+          "ipa": "/soʊ | duː juː hæv ˈeni kɪdz/",
+          "vi": "Vậy bạn có con không?",
+          "analysis": {
+            "vocab": [{ "word": "kids", "ipa": "/kɪdz/", "pos": "noun", "vi": "con, trẻ con (thân mật)", "example": "How many kids do you have?" }]
+          }
+        },
+        {
+          "speaker": "Guest",
+          "en": "Yes, two. My son is studying in Melbourne, and my daughter works as a nurse in Saigon.",
+          "ipa": "/jes tuː | maɪ sʌn ɪz ˈstʌdiɪŋ ɪn ˈmelbərn | ənd maɪ ˈdɔːtər wɜːrks æz ə nɜːrs ɪn saɪˈɡɔːn/",
+          "vi": "Có, hai đứa. Con trai tôi đang học ở Melbourne, còn con gái làm y tá ở Sài Gòn.",
+          "analysis": {
+            "vocab": [
+              { "word": "daughter", "ipa": "/ˈdɔːtər/", "pos": "noun", "vi": "con gái", "example": "My daughter is 25." },
+              { "word": "nurse", "ipa": "/nɜːrs/", "pos": "noun", "vi": "y tá", "example": "She's a nurse at a big hospital." }
+            ],
+            "grammar": { "pattern": "is + V-ing (hiện tại tiếp diễn) / works (hiện tại đơn)", "explainVi": "“is studying” – việc tạm thời trong giai đoạn này; “works” – công việc ổn định lâu dài.", "examples": ["I'm staying with friends this week.", "He works in a bank."] },
+            "pronunciation": "“daughter” /ˈdɔːtər/ – “gh” câm."
+          }
+        },
+        {
+          "speaker": "Host",
+          "en": "You must be very proud of them. And what do you do?",
+          "ipa": "/juː mʌst biː ˈveri praʊd əv ðəm | ənd wɑːt duː juː duː/",
+          "vi": "Chắc bạn tự hào về các con lắm. Còn bạn làm nghề gì?",
+          "analysis": {
+            "vocab": [{ "word": "proud of", "ipa": "/praʊd əv/", "pos": "adjective phrase", "vi": "tự hào về", "example": "I'm proud of you." }],
+            "grammar": { "pattern": "must be + tính từ (suy đoán)", "explainVi": "“must” ở đây là đoán chắc chắn, không phải “phải”.", "examples": ["You must be tired.", "It must be expensive."] }
+          }
+        },
+        {
+          "speaker": "Guest",
+          "en": "I used to be a teacher, but I retired last year. Now I have time to travel.",
+          "ipa": "/aɪ juːst tə biː ə ˈtiːtʃər | bət aɪ rɪˈtaɪərd læst jɪr | naʊ aɪ hæv taɪm tə ˈtrævəl/",
+          "vi": "Tôi từng là giáo viên, nhưng năm ngoái tôi nghỉ hưu rồi. Giờ tôi có thời gian đi du lịch.",
+          "analysis": {
+            "vocab": [{ "word": "retire", "ipa": "/rɪˈtaɪər/", "pos": "verb", "vi": "nghỉ hưu", "example": "My father retired at 60." }],
+            "grammar": { "pattern": "used to + V", "explainVi": "Thói quen hoặc trạng thái trong quá khứ, bây giờ không còn nữa.", "examples": ["I used to smoke.", "We used to live in Hanoi."] },
+            "pronunciation": "“used to” đọc /juːst tə/ – âm s, không phải z.",
+            "commonMistake": { "wrong": "I use to be a teacher.", "right": "I used to be a teacher." }
+          }
+        },
+        {
+          "speaker": "Host",
+          "en": "Good for you! What do you like doing in your free time?",
+          "ipa": "/ɡʊd fɔːr juː | wɑːt duː juː laɪk ˈduːɪŋ ɪn jɔːr friː taɪm/",
+          "vi": "Tốt quá! Lúc rảnh bạn thích làm gì?",
+          "analysis": {
+            "phrases": [{ "phrase": "Good for you!", "vi": "Tốt cho bạn quá! / Hay quá! (khen, chúc mừng)" }],
+            "grammar": { "pattern": "like + V-ing", "explainVi": "Nói về sở thích: like/love/enjoy + V-ing.", "examples": ["I enjoy cooking.", "She loves swimming."] }
+          }
+        },
+        {
+          "speaker": "Guest",
+          "en": "I enjoy gardening and taking photos. I've taken hundreds of pictures of the beaches here!",
+          "ipa": "/aɪ ɪnˈdʒɔɪ ˈɡɑːrdənɪŋ ənd ˈteɪkɪŋ ˈfoʊtoʊz | aɪv ˈteɪkən ˈhʌndrədz əv ˈpɪktʃərz əv ðə ˈbiːtʃɪz hɪr/",
+          "vi": "Tôi thích làm vườn và chụp ảnh. Tôi đã chụp cả trăm tấm ảnh các bãi biển ở đây rồi!",
+          "analysis": {
+            "vocab": [{ "word": "gardening", "ipa": "/ˈɡɑːrdənɪŋ/", "pos": "noun", "vi": "làm vườn", "example": "My mother loves gardening." }],
+            "grammar": { "pattern": "have/has + V3 (không nói thời điểm)", "explainVi": "Hiện tại hoàn thành nói về kinh nghiệm, số lượng tích lũy đến bây giờ.", "examples": ["I've visited five countries.", "We've eaten here three times."] },
+            "pronunciation": "“beaches” /ˈbiːtʃɪz/ – âm /iː/ dài."
+          }
+        },
+        {
+          "speaker": "Host",
+          "en": "You should show me some later. Maybe you could send me a few?",
+          "ipa": "/juː ʃʊd ʃoʊ miː sʌm ˈleɪtər | ˈmeɪbi juː kʊd send miː ə fjuː/",
+          "vi": "Lát nữa bạn cho tôi xem vài tấm nhé. Có lẽ bạn gửi cho tôi vài tấm được không?",
+          "analysis": {
+            "phrases": [{ "phrase": "a few", "vi": "một vài (dùng với danh từ đếm được)" }]
+          }
+        }
+      ],
+      "keyPhrases": ["I have two children.", "My son works as…", "I used to be a…", "I retired last year.", "In my free time, I enjoy…"]
+    },
+    {
+      "id": "smalltalk-keep-contact-01",
+      "level": "B1",
+      "title": "Exchanging contacts and saying goodbye",
+      "titleVi": "Xin liên lạc và chào tạm biệt",
+      "contextVi": "Sau buổi tour, bạn và một cặp vợ chồng người Canada muốn giữ liên lạc. Bạn xin số WhatsApp và mời họ đến Việt Nam.",
+      "imageQuery": "friends saying goodbye travel",
+      "dialogue": [
+        {
+          "speaker": "Traveler",
+          "en": "It was really nice spending the day with you. Shall we keep in touch?",
+          "ipa": "/ɪt wəz ˈrɪəli naɪs ˈspendɪŋ ðə deɪ wɪð juː | ʃæl wiː kiːp ɪn tʌtʃ/",
+          "vi": "Hôm nay đi cùng anh chị thật vui. Chúng ta giữ liên lạc nhé?",
+          "analysis": {
+            "phrases": [{ "phrase": "keep in touch", "vi": "giữ liên lạc" }],
+            "grammar": { "pattern": "Shall we + V?", "explainVi": "Đề nghị cùng làm gì (lịch sự, hơi trang trọng).", "examples": ["Shall we go?", "Shall we have dinner together?"] }
+          }
+        },
+        {
+          "speaker": "Friend",
+          "en": "Definitely! Are you on WhatsApp?",
+          "ipa": "/ˈdefɪnətli | ɑːr juː ɑːn ˈwɑːtsæp/",
+          "vi": "Chắc chắn rồi! Bạn có dùng WhatsApp không?",
+          "analysis": {
+            "vocab": [{ "word": "definitely", "ipa": "/ˈdefɪnətli/", "pos": "adverb", "vi": "chắc chắn rồi", "example": "I'll definitely come back." }],
+            "grammar": { "pattern": "Are you on + mạng xã hội?", "explainVi": "Hỏi ai có dùng ứng dụng nào không. Dùng giới từ “on”.", "examples": ["Are you on Facebook?", "I'm on Instagram."] }
+          }
+        },
+        {
+          "speaker": "Traveler",
+          "en": "Yes. Let me scan your QR code. … OK, I've sent you a message.",
+          "ipa": "/jes | let miː skæn jɔːr ˌkjuː ˈɑːr koʊd | ˌoʊˈkeɪ | aɪv sent juː ə ˈmesɪdʒ/",
+          "vi": "Có. Để tôi quét mã QR của chị. … Rồi, tôi đã gửi tin nhắn cho chị.",
+          "analysis": {
+            "vocab": [{ "word": "scan", "ipa": "/skæn/", "pos": "verb", "vi": "quét", "example": "Scan the QR code to pay." }]
+          }
+        },
+        {
+          "speaker": "Friend",
+          "en": "Got it! Please send us the photos you took at the castle.",
+          "ipa": "/ɡɑːt ɪt | pliːz send ʌs ðə ˈfoʊtoʊz juː tʊk æt ðə ˈkæsəl/",
+          "vi": "Nhận được rồi! Gửi cho chúng tôi mấy tấm ảnh bạn chụp ở lâu đài nhé.",
+          "analysis": {
+            "vocab": [{ "word": "castle", "ipa": "/ˈkæsəl/", "pos": "noun", "vi": "lâu đài", "example": "Edinburgh Castle" }],
+            "pronunciation": "“castle” /ˈkæsəl/ – chữ t câm."
+          }
+        },
+        {
+          "speaker": "Traveler",
+          "en": "Of course. And if you ever come to Vietnam, let me know. I'd be happy to show you around.",
+          "ipa": "/əv kɔːrs | ənd ɪf juː ˈevər kʌm tə ˌvjetˈnɑːm | let miː noʊ | aɪd biː ˈhæpi tə ʃoʊ juː əˈraʊnd/",
+          "vi": "Dĩ nhiên. Và nếu có dịp đến Việt Nam, hãy báo tôi nhé. Tôi rất sẵn lòng dẫn anh chị đi chơi.",
+          "analysis": {
+            "phrases": [
+              { "phrase": "let me know", "vi": "cho tôi biết" },
+              { "phrase": "show someone around", "vi": "dẫn ai đi tham quan" }
+            ],
+            "grammar": { "pattern": "If you ever + V, …", "explainVi": "“ever” làm câu điều kiện mềm hơn: “nếu có lúc nào…”.", "examples": ["If you ever need help, call me.", "If you ever visit Hanoi, try pho."] }
+          }
+        },
+        {
+          "speaker": "Friend",
+          "en": "That's so kind of you. Have a safe trip back, and enjoy the rest of your holiday!",
+          "ipa": "/ðæts soʊ kaɪnd əv juː | hæv ə seɪf trɪp bæk | ənd ɪnˈdʒɔɪ ðə rest əv jɔːr ˈhɑːlədeɪ/",
+          "vi": "Bạn tốt quá. Chúc bạn về an toàn, và tận hưởng phần còn lại của kỳ nghỉ!",
+          "analysis": {
+            "phrases": [
+              { "phrase": "That's so kind of you.", "vi": "Bạn thật tốt bụng." },
+              { "phrase": "the rest of…", "vi": "phần còn lại của…" }
+            ]
+          }
+        },
+        {
+          "speaker": "Traveler",
+          "en": "You too. Take care!",
+          "ipa": "/juː tuː | teɪk ker/",
+          "vi": "Anh chị cũng vậy nhé. Bảo trọng!",
+          "analysis": {
+            "phrases": [
+              { "phrase": "You too.", "vi": "Bạn cũng vậy (đáp lại lời chúc)" },
+              { "phrase": "Take care!", "vi": "Bảo trọng! (chào tạm biệt thân thiện)" }
+            ],
+            "commonMistake": { "wrong": "Same same.", "right": "You too!" }
+          }
+        }
+      ],
+      "keyPhrases": ["Shall we keep in touch?", "Are you on WhatsApp?", "If you ever come to Vietnam, let me know.", "I'd be happy to show you around.", "Take care!"]
+    }
+  ],
+  "reading": [
+    {
+      "title": "A message from a new friend",
+      "titleVi": "Tin nhắn từ người bạn mới",
+      "introVi": "Bạn nhận được tin nhắn WhatsApp này sau chuyến tour.",
+      "text": "Hi Duc! It's Sarah from the train 😊\nIt was lovely chatting with you and Mai.\nI've just looked up Hue online – the palace looks stunning!\nMy husband and I are thinking of visiting Vietnam next spring, probably in April.\nCould you recommend a good time of year to go, and how many days we'd need in Hue?\nNo rush to reply. Enjoy London!\nSarah x",
+      "glossary": { "chatting": "trò chuyện", "looked up": "tra cứu", "stunning": "tuyệt đẹp", "thinking of": "đang tính", "probably": "có lẽ", "time of year": "thời điểm trong năm", "no rush": "không cần vội" },
+      "questions": [
+        { "q": "When are Sarah and her husband thinking of visiting Vietnam?", "options": ["Next summer", "Next April", "This month"], "answer": 1, "explainVi": "“next spring, probably in April”." },
+        { "q": "What does Sarah ask Duc?", "options": ["To book a hotel for her", "The best time to visit and how many days to stay in Hue", "To meet her in London"], "answer": 1, "explainVi": "Cô hỏi thời điểm nên đi và cần bao nhiêu ngày ở Huế." },
+        { "q": "“No rush to reply” means…", "options": ["Reply immediately.", "You can reply later.", "Don't reply."], "answer": 1, "explainVi": "Không cần vội trả lời – trả lời lúc nào cũng được." }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "title": "Reply to a new friend",
+      "titleVi": "Trả lời tin nhắn bạn mới",
+      "taskVi": "Trả lời tin nhắn của Sarah: cảm ơn cô ấy, gợi ý thời điểm đẹp nhất để đến Huế (tháng 3–4, trời mát), đề nghị ở 2–3 ngày, gợi ý món bún bò Huế và mời cô ấy liên hệ khi đến.",
+      "info": ["Thời điểm: March – April, không quá nóng", "Ở Huế: 2–3 ngày", "Món nên thử: bún bò Huế", "Mời liên hệ để dẫn đi chơi"],
+      "starters": ["Hi Sarah!", "Thanks so much for your message.", "The best time to visit is", "because the weather is", "I think two or three days is enough", "You must try", "Let me know when you arrive –", "Take care,"],
+      "sample": "Hi Sarah!\n\nThanks so much for your message. It was lovely to meet you too.\n\nApril is a great choice. The best time to visit Hue is March or April, because the weather is cool and not too rainy. I think two or three days is enough to see the palace, the tombs and the river. You must try bún bò Huế – a spicy beef noodle soup!\n\nLet me know when you arrive – I'd be happy to show you around.\n\nTake care,\nDuc",
+      "minWords": 50,
+      "mustInclude": [
+        { "regex": "march|april", "labelVi": "Có gợi ý thời điểm (March/April)" },
+        { "regex": "days", "labelVi": "Có gợi ý số ngày" },
+        { "regex": "try|eat|food", "labelVi": "Có gợi ý món ăn" },
+        { "regex": "let me know|contact|show you around", "labelVi": "Có lời mời liên hệ" }
+      ],
+      "checklist": ["Mở đầu thân mật (Hi Sarah!)", "Cảm ơn tin nhắn", "Trả lời đủ 2 câu hỏi của Sarah", "Dùng because để giải thích lý do"]
+    }
+  ]
+}
