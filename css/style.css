@@ -34,6 +34,8 @@
 :root[data-size="large"] { font-size: 19px; }
 
 * { box-sizing: border-box; }
+/* Phần tử có thuộc tính hidden luôn bị ẩn, kể cả khi class đặt display (overlay, nút lật thẻ…) */
+[hidden] { display: none !important; }
 html { font-size: 17px; -webkit-text-size-adjust: 100%; }
 body {
   margin: 0; background: var(--bg); color: var(--text);
