@@ -49,31 +49,62 @@ const Speech = (() => {
 
   // ---------- Nhận dạng giọng nói ----------
   const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
-  let rec = null;
+  let stopFn = null;
 
   function canRecognize() { return !!SR; }
 
-  function recognize(lang = 'en-US') {
+  // Nhận dạng giọng nói. Trên điện thoại (nhất là iPhone) trình duyệt đôi khi không bao giờ
+  // trả kết quả cuối hoặc không báo kết thúc, nên: dùng kết quả tạm thời, tự dừng khi im lặng,
+  // và luôn có giới hạn thời gian để nút bấm không bị treo.
+  function recognize(lang = 'en-US', onInterim) {
     return new Promise((resolve, reject) => {
       if (!SR) { reject('not-supported'); return; }
       stopSpeaking();
-      rec = new SR();
-      rec.lang = lang;
-      rec.interimResults = false;
-      rec.maxAlternatives = 5;
-      rec.continuous = false;
-      let done = false;
-      rec.onresult = e => {
+      if (stopFn) stopFn();
+      const r = new SR();
+      r.lang = lang;
+      r.interimResults = true;
+      r.maxAlternatives = 5;
+      r.continuous = false;
+      let done = false, finals = [], interim = '', silenceTimer = null;
+      const heard = () => (finals.length ? finals : interim.trim() ? [interim.trim()] : []);
+      const finish = (value, isError) => {
+        if (done) return;
         done = true;
-        resolve([...e.results[0]].map(a => a.transcript));
+        clearTimeout(silenceTimer); clearTimeout(hardTimer);
+        stopFn = null;
+        try { r.abort(); } catch (e) {}
+        isError ? reject(value) : resolve(value);
       };
-      rec.onerror = e => { if (!done) { done = true; reject(e.error || 'error'); } };
-      rec.onend = () => { if (!done) { done = true; resolve([]); } };
-      try { rec.start(); } catch (err) { done = true; reject('busy'); }
+      r.onresult = e => {
+        interim = '';
+        for (let i = e.resultIndex; i < e.results.length; i++) {
+          const res = e.results[i];
+          if (res.isFinal) finals = [...res].map(a => a.transcript);
+          else interim += res[0].transcript;
+        }
+        if (onInterim) onInterim(finals[0] || interim);
+        if (finals.length) { finish(finals); return; }
+        // Không có kết quả cuối: im lặng 1,5 giây thì dùng câu đang nghe được
+        clearTimeout(silenceTimer);
+        silenceTimer = setTimeout(() => finish(heard()), 1500);
+      };
+      r.onerror = e => {
+        const err = e.error || 'error';
+        if (err === 'no-speech' || err === 'aborted') finish(heard());
+        else finish(err, true);
+      };
+      r.onend = () => finish(heard());
+      const hardTimer = setTimeout(() => finish(heard()), 15000);
+      stopFn = () => {
+        try { r.stop(); } catch (e) {}
+        setTimeout(() => finish(heard()), 1200);
+      };
+      try { r.start(); } catch (err) { finish('busy', true); }
     });
   }
 
-  function stopRecognize() { if (rec) try { rec.stop(); } catch (e) {} }
+  function stopRecognize() { if (stopFn) stopFn(); }
 
   // ---------- Ghi âm giọng người học ----------
   let recorder = null, chunks = [];

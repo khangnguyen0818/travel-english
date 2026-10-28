@@ -150,7 +150,11 @@ const NOT_SUPPORTED = `<div class="notice">Trình duyệt này chưa hỗ trợ 
   Bạn vẫn có thể <b>ghi âm và nghe lại</b> để tự so sánh với giọng mẫu.</div>`;
 
 function micError(err) {
-  if (err === 'not-allowed' || err === 'service-not-allowed') return '🎤 Hãy cho phép ứng dụng dùng micro (bấm biểu tượng ổ khóa trên thanh địa chỉ → Micro → Cho phép).';
+  if (err === 'not-allowed' || err === 'service-not-allowed') {
+    return isIOS()
+      ? '🎤 Chưa có quyền dùng micro. Vào Cài đặt → Safari → Micrô → Cho phép, và bật Cài đặt chung → Bàn phím → Đọc chính tả. Nếu đang mở app từ màn hình chính, hãy thử mở bằng Safari.'
+      : '🎤 Chưa có quyền dùng micro. Bấm biểu tượng bên trái thanh địa chỉ → Quyền → Micro → Cho phép, rồi thử lại.';
+  }
   if (err === 'no-speech') return 'Không nghe thấy gì. Hãy nói to và rõ hơn, rồi thử lại.';
   if (err === 'network') return 'Chấm điểm giọng nói cần kết nối Internet. Hãy kiểm tra mạng.';
   if (err === 'audio-capture') return 'Không tìm thấy micro trên thiết bị.';
@@ -170,18 +174,38 @@ function scoreHTML(r, text) {
   </div>`;
 }
 
+// Gợi ý khi điện thoại không nhận được giọng nói
+function noSpeechHelp() {
+  let tip = 'Không nghe thấy gì. Hãy bấm nút, đợi chữ “Đang nghe” hiện ra rồi nói to, rõ, gần micro.';
+  if (isIOS() && isStandalone()) {
+    tip += ' Trên iPhone, chấm điểm giọng nói thường không chạy khi mở app từ màn hình chính – hãy mở link bằng Safari để luyện nói.';
+  } else if (isIOS()) {
+    tip += ' Trên iPhone: vào Cài đặt → Safari → Micrô → Cho phép; và Cài đặt → Cài đặt chung → Bàn phím → bật Đọc chính tả.';
+  } else {
+    tip += ' Trên Android: dùng Chrome và cho phép quyền Micro (bấm biểu tượng bên trái thanh địa chỉ).';
+  }
+  return `<div class="notice">${esc(tip)}</div>`;
+}
+
 function bindSay(btn, text, out) {
   btn.addEventListener('click', async () => {
-    if (btn.classList.contains('rec')) { Speech.stopRecognize(); return; }
+    if (btn.classList.contains('rec')) {
+      // Đang nghe mà bấm lần nữa: dừng và chấm điểm phần đã nghe được
+      btn.innerHTML = '⏳ Đang xử lý…';
+      Speech.stopRecognize();
+      return;
+    }
     if (!Speech.canRecognize()) { out.innerHTML = NOT_SUPPORTED; return; }
     const label = btn.innerHTML;
     btn.classList.add('rec');
-    btn.innerHTML = '🔴 Đang nghe… hãy nói (bấm để dừng)';
-    out.innerHTML = '';
+    btn.innerHTML = '🔴 Đang nghe… nói xong bấm vào đây';
+    out.innerHTML = '<p class="heard">🎧 Hãy nói câu tiếng Anh…</p>';
     try {
-      const alts = await Speech.recognize(Store.state.settings.accent);
+      const alts = await Speech.recognize(Store.state.settings.accent, partial => {
+        if (partial) out.innerHTML = `<p class="heard">🎧 Đang nghe: “${esc(partial)}”</p>`;
+      });
       if (!alts.length) {
-        out.innerHTML = '<div class="notice">Không nghe thấy gì. Hãy nói to, rõ hơn và thử lại.</div>';
+        out.innerHTML = noSpeechHelp();
       } else {
         const r = Speech.score(text, alts);
         Store.addScore(text, r.score);
